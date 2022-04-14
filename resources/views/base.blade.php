@@ -10,7 +10,7 @@
     <meta name="msapplication-navbutton-color" content="#000">
     <meta name="apple-mobile-web-app-status-bar-style" content="#000">
     <link rel="manifest" href="{{ asset('manifest.json') }}">
-    <link rel="stylesheet" href="{{ asset('css/app.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 
 <body>
