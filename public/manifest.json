@@ -1,0 +1,8 @@
+{
+	"short_name": "Clearleft",
+	"name": "Clearleft design agency",
+	"start_url": "/",
+	"background_color": "#00D494",
+	"theme_color": "#00D494",
+	"display": "standalone"
+}
