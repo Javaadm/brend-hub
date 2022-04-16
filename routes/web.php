@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DateController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,15 +14,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('base');
-});
-    
-    
+Route::get('/', [DateController::class, 'render']);
+
+Route::post("update-session", [DateController::class, 'updateSession'])->name("updateSession");
+
+Route::get("show-session", [DateController::class, 'showSession'])->name("showSession");
+
+
 Route::get('/about', function () {
         return view('about');
     });
-    
+
 Route::get('/blogs', function () {
         return view('blogs');
     });
@@ -37,7 +40,7 @@ Route::get('/blog/analiz-otrasli-sobak-povodyrei-rossii', function () {
 Route::get('/blog/brendbuk-kompanii-sayta-goroda-meropriyatiya-12-krutyh-primerov-dlya-vashego-vdohnoveniya', function () {
         return view('brendbuk-kompanii-sayta-goroda-meropriyatiya-12-krutyh-primerov-dlya-vashego-vdohnoveniya');
     });
-    
+
 Route::get('/blog/brend-dizayn-sushchnost-znachenie-etapy-razrabotki-vybor-ispolnitelya', function () {
         return view('brend-dizayn-sushchnost-znachenie-etapy-razrabotki-vybor-ispolnitelya');
     });

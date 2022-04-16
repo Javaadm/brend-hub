@@ -69,149 +69,62 @@
                 <div class="start-sect__step-title">Moodboard (Доска настроения)</div>
                 <div class="start-sect__step-text">Выбери несколько понравившихся кейсов - это поможет подобрать лучшую команду специалистов</div>
                 <div class="start-sect__checks" id="case-steps">
-                    <label class="start-sect__check">
-                        <input type="checkbox" name="case1"><img class="start-sect__check-bg" src="img/check-1.jpg" alt="">
-                        <div class="start-sect__check-sw"><img src="img/icons/check.svg" alt=""></div>
-                    </label>
-                    <label class="start-sect__check start-sect__check_h">
-                        <input type="checkbox" name="case2"><img class="start-sect__check-bg" src="img/check-2.jpg" alt="">
-                        <div class="start-sect__check-sw"><img src="img/icons/check.svg" alt=""></div>
-                    </label>
-                    <label class="start-sect__check start-sect__check_s">
-                        <input type="checkbox" name="case3"><img class="start-sect__check-bg" src="img/check-3.jpg" alt="">
-                        <div class="start-sect__check-sw"><img src="img/icons/check.svg" alt=""></div>
-                    </label>
-                    <label class="start-sect__check">
-                        <input type="checkbox" name="case4"><img class="start-sect__check-bg" src="img/check-4.jpg" alt="">
-                        <div class="start-sect__check-sw"><img src="img/icons/check.svg" alt=""></div>
-                    </label>
-                    <label class="start-sect__check start-sect__check_h">
-                        <input type="checkbox" name="case5"><img class="start-sect__check-bg" src="img/check-5.jpg" alt="">
-                        <div class="start-sect__check-sw"><img src="img/icons/check.svg" alt=""></div>
-                    </label>
-                    <label class="start-sect__check">
-                        <input type="checkbox" name="case6"><img class="start-sect__check-bg" src="img/check-6.jpg" alt="">
-                        <div class="start-sect__check-sw"><img src="img/icons/check.svg" alt=""></div>
-                    </label>
-                    <label class="start-sect__check start-sect__check_s">
-                        <input type="checkbox" name="case7"><img class="start-sect__check-bg" src="img/check-7.jpg" alt="">
-                        <div class="start-sect__check-sw"><img src="img/icons/check.svg" alt=""></div>
-                    </label>
-                    <label class="start-sect__check start-sect__check_h">
-                        <input type="checkbox" name="case8"><img class="start-sect__check-bg" src="img/check-8.jpg" alt="">
-                        <div class="start-sect__check-sw"><img src="img/icons/check.svg" alt=""></div>
-                    </label>
-                    <label class="start-sect__check">
-                        <input type="checkbox" name="case9"><img class="start-sect__check-bg" src="img/check-9.jpg" alt="">
-                        <div class="start-sect__check-sw"><img src="img/icons/check.svg" alt=""></div>
-                    </label>
+
+                    @foreach ( session("images") as $image)
+                        <label class="start-sect__check">
+                            <input type="checkbox" @if($image) checked @endif name="case{{ $loop->index+1 }}" ><img class="start-sect__check-bg" src="img/check-{{ $loop->index+1 }}.jpg" alt="">
+                            <div class="start-sect__check-sw"><img src="img/icons/check.svg" alt=""></div>
+                        </label>
+                    @endforeach
+
                 </div>
                 <div class="start-sect__step-next"><a class="def-btn" id="step-btn-1" href="#step-2"><span>Далее</span></a></div>
             </div>
-            <div class="start-sect__step" id="step-2">
+            <div class="start-sect__step" id="step-2" @if(session("step")==1 or session("step")==2) style="display: block;" @endif>
                 <div class="start-sect__step-desc">Шаг 2</div>
                 <div class="start-sect__step-title">Информация о твоей компании</div>
                 <div class="start-sect__step-text">На этом шаге необходимо понять у тебя за бизнес. Укажи чем занимается твоя компания.</div>
                 <div class="start-sect__labels">
-                    <input class="start-sect__labels-input" id="labels-input" type="text" placeholder="Укажите категорию бизнеса" data-sw="">
-                    <div class="start-sect__labels-items"><a class="start-sect__labels-item" href="#labels-input" data-value="Салон красоты">Салон красоты</a><a class="start-sect__labels-item" href="#labels-input" data-value="Косметика">Косметика</a><a class="start-sect__labels-item" href="#labels-input" data-value="Кофейня">Кофейня</a><a class="start-sect__labels-item" href="#labels-input" data-value="Кальянная">Кальянная</a><a class="start-sect__labels-item" href="#labels-input" data-value="Пиццерия">Пиццерия</a><a class="start-sect__labels-item" href="#labels-input" data-value="Стоматология">Стоматология</a><a class="start-sect__labels-item" href="#labels-input" data-value="Стартап">Стартап</a></div>
+                    <input class="start-sect__labels-input" id="labels-input" type="text" value="{{ session("category_label") }}" placeholder="Укажите категорию бизнеса" data-sw="">
+                    <div class="start-sect__labels-items">
+                        <a class="start-sect__labels-item @if(session("category_label")==="Салон красоты") active @endif " href="#labels-input" data-value="Салон красоты">Салон красоты</a>
+                        <a class="start-sect__labels-item @if(session("category_label")==="Косметика") active @endif " href="#labels-input" data-value="Косметика">Косметика</a>
+                        <a class="start-sect__labels-item @if(session("category_label")==="Кофейня") active @endif " href="#labels-input" data-value="Кофейня">Кофейня</a>
+                        <a class="start-sect__labels-item @if(session("category_label")==="Кальянная") active @endif " href="#labels-input" data-value="Кальянная">Кальянная</a>
+                        <a class="start-sect__labels-item @if(session("category_label")==="Пиццерия") active @endif " href="#labels-input" data-value="Пиццерия">Пиццерия</a>
+                        <a class="start-sect__labels-item @if(session("category_label")==="Стоматология") active @endif " href="#labels-input" data-value="Стоматология">Стоматология</a>
+                        <a class="start-sect__labels-item @if(session("category_label")==="Стартап") active @endif " href="#labels-input" data-value="Стартап">Стартап</a>
+                    </div>
                 </div>
                 <div class="start-sect__step-title">Уникальные свойства твоего бренда</div>
                 <div class="start-sect__step-text">Выберите одну или несколько карточек уникальных свойств твоего бренда, это необходимо для подбора того самого дизайнера.</div>
+
                 <div class="start-sect__dess">
-                    <label class="start-sect__des">
-                        <input type="checkbox" name="des1">
-                        <div class="start-sect__des-bd"></div><img class="start-sect__des-icon" src="img/icons/dicon-1.png" alt="">
-                        <div class="start-sect__des-check"><img src="img/icons/check2.svg" alt=""></div>
-                        <div class="start-sect__des-title">Индустрия</div>
-                        <div class="start-sect__des-text">Это то, что помогает нам оставаться в индустрии, соответствовать ей. Оно не уникальное, а скорее это общая канва для двух.</div>
-                    </label>
-                    <label class="start-sect__des">
-                        <input type="checkbox" name="des2">
-                        <div class="start-sect__des-bd"></div><img class="start-sect__des-icon" src="img/icons/dicon-1.png" alt="">
-                        <div class="start-sect__des-check"><img src="img/icons/check2.svg" alt=""></div>
-                        <div class="start-sect__des-title">Социальная активность</div>
-                        <div class="start-sect__des-text">это ивенты связанные с поддержанием социально незащищенных групп: устраиваем инвалидов, благотворительствуем, сажаем деревья</div>
-                    </label>
-                    <label class="start-sect__des">
-                        <input type="checkbox" name="des3">
-                        <div class="start-sect__des-bd"></div><img class="start-sect__des-icon" src="img/icons/dicon-2.png" alt="">
-                        <div class="start-sect__des-check"><img src="img/icons/check2.svg" alt=""></div>
-                        <div class="start-sect__des-title">Материальные активы</div>
-                        <div class="start-sect__des-text">это физическое имущество: земля, здания, машины/станки и прочее, что есть у клиента</div>
-                    </label>
-                    <label class="start-sect__des">
-                        <input type="checkbox" name="des4">
-                        <div class="start-sect__des-bd"></div><img class="start-sect__des-icon" src="img/icons/dicon-3.png" alt="">
-                        <div class="start-sect__des-check"><img src="img/icons/check2.svg" alt=""></div>
-                        <div class="start-sect__des-title">Марткетинг и PR</div>
-                        <div class="start-sect__des-text">сильный маркетинг, есть амбасадоры бренда, лицо бренда мидийная личность и т.д.</div>
-                    </label>
-                    <label class="start-sect__des">
-                        <input type="checkbox" name="des5">
-                        <div class="start-sect__des-bd"></div><img class="start-sect__des-icon" src="img/icons/dicon-4.png" alt="">
-                        <div class="start-sect__des-check"><img src="img/icons/check2.svg" alt=""></div>
-                        <div class="start-sect__des-title">Награды и заслуги</div>
-                        <div class="start-sect__des-text">обладатель наград, премий, лауреат конкурсов в своей сфере, общественное признание и т.д.</div>
-                    </label>
-                    <label class="start-sect__des">
-                        <input type="checkbox" name="des6">
-                        <div class="start-sect__des-bd"></div><img class="start-sect__des-icon" src="img/icons/dicon-5.png" alt="">
-                        <div class="start-sect__des-check"><img src="img/icons/check2.svg" alt=""></div>
-                        <div class="start-sect__des-title">Дизайн и интерьер</div>
-                        <div class="start-sect__des-text">уникальный интерьер, аутентичный интерьер</div>
-                    </label>
-                    <label class="start-sect__des">
-                        <input type="checkbox" name="des7">
-                        <div class="start-sect__des-bd"></div><img class="start-sect__des-icon" src="img/icons/dicon-6.png" alt="">
-                        <div class="start-sect__des-check"><img src="img/icons/check2.svg" alt=""></div>
-                        <div class="start-sect__des-title">Продукт</div>
-                        <div class="start-sect__des-text">уникальный продукт на рынке, уникальное продуктове предложение, это комплекс - Веган бургер - веганские бургеры</div>
-                    </label>
-                    <label class="start-sect__des">
-                        <input type="checkbox" name="des8">
-                        <div class="start-sect__des-bd"></div><img class="start-sect__des-icon" src="img/icons/dicon-7.png" alt="">
-                        <div class="start-sect__des-check"><img src="img/icons/check2.svg" alt=""></div>
-                        <div class="start-sect__des-title">Ассортимент</div>
-                        <div class="start-sect__des-text">уникальный ассортимент - кулинарный шоколад для терки</div>
-                    </label>
-                    <label class="start-sect__des">
-                        <input type="checkbox" name="des9">
-                        <div class="start-sect__des-bd"></div><img class="start-sect__des-icon" src="img/icons/dicon-8.png" alt="">
-                        <div class="start-sect__des-check"><img src="img/icons/check2.svg" alt=""></div>
-                        <div class="start-sect__des-title">Сырье и состав</div>
-                        <div class="start-sect__des-text">уникальный состав, то, из чего оно сделано - 100% натуральный, с маслом гуарана</div>
-                    </label>
-                    <label class="start-sect__des">
-                        <input type="checkbox" name="des10">
-                        <div class="start-sect__des-bd"></div><img class="start-sect__des-icon" src="img/icons/dicon-9.png" alt="">
-                        <div class="start-sect__des-check"><img src="img/icons/check2.svg" alt=""></div>
-                        <div class="start-sect__des-title">Страна проихождения</div>
-                        <div class="start-sect__des-text">уникальное происхождение - сделано в Германии, пошито в Италии, приехал из Франции </div>
-                    </label>
-                    <label class="start-sect__des">
-                        <input type="checkbox" name="des11">
-                        <div class="start-sect__des-bd"></div><img class="start-sect__des-icon" src="img/icons/dicon-10.png" alt="">
-                        <div class="start-sect__des-check"><img src="img/icons/check2.svg" alt=""></div>
-                        <div class="start-sect__des-title">Технологии и инновации</div>
-                        <div class="start-sect__des-text">Это то, что помогает нам оставаться в индустрии, соответствовать ей. Оно не уникальное, а скорее это общая канва для двух.</div>
-                    </label>
-                    <label class="start-sect__des">
-                        <input type="checkbox" name="des12">
-                        <div class="start-sect__des-bd"></div><img class="start-sect__des-icon" src="img/icons/dicon-11.png" alt="">
-                        <div class="start-sect__des-check"><img src="img/icons/check2.svg" alt=""></div>
-                        <div class="start-sect__des-title">Персонал</div>
-                        <div class="start-sect__des-text">Это то, что помогает нам оставаться в индустрии, соответствовать ей. Оно не уникальное, а скорее это общая канва для двух.</div>
-                    </label>
+                    @foreach ( $dessArray as $des)
+                        <label class="start-sect__des">
+                            <input type="checkbox" @if(session("dess")[$loop->index]) checked @endif name="des{{ $loop->index+1 }}">
+                            <div class="start-sect__des-bd"></div><img class="start-sect__des-icon" src="img/icons/dicon-{{ $loop->index+1 }}.png" alt="">
+                            <div class="start-sect__des-check"><img src="img/icons/check2.svg" alt=""></div>
+                            <div class="start-sect__des-title">{{ $des["title"] }}</div>
+                            <div class="start-sect__des-text">{{ $des["body"] }}</div>
+                        </label>
+                    @endforeach
+
                 </div>
                 <div class="start-sect__step-title">Какие дизайны вам нравятся?</div>
                 <div class="start-sect__step-text">Кидайте ссылку понравившегося дизайна в поле.</div>
                 <div class="start-sect__urls">
-                    <input class="start-sect__url form__input" type="url" placeholder="https://example.com">
+                    @if(session("urls"))
+                        @foreach(session("urls") as $url)
+                            <input class="start-sect__url form__input" value="{{ $url }}" type="url" placeholder="https://example.com">
+                        @endforeach
+                    @else
+                        <input class="start-sect__url form__input" type="url" placeholder="https://example.com">
+                    @endif
                 </div><a class="start-sect__add-url" href="#add-url">Добавить еще одну ссылку</a>
                 <div class="start-sect__step-next"><a class="def-btn" id="step-btn-2" href="#step-3"><span>Далее</span></a></div>
             </div>
-            <div class="start-sect__step" id="step-3">
+            <div class="start-sect__step" @if(session("step")==2) style="display: block;" @endif id="step-3">
                 <div class="start-sect__step-desc">Шаг 3</div>
                 <div class="start-sect__step-title">Ассоциации и эмоции</div>
                 <div class="start-sect__step-text">Это заключительный шаг на твоем пути построения бренда, поделись своими ассоциациями и эмоциями к выбранным кейсам из первого шага</div>
@@ -220,64 +133,14 @@
                     <div class="start-sect__check"><img class="start-sect__check-bg" src="img/check-2.jpg" alt=""></div>
                 </div>
                 <div class="start-sect__tags">
-                    <label class="start-sect__tag">
-                        <input type="checkbox" name="tag1">
-                        <div class="start-sect__tag-bg"></div><span>Лаконичность</span>
-                    </label>
-                    <label class="start-sect__tag">
-                        <input type="checkbox" name="tag2">
-                        <div class="start-sect__tag-bg"></div><span>Крафт</span>
-                    </label>
-                    <label class="start-sect__tag">
-                        <input type="checkbox" name="tag3">
-                        <div class="start-sect__tag-bg"></div><span>Любовь</span>
-                    </label>
-                    <label class="start-sect__tag">
-                        <input type="checkbox" name="tag4">
-                        <div class="start-sect__tag-bg"></div><span>Абстракция</span>
-                    </label>
-                    <label class="start-sect__tag">
-                        <input type="checkbox" name="tag5">
-                        <div class="start-sect__tag-bg"></div><span>Традиционный</span>
-                    </label>
-                    <label class="start-sect__tag">
-                        <input type="checkbox" name="tag6">
-                        <div class="start-sect__tag-bg"></div><span>Минимализм</span>
-                    </label>
-                    <label class="start-sect__tag">
-                        <input type="checkbox" name="tag7">
-                        <div class="start-sect__tag-bg"></div><span>Консервативность</span>
-                    </label>
-                    <label class="start-sect__tag">
-                        <input type="checkbox" name="tag8">
-                        <div class="start-sect__tag-bg"></div><span>Современность</span>
-                    </label>
-                    <label class="start-sect__tag">
-                        <input type="checkbox" name="tag9">
-                        <div class="start-sect__tag-bg"></div><span>Яркость</span>
-                    </label>
-                    <label class="start-sect__tag">
-                        <input type="checkbox" name="tag10">
-                        <div class="start-sect__tag-bg"></div><span>Прямолинейность</span>
-                    </label>
-                    <label class="start-sect__tag">
-                        <input type="checkbox" name="tag11">
-                        <div class="start-sect__tag-bg"></div><span>Загадочность</span>
-                    </label>
-                    <label class="start-sect__tag">
-                        <input type="checkbox" name="tag12">
-                        <div class="start-sect__tag-bg"></div><span>Теплый</span>
-                    </label>
-                    <label class="start-sect__tag">
-                        <input type="checkbox" name="tag13">
-                        <div class="start-sect__tag-bg"></div><span>Холодный</span>
-                    </label>
-                    <label class="start-sect__tag">
-                        <input type="checkbox" name="tag14">
-                        <div class="start-sect__tag-bg"></div><span>Добро</span>
-                    </label>
+                    @foreach($emotionsValue as $emotionValue)
+                        <label class="start-sect__tag">
+                            <input type="checkbox" @if(array_key_exists($loop->index, session("emotions"))) checked @endif name="tag{{ $loop->index+1 }}">
+                            <div class="start-sect__tag-bg"></div><span>{{$emotionValue}}</span>
+                        </label>
+                    @endforeach
                 </div>
-                <div class="start-sect__step-next"><a class="def-btn popup-with-steps-anim" href="#end-dialog"><span>Далее</span></a></div>
+                <div class="start-sect__step-next"><a id="step-btn-3" class="def-btn popup-with-steps-anim" href="#end-dialog"><span>Далее</span></a></div>
             </div>
         </div>
     </div>

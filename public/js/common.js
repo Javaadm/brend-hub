@@ -1,5 +1,7 @@
 "use strict";
 
+
+
 $(function () {
   //==================================================================
   var lazyLoadInstance = new LazyLoad({
@@ -71,6 +73,20 @@ $(function () {
   //==================================================================
   //$('#step-2 .start-sect__des-title').css('height', '').equalHeights();
   //==================================================================
+    function saveSessionUrl() {
+        let urls = [];
+        $("input.form__input.start-sect__url").each(function( index ) {
+            let val = $( this ).val();
+            if (val){
+                urls.push(val);
+            }
+        })
+        if(urls) {
+            $.post("update-session", {urls: urls});
+        }else{
+            $.post("update-session", {urls: null})
+        }
+    }
 
   $('.popup-with-zoom-anim').magnificPopup({
     type: 'inline',
@@ -95,6 +111,7 @@ $(function () {
     mainClass: 'my-mfp-zoom-in',
     callbacks: {
       beforeOpen: function beforeOpen() {//console.log('Start of popup initialization');
+
       },
       open: function open() {
         var data = {};
@@ -126,6 +143,8 @@ $(function () {
         });
         data.tags = tagsData;
         $('#start-hidden').val(JSON.stringify(data));
+
+
       }
     }
   }); //==================================================================
@@ -251,9 +270,12 @@ $(function () {
 
 
   $('.start-sect__labels-items').on('click', 'a', function (e) {
+
     e.preventDefault();
     var text = $(this).data('value');
     var id = this.hash;
+      $.post( "update-session", { "category_id": id, "category_label":text});
+    $(".start-sect__labels-item").removeClass("active");
 
     if (!$(this).hasClass('active')) {
       addLablelForInput(id, text);
@@ -270,7 +292,7 @@ $(function () {
     var value = input.val().trim();
 
     if (value) {
-      value += ", ".concat(text);
+      value = text;
       input.val(value);
       input.trigger('input');
       return;
@@ -302,7 +324,9 @@ $(function () {
   $('.start-sect__add-url').click(function (e) {
     e.preventDefault();
     var id = this.hash;
-    $('.start-sect__urls').append($(id + ' input').clone());
+    $('.start-sect__urls').append($(id + ' input').clone().focusout(function (e) {
+          saveSessionUrl();
+      }));
   }); //==================================================================
 
   $('.end-dialog__pack').click(function () {
@@ -360,6 +384,7 @@ $(function () {
   }); //==================================================================
 
   $('#step-btn-1').click(function (e) {
+      $.post( "update-session", { step: 1 });
     e.preventDefault();
     var id = this.hash;
     var sw = false;
@@ -380,6 +405,7 @@ $(function () {
   }); //==================================================================
 
   $('#step-btn-2').click(function (e) {
+      $.post( "update-session", { step: 2 });
     e.preventDefault();
     var id = this.hash;
     var labels = document.querySelector('#labels-input');
@@ -415,4 +441,24 @@ $(function () {
     }, 'slow', 'swing');
   } //==================================================================
 
+
+    $(".start-sect__check input").click(function (e) {
+        $.post( "update-session", { image: e.currentTarget.name.substring(4)-1 });
+    });
+
+  $(".start-sect__des input").click(function (e) {
+        $.post( "update-session", { des: e.currentTarget.name.substring(3)-1 });
+    });
+    $("input.form__input.start-sect__url").focusout(function (e) {
+        saveSessionUrl();
+    });
+    $('.start-sect__tag input').click(function (e){
+        let emotionsId = e.currentTarget.name.substring(3)-1;
+        let emotionsText = e.currentTarget.parentNode.children[2].textContent
+
+        $.post( "update-session", { emotionsId: emotionsId, emotionsText:emotionsText });
+    });
+    $(window).on('load', function() {
+
+    });
 });
