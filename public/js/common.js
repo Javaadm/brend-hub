@@ -84,7 +84,7 @@ $(function () {
         if(urls) {
             $.post("update-session", {urls: urls});
         }else{
-            $.post("update-session", {urls: null})
+            $.post("update-session", {urls: " "})
         }
     }
 
@@ -274,7 +274,7 @@ $(function () {
     e.preventDefault();
     var text = $(this).data('value');
     var id = this.hash;
-      $.post( "update-session", { "category_id": id, "category_label":text});
+      $.post( "update-session", { "category_label":text});
     $(".start-sect__labels-item").removeClass("active");
 
     if (!$(this).hasClass('active')) {
@@ -449,8 +449,25 @@ $(function () {
   $(".start-sect__des input").click(function (e) {
         $.post( "update-session", { des: e.currentTarget.name.substring(3)-1 });
     });
+
+  $(".case-checks-menu-button").click(function (e) {
+      $(".case-checks-menu-button-active").removeClass("case-checks-menu-button-active");
+      $(".case-checks-menu-stick-active").removeClass("case-checks-menu-stick-active");
+      $(".start-sect__checks-active").removeClass("start-sect__checks-active");
+      let id_stick = "stick-"+e.currentTarget.id;
+      let id_cases = "cases-"+e.currentTarget.id;
+
+      $("#"+id_stick).addClass("case-checks-menu-stick-active");
+      $("."+id_cases).addClass("start-sect__checks-active");
+      $(this).addClass("case-checks-menu-button-active");
+      //$.post( "update-session", { des: e.currentTarget.name.substring(3)-1 });
+  });
     $("input.form__input.start-sect__url").focusout(function (e) {
         saveSessionUrl();
+    });
+    $("input.start-sect__labels-input").focusout(function (e) {
+        var text = $( this ).val();
+        $.post( "update-session", { "category_label":text});
     });
     $('.start-sect__tag input').click(function (e){
         let emotionsId = e.currentTarget.name.substring(3)-1;

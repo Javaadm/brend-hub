@@ -48,10 +48,7 @@
                 <div class="main-sect__title">Брендинг теперь<br>делают так</div>
                 <div class="main-sect__text">Поможем бизнесу достучаться до сердец клиентов через брендинг</div>
                 <div class="main-sect__footer">
-                    <div class="main-sect__label">
-                        <div class="main-sect__label-title">Начать в 3 шага</div>
-                        <div class="main-sect__label-text">Заполни наш короткий смарт бриф, для того чтобы нам легче было подобрать для тебя команду</div>
-                    </div>
+
                     <div class="main-sect__items">
                         <div class="main-sect__item"><strong>114</strong>брендов</div>
                         <div class="main-sect__item"><strong>47</strong>сфер</div>
@@ -64,11 +61,39 @@
     <!--=======================================================================================-->
     <div class="start-sect">
         <div class="start-sect__container" id="start-steps-form">
-            <div class="start-sect__step active" id="step-1">
+            <div class="main-sect__label">
+                <div class="main-sect__label-title">Всего 3 шага</div>
+                <div class="main-sect__label-text">Заполните наш короткий смарт бриф</div>
+            </div>
+            <div class="start-sect-short__step  active" id="step-short-3">
+                <div class="start-sect__step-desc">Шаг 3</div>
+            </div>
+            <div class="start-sect-short__step under-top-card active" id="step-short-2">
+                <div class="start-sect__step-desc">Шаг 2</div>
+            </div>
+            <div class="start-sect__step under-top-card active" id="step-1">
                 <div class="start-sect__step-desc">Шаг 1</div>
-                <div class="start-sect__step-title">Moodboard (Доска настроения)</div>
-                <div class="start-sect__step-text">Выбери несколько понравившихся кейсов - это поможет подобрать лучшую команду специалистов</div>
-                <div class="start-sect__checks" id="case-steps">
+                <div class="start-sect__step-title">Настроение и характер</div>
+                <div class="start-sect__step-text">Отметьте понравившиеся варианты дизайна, а мы подберём соответствующую команду</div>
+                <div class="case-checks-menu">
+                    <div class="case-checks-menu-button case-checks-menu-button-active" id="product">Для товаров</div>
+                    <div class="case-checks-menu-button" id="services">Для услуг</div>
+                </div>
+                <div class="case-checks-menu-stick-container">
+                    <div class="case-checks-menu-stick case-checks-menu-stick-active" id="stick-product"></div>
+                    <div class="case-checks-menu-stick" id="stick-services"></div>
+                </div>
+                <div class="start-sect__checks cases-product start-sect__checks-active" id="case-steps">
+
+                    @foreach ( session("images") as $image)
+                        <label class="start-sect__check">
+                            <input type="checkbox" @if($image) checked @endif name="case{{ $loop->index+1 }}" ><img class="start-sect__check-bg" src="img/check-{{ $loop->index+1 }}.jpg" alt="">
+                            <div class="start-sect__check-sw"><img src="img/icons/check.svg" alt=""></div>
+                        </label>
+                    @endforeach
+
+                </div>
+                <div class="start-sect__checks cases-services" id="case-steps">
 
                     @foreach ( session("images") as $image)
                         <label class="start-sect__check">
@@ -80,7 +105,12 @@
                 </div>
                 <div class="start-sect__step-next"><a class="def-btn" id="step-btn-1" href="#step-2"><span>Далее</span></a></div>
             </div>
-            <div class="start-sect__step" id="step-2" @if(session("step")==1 or session("step")==2) style="display: block;" @endif>
+
+            <div class="start-sect-short__step card-margin active" id="step-short-3-2">
+                <div class="start-sect__step-desc">Шаг 3</div>
+            </div>
+
+            <div class="start-sect__step under-top-card" id="step-2" @if(session("step")==1 or session("step")==2) style="display: block;" @endif>
                 <div class="start-sect__step-desc">Шаг 2</div>
                 <div class="start-sect__step-title">Информация о твоей компании</div>
                 <div class="start-sect__step-text">На этом шаге необходимо понять у тебя за бизнес. Укажи чем занимается твоя компания.</div>
@@ -111,17 +141,22 @@
                     @endforeach
 
                 </div>
+                <div class="start-sect__step-title">Давайте познакомимся поближе</div>
+                <div class="start-sect__urls">
+                   <input class="start-sect__url form__input" type="url" placeholder="Впишите сюда важные моменты о вашем бизнесе">
+                </div>
+
                 <div class="start-sect__step-title">Какие дизайны вам нравятся?</div>
-                <div class="start-sect__step-text">Кидайте ссылку понравившегося дизайна в поле.</div>
                 <div class="start-sect__urls">
                     @if(session("urls"))
                         @foreach(session("urls") as $url)
-                            <input class="start-sect__url form__input" value="{{ $url }}" type="url" placeholder="https://example.com">
+                            <input class="start-sect__url form__input" value="{{ $url }}" type="url" placeholder="https://brand-hub.ru/projects/sleco/ ">
                         @endforeach
                     @else
-                        <input class="start-sect__url form__input" type="url" placeholder="https://example.com">
+                        <input class="start-sect__url form__input" type="url" placeholder="https://brand-hub.ru/projects/sleco/ ">
                     @endif
-                </div><a class="start-sect__add-url" href="#add-url">Добавить еще одну ссылку</a>
+                </div>
+                <a class="start-sect__add-url" href="#add-url">Добавить еще одну ссылку</a>
                 <div class="start-sect__step-next"><a class="def-btn" id="step-btn-2" href="#step-3"><span>Далее</span></a></div>
             </div>
             <div class="start-sect__step" @if(session("step")==2) style="display: block;" @endif id="step-3">
