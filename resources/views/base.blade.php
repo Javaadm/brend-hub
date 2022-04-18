@@ -47,7 +47,7 @@
         <div class="main-sect__container">
             <div class="main-sect__content lazy" data-bg="img/main-bg.jpg">
                 <div class="main-sect__title">Брендинг теперь<br>делают так</div>
-                <div class="main-sect__text">Поможем бизнесу достучаться до сердец клиентов через брендинг</div>
+                <div class="main-sect__text">У вас есть бизнес. У нас - 3 вопроса.<br>Создадим бренд вместе!</div>
                 <div class="main-sect__footer">
 
                     <div class="main-sect__items">
@@ -114,7 +114,7 @@
 
             <div class="start-sect__step " id="step-2" @if(session("step")==1 or session("step")==2 or session("step")==3) style="display: block;" @endif>
                 <div class="start-sect__step-desc">Шаг 2</div>
-                <div class="start-sect__step-big-title">Информация о твоей компании</div>
+                <div class="start-sect__step-big-title">Информация о вашей компании</div>
                 <div class="start-sect__step-text">На этом нам шаге необходимо понять, что у вас за бизнес.<br>Укажите чем занимается ваша компания.</div>
                 <div class="start-sect__labels">
                     <input class="start-sect__labels-input" id="labels-input" type="text" value="{{ session("category_label") }}" placeholder="Фабрика окон" data-sw="">
@@ -416,10 +416,10 @@
                     <div class="mart-sect__item-text">Конструктор из наборов иконок, шрифтов и стилей. Придется выбирать и делать все самому</div>
                 </div>
                 <div class="mart-sect__item mart-sect__item_select"><img class="mart-sect__item-icon" src="img/m-2.png" alt="">
-                    <div class="mart-sect__item-title">Brand hub <span>~ 250 000 ₽</span></div>
+                    <div class="mart-sect__item-title">Brand hub <span>~ 210 000 ₽</span></div>
                     <div class="mart-sect__item-text">Выделиться среди большой конкуренции микро,<br> 
                     малого и среднего бизнесов за счет <br>
-                опыта и эффективного использования методологий</div>
+                    опыта и эффективного использования методологий</div>
                 </div>
                 <div class="mart-sect__item"><img class="mart-sect__item-icon" src="img/m-3.png" alt="">
                     <div class="mart-sect__item-title">Недорогие специалисты <span>~ 10000 ₽</span></div>
@@ -427,7 +427,10 @@
                 </div>
                 <div class="mart-sect__item"><img class="mart-sect__item-icon" src="img/m-4.png" alt="">
                     <div class="mart-sect__item-title">Depot <span>~ 1 200 000 ₽</span></div>
-                    <div class="mart-sect__item-text">Методичная разработка бренда, <br>дорого, надежно. Продажи увеличатся! Точнее не упадут</div>
+                    <div class="mart-sect__item-text"> 
+                      <!--  Методичная разработка бренда, <br>дорого, надежно. Продажи увеличатся! Точнее не упадут -->
+                      Разработка бренда в топовом агентстве: надёжно, хорошо для имиджа, дорого
+                    </div>
                 </div>
             </div>
         </div>

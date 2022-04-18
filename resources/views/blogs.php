@@ -40,14 +40,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </a></div></div>
                       </div> 
                         <div class="mx-1">
-                          <!-- <div class="bg-white flex items-center py-3 px-1 -mx-5 text-lg xl:-mx-3 lg:cursor-pointer lg:hidden">
+                          <div class="bg-white flex items-center py-3 px-1 -mx-5 text-lg xl:-mx-3 lg:cursor-pointer lg:hidden">
                             <a href="javascript:void(0);" class="block mx-5 text-blue-700 text-lg font-medium transition-fast hover:text-opacity-70 xl:mx-3">
                         Создать бренд
                     </a> 
-                    <a href="https://brand-hub.ru/sign-in/" class="block mx-5 text-lg font-medium transition-fast hover:text-blue-700 xl:mx-3">
+                   <!--  <a href="https://brand-hub.ru/sign-in/" class="block mx-5 text-lg font-medium transition-fast hover:text-blue-700 xl:mx-3">
                         Войти
-                    </a>
-                  </div>  -->
+                    </a> -->
+                  </div> 
                   <div class="a-lg:hidden">
                     <button type="button" class="base-button base-button_theme_blue base-button_view_link">
                       <div class="base-button__effect"></div> 
