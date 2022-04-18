@@ -65,16 +65,16 @@
                 <div class="main-sect__label-title">Всего 3 шага</div>
                 <div class="main-sect__label-text">Заполните наш короткий смарт бриф</div>
             </div>
-            <div class="start-sect-short__step  active" id="step-short-3">
+            <div class="start-sect-short__step @if(session("step")==0  ) active @endif  start-sect-short__step-1" id="step-short-3">
                 <div class="start-sect__step-desc">Шаг 3</div>
             </div>
-            <div class="start-sect-short__step under-top-card active" id="step-short-2">
+            <div class="start-sect-short__step  @if(session("step")==0 ) active @endif  start-sect-short__step-1" id="step-short-2">
                 <div class="start-sect__step-desc">Шаг 2</div>
             </div>
-            <div class="start-sect__step under-top-card active" id="step-1">
+            <div class="start-sect__step  active " id="step-1">
                 <div class="start-sect__step-desc">Шаг 1</div>
-                <div class="start-sect__step-title">Настроение и характер</div>
-                <div class="start-sect__step-text">Отметьте понравившиеся варианты дизайна, а мы подберём соответствующую команду</div>
+                <div class="start-sect__step-big-title">Настроение и характер</div>
+                <div class="start-sect__step-text">Отметьте понравившиеся варианты дизайна,<br>а мы подберём соответствующую команду </div>
                 <div class="case-checks-menu">
                     <div class="case-checks-menu-button case-checks-menu-button-active" id="product">Для товаров</div>
                     <div class="case-checks-menu-button" id="services">Для услуг</div>
@@ -94,9 +94,10 @@
 
                 </div>
                 <div class="start-sect__checks cases-services" id="case-steps">
-
+1
                     @foreach ( session("images") as $image)
                         <label class="start-sect__check">
+
                             <input type="checkbox" @if($image) checked @endif name="case{{ $loop->index+1 }}" ><img class="start-sect__check-bg" src="img/check-{{ $loop->index+1 }}.jpg" alt="">
                             <div class="start-sect__check-sw"><img src="img/icons/check.svg" alt=""></div>
                         </label>
@@ -106,16 +107,16 @@
                 <div class="start-sect__step-next"><a class="def-btn" id="step-btn-1" href="#step-2"><span>Далее</span></a></div>
             </div>
 
-            <div class="start-sect-short__step card-margin active" id="step-short-3-2">
+            <div class="start-sect-short__step  @if(session("step")==1 ) active @endif start-sect-short__step-2" id="step-short-3-2">
                 <div class="start-sect__step-desc">Шаг 3</div>
             </div>
 
-            <div class="start-sect__step under-top-card" id="step-2" @if(session("step")==1 or session("step")==2) style="display: block;" @endif>
+            <div class="start-sect__step " id="step-2" @if(session("step")==1 or session("step")==2 or session("step")==3) style="display: block;" @endif>
                 <div class="start-sect__step-desc">Шаг 2</div>
-                <div class="start-sect__step-title">Информация о твоей компании</div>
-                <div class="start-sect__step-text">На этом шаге необходимо понять у тебя за бизнес. Укажи чем занимается твоя компания.</div>
+                <div class="start-sect__step-big-title">Информация о твоей компании</div>
+                <div class="start-sect__step-text">На этом нам шаге необходимо понять, что у вас за бизнес.<br>Укажите чем занимается ваша компания.</div>
                 <div class="start-sect__labels">
-                    <input class="start-sect__labels-input" id="labels-input" type="text" value="{{ session("category_label") }}" placeholder="Укажите категорию бизнеса" data-sw="">
+                    <input class="start-sect__labels-input" id="labels-input" type="text" value="{{ session("category_label") }}" placeholder="Фабрика окон" data-sw="">
                     <div class="start-sect__labels-items">
                         <a class="start-sect__labels-item @if(session("category_label")==="Салон красоты") active @endif " href="#labels-input" data-value="Салон красоты">Салон красоты</a>
                         <a class="start-sect__labels-item @if(session("category_label")==="Косметика") active @endif " href="#labels-input" data-value="Косметика">Косметика</a>
@@ -123,11 +124,11 @@
                         <a class="start-sect__labels-item @if(session("category_label")==="Кальянная") active @endif " href="#labels-input" data-value="Кальянная">Кальянная</a>
                         <a class="start-sect__labels-item @if(session("category_label")==="Пиццерия") active @endif " href="#labels-input" data-value="Пиццерия">Пиццерия</a>
                         <a class="start-sect__labels-item @if(session("category_label")==="Стоматология") active @endif " href="#labels-input" data-value="Стоматология">Стоматология</a>
-                        <a class="start-sect__labels-item @if(session("category_label")==="Стартап") active @endif " href="#labels-input" data-value="Стартап">Стартап</a>
+                        <a class="start-sect__labels-item @if(session("category_label")==="Медицинский центр") active @endif " href="#labels-input" data-value="Стартап">Медицинский центр</a>
                     </div>
                 </div>
-                <div class="start-sect__step-title">Уникальные свойства твоего бренда</div>
-                <div class="start-sect__step-text">Выберите одну или несколько карточек уникальных свойств твоего бренда, это необходимо для подбора того самого дизайнера.</div>
+                <div class="start-sect__step-title">Особенности вашей компании</div>
+                <div class="start-sect__step-text">Выберите одну или несколько карточек уникальных свойств вашего бренда,<br>это необходимо для создания платформы бренда.</div>
 
                 <div class="start-sect__dess">
                     @foreach ( $dessArray as $des)
@@ -159,24 +160,151 @@
                 <a class="start-sect__add-url" href="#add-url">Добавить еще одну ссылку</a>
                 <div class="start-sect__step-next"><a class="def-btn" id="step-btn-2" href="#step-3"><span>Далее</span></a></div>
             </div>
-            <div class="start-sect__step" @if(session("step")==2) style="display: block;" @endif id="step-3">
+
+
+
+            <div class="start-sect__step" @if(session("step")==2 or session("step")==3) style="display: block;" @endif id="step-3">
                 <div class="start-sect__step-desc">Шаг 3</div>
-                <div class="start-sect__step-title">Ассоциации и эмоции</div>
-                <div class="start-sect__step-text">Это заключительный шаг на твоем пути построения бренда, поделись своими ассоциациями и эмоциями к выбранным кейсам из первого шага</div>
+                <div class="start-sect__step-big-title">Ассоциации и эмоции</div>
+                <div class="start-sect__step-text">Это заключительный шаг на вашем пути построения бренда. Поделитесь своими ассоциациями и эмоциями к выбранным картинкам из первого шага.</div>
                 <div class="start-sect__selects">
-                    <div class="start-sect__check"><img class="start-sect__check-bg" src="img/check-1.jpg" alt=""></div>
-                    <div class="start-sect__check"><img class="start-sect__check-bg" src="img/check-2.jpg" alt=""></div>
+                    <div class="start-sect__select">
+                        <div class="start-sect__check-emotional">
+                            <img class="start-sect__check-bg" src="img/check-1.jpg" alt="">
+                        </div>
+                        <div class="start-sect__tags-container">
+                            <div class="start-sect__tags">
+                                @foreach($emotionsValue as $emotionValue)
+                                    <label class="start-sect__tag">
+                                        <input type="checkbox" @if(array_key_exists($loop->index, session("emotions"))) checked @endif name="tag{{ $loop->index+1 }}">
+                                        <div class="start-sect__tag-bg"></div><span>{{$emotionValue}}</span>
+                                    </label>
+                                @endforeach
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="start-sect__select">
+                        <div class="start-sect__check-emotional">
+                            <img class="start-sect__check-bg" src="img/check-2.jpg" alt="">
+                        </div>
+                        <div class="start-sect__tags-container">
+                            <div class="start-sect__tags">
+                                @foreach($emotionsValue as $emotionValue)
+                                    <label class="start-sect__tag">
+                                        <input type="checkbox" @if(array_key_exists($loop->index, session("emotions"))) checked @endif name="tag{{ $loop->index+1 }}">
+                                        <div class="start-sect__tag-bg"></div><span>{{$emotionValue}}</span>
+                                    </label>
+                                @endforeach
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="start-sect__select">
+                        <div class="start-sect__check-emotional">
+                            <img class="start-sect__check-bg" src="img/check-2.jpg" alt="">
+                        </div>
+                        <div class="start-sect__tags-container">
+                            <div class="start-sect__tags">
+                                @foreach($emotionsValue as $emotionValue)
+                                    <label class="start-sect__tag">
+                                        <input type="checkbox" @if(array_key_exists($loop->index, session("emotions"))) checked @endif name="tag{{ $loop->index+1 }}">
+                                        <div class="start-sect__tag-bg"></div><span>{{$emotionValue}}</span>
+                                    </label>
+                                @endforeach
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="start-sect__tags">
-                    @foreach($emotionsValue as $emotionValue)
-                        <label class="start-sect__tag">
-                            <input type="checkbox" @if(array_key_exists($loop->index, session("emotions"))) checked @endif name="tag{{ $loop->index+1 }}">
-                            <div class="start-sect__tag-bg"></div><span>{{$emotionValue}}</span>
-                        </label>
-                    @endforeach
-                </div>
-                <div class="start-sect__step-next"><a id="step-btn-3" class="def-btn popup-with-steps-anim" href="#end-dialog"><span>Далее</span></a></div>
+
+                <div class="start-sect__step-next"><a id="step-btn-3" class="def-btn " href="#step-4"><span>Далее</span></a></div>
             </div>
+
+            <div class="start-sect__step " id="step-4" @if(session("step")==3) style="display: block;" @endif>
+                <div class="start-sect__step-desc">Итог</div>
+                <div class="start-sect__step-big-title">Спасибо! Это и было ТЗ!</div>
+                <div class="start-sect__step-text">Больше не будет сложных форм и вопросов.<br>Мы выбрали для вас один из пакетов наших услуг.<br>Готовы приступить к работе. </div>
+                <div class="block-tariff__container">
+                    <div class="block-tariff__card first-tariff active">
+                        <div class="block-tariff__title">Брендинг + фирменный стиль</div>
+                        <p class="block-tariff__text">Определение территории позиционирования</p>
+                        <div class="block-tariff__check-mark">
+                            <div class="block-tariff__stick block-tariff__little-stick"></div>
+                            <div class="block-tariff__stick block-tariff__big-stick"></div>
+                        </div>
+                        <p class="block-tariff__text">Логотип</p>
+                        <div class="block-tariff__check-mark">
+                            <div class="block-tariff__stick block-tariff__little-stick"></div>
+                            <div class="block-tariff__stick block-tariff__big-stick"></div>
+                        </div>
+                        <p class="block-tariff__text">Фирменный стиль</p>
+                        <div class="block-tariff__check-mark">
+                            <div class="block-tariff__stick block-tariff__little-stick"></div>
+                            <div class="block-tariff__stick block-tariff__big-stick"></div>
+                        </div>
+
+
+                        <p class="block-tariff__price">210 000₽<span class="block-tariff__duration">/ 3 недели</span></p>
+                        <p class="block-tariff__more">Подробнее ></p>
+
+                    </div>
+                    <div class="block-tariff__card second-tariff">
+                        <div class="block-tariff__title">Брендинг + дизайн упаковки</div>
+                        <p class="block-tariff__text">Определение территории позиционирования</p>
+                        <div class="block-tariff__check-mark">
+                            <div class="block-tariff__stick block-tariff__little-stick"></div>
+                            <div class="block-tariff__stick block-tariff__big-stick"></div>
+                        </div>
+                        <p class="block-tariff__text">Логотип</p>
+                        <div class="block-tariff__check-mark">
+                            <div class="block-tariff__stick block-tariff__little-stick"></div>
+                            <div class="block-tariff__stick block-tariff__big-stick"></div>
+                        </div>
+                        <p class="block-tariff__text">Фирменный стиль</p>
+                        <div class="block-tariff__check-mark">
+                            <div class="block-tariff__stick block-tariff__little-stick"></div>
+                            <div class="block-tariff__stick block-tariff__big-stick"></div>
+                        </div>
+
+                        <p class="block-tariff__price">210 000₽<span class="block-tariff__duration">/ 3 недели</span></p>
+                    </div>
+                </div>
+                <div class="start-sect__step-title">Напишите ваши контакты, чтобы мы вас не потеряли</div>
+
+                <div class="block-tariff__inputs-container">
+                    <div class="block-tariff__container-element">
+                        <input class="form__input block-tariff__input" placeholder="Иванов Иван Иванович">
+
+                    </div>
+                    <div class="block-tariff__container-element">
+                        <input class="form__input block-tariff__input" placeholder="+7 777 777 77 77">
+
+                    </div>
+                    <div class="block-tariff__container-element">
+                        <input class="form__input block-tariff__input" placeholder="example@example.com">
+
+                    </div>
+
+                    <div class="block-tariff__container-element">
+                        <input class="block-tariff__checkbox" type="checkbox" >Согласен с обработкой персональных данных
+                        <input class="block-tariff__checkbox" type="checkbox" >Согласен с пользовательским соглашением
+                        <input class="block-tariff__checkbox" type="checkbox" >Согласен с офертой
+                    </div>
+                    <div class="block-tariff__container-element">
+                        <div class="start-sect__step-next"><a class="def-btn popup-with-steps-anim" id="step-btn-4" href="#end-dialog"><span>Далее</span></a></div>
+                        <div class="start-sect__step-next"><a class="def-btn popup-with-steps-anim" id="step-btn-4" href="#end-dialog"><span>Далее</span></a></div>
+
+                    </div>
+                    <div class="block-tariff__container-element">
+                        <a href="#">Оставить заявку на консультацию</a>
+                        <p>Не бойтесь, мы сохраним все ваши данные.<br>Заново заполнять не придется</p>
+                    </div>
+                </div>
+
+                <div class="start-sect__step-next"><a class="def-btn popup-with-steps-anim" id="step-btn-4" href="#end-dialog"><span>Далее</span></a></div>
+            </div>
+
         </div>
     </div>
     <div class="hidden" id="add-url">
