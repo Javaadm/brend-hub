@@ -287,9 +287,26 @@ Route::get('/projects/zavod-lestnic-na-metallicheskom-karkase', function () {
 Route::get('/brend-i-dizayn-upakovki', function () {
         return view('brend-i-dizayn-upakovki');
     });
-Route::get('/branding', function () {
-        return view('branding');
+Route::get('/services/branding', function () {
+        return view('/branding');
     });
-Route::get('/ekspress-dizayn', function () {
-        return view('ekspress-dizayn');
+
+Route::get('/services/rebranding', function () {
+        return view('/rebranding');
+    });
+Route::get('/services/package', function () {
+        return view('/package');
+    });
+Route::get('/services/firmstyle', function () {
+        return view('/firmstyle');
+    });
+Route::get('/services/naming', function () {
+        return view('/naming');
+    });
+Route::get('/services/branding', function () {
+        return view('/branding');
+    });
+
+Route::get('/services/brandbook', function () {
+        return view('brandbook');
     });

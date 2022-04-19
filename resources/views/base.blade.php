@@ -27,12 +27,12 @@
                     <li><a href="projects/">Проекты</a></li>
                     <li class="main-header__nav-sub"><a >Услуги</a>
                         <ul>
-                            <li><a href="../../brand-hub.ru/services/branding.html">Брендинг</a></li>
-                            <li><a href="https://brand-hub.ru/services/rebranding.html">Ребрендинг</a></li>
-                            <li><a href="https://brand-hub.ru/services/package.html">Дизайн упаковки</a></li>
-                            <li><a href="https://brand-hub.ru/services/firmstyle.html">Фирменный стиль</a></li>
-                            <li><a href="https://brand-hub.ru/services/naming.html">Нейминг</a></li>
-                            <li><a href="https://brand-hub.ru/services/brandbook.html">Брендбук</a></li>
+                            <li><a href="../../services/branding">Брендинг</a></li>
+                            <li><a href="../../services/rebranding">Ребрендинг</a></li>
+                            <li><a href="../../services/package">Дизайн упаковки</a></li>
+                            <li><a href="../../services/firmstyle">Фирменный стиль</a></li>
+                            <li><a href="../../services/naming">Нейминг</a></li>
+                            <li><a href="../../services/brandbook">Брендбук</a></li>
                         </ul>
                     </li>
                     <li><a href="blogs/">Блог</a></li>
