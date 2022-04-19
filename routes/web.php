@@ -28,155 +28,155 @@ Route::get('/about', function () {
 Route::get('/blogs', function () {
         return view('blogs');
     });
-Route::get('/blog/10-servisov-dlya-samostoyatelnogo-neyminga', function () {
+Route::get('/blogs/10-servisov-dlya-samostoyatelnogo-neyminga', function () {
         return view('10-servisov-dlya-samostoyatelnogo-neyminga');
     });
-Route::get('/blog/ambassador-brenda-kto-eto-i-kakova-ego-funktsiya', function () {
+Route::get('/blogs/ambassador-brenda-kto-eto-i-kakova-ego-funktsiya', function () {
         return view('ambassador-brenda-kto-eto-i-kakova-ego-funktsiya');
     });
-Route::get('/blog/analiz-otrasli-sobak-povodyrei-rossii', function () {
+Route::get('/blogs/analiz-otrasli-sobak-povodyrei-rossii', function () {
         return view('analiz-otrasli-sobak-povodyrei-rossii');
     });
-Route::get('/blog/brendbuk-kompanii-sayta-goroda-meropriyatiya-12-krutyh-primerov-dlya-vashego-vdohnoveniya', function () {
+Route::get('/blogs/brendbuk-kompanii-sayta-goroda-meropriyatiya-12-krutyh-primerov-dlya-vashego-vdohnoveniya', function () {
         return view('brendbuk-kompanii-sayta-goroda-meropriyatiya-12-krutyh-primerov-dlya-vashego-vdohnoveniya');
     });
 
-Route::get('/blog/brend-dizayn-sushchnost-znachenie-etapy-razrabotki-vybor-ispolnitelya', function () {
+Route::get('/blogs/brend-dizayn-sushchnost-znachenie-etapy-razrabotki-vybor-ispolnitelya', function () {
         return view('brend-dizayn-sushchnost-znachenie-etapy-razrabotki-vybor-ispolnitelya');
     });
-Route::get('/blog/brending-eto-effektivnoe-samoopredelenie-a-ne-logotip', function () {
+Route::get('/blogs/brending-eto-effektivnoe-samoopredelenie-a-ne-logotip', function () {
         return view('brending-eto-effektivnoe-samoopredelenie-a-ne-logotip');
     });
-Route::get('/blog/brending-v-cifrah-kak-sprognozirovat-effektivnost-dizayna-upakovki', function () {
+Route::get('/blogs/brending-v-cifrah-kak-sprognozirovat-effektivnost-dizayna-upakovki', function () {
         return view('brending-v-cifrah-kak-sprognozirovat-effektivnost-dizayna-upakovki');
     });
-Route::get('/blog/brending-v-obshchestvennom-pitanii-ili-zachem-restoranu-brendbuk', function () {
+Route::get('/blogs/brending-v-obshchestvennom-pitanii-ili-zachem-restoranu-brendbuk', function () {
         return view('brending-v-obshchestvennom-pitanii-ili-zachem-restoranu-brendbuk');
     });
-Route::get('/blog/brend-neyming-samyy-polnyy-spisok-priemov-i-tehnik-razrabotki-nazvaniya', function () {
+Route::get('/blogs/brend-neyming-samyy-polnyy-spisok-priemov-i-tehnik-razrabotki-nazvaniya', function () {
         return view('brend-neyming-samyy-polnyy-spisok-priemov-i-tehnik-razrabotki-nazvaniya');
     });
-Route::get('/blog/brend-strategiya-osnovnaya-sut-vidy-tseli-i-soderzhanie-strategii-brenda', function () {
+Route::get('/blogs/brend-strategiya-osnovnaya-sut-vidy-tseli-i-soderzhanie-strategii-brenda', function () {
         return view('brend-strategiya-osnovnaya-sut-vidy-tseli-i-soderzhanie-strategii-brenda');
     });
-Route::get('/blog/chelovek-kak-brend-personalnyy-brending-v-deystvii', function () {
+Route::get('/blogs/chelovek-kak-brend-personalnyy-brending-v-deystvii', function () {
         return view('chelovek-kak-brend-personalnyy-brending-v-deystvii');
     });
-Route::get('/blog/chto-takoe-brendbuk-i-zachem-on-nuzhen-opredelenie-bazovye-sostavlyayushchie-etapy-razrabotki', function () {
+Route::get('/blogs/chto-takoe-brendbuk-i-zachem-on-nuzhen-opredelenie-bazovye-sostavlyayushchie-etapy-razrabotki', function () {
         return view('chto-takoe-brendbuk-i-zachem-on-nuzhen-opredelenie-bazovye-sostavlyayushchie-etapy-razrabotki');
     });
-Route::get('/blog/chto-takoe-firmennyy-stil-i-kak-ego-sdelat-poshagovoe-rukovodstvo-po-sozdaniyu-aydentiki', function () {
+Route::get('/blogs/chto-takoe-firmennyy-stil-i-kak-ego-sdelat-poshagovoe-rukovodstvo-po-sozdaniyu-aydentiki', function () {
         return view('chto-takoe-firmennyy-stil-i-kak-ego-sdelat-poshagovoe-rukovodstvo-po-sozdaniyu-aydentiki');
     });
-Route::get('/blog/chto-takoe-missiya-brenda-ot-teorii-k-praktike', function () {
+Route::get('/blogs/chto-takoe-missiya-brenda-ot-teorii-k-praktike', function () {
         return view('chto-takoe-missiya-brenda-ot-teorii-k-praktike');
     });
-Route::get('/blog/effektivnyy-brending-osnovnye-tseli-zadachi-i-printsipy-razrabotki-brenda', function () {
+Route::get('/blogs/effektivnyy-brending-osnovnye-tseli-zadachi-i-printsipy-razrabotki-brenda', function () {
         return view('effektivnyy-brending-osnovnye-tseli-zadachi-i-printsipy-razrabotki-brenda');
     });
-Route::get('/blog/elementy-i-nositeli-firmennogo-stilya', function () {
+Route::get('/blogs/elementy-i-nositeli-firmennogo-stilya', function () {
         return view('elementy-i-nositeli-firmennogo-stilya');
     });
-Route::get('/blog/etiketka-i-ee-dizayn-znachenie-trebovaniya-zadachi-etapy-sozdaniya', function () {
+Route::get('/blogs/etiketka-i-ee-dizayn-znachenie-trebovaniya-zadachi-etapy-sozdaniya', function () {
         return view('etiketka-i-ee-dizayn-znachenie-trebovaniya-zadachi-etapy-sozdaniya');
     });
-Route::get('/blog/etiketka-malenkaya-no-takaya-vazhnaya', function () {
+Route::get('/blogs/etiketka-malenkaya-no-takaya-vazhnaya', function () {
         return view('etiketka-malenkaya-no-takaya-vazhnaya');
     });
-Route::get('/blog/firmennyy-stil-klyuchevye-elementy-i-ikh-kharakteristiki', function () {
+Route::get('/blogs/firmennyy-stil-klyuchevye-elementy-i-ikh-kharakteristiki', function () {
         return view('firmennyy-stil-klyuchevye-elementy-i-ikh-kharakteristiki');
     });
-Route::get('/blog/kak-pridumat-nazvanie-brenda-neyming-kak-on-est-pravila-idei-primery', function () {
+Route::get('/blogs/kak-pridumat-nazvanie-brenda-neyming-kak-on-est-pravila-idei-primery', function () {
         return view('kak-pridumat-nazvanie-brenda-neyming-kak-on-est-pravila-idei-primery');
     });
-Route::get('/blog/kak-s-nulya-samostoyatelno-razrabotat-logotip-obzor-onlayn-servisov-dlya-sozdaniya-logo', function () {
+Route::get('/blogs/kak-s-nulya-samostoyatelno-razrabotat-logotip-obzor-onlayn-servisov-dlya-sozdaniya-logo', function () {
         return view('kak-s-nulya-samostoyatelno-razrabotat-logotip-obzor-onlayn-servisov-dlya-sozdaniya-logo');
     });
-Route::get('/blog/kak-vybrat-brendingovoe-agentstvo-i-ne-razocharovatsya', function () {
+Route::get('/blogs/kak-vybrat-brendingovoe-agentstvo-i-ne-razocharovatsya', function () {
         return view('kak-vybrat-brendingovoe-agentstvo-i-ne-razocharovatsya');
     });
-Route::get('/blog/kak-zapatentovat-nazvanie-brenda-i-logotip-podrobnaya-instruktsiya-po-registratsii-v-rospatente', function () {
+Route::get('/blogs/kak-zapatentovat-nazvanie-brenda-i-logotip-podrobnaya-instruktsiya-po-registratsii-v-rospatente', function () {
         return view('kak-zapatentovat-nazvanie-brenda-i-logotip-podrobnaya-instruktsiya-po-registratsii-v-rospatente');
     });
-Route::get('/blog/klassifikatsiya-brendov-vidy-i-osobennosti', function () {
+Route::get('/blogs/klassifikatsiya-brendov-vidy-i-osobennosti', function () {
         return view('klassifikatsiya-brendov-vidy-i-osobennosti');
     });
-Route::get('/blog/kommunikacionnaya-strategiya-brenda-chto-eto-takoe-i-s-chem-ee-edyat', function () {
+Route::get('/blogs/kommunikacionnaya-strategiya-brenda-chto-eto-takoe-i-s-chem-ee-edyat', function () {
         return view('kommunikacionnaya-strategiya-brenda-chto-eto-takoe-i-s-chem-ee-edyat');
     });
-Route::get('/blog/korotko-ob-aydentike-brenda', function () {
+Route::get('/blogs/korotko-ob-aydentike-brenda', function () {
         return view('korotko-ob-aydentike-brenda');
     });
-Route::get('/blog/korporativnyy-stil-pochemu-eto-vazhno', function () {
+Route::get('/blogs/korporativnyy-stil-pochemu-eto-vazhno', function () {
         return view('korporativnyy-stil-pochemu-eto-vazhno');
     });
-Route::get('/blog/logotip-i-firmennyy-stil-10-sovetov-po-samostoyatelnoy-razrabotke-korporativnoy-simvoliki', function () {
+Route::get('/blogs/logotip-i-firmennyy-stil-10-sovetov-po-samostoyatelnoy-razrabotke-korporativnoy-simvoliki', function () {
         return view('logotip-i-firmennyy-stil-10-sovetov-po-samostoyatelnoy-razrabotke-korporativnoy-simvoliki');
     });
-Route::get('/blog/logotip-ot-a-do-ya-vidy-funktsii-etapy-razrabotki', function () {
+Route::get('/blogs/logotip-ot-a-do-ya-vidy-funktsii-etapy-razrabotki', function () {
         return view('logotip-ot-a-do-ya-vidy-funktsii-etapy-razrabotki');
     });
-Route::get('/blog/neyming-kompanii-produkta-proekta-imya-kotoroe-prodaet', function () {
+Route::get('/blogs/neyming-kompanii-produkta-proekta-imya-kotoroe-prodaet', function () {
         return view('neyming-kompanii-produkta-proekta-imya-kotoroe-prodaet');
     });
-Route::get('/blog/osnovnye-pravila-sozdaniya-logotipa-ot-idei-do-effektivnogo-logo', function () {
+Route::get('/blogs/osnovnye-pravila-sozdaniya-logotipa-ot-idei-do-effektivnogo-logo', function () {
         return view('osnovnye-pravila-sozdaniya-logotipa-ot-idei-do-effektivnogo-logo');
     });
-Route::get('/blog/platforma-brenda-opisanie-sostavlyayushchie-tseli-i-zadachi', function () {
+Route::get('/blogs/platforma-brenda-opisanie-sostavlyayushchie-tseli-i-zadachi', function () {
         return view('platforma-brenda-opisanie-sostavlyayushchie-tseli-i-zadachi');
     });
-Route::get('/blog/pozicionirovanie-brenda-6-shagov-k-uspehu', function () {
+Route::get('/blogs/pozicionirovanie-brenda-6-shagov-k-uspehu', function () {
         return view('pozicionirovanie-brenda-6-shagov-k-uspehu');
     });
-Route::get('/blog/prezentatsiya-proekta-brand-hub-na-ezhegodnoy-konferentsii-russia-creates-2021-v-dubae', function () {
+Route::get('/blogs/prezentatsiya-proekta-brand-hub-na-ezhegodnoy-konferentsii-russia-creates-2021-v-dubae', function () {
         return view('prezentatsiya-proekta-brand-hub-na-ezhegodnoy-konferentsii-russia-creates-2021-v-dubae');
     });
-Route::get('/blog/razrabotka-brenda-10-mifov-kotorye-meshayut-razvivatsya', function () {
+Route::get('/blogs/razrabotka-brenda-10-mifov-kotorye-meshayut-razvivatsya', function () {
         return view('razrabotka-brenda-10-mifov-kotorye-meshayut-razvivatsya');
     });
-Route::get('/blog/razrabotka-brendbuka-samostoyatelno-s-nulya-v-pravilnoy-posledovatelnosti', function () {
+Route::get('/blogs/razrabotka-brendbuka-samostoyatelno-s-nulya-v-pravilnoy-posledovatelnosti', function () {
         return view('razrabotka-brendbuka-samostoyatelno-s-nulya-v-pravilnoy-posledovatelnosti');
     });
-Route::get('/blog/razrabotka-brendbuka-vse-chto-vy-khoteli-znat-no-boyalis-sprosit', function () {
+Route::get('/blogs/razrabotka-brendbuka-vse-chto-vy-khoteli-znat-no-boyalis-sprosit', function () {
         return view('razrabotka-brendbuka-vse-chto-vy-khoteli-znat-no-boyalis-sprosit');
     });
-Route::get('/blog/razrabotka-firmennogo-stilya-etapy-sroki-stoimost', function () {
+Route::get('/blogs/razrabotka-firmennogo-stilya-etapy-sroki-stoimost', function () {
         return view('razrabotka-firmennogo-stilya-etapy-sroki-stoimost');
     });
-Route::get('/blog/razrabotka-koncepcii-brenda', function () {
+Route::get('/blogs/razrabotka-koncepcii-brenda', function () {
         return view('razrabotka-koncepcii-brenda');
     });
-Route::get('/blog/razrabotka-upakovki-zadachi-printsipy-i-etapy-sozdaniya', function () {
+Route::get('/blogs/razrabotka-upakovki-zadachi-printsipy-i-etapy-sozdaniya', function () {
         return view('razrabotka-upakovki-zadachi-printsipy-i-etapy-sozdaniya');
     });
-Route::get('/blog/rebrending-desyat-prichin-chtoby-izmenitsya', function () {
+Route::get('/blogs/rebrending-desyat-prichin-chtoby-izmenitsya', function () {
         return view('rebrending-desyat-prichin-chtoby-izmenitsya');
     });
-Route::get('/blog/rebrending-zachem-kogda-i-kak-chasto', function () {
+Route::get('/blogs/rebrending-zachem-kogda-i-kak-chasto', function () {
         return view('rebrending-zachem-kogda-i-kak-chasto');
     });
-Route::get('/blog/sozdanie-logotipa-poshagovaya-instrukciya-po-samostoyatelnoy-razrabotke', function () {
+Route::get('/blogs/sozdanie-logotipa-poshagovaya-instrukciya-po-samostoyatelnoy-razrabotke', function () {
         return view('sozdanie-logotipa-poshagovaya-instrukciya-po-samostoyatelnoy-razrabotke');
     });
-Route::get('/blog/sozdanie-uspeshnogo-brenda-s-nulya-komu-kogda-zachem-i-kak', function () {
+Route::get('/blogs/sozdanie-uspeshnogo-brenda-s-nulya-komu-kogda-zachem-i-kak', function () {
         return view('sozdanie-uspeshnogo-brenda-s-nulya-komu-kogda-zachem-i-kak');
     });
-Route::get('/blog/stoimost-brendinga-skolko-stoit-sozdat-brend-s-nulya', function () {
+Route::get('/blogs/stoimost-brendinga-skolko-stoit-sozdat-brend-s-nulya', function () {
         return view('stoimost-brendinga-skolko-stoit-sozdat-brend-s-nulya');
     });
-Route::get('/blog/territorialnyy-brending-tramplin-dlya-razvitiya-regiona', function () {
+Route::get('/blogs/territorialnyy-brending-tramplin-dlya-razvitiya-regiona', function () {
         return view('territorialnyy-brending-tramplin-dlya-razvitiya-regiona');
     });
-Route::get('/blog/tz-i-brif-na-sozdanie-firmennogo-stilya-kompanii-chto-eto-takoe-kto-gotovit-kak-zapolnit', function () {
+Route::get('/blogs/tz-i-brif-na-sozdanie-firmennogo-stilya-kompanii-chto-eto-takoe-kto-gotovit-kak-zapolnit', function () {
         return view('tz-i-brif-na-sozdanie-firmennogo-stilya-kompanii-chto-eto-takoe-kto-gotovit-kak-zapolnit');
     });
-Route::get('/blog/vidy-logotipov-i-ih-harakteristiki-kak-vybrat-luchshiy-logo', function () {
+Route::get('/blogs/vidy-logotipov-i-ih-harakteristiki-kak-vybrat-luchshiy-logo', function () {
         return view('vidy-logotipov-i-ih-harakteristiki-kak-vybrat-luchshiy-logo');
     });
-Route::get('/blog/ambassador-brenda-kto-eto-i-kakova-ego-funktsiya', function () {
+Route::get('/blogs/ambassador-brenda-kto-eto-i-kakova-ego-funktsiya', function () {
         return view('ambassador-brenda-kto-eto-i-kakova-ego-funktsiya');
     });
-Route::get('/blog/ambassador-brenda-kto-eto-i-kakova-ego-funktsiya', function () {
+Route::get('/blogs/ambassador-brenda-kto-eto-i-kakova-ego-funktsiya', function () {
         return view('ambassador-brenda-kto-eto-i-kakova-ego-funktsiya');
     });
 Route::get('/projects', function () {
