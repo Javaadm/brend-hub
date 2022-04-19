@@ -17,7 +17,7 @@
 <div class="wrapper">
     <!--=======================================================================================-->
     <header class="main-header">
-        <div class="main-header__container"><a class="main-header__logo" href="http://ac.dmitryd2.beget.tech/"><img src="img/logo.svg" alt=""><span>by depot</span></a><a class="main-header__hum" href="#"><img src="img/icons/hum.svg" alt=""></a>
+        <div class="main-header__container"><a class="main-header__logo" href="/"><img src="img/logo.svg" alt=""><span>by depot</span></a><a class="main-header__hum" href="#"><img src="img/icons/hum.svg" alt=""></a>
             <div class="main-header__menu"><a class="main-header__close" href="#"><svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect x="0.545959" y="20.546" width="29" height="2" rx="1" transform="rotate(-45 0.545959 20.546)" fill="#0068FF" />
                         <rect x="21.0521" y="21.9601" width="29" height="2" rx="1" transform="rotate(-135 21.0521 21.9601)" fill="#0068FF" />
