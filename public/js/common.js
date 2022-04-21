@@ -525,7 +525,7 @@ $(function () {
         let emotionsId = e.currentTarget.name.substring(3)-1;
         let emotionsText = e.currentTarget.parentNode.children[2].textContent
 
-        $.post( "update-session", { emotionsId: emotionsId, emotionsText:emotionsText });
+        $.post( "update-session", { emotionsId: emotionsId, imageId: imageId, emotionsText:emotionsText });
     });
     $(window).on('load', function() {
 

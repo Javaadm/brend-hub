@@ -12,9 +12,17 @@ class DateController extends Controller
     {
         $session = session();
 
-        if(!$request->session()->has("images")) {
-            $request->session()->put("images", [false, false, false, false, false, false, false, false, false]);
+        if(!$request->session()->has("type")) {
+            $request->session()->put("type", "product");
+        }
 
+        if(!$request->session()->has("images")) {
+            $elements = [];
+            for ($i=0;$i<=18;$i++){
+                $element = ["isSelected" => false, "emotions"=>[]];
+                $elements[$i] = $element;
+            }
+            $request->session()->put("images", $elements);
         }
 
         if(!$request->session()->has("dess")) {
@@ -24,7 +32,6 @@ class DateController extends Controller
 
         if(!$request->session()->has("emotions")) {
             $request->session()->put("emotions", []);
-
         }
 
         if(!$request->session()->has("step")) {
@@ -67,7 +74,7 @@ class DateController extends Controller
             "Новаторский",
             ];
 
-         return view('base',
+         return view('index',
                      [
                          "dessArray"=>$dessArray,
                          "emotionsValue"=>$emotionsValue
@@ -76,12 +83,17 @@ class DateController extends Controller
 
     public function updateSession(Request $request)
     {
+        if ($request->request->has("type")) {
+            $type = $request->request->get("type");
+            $request->session()->put("type", $type);
+        }
+
         if ($request->request->has("image")) {
             $number = $request->request->get("image");
 
             $images = $request->session()->get("images");
 
-            $images[$number] = !$images[$number];
+            $images[$number]["isSelect"] = !$images[$number];
             $request->session()->put("images", $images);
 
         }
@@ -98,6 +110,26 @@ class DateController extends Controller
         if ($request->request->has("step")){
             $step = $request->request->get("step");
             $request->session()->put("step", $step);
+        }
+
+        if ($request->request->has("about_business")){
+            $aboutBusiness = $request->request->get("about_business");
+            $request->session()->put("about_business", $aboutBusiness);
+        }
+
+        if ($request->request->has("name")){
+            $name = $request->request->get("name");
+            $request->session()->put("name", $name);
+        }
+
+        if ($request->request->has("phone")){
+            $phone = $request->request->get("phone");
+            $request->session()->put("phone", $phone);
+        }
+
+        if ($request->request->has("mail")){
+            $mail = $request->request->get("mail");
+            $request->session()->put("mail", $mail);
         }
 
         if ($request->request->has("category_label")){
@@ -119,14 +151,16 @@ class DateController extends Controller
         if ($request->request->has("emotionsId")){
 
             $emotionsId = $request->request->get("emotionsId");
+            $imageId = $request->request->get("imageId");
             $emotionsText = $request->request->get("emotionsText");
 
             $emotions = $request->session()->get("emotions");
+            $images = $request->session()->get("images");
 
-            if(array_key_exists($emotionsId, $emotions)){
-                unset($emotions[$emotionsId]);
+            if(array_key_exists($emotionsId, $images[$imageId]["emotions"])){
+                unset($images[$imageId]["emotions"][$emotionsId]);
             }else{
-                $emotions[$emotionsId]= $emotionsText;
+                $images[$imageId]["emotions"][$emotionsId]= $emotionsText;
             }
 
             $request->session()->put("emotions", $emotions);

@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\DateController;
+use App\Mail\LeadMail;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,6 +22,9 @@ Route::post("update-session", [DateController::class, 'updateSession'])->name("u
 
 Route::get("show-session", [DateController::class, 'showSession'])->name("showSession");
 
+Route::get("/email", function (){
+    Mail::to("mr.serega20@mail.ru")->send(new LeadMail());
+});
 
 Route::get('/about', function () {
         return view('about');
