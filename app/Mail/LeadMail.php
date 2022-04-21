@@ -6,6 +6,7 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
+use Illuminate\Support\Facades\Auth;
 
 class LeadMail extends Mailable
 {
@@ -28,7 +29,13 @@ class LeadMail extends Mailable
      */
     public function build()
     {
-        return $this->from("brendhubtest@gmail.com")->subject("test")->view('emails.lead');
+        return $this->from("brendhubtest@gmail.com")->subject("test")->view('emails.lead',
+                                                                            [
+                                                                                'name' => "test",
+                                                                                'phone'=>"action",
+                                                                                'mail'=>"historyPayments",
+                                                                                'id'=>1
+                                                                            ]);
 //        return $this->markdown('emails.lead');
     }
 }
