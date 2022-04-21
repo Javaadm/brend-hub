@@ -9,8 +9,8 @@
     <meta name="theme-color" content="#000">
     <meta name="msapplication-navbutton-color" content="#000">
     <meta name="apple-mobile-web-app-status-bar-style" content="#000">
-    <link rel="manifest" href="manifest.json">
-    <link rel="stylesheet" href="css/app.min.css">
+    <link rel="manifest" href="{{ asset('manifest.json') }}">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 
 <body>
@@ -848,9 +848,9 @@
     </div>
     <div class="hidden">
     </div>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
-    <script src="js/common.js"></script>
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
+    <script src="{{ asset('js/scripts.min.js') }}"></script>
+    <script src="{{ asset('js/common.js') }}"></script>
 </body>
 
 </html>
