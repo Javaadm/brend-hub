@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Main</title>
+    <title>Brand-hub - Создаем бренды онлайн | BrandHub - первый онлайн сервис брендинга</title><meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" data-hid="viewport" name="viewport" content="width=device-width, initial-scale=1"><meta data-n-head="ssr" data-hid="description" name="description" content="Платформа для создания бренда для предпринимателей"><meta data-n-head="ssr" data-hid="keywords" name="keywords" content=""><meta data-n-head="ssr" data-hid="og:title" name="og:title" content="Brand-hub - Создаем бренды онлайн"><meta data-n-head="ssr" data-hid="og:description" name="og:description" content="Платформа для создания бренда для предпринимателей"><meta data-n-head="ssr" data-hid="og:type" property="og:type" content="website"><meta data-n-head="ssr" data-hid="og:url" property="og:url" content="https://brand-hub.ru/"><meta data-n-head="ssr" data-hid="og:image" property="og:image" content="https://brand-hub.ru/uploads/file/b/d/7/bd75154378a6ccb64455e065af0ba8db.jpg"><meta data-n-head="ssr" data-hid="og:locale" property="og:locale" content="ru_RU"><meta data-n-head="ssr" data-hid="og:site_name" property="og:site_name" content="BrandHub">
     <meta name="theme-color" content="#000">
     <meta name="msapplication-navbutton-color" content="#000">
     <meta name="apple-mobile-web-app-status-bar-style" content="#000">
@@ -17,27 +17,27 @@
     <div class="wrapper wrapper_fixed">
         <!--=======================================================================================-->
         <header class="main-header main-header_fixed">
-            <div class="main-header__container"><a class="main-header__logo" href="/"><img src="img/logo.svg" alt=""><span>by depot</span></a><a class="main-header__hum" href="#"><img src="img/icons/hum.svg" alt=""></a>
+            <div class="main-header__container"><a class="main-header__logo" href="/"><img src="img/logo.svg" alt=""><span>by depot</span></a><a class="main-header__hum" href="/"><img src="img/icons/hum.svg" alt=""></a>
                 <div class="main-header__menu"><a class="main-header__close" href="#"><svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="0.545959" y="20.546" width="29" height="2" rx="1" transform="rotate(-45 0.545959 20.546)" fill="#0068FF" />
                             <rect x="21.0521" y="21.9601" width="29" height="2" rx="1" transform="rotate(-135 21.0521 21.9601)" fill="#0068FF" />
                         </svg></a>
                     <ul class="main-header__nav">
-                        <li><a href="#">О нас</a></li>
-                        <li><a href="#">Проекты</a></li>
+                        <li><a href="/about">О нас</a></li>
+                        <li><a href="/projects/">Портфолио</a></li>
                         <li class="main-header__nav-sub"><a href="#">Услуги</a>
                             <ul>
-                                <li><a href="#">Брендинг</a></li>
-                                <li><a href="#">Ребрендинг</a></li>
-                                <li><a href="#">Дизайн упаковки</a></li>
-                                <li><a href="#">Фирменный стиль</a></li>
-                                <li><a href="#">Нейминг</a></li>
-                                <li><a href="#">Брендбук</a></li>
+                                <li><a href="/services/branding">Брендинг</a></li>
+                                <li><a href="/services/rebranding">Ребрендинг</a></li>
+                                <li><a href="/services/package">Дизайн упаковки</a></li>
+                                <li><a href="/services/firmstyle">Фирменный стиль</a></li>
+                                <li><a href="/services/naming">Нейминг</a></li>
+                                <li><a href="/services/brandbook">Брендбук</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Блог</a></li>
-                        <li><a href="#">Cотрудничество</a></li>
-                    </ul><a class="def-btn main-header__create" href="#"><span>Создать бренд</span></a>
+                        <li><a href="/blogs/">Блог</a></li>
+                        <li><a href="http://brand-hub.tilda.ws/freelance">Cотрудничество</a></li>
+                    </ul><a class="def-btn main-header__create" href="/"><span>Создать бренд</span></a>
                 </div>
             </div>
         </header>
@@ -159,7 +159,7 @@
                             <a class="start-sect__labels-item @if(session("category_label")==="Медицинский центр") active @endif " href="#labels-input" data-value="Стартап">Медицинский центр</a>
                         </div>
                     </div>
-                    <div class="start-sect__step-title">Уникальные свойства твоего бренда</div>
+                    <div class="start-sect__step-title">Особенности компании</div>
                     <div class="start-sect__step-text">Выберите одну или несколько карточек уникальных свойств твоего бренда, это необходимо для подбора того самого дизайнера.</div>
                     <div class="start-sect__dess">
                         @foreach ( $dessArray as $des)
@@ -299,7 +299,7 @@
                 <div class="steps-sect__items">
                     <div class="steps-sect__item">
                         <div class="steps-sect__item-icons"><img src="img/icons/sicon-1.png" alt=""></div>
-                        <p>Собираем информация от клиента и <strong>четко следим</strong> за выполнением работы дизайнеров, стратегов, </p>
+                        <p>Собираем информацию от клиента и <strong>четко следим</strong> за выполнением работы дизайнеров, стратегов, копирайтеров</p>
                     </div>
                     <div class="steps-sect__item steps-sect__item_center">
                         <p>Мы <strong>строго отбираем</strong> специалистов со <strong>всего мира</strong> и работаем только с <strong>самыми опытными</strong></p>
@@ -348,7 +348,9 @@
                     </div>
                     <div class="mart-sect__item mart-sect__item_select"><img class="mart-sect__item-icon" src="img/m-2.png" alt="">
                         <div class="mart-sect__item-title">Brand hub <span>~ 210 000 ₽</span></div>
-                        <div class="mart-sect__item-text">Выделиться среди большой конкуренции микро, малого и среднего бизнесов за счет опыта и эффективного использования методологий</div>
+                        <div class="mart-sect__item-text">Выделиться среди большой конкуренции микро,<br>
+                    малого и среднего бизнесов за счет <br>
+                    опыта и эффективного использования методологий</div>
                     </div>
                     <div class="mart-sect__item"><img class="mart-sect__item-icon" src="img/m-3.png" alt="">
                         <div class="mart-sect__item-title">Недорогие специалисты <span>~ 10000 ₽</span></div>
@@ -356,7 +358,8 @@
                     </div>
                     <div class="mart-sect__item"><img class="mart-sect__item-icon" src="img/m-4.png" alt="">
                         <div class="mart-sect__item-title">Depot <span>~ 1 200 000 ₽</span></div>
-                        <div class="mart-sect__item-text">Методичная разработка бренда, дорого, надежно. Продажи увеличатся! Точнее не упадут</div>
+                        <div class="mart-sect__item-text"><!--  Методичная разработка бренда, <br>дорого, надежно. Продажи увеличатся! Точнее не упадут -->
+                      Разработка бренда в топовом агентстве: надёжно, хорошо для имиджа, дорого</div>
                     </div>
                 </div>
             </div>
@@ -369,7 +372,7 @@
                 <div class="com-sect__items">
                     <div class="com-sect__item com-sect__item_darck">
                         <div class="com-sect__item-title">Дизайнеры</div>
-                        <div class="com-sect__item-text">В нашей базе собрано более 100+ дизайнеров с опытом разработки логотипов в разных разных </div>
+                        <div class="com-sect__item-text">В нашей базе собрано более 700 дизайнеров с опытом разработки логотипов в разных разных </div>
                     </div>
                     <div class="com-sect__item com-sect__item_min com-sect__item_darck">
                         <div class="com-sect__item-title">Копирайтеры</div>
@@ -377,15 +380,15 @@
                     </div>
                     <div class="com-sect__item com-sect__item_min com-sect__item_darck">
                         <div class="com-sect__item-title">Арт-директора</div>
-                        <div class="com-sect__item-text">Мы отобрали квалифицированных артдиректоров, специализирующихся на разработке брендов</div>
+                        <div class="com-sect__item-text">Ответственно сопровождает весь процесс. Имеет огромный опыт, знает много разных категорий, скорее всего  и вашу</div>
                     </div>
                     <div class="com-sect__item">
                         <div class="com-sect__item-title">Стратеги</div>
-                        <div class="com-sect__item-text">Бренд стратег сделает анализ рынка, определит позиционирование, ценности и преимущества вашего бренда</div>
+                        <div class="com-sect__item-text">Бренд стратег проводит анализ рынка, определяет позиционирование, ценности и преимущества вашего бренда</div>
                     </div>
                     <div class="com-sect__item">
                         <div class="com-sect__item-title">Эксперты брендинга</div>
-                        <div class="com-sect__item-text">Хорошие менеджеры, Хорошие менеджеры, Хорошие менеджеры, Хорошие менеджеры, </div>
+                        <div class="com-sect__item-text">Собирают необходимую информацию, экономят время бизнеса и время каждого специалиста</div>
                     </div>
                 </div>
             </div>
@@ -396,7 +399,7 @@
                 <div class="proj-sect__title">
                     <div class="proj-sect__title-desc">Уже создано:</div>114 брендов в <span>47 сферах</span>
                 </div>
-                <div class="proj-sect__items"><a class="proj-sect__item proj-sect__item_big" href="#"><img class="lazy" data-src="img/p-7.jpg" alt=""></a><a class="proj-sect__item" href="#"><img class="lazy" data-src="img/p-8.jpg" alt=""></a><a class="proj-sect__item" href="#"><img class="lazy" data-src="img/p-9.jpg" alt=""></a><a class="proj-sect__item proj-sect__item_big" href="#"><img class="lazy" data-src="img/p-10.jpg" alt=""></a><a class="proj-sect__item proj-sect__item_big" href="#"><img class="lazy" data-src="img/p-11.jpg" alt=""></a><a class="proj-sect__item" href="#"><img class="lazy" data-src="img/p-12.jpg" alt=""></a></div>
+                <div class="proj-sect__items"><a class="proj-sect__item proj-sect__item_big" href="/projects/belyy-gorod/"><img class="lazy" data-src="img/p-7.jpg" alt=""></a><a class="proj-sect__item" href="#"><img class="lazy" data-src="img/p-8.jpg" alt=""></a><a class="proj-sect__item" href="#"><img class="lazy" data-src="img/p-9.jpg" alt=""></a><a class="proj-sect__item proj-sect__item_big" href="#"><img class="lazy" data-src="img/p-10.jpg" alt=""></a><a class="proj-sect__item proj-sect__item_big" href="#"><img class="lazy" data-src="img/p-11.jpg" alt=""></a><a class="proj-sect__item" href="#"><img class="lazy" data-src="img/p-12.jpg" alt=""></a></div>
                 <div class="proj-sect__more"><a class="def-btn" href="#"><span>Все проекты</span></a></div>
             </div>
         </div>
@@ -414,105 +417,120 @@
         </div>
         <!--=======================================================================================-->
         <div class="faq-sect">
-            <div class="faq-sect__container">
-                <div class="faq-sect__title">
-                    <div class="def-title">Часто задаваемые вопросы</div>
-                    <div class="faq-sect__text">Мы делаем более 100 проектов в год, клиенты возвращаются к нам с новыми проектами.</div>
+        <div class="faq-sect__container">
+            <div class="faq-sect__title">
+                <div class="def-title">Часто задаваемые вопросы</div>
+                <div class="faq-sect__text">Мы делаем более 100 проектов в год, клиенты возвращаются к нам с новыми проектами.</div>
+            </div>
+            <div class="faq-sect__items">
+                <div class="faq-sect__item">
+                    <div class="faq-sect__item-title">В чем преимущества brand hub?<span></span></div>
+                    <div class="faq-sect__item-text">
+                        <p>Brand hub — это способ создать комплексный бренд для быстрого запуска.<br>
+                            Мы предоставляем:
+                             <ul>
+                                <li>- сильный менеджмент, арт-директора по стратегии и дизайну, готовые команды тщательно отобранных специалистов отрасли;</li>
+                                <li>- два варианта пакетов услуг с фиксированными услугами, стоимостью и сроками реализации;</li>
+                                <li>- подготовка документов как для физических, так и для юридических лиц, передача всех прав;</li>
+                                <li>- постоянная связь с менеджером проекта, видео-встречи с арт-директором до начала работ и на презентации дизайн-проекта.</li>
+                            </ul>
+                            </p>
+                         </li>
+                    </div>
                 </div>
-                <div class="faq-sect__items">
-                    <div class="faq-sect__item">
-                        <div class="faq-sect__item-title">В чем преимущество brand hub?<span></span></div>
-                        <div class="faq-sect__item-text">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci iste ipsa aliquam! Temporibus natus quas odit neque ut qui nobis?</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero magnam rerum delectus laudantium repellendus est beatae hic accusamus repellat, exercitationem nemo consequuntur atque officiis ducimus, quaerat quam molestias sit aliquid?</p>
-                        </div>
+                <div class="faq-sect__item">
+                    <div class="faq-sect__item-title">Как заказать создание бренда?<span></span></div>
+                    <div class="faq-sect__item-text">
+                        <p>Работа с нашим сервисом начинается со смарт-брифа, который поможет поставить задачу и обозначить ваши визуальные предпочтения. Бриф состоит из трёх интерактивных шагов, после прохождения которых вы сможете выбрать подходящий пакет услуг и внести предоплату. После мы незамедлительно начинаем работу над вашим брендом!</p>
                     </div>
-                    <div class="faq-sect__item">
-                        <div class="faq-sect__item-title">Как заказать создание бренда?<span></span></div>
-                        <div class="faq-sect__item-text">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci iste ipsa aliquam! Temporibus natus quas odit neque ut qui nobis?</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero magnam rerum delectus laudantium repellendus est beatae hic accusamus repellat, exercitationem nemo consequuntur atque officiis ducimus, quaerat quam molestias sit aliquid?</p>
-                        </div>
+                </div>
+                <div class="faq-sect__item">
+                    <div class="faq-sect__item-title">Какие условия оплаты и сколько длится проект?<span></span></div>
+                    <div class="faq-sect__item-text">
+                        <p>Оплатить выбранный пакет можно онлайн картой или по расчетному счету. Сроки реализации услуг составляют 3-4 недели. Срок реализации не включает время на согласование результатов работ.</p>
                     </div>
-                    <div class="faq-sect__item">
-                        <div class="faq-sect__item-title">Какие условия оплаты и сколько длится проект?<span></span></div>
-                        <div class="faq-sect__item-text">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci iste ipsa aliquam! Temporibus natus quas odit neque ut qui nobis?</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero magnam rerum delectus laudantium repellendus est beatae hic accusamus repellat, exercitationem nemo consequuntur atque officiis ducimus, quaerat quam molestias sit aliquid?</p>
-                        </div>
+                </div>
+                <div class="faq-sect__item">
+                    <div class="faq-sect__item-title">Какие услуги входят в работу и какой результат я получу<span></span></div>
+                    <div class="faq-sect__item-text">
+                        <p>Вы выбираете пакет услуг исходя из потребностей вашего бизнеса. В каждый пакет первым этапом входит определение территории позиционирования.<br><br>
+
+                        - Пакет "Брендинг+фирменный стиль" включает разработку 2-х вариантов логотипа и фирменного стиля с демонстрацией на 3-4 бренд-носителях. После выбора одного варианта дополнительно предоставляется гайд по стилю.
+                        - Пакет "Брендинг+дизайн упаковки" включает разработку 2-х вариантов логотипа и дизайна упаковки бренда. После выбора одного варианта дополнительно создается дизайн и верстка всех сторон упаковки. <br><br>
+
+                        По завершению проекта мы передаём все исходные файлы для выбранной концепции.
+                        </p>
                     </div>
-                    <div class="faq-sect__item">
-                        <div class="faq-sect__item-title">Что такое концепция бренда и что в нее входит?<span></span></div>
-                        <div class="faq-sect__item-text">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci iste ipsa aliquam! Temporibus natus quas odit neque ut qui nobis?</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero magnam rerum delectus laudantium repellendus est beatae hic accusamus repellat, exercitationem nemo consequuntur atque officiis ducimus, quaerat quam molestias sit aliquid?</p>
-                        </div>
+                </div>
+                <div class="faq-sect__item">
+                    <div class="faq-sect__item-title">Кто будет работать над моим проектом?<span></span></div>
+                    <div class="faq-sect__item-text">
+                        <p>На каждый проект мы собираем сильную команду профессионалов:<br>
+                        <ul>
+                        <li>эксперт по брендингу, который будет с вами на протяжении всего проекта;</li>
+                        <li>креативные специалисты(опытные стратеги, дизайнеры и копирайтеры со всего мира, прошедшие предварительный отбор в базу brand-hub);</li>
+                        <li>арт-директор, курирующий все креативные разработки;</li>
+</p>
                     </div>
-                    <div class="faq-sect__item">
-                        <div class="faq-sect__item-title">Какой пакет услуг выбрать?<span></span></div>
-                        <div class="faq-sect__item-text">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci iste ipsa aliquam! Temporibus natus quas odit neque ut qui nobis?</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero magnam rerum delectus laudantium repellendus est beatae hic accusamus repellat, exercitationem nemo consequuntur atque officiis ducimus, quaerat quam molestias sit aliquid?</p>
-                        </div>
-                    </div>
-                    <div class="faq-sect__item">
-                        <div class="faq-sect__item-title">Что делать, если предложенные варианты не понравятся?<span></span></div>
-                        <div class="faq-sect__item-text">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci iste ipsa aliquam! Temporibus natus quas odit neque ut qui nobis?</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero magnam rerum delectus laudantium repellendus est beatae hic accusamus repellat, exercitationem nemo consequuntur atque officiis ducimus, quaerat quam molestias sit aliquid?</p>
-                        </div>
+                </div>
+                <div class="faq-sect__item">
+                    <div class="faq-sect__item-title">Что делать, если предложенные варианты не понравятся?<span></span></div>
+                    <div class="faq-sect__item-text">
+                        <p>Перед созданием дизайна, мы определяем территорию позиционирования бренда, а перед началом работ обязательно проводим онлайн встречу с арт-директором, который курирует проект. Также, мы предоставляем выбор из двух разных дизайн-концепций. Так что шансы того, что вам «не понравится», стремятся к нулю.</p>
+                        <p>Мы тщательно следим за тем, чтобы по итогам заполнения брифа и онлайн встречи ни у кого не осталось вопросов. Как правило, все наши клиенты выбирают один из предложенных вариантов, и мы дорабатываем его по итогам совместной встречи и обсуждения.</p>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
         <!--=======================================================================================-->
-        <div class="main-footer">
-            <div class="main-footer__container">
-                <div class="main-footer__logo"><a class="main-header__logo" href="/"><img src="img/footer-logo.svg" alt=""><span>by depot</span></a></div>
-                <div class="main-footer__column main-footer__column_first">
-                    <ul class="main-footer__soc">
-                        <li><a href="#"><img src="img/icons/soc-1.svg" alt=""></a></li>
-                        <li><a href="#"><img src="img/icons/soc-2.svg" alt=""></a></li>
-                        <li><a href="#"><img src="img/icons/soc-3.svg" alt=""></a></li>
-                    </ul>
-                    <div class="main-footer__info">
-                        <p>© brand hub, 2022</p>
-                        <p>Оферта - <a href="#">скачиваение документа</a><br><a class="main-footer__info-link" href="#">Пользовательское соглашение</a><br><a class="main-footer__info-link" href="#">Политика обработки персональных данных</a></p>
-                    </div>
-                </div>
-                <ul class="main-footer__nav">
-                    <li><a href="#">О нас</a></li>
-                    <li><a href="#">Проекты</a></li>
-                    <li><a href="#">Блог</a></li>
-                    <li><a href="#">Сотрудничество</a></li>
+    <div class="main-footer">
+        <div class="main-footer__container">
+            <div class="main-footer__logo"><a class="main-header__logo" href="http://ac.dmitryd2.beget.tech/"><img src="img/footer-logo.svg" alt=""><span>by depot</span></a></div>
+            <div class="main-footer__column main-footer__column_first">
+                <ul class="main-footer__soc">
+                    <li><a href="https://t.me/brandhub21"><img src="img/icons/soc-1.svg" alt=""></a></li>
+                    <li><a href="https://api.whatsapp.com/send/?phone=79163254224&amp;text&amp;app_absent=0"><img src="img/icons/soc-2.svg" alt=""></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCV4psMqFmWWxToZGjSwfovA"><img src="img/icons/soc-3.svg" alt=""></a></li>
                 </ul>
-                <ul class="main-footer__nav">
-                    <li><a href="#">Брендинг</a></li>
-                    <li><a href="#">Ребрендинг</a></li>
-                    <li><a href="#">Дизайн упаковки</a></li>
-                </ul>
-                <ul class="main-footer__nav">
-                    <li><a href="#">Фирменный стиль</a></li>
-                    <li><a href="#">Нейминг</a></li>
-                    <li><a href="#">Брендбук</a></li>
-                </ul>
-                <div class="main-footer__column">
-                    <div class="main-footer__text">
-                        <p><a href="tel:+74951060614"><span>+7 (495) 106-06-14</span></a></p>
-                        <p><a href="email:we@brand-hub.ru">we@brand-hub.ru</a></p>
-                        <p>Москва, <br>Пестовский пер 16 стр 2</p>
-                    </div>
+                <div class="main-footer__info">
+                    <p>© brand hub, 2022</p>
+                    <p>Оферта - <a href="https://brand-hub.ru/oferta/">скачивание документа</a><br><a class="main-footer__info-link" href="https://brand-hub.ru/terms/">Пользовательское соглашение</a><br><a class="main-footer__info-link" href="https://brand-hub.ru/policy/">Политика обработки персональных данных</a></p>
                 </div>
             </div>
-            <div class="main-footer__img"><img src="img/footer-logo.svg" alt=""></div>
+            <ul class="main-footer__nav">
+                <li><a href="../../brand-hub.ru/about/index.html">О нас</a></li>
+                <li><a href="../../brand-hub.ru/projects/index.html">Проекты</a></li>
+                <li><a href="../../brand-hub.ru/blog/index.html">Блог</a></li>
+                <li><a href="http://brand-hub.tilda.ws/freelance">Сотрудничество</a></li>
+            </ul>
+            <ul class="main-footer__nav">
+                <li><a href="../../brand-hub.ru/services/branding.html">Брендинг</a></li>
+                <li><a href="https://brand-hub.ru/services/rebranding.html">Ребрендинг</a></li>
+                <li><a href="https://brand-hub.ru/services/package.html">Дизайн упаковки</a></li>
+            </ul>
+            <ul class="main-footer__nav">
+                <li><a href="https://brand-hub.ru/services/firmstyle.html">Фирменный стиль</a></li>
+                <li><a href="https://brand-hub.ru/services/naming.html">Нейминг</a></li>
+                <li><a href="https://brand-hub.ru/services/brandbook.html">Брендбук</a></li>
+            </ul>
+            <div class="main-footer__column">
+                <div class="main-footer__text">
+                    <p><a href="tel:+74951060614"><span>+7 (495) 106-06-14</span></a></p>
+                    <p><a href="email:we@brand-hub.ru">we@brand-hub.ru</a></p>
+                    <p>Москва, <br>Пестовский пер 16 стр 2</p>
+                </div>
+            </div>
         </div>
+        <div class="main-footer__img"><img src="img/footer-logo.svg" alt=""></div>
+    </div>
         <!--=======================================================================================-->
     </div>
     <div class="hidden">
     </div>
     <script src="{{ asset('js/jquery.min.js') }}"></script>
     <script src="{{ asset('js/scripts.min.js') }}"></script>
-    <script src="{{ asset('js/common.js') }}"></script>common.js
+    <script src="{{ asset('js/common.js') }}"></script>
 </body>
 
 </html>

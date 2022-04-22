@@ -27,9 +27,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             О нас
                         </a></div><div class="mx-5 xl:mx-3"><a href="/projects/" class="text-lg font-medium transition-fast hover:text-blue-700">
                             Портфолио
-                        </a></div><div class="mx-5 xl:mx-3"><a href="javascript:void(0);" class="text-lg font-medium transition-fast hover:text-blue-700">
+                        </a></div><div class="mx-5 xl:mx-3"><a href="/" class="text-lg font-medium transition-fast hover:text-blue-700">
                             Услуги
-                        </a></div><div class="mx-5 xl:mx-3"><a href="/blog/" class="text-lg font-medium transition-fast hover:text-blue-700">
+                        </a></div><div class="mx-5 xl:mx-3"><a href="/blogs/" class="text-lg font-medium transition-fast hover:text-blue-700">
                             Блог
                         </a></div><div class="mx-5 xl:mx-3"><a href="http://brand-hub.tilda.ws/freelance" target="_blank" class="text-lg font-medium transition-fast hover:text-blue-700">
                             Сотрудничество
