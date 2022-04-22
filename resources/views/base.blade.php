@@ -169,21 +169,25 @@
                 <div class="start-sect__step-big-title">Ассоциации и эмоции</div>
                 <div class="start-sect__step-text">Это заключительный шаг на вашем пути построения бренда. Поделитесь своими ассоциациями и эмоциями к выбранным картинкам из первого шага.</div>
                 <div class="start-sect__selects">
-                    <div class="start-sect__select">
-                        <div class="start-sect__check-emotional">
-                            <img class="start-sect__check-bg" src="img/check-1.jpg" alt="">
-                        </div>
-                        <div class="start-sect__tags-container">
-                            <div class="start-sect__tags">
-                                @foreach($emotionsValue as $emotionValue)
-                                    <label class="start-sect__tag">
-                                        <input type="checkbox" @if(array_key_exists($loop->index, session("emotions"))) checked @endif name="tag{{ $loop->index+1 }}">
-                                        <div class="start-sect__tag-bg"></div><span>{{$emotionValue}}</span>
-                                    </label>
-                                @endforeach
+                    @foreach(session("images") as $image)
+                        @if($image["isSelected"])
+                            <div class="start-sect__select">
+                                <div class="start-sect__check-emotional">
+                                    <img class="start-sect__check-bg" src="img/check-{{$loop->index+1}}.jpg" alt="">
+                                </div>
+                                <div class="start-sect__tags-container">
+                                    <div class="start-sect__tags">
+                                        @foreach($emotionsValue as $emotionValue)
+                                            <label class="start-sect__tag">
+                                                <input type="checkbox" @if(array_key_exists($loop->index, session("emotions"))) checked @endif name="tag{{ $loop->index+1 }}">
+                                                <div class="start-sect__tag-bg"></div><span>{{$emotionValue}}</span>
+                                            </label>
+                                        @endforeach
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
+                        @endif
+                    @endforeach
 
                     <div class="start-sect__select">
                         <div class="start-sect__check-emotional">
@@ -417,7 +421,7 @@
                 </div>
                 <div class="mart-sect__item mart-sect__item_select"><img class="mart-sect__item-icon" src="img/m-2.png" alt="">
                     <div class="mart-sect__item-title">Brand hub <span>~ 210 000 ₽</span></div>
-                    <div class="mart-sect__item-text">Выделиться среди большой конкуренции микро,<br> 
+                    <div class="mart-sect__item-text">Выделиться среди большой конкуренции микро,<br>
                     малого и среднего бизнесов за счет <br>
                     опыта и эффективного использования методологий</div>
                 </div>
@@ -427,7 +431,7 @@
                 </div>
                 <div class="mart-sect__item"><img class="mart-sect__item-icon" src="img/m-4.png" alt="">
                     <div class="mart-sect__item-title">Depot <span>~ 1 200 000 ₽</span></div>
-                    <div class="mart-sect__item-text"> 
+                    <div class="mart-sect__item-text">
                       <!--  Методичная разработка бренда, <br>дорого, надежно. Продажи увеличатся! Точнее не упадут -->
                       Разработка бренда в топовом агентстве: надёжно, хорошо для имиджа, дорого
                     </div>
@@ -556,7 +560,7 @@
                         <ul>
                         <li>эксперт по брендингу, который будет с вами на протяжении всего проекта;</li>
                         <li>креативные специалисты(опытные стратеги, дизайнеры и копирайтеры со всего мира, прошедшие предварительный отбор в базу brand-hub);</li>
-                        <li>арт-директор, курирующий все креативные разработки;</li> 
+                        <li>арт-директор, курирующий все креативные разработки;</li>
 </p>
                     </div>
                 </div>

@@ -1,9 +1,8 @@
-
-# Introduction
-
-The body of your message.
-
-
-Thanks,<br>
-{{ config('app.name') }}
+id: {{ $id }}
+<br>
+name: {{ $name }}
+<br>
+phone: {{ $phone }}
+<br>
+mail: {{ $mail }}
 

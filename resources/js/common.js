@@ -8,7 +8,7 @@ $(function () {
     /* if (lazyLoadInstance) {
         lazyLoadInstance.update();
     } */
-    //==================================================================
+    //==========================checks-tab-1-2========================================
 
     /* const swiper = new Swiper('.swiper', {
         // Optional parameters
@@ -472,7 +472,9 @@ $(function () {
         $(id).stop().slideToggle(300);
         scrollTo(id);
     }); //==================================================================
-
+    $(".start-sect__step").click(function(e){
+        alert("asd");
+    });
     function scrollTo(id) {
         $('html, body').stop().animate({
             scrollTop: "".concat($(id).offset().top, "px")

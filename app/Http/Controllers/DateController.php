@@ -13,12 +13,19 @@ class DateController extends Controller
         $session = session();
 
         if(!$request->session()->has("type")) {
-            $request->session()->put("type", "product");
+            $request->session()->put("type", "1");
+        }
+
+        if(!$request->session()->has("step-1-board")) {
+            $request->session()->put("step-1-board", "1");
+        }
+        if(!$request->session()->has("tariff")) {
+            $request->session()->put("tariff", "1");
         }
 
         if(!$request->session()->has("images")) {
             $elements = [];
-            for ($i=0;$i<=18;$i++){
+            for ($i=0;$i<=17;$i++){
                 $element = ["isSelected" => false, "emotions"=>[]];
                 $elements[$i] = $element;
             }
@@ -35,23 +42,23 @@ class DateController extends Controller
         }
 
         if(!$request->session()->has("step")) {
-            $request->session()->put("step", 0);
+            $request->session()->put("step", 1);
 
         }
 
         $dessArray = [
-            ["title"=>"Сфера деятельности","body"=>"Это то, что помогает нам оставаться в индустрии, соответствовать ей. Оно не уникальное, а скорее это общая канва для двух."],
-            ["title"=>"Социальная активность","body"=>"Продукты, связанные  с поддержанием социально незащищенных групп: биоразлагающаяся упаковка, помогающий пожилым продукт."],
-            ["title"=>"Материальные активы","body"=>"Физическое имущество: земля, здания, машины/станки и прочее. Помогает отличаться от конкурентов."],
-            ["title"=>"Марткетинг и PR","body"=>"Сильный маркетинг, коллаборации, амбасадоры бренда, лицо бренда - медийная личность и т.д."],
-            ["title"=>"Награды и заслуги","body"=>"Обладатель наград, премий, лауреат конкурсов в своей сфере, общественное признание и т.д."],
-            ["title"=>"Дизайн и интерьер","body"=>"Аутентичный интерьер. Обычно подходит для ресторанов и кафе, а так же сфере развлечений."],
-            ["title"=>"Продукт","body"=>"Выделяющееся продуктовое предложение. Например вегетарианский гирос."],
-            ["title"=>"Ассортимент","body"=>"Выбор на все случаи жизни, или, наоборот, редкие позиции под небольшой сегмент аудитории."],
-            ["title"=>"Сырье и состав","body"=>"Особые компоненты в составе. Возможно, товар на 100% органичный или с добавлением масла гуараны."],
-            ["title"=>"Страна проихождения","body"=>"Ваш знак качества: произведено в Германии, пошито в Италии или designed in California."],
-            ["title"=>"Технологии и инновации","body"=>"Уникальные технологии.  Например итальянская производственная линия для пекарен, высокоточное оборудование в медицине."],
-            ["title"=>"Персонал","body"=>"В вашей команде крутые эксперты. Они известны на рынке и за его пределами."],
+            ["title"=>"Индустрия","body"=>"Это то, что помогает нам оставаться в индустрии, соответствовать ей. Оно не уникальное, а скорее это общая канва для двух."],
+            ["title"=>"Социальная активность","body"=>"это ивенты связанные с поддержанием социально незащищенных групп: устраиваем инвалидов, благотворительствуем, сажаем деревья"],
+            ["title"=>"Материальные активы","body"=>"это физическое имущество: земля, здания, машины/станки и прочее, что есть у клиента"],
+            ["title"=>"Марткетинг и PR","body"=>"сильный маркетинг, есть амбасадоры бренда, лицо бренда мидийная личность и т.д."],
+            ["title"=>"Награды и заслуги","body"=>"обладатель наград, премий, лауреат конкурсов в своей сфере, общественное признание и т.д."],
+            ["title"=>"Дизайн и интерьер","body"=>"уникальный интерьер, аутентичный интерьер"],
+            ["title"=>"Продукт","body"=>"уникальный продукт на рынке, уникальное продуктове предложение, это комплекс - Веган бургер - веганские бургеры"],
+            ["title"=>"Ассортимент","body"=>"уникальный ассортимент - кулинарный шоколад для терки"],
+            ["title"=>"Сырье и состав","body"=>"уникальный состав, то, из чего оно сделано - 100% натуральный, с маслом гуарана"],
+            ["title"=>"Страна проихождения","body"=>"уникальное происхождение - сделано в Германии, пошито в Италии, приехал из Франции"],
+            ["title"=>"Технологии и инновации","body"=>"Это то, что помогает нам оставаться в индустрии, соответствовать ей. Оно не уникальное, а скорее это общая канва для двух."],
+            ["title"=>"Персонал","body"=>"Это то, что помогает нам оставаться в индустрии, соответствовать ей. Оно не уникальное, а скорее это общая канва для двух."],
             ];
 
         $emotionsValue = [
@@ -93,9 +100,8 @@ class DateController extends Controller
 
             $images = $request->session()->get("images");
 
-            $images[$number]["isSelect"] = !$images[$number];
+            $images[$number]["isSelected"] = !$images[$number]["isSelected"];
             $request->session()->put("images", $images);
-
         }
 
         if ($request->request->has("des")) {
@@ -112,9 +118,14 @@ class DateController extends Controller
             $request->session()->put("step", $step);
         }
 
-        if ($request->request->has("about_business")){
-            $aboutBusiness = $request->request->get("about_business");
-            $request->session()->put("about_business", $aboutBusiness);
+        if ($request->request->has("moment_business")){
+            $momentBusiness = $request->request->get("moment_business");
+            $request->session()->put("moment_business", $momentBusiness);
+        }
+
+        if ($request->request->has("emotions_service")){
+            $emotionsService = $request->request->get("emotions_service");
+            $request->session()->put("emotions_service", $emotionsService);
         }
 
         if ($request->request->has("name")){
@@ -122,14 +133,24 @@ class DateController extends Controller
             $request->session()->put("name", $name);
         }
 
+        if ($request->request->has("tariff")){
+            $tariff = $request->request->get("tariff");
+            $request->session()->put("tariff", $tariff);
+        }
+
+        if ($request->request->has("step-1-board")){
+            $value = $request->request->get("step-1-board");
+            $request->session()->put("step-1-board", $value);
+        }
+
         if ($request->request->has("phone")){
             $phone = $request->request->get("phone");
             $request->session()->put("phone", $phone);
         }
 
-        if ($request->request->has("mail")){
-            $mail = $request->request->get("mail");
-            $request->session()->put("mail", $mail);
+        if ($request->request->has("email")){
+            $email = $request->request->get("email");
+            $request->session()->put("email", $email);
         }
 
         if ($request->request->has("category_label")){
@@ -154,7 +175,7 @@ class DateController extends Controller
             $imageId = $request->request->get("imageId");
             $emotionsText = $request->request->get("emotionsText");
 
-            $emotions = $request->session()->get("emotions");
+
             $images = $request->session()->get("images");
 
             if(array_key_exists($emotionsId, $images[$imageId]["emotions"])){
@@ -163,7 +184,7 @@ class DateController extends Controller
                 $images[$imageId]["emotions"][$emotionsId]= $emotionsText;
             }
 
-            $request->session()->put("emotions", $emotions);
+            $request->session()->put("images", $images);
         }
     }
 
