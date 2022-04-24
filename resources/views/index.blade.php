@@ -280,7 +280,7 @@
                         </div>
                         <div class="end-dialog__btns">
                             <button class="def-btn end-dialog__submit" style="display:none;" type="submit"><span>Оплата картой</span></button>
-                            <button class="def-btn def-btn_second end-dialog__payment" type="submit"><span>Оплата по расчетному счету</span></button>
+                            <a class="def-btn def-btn_second end-dialog__payment" href="#thanks-dialog2" type="submit"><span>Оплата по расчетному счету</span></a>
                         </div>
                         <div class="start-sect__call"><a class="popup-with-zoom-anim" name="order" href="#lead-dialog">Оставить заявку на консультацию</a><br>
                             <p>Не бойтесь, мы сохраним все ваши данные.<br>Заново заполнять не придется</p>
@@ -289,6 +289,7 @@
                 </div>
             </div>
         </div>
+
         <div class="hidden" id="add-url">
             <input class="start-sect__url form__input" type="url" placeholder="https://example.com">
         </div>
@@ -320,6 +321,20 @@
                 <div class="steps-sect__footer"><img class="steps-sect__footer-bg" src="img/icons/stroke-2.svg" alt="">
                     <div class="steps-sect__title">Ничего не понял!</div><a class="def-btn popup-with-zoom-anim" href="#lead-dialog"><span>Хочу консультацию</span></a>
                 </div>
+                <div class="thanks-dialog zoom-anim-dialog mfp-hide" id="thanks-dialog2">
+                    <div class="thanks-dialog__container">
+                        <div class="thanks-dialog__title">Спасибо!<br>В ближайшее время вам на почту пришлем договор.</div>
+                        <div class="thanks-dialog__text">После оплаты вы получите исследование вашего рынка, с учетом которого будет производиться дизайн.</div>
+                        <button class="def-btn thanks-dialog__submit "><span>Спасибо</span></button>
+                    </div>
+                </div>
+                <div class="thanks-dialog zoom-anim-dialog mfp-hide" id="thanks-dialog3">
+                    <div class="thanks-dialog__container">
+                        <div class="thanks-dialog__title">Спасибо за обращение!</div>
+                        <div class="thanks-dialog__text">Наш консультант вам перезвонит   в самое ближайшее время.</div>
+                        <button class="def-btn thanks-dialog__submit "><span>Хорошо</span></button>
+                    </div>
+                </div>
                 <div class="lead-dialog zoom-anim-dialog mfp-hide" id="lead-dialog">
                     <div class="lead-dialog__container">
                         <div class="lead-dialog__text">
@@ -329,7 +344,7 @@
                         <div class="lead-dialog__form">
                             <input class="form__input lead-dialog__input name-input-lead"  type="text" placeholder="Иванов Иван Иванович">
                             <input class="form__input lead-dialog__input phone-input-lead" type="text" name="phone" placeholder="+7 777 777 77 77">
-                            <button class="def-btn lead-dialog__submit"><span>Отправить</span></button>
+                            <button class="def-btn lead-dialog__submit" href="thanks-dialog3"><span>Отправить</span></button>
                         </div>
                     </div>
                 </div>

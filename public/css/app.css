@@ -754,8 +754,7 @@ a:hover, a:focus, a:active, button:hover, button:focus, button:active {
     -ms-transform: translateX(0) skewX(-25deg);
     transform: translateX(0) skewX(-25deg); }
 .def-btn:focus, .def-btn:active {
-    text-decoration: none;
-    color: #fff; }
+    text-decoration: none; }
 .def-btn_second {
     background-color: transparent;
     color: #7f858d;

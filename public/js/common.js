@@ -83,6 +83,18 @@ $(function () {
         removalDelay: 300,
         mainClass: 'my-mfp-zoom-in'
     });
+    $('.end-dialog__payment').magnificPopup({
+        type: 'inline',
+        fixedContentPos: false,
+        fixedBgPos: true,
+        overflowY: 'auto',
+        closeBtnInside: true,
+        preloader: false,
+        midClick: true,
+        removalDelay: 300,
+        mainClass: 'my-mfp-zoom-in'
+    });
+    
     $('.popup-with-steps-anim').magnificPopup({
         type: 'inline',
         fixedContentPos: false,
@@ -601,9 +613,15 @@ $(function () {
         }else {
             $.get("send-lead");
         }
+        $(this).magnificPopup('close');
     });
 
     $(".end-dialog__payment").click(function (e) {
         $.get( "send-order");
+    });
+
+    $(".thanks-dialog__submit").click(function (e) {
+        $(this).magnificPopup('close');
+
     });
 });
