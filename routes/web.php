@@ -305,11 +305,11 @@ Route::get('/projects/wellroom', function () {
 Route::get('/projects/zavod-lestnic-na-metallicheskom-karkase', function () {
         return view('/projects/zavod-lestnic-na-metallicheskom-karkase');
     });
-Route::get('/brend-i-dizayn-upakovki', function () {
-        return view('brend-i-dizayn-upakovki');
+Route::get('/packs/brend-i-dizayn-upakovki', function () {
+        return view('/packs/brend-i-dizayn-upakovki');
     });
-Route::get('/ekspress-dizayn', function () {
-        return view('ekspress-dizayn');
+Route::get('/packs/ekspress-dizayn', function () {
+        return view('/packs/ekspress-dizayn');
     });
 Route::get('/services/branding', function () {
         return view('/services/branding');
