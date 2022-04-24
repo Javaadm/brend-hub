@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\DateController;
 use App\Mail\LeadMail;
+use App\Mail\OrderMail;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
@@ -22,8 +23,23 @@ Route::post("update-session", [DateController::class, 'updateSession'])->name("u
 
 Route::get("show-session", [DateController::class, 'showSession'])->name("showSession");
 
-Route::get("/email", function (){
-    Mail::to("mr.serega20@mail.ru")->send(new LeadMail()); //we@brand-hub.ru
+Route::get('pdf/download', [DateController::class, 'genPDF']);
+
+Route::get("/send-lead", function (){
+    $isFillOut = true;
+    if(session("step")>1){
+        //Mail::to("mr.serega20@mail.ru")->send(new LeadMail($isFillOut));//we@brand-hub.ru
+        Mail::to("dk.public.use@gmail.com")->send(new LeadMail($isFillOut));//we@brand-hub.ru
+    }else{
+        $isFillOut = false;
+        //Mail::to("mr.serega20@mail.ru")->send(new LeadMail($isFillOut));//we@brand-hub.ru
+        Mail::to("dk.public.use@gmail.com")->send(new LeadMail($isFillOut));//we@brand-hub.ru
+    }
+});
+
+Route::get("/send-order", function (){
+    //Mail::to("mr.serega20@mail.ru")->send(new OrderMail());//we@brand-hub.ru
+    Mail::to("dk.public.use@gmail.com")->send(new OrderMail());//we@brand-hub.ru
 });
 
 Route::get('/about', function () {

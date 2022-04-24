@@ -262,27 +262,27 @@
                     </div>
                     <div class="start-sect__footer">
                         <div class="start-sect__persons">
-                            <label class="start-sect__person">
+                            <label style="display:none;" class="start-sect__person">
                                 <input type="checkbox" required>
                                 <div class="start-sect__person-check"></div>
                                 <div class="start-sect__person-text">Согласен с обработкой персональных данных</div>
                             </label>
-                            <label class="start-sect__person">
+                            <label style="display:none;" class="start-sect__person">
                                 <input type="checkbox" required>
                                 <div class="start-sect__person-check"></div>
                                 <div class="start-sect__person-text">Согласен с пользовательским соглашением</div>
                             </label>
-                            <label class="start-sect__person">
+                            <label style="display:none;" class="start-sect__person">
                                 <input type="checkbox" required>
                                 <div class="start-sect__person-check"></div>
                                 <div class="start-sect__person-text">Согласен с офертой</div>
                             </label>
                         </div>
                         <div class="end-dialog__btns">
-                            <button class="def-btn end-dialog__submit" type="submit"><span>Оплата картой</span></button>
+                            <button class="def-btn end-dialog__submit" style="display:none;" type="submit"><span>Оплата картой</span></button>
                             <button class="def-btn def-btn_second end-dialog__payment" type="submit"><span>Оплата по расчетному счету</span></button>
                         </div>
-                        <div class="start-sect__call"><a class="popup-with-zoom-anim" href="#lead-dialog">Оставить заявку на консультацию</a><br>
+                        <div class="start-sect__call"><a class="popup-with-zoom-anim" name="order" href="#lead-dialog">Оставить заявку на консультацию</a><br>
                             <p>Не бойтесь, мы сохраним все ваши данные.<br>Заново заполнять не придется</p>
                         </div>
                     </div>

@@ -103,7 +103,6 @@ $(function () {
                 var urlsData = [];
                 var tagsData = [];
                 $('.start-sect__check input').each(function (n) {
-                    alert()
                     var data = {};
                     data[$(this).attr('name')] = $(this).is(':checked') ? 'on' : 'off';
                     caseData.push(data);
@@ -559,7 +558,6 @@ $(function () {
         $.post( "update-session", { "emotions_service":text});
     });
     $(".name-input-lead").focusout(function (e) {
-        alert("asd");
         var text = $( this ).val();
         $.post( "update-session", { "name":text});
     });
@@ -595,5 +593,17 @@ $(function () {
 
     $(".start-sect__des input").click(function (e) {
         $.post( "update-session", { des: e.currentTarget.name.substring(3)-1 });
+    });
+
+    $(".lead-dialog__submit").click(function (e) {
+        if(e.currentTarget.name === "order"){
+            $.get( "send-order");
+        }else {
+            $.get("send-lead");
+        }
+    });
+
+    $(".end-dialog__payment").click(function (e) {
+        $.get( "send-order");
     });
 });
