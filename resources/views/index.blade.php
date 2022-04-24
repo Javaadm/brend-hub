@@ -89,7 +89,7 @@
                             <div class="start-sect__checks">
                                 @for ($i = 0; $i < 9; $i++)
                                     <label class="start-sect__check">
-                                        <input type="checkbox" @if(session("images")[$i]["isSelected"]) checked @endif name="case{{ $i+1 }}" ><img class="start-sect__check-bg" src="img/check-{{ $i+1 }}.jpg" alt="">
+                                        <input type="checkbox" @if(session("images")[$i]["isSelected"]) checked @endif name2="product" name="case{{ $i+1 }}" ><img class="start-sect__check-bg" src="img/check-{{ $i+1 }}.jpg" alt="">
                                         <div class="start-sect__check-sw"><img src="img/icons/check.svg" alt=""></div>
                                     </label>
                                 @endfor
@@ -102,7 +102,7 @@
                                 @for ($i = 9; $i < 18; $i++)
 
                                     <label class="start-sect__check">
-                                        <input type="checkbox" @if(session("images")[$i]["isSelected"]) checked @endif name="case{{ $i+1 }}" ><img class="start-sect__check-bg" src="img/check-{{ $i+1 }}.jpg" alt="">
+                                        <input type="checkbox" @if(session("images")[$i]["isSelected"]) checked @endif name2="product" name="case{{ $i+1 }}" ><img class="start-sect__check-bg" src="img/check-{{ $i+1 }}.jpg" alt="">
                                         <div class="start-sect__check-sw"><img src="img/icons/check.svg" alt=""></div>
                                     </label>
                                 @endfor
@@ -118,7 +118,7 @@
                                 @for ($i = 0; $i < 9; $i++)
 
                                     <label class="start-sect__check">
-                                        <input type="checkbox" @if(session("images")[$i]["isSelected"]) checked @endif name="case{{ $i+1 }}" ><img class="start-sect__check-bg" src="img/check-{{ $i+1 }}.jpg" alt="">
+                                        <input type="checkbox" @if(session("images")[$i]["isSelected"]) checked @endif name2="service" name="case{{ $i+1 }}" ><img class="start-sect__check-bg" src="img/check-{{ $i+1 }}.jpg" alt="">
                                         <div class="start-sect__check-sw"><img src="img/icons/check.svg" alt=""></div>
                                     </label>
                                 @endfor
@@ -132,7 +132,7 @@
                                 @for ($i = 9; $i < 18; $i++)
 
                                     <label class="start-sect__check">
-                                        <input type="checkbox" @if(session("images")[$i]["isSelected"]) checked @endif name="case{{ $i+1 }}" ><img class="start-sect__check-bg" src="img/check-{{ $i+1 }}.jpg" alt="">
+                                        <input type="checkbox" @if(session("images")[$i]["isSelected"]) checked @endif name2="service" name="case{{ $i+1 }}" ><img class="start-sect__check-bg" src="img/check-{{ $i+1 }}.jpg" alt="">
                                         <div class="start-sect__check-sw"><img src="img/icons/check.svg" alt=""></div>
                                     </label>
                                 @endfor
@@ -192,8 +192,8 @@
                     <div class="start-sect__step-title">Ассоциации и эмоции</div>
                     <div class="start-sect__step-text start-sect__step-text_big">Это заключительный шаг на вашем пути построения бренда. Поделитесь своими ассоциациями и эмоциями к выбранным картинкам из первого шага.</div>
                     @foreach(session("images") as $key=>$image)
-                        @if($image["isSelected"])
-                            <div class="start-sect__select" >
+
+                            <div class="start-sect__select start-sect__select__step_3 start-sect__select__step_3__{{$key+1}} @if($image["isSelected"]) active @endif" >
                                 <div class="start-sect__check"><img class="start-sect__check-bg" src="img/check-{{$loop->index+1}}.jpg" alt=""></div>
                                 <div class="start-sect__tags">
                                     @foreach($emotionsValue as $keyEmotion =>$emotionValue)
@@ -204,7 +204,7 @@
                                     @endforeach
                                 </div>
                             </div>
-                        @endif
+
                     @endforeach
                     <div class="start-sect__step-next"><a class="def-btn" id="step-btn-3" href="#step-4"><span>Далее</span></a></div>
                 </div>
@@ -214,9 +214,9 @@
                     <div class="start-sect__step-text start-sect__step-text_big">Это заключительный шаг на твоем пути построения бренда, поделитесь в свободной форме своими ассоциациями и эмоциями к выбранным кейсам из первого шага.</div>
                     <div class="start-sect__checks start-sect__checks_items">
                         @foreach(session("images") as $key=>$image)
-                            @if($image["isSelected"])
-                                <div class="start-sect__check"><img class="start-sect__check-bg" src="img/check-{{$key+1}}.jpg" alt=""></div>
-                            @endif
+
+                                <div class="start-sect__check start-sect__check__step_3 start-sect__check__step_3__{{$key+1}} @if($image["isSelected"]) active @endif"><img class="start-sect__check-bg  " src="img/check-{{$key+1}}.jpg" alt=""></div>
+
                         @endforeach
 
                     </div>

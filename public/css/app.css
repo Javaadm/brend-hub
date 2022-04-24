@@ -3477,6 +3477,13 @@ a:hover, a:focus, a:active, button:hover, button:focus, button:active {
     -o-transition: all .3s ease-out;
     transition: all .3s ease-out;
     will-change: transform; }
+.start-sect__check__step_3 {
+    display: none;
+}
+
+.start-sect__check__step_3.active {
+    display: flex;
+}
 .start-sect__check-sw {
     background-color: #fff;
     position: absolute;
@@ -3872,15 +3879,22 @@ a:hover, a:focus, a:active, button:hover, button:focus, button:active {
     -ms-transform: scale(1);
     transform: scale(1); }
 .start-sect__select {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
     margin-bottom: 50px;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
+
+.start-sect__select__step_3 {
+ display: none;
+}
+.start-sect__select__step_3.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
 @media only screen and (max-width: 768px) {
     .start-sect__select {
         margin-bottom: 35px; } }

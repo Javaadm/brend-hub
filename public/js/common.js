@@ -94,7 +94,7 @@ $(function () {
         removalDelay: 300,
         mainClass: 'my-mfp-zoom-in'
     });
-    
+
     $('.popup-with-steps-anim').magnificPopup({
         type: 'inline',
         fixedContentPos: false,
@@ -525,7 +525,6 @@ $(function () {
             $(id).stop().slideToggle(300);
             scrollTo(id);
             $.post( "update-session", { step: 3 });
-            location.reload();
         } else {
             scrollTo('.start-sect__dess');
         }
@@ -548,8 +547,23 @@ $(function () {
 
     $(".start-sect__check input").click(function (e) {
         $.post( "update-session", { image: e.currentTarget.name.substring(4)-1 });
-    });
+        let card;
+        
+        if ($(this).attr("name2")!="product"){
+            card = $(".start-sect__check__step_3__"+(e.currentTarget.name.substring(4)).toString());
+        }else{
+            card = $(".start-sect__select__step_3__"+(e.currentTarget.name.substring(4)).toString());
+        }
 
+        if( card.hasClass("active")){
+            card.removeClass("active");
+        }else{
+            card.addClass("active");
+        }
+
+
+
+    });
     function scrollTo(id) {
         $('html, body').stop().animate({
             scrollTop: "".concat($(id).offset().top, "px")
