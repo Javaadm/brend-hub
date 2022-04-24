@@ -303,10 +303,13 @@ Route::get('/projects/wellroom', function () {
         return view('/projects/wellroom');
     });
 Route::get('/projects/zavod-lestnic-na-metallicheskom-karkase', function () {
-        return view('zavod-lestnic-na-metallicheskom-karkase');
+        return view('/projects/zavod-lestnic-na-metallicheskom-karkase');
     });
 Route::get('/brend-i-dizayn-upakovki', function () {
         return view('brend-i-dizayn-upakovki');
+    });
+Route::get('/ekspress-dizayn', function () {
+        return view('ekspress-dizayn');
     });
 Route::get('/services/branding', function () {
         return view('/services/branding');

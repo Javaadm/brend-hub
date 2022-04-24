@@ -26,7 +26,7 @@
                 </a>
                 <div class="main-header__content">
                     <ul class="main-header__nav">
-                        <li><a href="../about/">О нас</a></li>
+                        <!-- <li><a href="../about/">О нас</a></li> -->
                         <li><a href="../projects">Проекты</a></li>
                         <li><a href="../">Услуги</a></li>
                         <li><a href="../blogs/">Блог</a></li>
@@ -278,7 +278,7 @@
                     </div>
                     <div class="main-footer__column2">
                         <ul class="main-footer__nav">
-                            <li><a href="../about/">О нас</a></li>
+                            <!-- <li><a href="../about/">О нас</a></li> -->
                             <li><a href="../projects">Проекты</a></li>
                             <li><a href="../">Услуги</a></li>
                             <li><a href="../blogs/">Блог</a></li>
