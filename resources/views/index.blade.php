@@ -23,7 +23,7 @@
                             <rect x="21.0521" y="21.9601" width="29" height="2" rx="1" transform="rotate(-135 21.0521 21.9601)" fill="#0068FF" />
                         </svg></a>
                     <ul class="main-header__nav">
-                        <li><a href="/about">О нас</a></li>
+                        <!-- <li><a href="/about">О нас</a></li> -->
                         <li><a href="/projects/">Портфолио</a></li>
                         <li class="main-header__nav-sub"><a href="#">Услуги</a>
                             <ul>
@@ -37,7 +37,7 @@
                         </li>
                         <li><a href="/blogs/">Блог</a></li>
                         <li><a href="http://brand-hub.tilda.ws/freelance">Cотрудничество</a></li>
-                    </ul><a class="def-btn main-header__create" href="/"><span>Создать бренд</span></a>
+                    </ul><a class="def-btn main-header__create" href="#"><span>Создать бренд</span></a>
                 </div>
             </div>
         </header>
@@ -495,24 +495,24 @@
                 </ul>
                 <div class="main-footer__info">
                     <p>© brand hub, 2022</p>
-                    <p>Оферта - <a href="https://brand-hub.ru/oferta/">скачивание документа</a><br><a class="main-footer__info-link" href="https://brand-hub.ru/terms/">Пользовательское соглашение</a><br><a class="main-footer__info-link" href="https://brand-hub.ru/policy/">Политика обработки персональных данных</a></p>
+                    <p>Оферта - <a href="/files/oferta.pdf">скачивание документа</a><br><a class="main-footer__info-link" href="/files/terms.pdf">Пользовательское соглашение</a><br><a class="main-footer__info-link" href="/files/policy.pdf">Политика обработки персональных данных</a></p>
                 </div>
             </div>
             <ul class="main-footer__nav">
-                <li><a href="../../brand-hub.ru/about/index.html">О нас</a></li>
-                <li><a href="../../brand-hub.ru/projects/index.html">Проекты</a></li>
-                <li><a href="../../brand-hub.ru/blog/index.html">Блог</a></li>
+                <!-- <li><a href="../../brand-hub.ru/about/index.html">О нас</a></li> -->
+                <li><a href="/projects/">Проекты</a></li>
+                <li><a href="/blogs/">Блог</a></li>
                 <li><a href="http://brand-hub.tilda.ws/freelance">Сотрудничество</a></li>
             </ul>
             <ul class="main-footer__nav">
-                <li><a href="../../brand-hub.ru/services/branding.html">Брендинг</a></li>
-                <li><a href="https://brand-hub.ru/services/rebranding.html">Ребрендинг</a></li>
-                <li><a href="https://brand-hub.ru/services/package.html">Дизайн упаковки</a></li>
+                <li><a href="/services/branding">Брендинг</a></li>
+                <li><a href="/services/rebranding">Ребрендинг</a></li>
+                <li><a href="/services/package">Дизайн упаковки</a></li>
             </ul>
             <ul class="main-footer__nav">
-                <li><a href="https://brand-hub.ru/services/firmstyle.html">Фирменный стиль</a></li>
-                <li><a href="https://brand-hub.ru/services/naming.html">Нейминг</a></li>
-                <li><a href="https://brand-hub.ru/services/brandbook.html">Брендбук</a></li>
+                <li><a href="/services/firmstyle">Фирменный стиль</a></li>
+                <li><a href="/services/naming">Нейминг</a></li>
+                <li><a href="/services/brandbook">Брендбук</a></li>
             </ul>
             <div class="main-footer__column">
                 <div class="main-footer__text">
