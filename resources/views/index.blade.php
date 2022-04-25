@@ -420,7 +420,7 @@
                     <div class="proj-sect__title-desc">Уже создано:</div>114 брендов в <span>47 сферах</span>
                 </div>
                 <div class="proj-sect__items"><a class="proj-sect__item proj-sect__item_big" href="/projects/belyy-gorod/"><img class="lazy" data-src="img/p-7.jpg" alt=""></a><a class="proj-sect__item" href="#"><img class="lazy" data-src="img/p-8.jpg" alt=""></a><a class="proj-sect__item" href="#"><img class="lazy" data-src="img/p-9.jpg" alt=""></a><a class="proj-sect__item proj-sect__item_big" href="#"><img class="lazy" data-src="img/p-10.jpg" alt=""></a><a class="proj-sect__item proj-sect__item_big" href="#"><img class="lazy" data-src="img/p-11.jpg" alt=""></a><a class="proj-sect__item" href="#"><img class="lazy" data-src="img/p-12.jpg" alt=""></a></div>
-                <div class="proj-sect__more"><a class="def-btn" href="#"><span>Все проекты</span></a></div>
+                <div class="proj-sect__more"><a class="def-btn" href="/projects/"><span>Все проекты</span></a></div>
             </div>
         </div>
         <!--=======================================================================================-->
