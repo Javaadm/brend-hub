@@ -11,12 +11,12 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#000">
     <link rel="manifest" href="{{ asset('manifest.json') }}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <!-- Yandex.Metrika counter --> 
-    <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(51242554, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/51242554" style="position:absolute; left:-9999px;" alt="" /></div></noscript> 
-    <!-- /Yandex.Metrika counter -->
 </head>
 
 <body>
+        <!-- Yandex.Metrika counter --> 
+    <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(51242554, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/51242554" style="position:absolute; left:-9999px;" alt="" /></div></noscript> 
+    <!-- /Yandex.Metrika counter -->
     <div class="wrapper wrapper_fixed">
         <!--=======================================================================================-->
         <header class="main-header main-header_fixed">
@@ -84,7 +84,7 @@
                 <div class="start-sect__step @if(session("step") >= 1) active @endif" id="step-1">
                     <div class="start-sect__step-desc">Шаг 1</div>
                     <div class="start-sect__step-title">Настроение и характер</div>
-                    <div class="start-sect__step-text">Отметьте понравившиеся варианты дизайна, а мы подберём соответствующую команду</div>
+                    <div class="start-sect__step-text">Отметьте понравившиеся варианты дизайна, <br>а мы подберём соответствующую команду</div>
                     <div class="start-sect__tabs"><a class="start-sect__tab @if(session("type") == 1) active @endif" href="#checks-container-1" data-step-id="#step-3">Для товаров</a>
                         <a class="start-sect__tab last @if(session("type") == 2) active @endif" href="#checks-container-2" data-step-id="#step-3-dop">Для услуг</a></div>
                     <div class="start-sect__tabs-container @if(session("type") == 1) active @endif" id="checks-container-1">
@@ -148,8 +148,8 @@
                 </div>
                 <div class="start-sect__step @if(session("step") >= 2) active @endif" id="step-2">
                     <div class="start-sect__step-desc">Шаг 2</div>
-                    <div class="start-sect__step-title">Информация о твоей компании</div>
-                    <div class="start-sect__step-text">На этом шаге необходимо понять у тебя за бизнес. Укажи чем занимается твоя компания.</div>
+                    <div class="start-sect__step-title">Информация о вашей компании</div>
+                    <div class="start-sect__step-text">На этом шаге необходимо понять у вас за бизнес. <br>Укажите чем занимается ваша компания.</div>
                     <div class="start-sect__labels">
                         <input class="start-sect__labels-input" id="labels-input" type="text" value="{{ session("category_label") }}" placeholder="Фабрика окон" data-sw="">
                         <div class="start-sect__labels-items">
@@ -163,7 +163,7 @@
                         </div>
                     </div>
                     <div class="start-sect__step-title">Особенности компании</div>
-                    <div class="start-sect__step-text">Выберите одну или несколько карточек уникальных свойств твоего бренда, это необходимо для подбора того самого дизайнера.</div>
+                    <div class="start-sect__step-text">Выберите одну или несколько карточек уникальных свойств вашего бренда, это необходимо для создания платформы бренда.</div>
                     <div class="start-sect__dess">
                         @foreach ( $dessArray as $des)
                             <label class="start-sect__des">
@@ -214,7 +214,7 @@
                 <div class="start-sect__step @if(session("step") >= 3 and session("type")==2) active @endif" id="step-3-dop">
                     <div class="start-sect__step-desc">Шаг 3</div>
                     <div class="start-sect__step-title">Ассоциации и эмоции</div>
-                    <div class="start-sect__step-text start-sect__step-text_big">Это заключительный шаг на твоем пути построения бренда, поделитесь в свободной форме своими ассоциациями и эмоциями к выбранным кейсам из первого шага.</div>
+                    <div class="start-sect__step-text start-sect__step-text_big">Это заключительный шаг на вашем пути построения бренда, поделитесь в свободной форме своими ассоциациями и эмоциями к выбранным кейсам из первого шага.</div>
                     <div class="start-sect__checks start-sect__checks_items">
                         @foreach(session("images") as $key=>$image)
 
@@ -231,7 +231,7 @@
                 <div class="start-sect__step @if(session("step") >= 4) active @endif" id="step-4">
                     <div class="start-sect__step-desc">Итог</div>
                     <div class="start-sect__step-title">Спасибо! Это и было ТЗ!</div>
-                    <div class="start-sect__step-text">Больше не будет сложных форм и вопросов. Мы выбрали для вас один из пакетов наших услуг. Готовы приступить к работе.</div>
+                    <div class="start-sect__step-text">Больше не будет сложных форм и вопросов. <br>Мы выбрали для вас один из пакетов наших услуг. <br>Готовы приступить к работе.</div>
                     <div class="end-dialog__packs">
                         <div class="end-dialog__pack @if(session("tariff") == 1) active @endif" number="1">
                             <input type="checkbox" checked>
@@ -257,7 +257,7 @@
                             <div class="start-sect__step-title">Ой, кажется вы забыли выбрать пакет</div>
                         </div>
                     </div>
-                    <div class="end-dialog__subtitle">Подскажите Ваши контакты, чтобы мы Вас не потеряли</div>
+                    <div class="end-dialog__subtitle">Напишите ваши контакты, чтобы мы вас не потеряли</div>
                     <div class="end-dialog__inputs">
                         <input class="form__input end-dialog__input" id="name-input" type="text" value="{{ session("name") }}" placeholder="Иванов Иван Иванович" required>
                         <input class="form__input end-dialog__input" id="phone-input" type="text" value="{{ session("phone") }}" name="phone" placeholder="+7 777 777 77 77" required>
@@ -300,6 +300,8 @@
         <!--=======================================================================================-->
         <div class="steps-sect">
             <div class="steps-sect__container">
+                <!-- <div class="def-title com-sect__title">Как мы работаем?</div> //слишком низко
+                <br> -->
                 <div class="steps-sect__items">
                     <div class="steps-sect__item">
                         <div class="steps-sect__item-icons"><img src="img/icons/sicon-1.png" alt=""></div>
@@ -326,15 +328,15 @@
                 </div>
                 <div class="thanks-dialog zoom-anim-dialog mfp-hide" id="thanks-dialog2">
                     <div class="thanks-dialog__container">
-                        <div class="thanks-dialog__title">Спасибо!<br>В ближайшее время вам на почту пришлем договор.</div>
-                        <div class="thanks-dialog__text">После оплаты вы получите исследование вашего рынка, с учетом которого будет производиться дизайн.</div>
+                        <div class="thanks-dialog__title">Спасибо!<br>В ближайшее время пришлем вам на почту договор.</div>
+                        <div class="thanks-dialog__text">После оплаты с вами свяжется менеджер и назначит онлайн-встречу с арт-директором проекта.</div>
                         <button class="def-btn thanks-dialog__submit "><span>Спасибо</span></button>
                     </div>
                 </div>
                 <div class="thanks-dialog zoom-anim-dialog mfp-hide" id="thanks-dialog3">
                     <div class="thanks-dialog__container">
                         <div class="thanks-dialog__title">Спасибо за обращение!</div>
-                        <div class="thanks-dialog__text">Наш консультант вам перезвонит   в самое ближайшее время.</div>
+                        <div class="thanks-dialog__text">Наш консультант вам перезвонит в самое ближайшее время.</div>
                         <button class="def-btn thanks-dialog__submit "><span>Хорошо</span></button>
                     </div>
                 </div>
