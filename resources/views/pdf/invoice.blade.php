@@ -116,7 +116,7 @@
                         @foreach(session("images") as $key=>$image)
 
                             @if($image["isSelected"])
-                                <div><img src="img/check-{{$key+1}}.jpg" alt=""></div>
+                                <div><img src="img/check-{{$key+19}}.jpg" alt=""></div>
                             @endif
                         @endforeach
                     </div>

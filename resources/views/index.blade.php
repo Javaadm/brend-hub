@@ -14,8 +14,8 @@
 </head>
 
 <body>
-        <!-- Yandex.Metrika counter --> 
-    <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(51242554, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/51242554" style="position:absolute; left:-9999px;" alt="" /></div></noscript> 
+        <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(51242554, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/51242554" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
     <!-- /Yandex.Metrika counter -->
     <div class="wrapper wrapper_fixed">
         <!--=======================================================================================-->
@@ -121,7 +121,7 @@
                                 @for ($i = 0; $i < 9; $i++)
 
                                     <label class="start-sect__check">
-                                        <input type="checkbox" @if(session("images")[$i]["isSelected"]) checked @endif name2="service" name="case{{ $i+1 }}" ><img class="start-sect__check-bg" src="img/check-{{ $i+1 }}.jpg" alt="">
+                                        <input type="checkbox" @if(session("images")[$i]["isSelected"]) checked @endif name2="service" name="case{{ $i+1 }}" ><img class="start-sect__check-bg" src="img/check-{{ $i+19 }}.jpg" alt="">
                                         <div class="start-sect__check-sw"><img src="img/icons/check.svg" alt=""></div>
                                     </label>
                                 @endfor
@@ -135,7 +135,7 @@
                                 @for ($i = 9; $i < 18; $i++)
 
                                     <label class="start-sect__check">
-                                        <input type="checkbox" @if(session("images")[$i]["isSelected"]) checked @endif name2="service" name="case{{ $i+1 }}" ><img class="start-sect__check-bg" src="img/check-{{ $i+1 }}.jpg" alt="">
+                                        <input type="checkbox" @if(session("images")[$i]["isSelected"]) checked @endif name2="service" name="case{{ $i+1 }}" ><img class="start-sect__check-bg" src="img/check-{{ $i+19 }}.jpg" alt="">
                                         <div class="start-sect__check-sw"><img src="img/icons/check.svg" alt=""></div>
                                     </label>
                                 @endfor
@@ -218,7 +218,7 @@
                     <div class="start-sect__checks start-sect__checks_items">
                         @foreach(session("images") as $key=>$image)
 
-                                <div class="start-sect__check start-sect__check__step_3 start-sect__check__step_3__{{$key+1}} @if($image["isSelected"]) active @endif"><img class="start-sect__check-bg  " src="img/check-{{$key+1}}.jpg" alt=""></div>
+                                <div class="start-sect__check start-sect__check__step_3 start-sect__check__step_3__{{$key+1}} @if($image["isSelected"]) active @endif"><img class="start-sect__check-bg  " src="img/check-{{$key+19}}.jpg" alt=""></div>
 
                         @endforeach
 

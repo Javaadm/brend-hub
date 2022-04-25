@@ -548,7 +548,7 @@ $(function () {
     $(".start-sect__check input").click(function (e) {
         $.post( "update-session", { image: e.currentTarget.name.substring(4)-1 });
         let card;
-        
+
         if ($(this).attr("name2")!="product"){
             card = $(".start-sect__check__step_3__"+(e.currentTarget.name.substring(4)).toString());
         }else{
