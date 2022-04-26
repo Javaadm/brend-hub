@@ -29,17 +29,17 @@ Route::get("/send-lead", function (){
     $isFillOut = true;
     if(session("step")>1){
         //Mail::to("mr.serega20@mail.ru")->send(new LeadMail($isFillOut));//we@brand-hub.ru
-        Mail::to("dk.public.use@gmail.com")->send(new LeadMail($isFillOut));//we@brand-hub.ru
+        Mail::to("we@brand-hub.ru")->send(new LeadMail($isFillOut));//we@brand-hub.ru
     }else{
         $isFillOut = false;
         //Mail::to("mr.serega20@mail.ru")->send(new LeadMail($isFillOut));//we@brand-hub.ru
-        Mail::to("dk.public.use@gmail.com")->send(new LeadMail($isFillOut));//we@brand-hub.ru
+        Mail::to("we@brand-hub.ru")->send(new LeadMail($isFillOut));//we@brand-hub.ru
     }
 });
 
 Route::get("/send-order", function (){
     //Mail::to("mr.serega20@mail.ru")->send(new OrderMail());//we@brand-hub.ru
-    Mail::to("dk.public.use@gmail.com")->send(new OrderMail());//we@brand-hub.ru
+    Mail::to("we@brand-hub.ru")->send(new OrderMail());//we@brand-hub.ru
 });
 
 Route::get('/about', function () {
