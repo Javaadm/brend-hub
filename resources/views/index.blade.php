@@ -149,7 +149,7 @@
                 <div class="start-sect__step @if(session("step") >= 2) active @endif" id="step-2">
                     <div class="start-sect__step-desc">Шаг 2</div>
                     <div class="start-sect__step-title">Информация о вашей компании</div>
-                    <div class="start-sect__step-text">На этом шаге необходимо понять у вас за бизнес. <br>Укажите чем занимается ваша компания.</div>
+                    <div class="start-sect__step-text">На этом шаге необходимо понять что у вас за бизнес. <br>Укажите чем занимается ваша компания.</div>
                     <div class="start-sect__labels">
                         <input class="start-sect__labels-input" id="labels-input" type="text" value="{{ session("category_label") }}" placeholder="Фабрика окон" data-sw="">
                         <div class="start-sect__labels-items">
