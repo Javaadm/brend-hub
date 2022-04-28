@@ -159,7 +159,7 @@
                             <a class="start-sect__labels-item @if(session("category_label")==="Кальянная") active @endif " href="#labels-input" data-value="Кальянная">Кальянная</a>
                             <a class="start-sect__labels-item @if(session("category_label")==="Пиццерия") active @endif " href="#labels-input" data-value="Пиццерия">Пиццерия</a>
                             <a class="start-sect__labels-item @if(session("category_label")==="Стоматология") active @endif " href="#labels-input" data-value="Стоматология">Стоматология</a>
-                            <a class="start-sect__labels-item @if(session("category_label")==="Медицинский центр") active @endif " href="#labels-input" data-value="Стартап">Медицинский центр</a>
+                            <a class="start-sect__labels-item @if(session("category_label")==="Медицинский центр") active @endif " href="#labels-input" data-value="Медицинский центр">Медицинский центр</a>
                         </div>
                     </div>
                     <div class="start-sect__step-title">Особенности компании</div>
