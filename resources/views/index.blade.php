@@ -38,7 +38,7 @@
                                 <li><a href="/services/brandbook">Брендбук</a></li>
                             </ul>
                         </li>
-                        <li><a href="/blogs/">Блог</a></li>
+                        <li><a href="/blog/">Блог</a></li>
                         <li><a href="http://brand-hub.tilda.ws/freelance">Cотрудничество</a></li>
                     </ul><a class="def-btn main-header__create" href="#"><span>Создать бренд</span></a>
                 </div>
@@ -521,7 +521,7 @@
             <ul class="main-footer__nav">
                 <!-- <li><a href="../../brand-hub.ru/about/index.html">О нас</a></li> -->
                 <li><a href="/projects/">Проекты</a></li>
-                <li><a href="/blogs/">Блог</a></li>
+                <li><a href="/blog/">Блог</a></li>
                 <li><a href="http://brand-hub.tilda.ws/freelance">Сотрудничество</a></li>
             </ul>
             <ul class="main-footer__nav">

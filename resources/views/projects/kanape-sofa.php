@@ -30,7 +30,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             Портфолио
                         </a></div><div class="mx-5 xl:mx-3"><a href="/" class="text-lg font-medium transition-fast hover:text-blue-700">
                             Услуги
-                        </a></div><div class="mx-5 xl:mx-3"><a href="/blogs/" class="text-lg font-medium transition-fast hover:text-blue-700">
+                        </a></div><div class="mx-5 xl:mx-3"><a href="/blog/" class="text-lg font-medium transition-fast hover:text-blue-700">
                             Блог
                         </a></div><div class="mx-5 xl:mx-3"><a href="http://brand-hub.tilda.ws/freelance" target="_blank" class="text-lg font-medium transition-fast hover:text-blue-700">
                             Сотрудничество
@@ -96,7 +96,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             Проекты
                         </a></div><div class="mb-6 last:mb-0 lg:mb-4 lg:last:mb-0"><a href="/" class="text-lg font-medium text-white transition-fast hover:text-opacity-70 lg:text-base">
                             Услуги
-                        </a></div><div class="mb-6 last:mb-0 lg:mb-4 lg:last:mb-0"><a href="/blogs/" class="text-lg font-medium text-white transition-fast hover:text-opacity-70 lg:text-base">
+                        </a></div><div class="mb-6 last:mb-0 lg:mb-4 lg:last:mb-0"><a href="/blog/" class="text-lg font-medium text-white transition-fast hover:text-opacity-70 lg:text-base">
                             Блог
                         </a></div><!-- <div class="mb-6 last:mb-0 lg:mb-4 lg:last:mb-0"><a href="../../contacts/index.html" class="text-lg font-medium text-white transition-fast hover:text-opacity-70 lg:text-base">
                             Контакты

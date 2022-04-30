@@ -29,7 +29,7 @@
                         <!-- <li><a href="../about/">О нас</a></li> -->
                         <li><a href="../projects">Проекты</a></li>
                         <li><a href="../">Услуги</a></li>
-                        <li><a href="../blogs/">Блог</a></li>
+                        <li><a href="../blog/">Блог</a></li>
                         <li><a href="http://brand-hub.tilda.ws/freelance">Сотрудничество</a></li> 
                     </ul>
                     <div class="main-header__ctrls"><a class="main-header__brand" href="/">Создать бренд</a>
@@ -250,17 +250,17 @@
         <div class="blog-sect">
             <div class="blog-sect__container">
                 <div class="def-title blog-sect__title">Наш блог про создание </div>
-                <div class="blog-sect__items"><a class="blog-sect__item" href="../blogs/10-servisov-dlya-samostoyatelnogo-neyminga/">
+                <div class="blog-sect__items"><a class="blog-sect__item" href="../blog/10-servisov-dlya-samostoyatelnogo-neyminga/">
                     <div class="blog-sect__item-img"><img class="lazy" data-src="/img/blog-1.jpg" alt="" height="250"></div>
                     <div class="blog-sect__item-title">10 сервисов для самостоятельного нейминга</div>
-                </a><a class="blog-sect__item" href="../blogs/rebrending-desyat-prichin-chtoby-izmenitsya/">
+                </a><a class="blog-sect__item" href="../blog/rebrending-desyat-prichin-chtoby-izmenitsya/">
                     <div class="blog-sect__item-img"><img class="lazy" data-src="/img/blog-2.jpg" alt="" height="250"></div>
                     <div class="blog-sect__item-title">Ребрендинг: десять причин чтобы измениться</div>
-                </a><a class="blog-sect__item" href="../blogs/elementy-i-nositeli-firmennogo-stilya/">
+                </a><a class="blog-sect__item" href="../blog/elementy-i-nositeli-firmennogo-stilya/">
                     <div class="blog-sect__item-img"><img class="lazy" data-src="/img/blog-3.jpg" alt="" height="250"></div>
                     <div class="blog-sect__item-title">Элементы и носители фирменного стиля</div>
                 </a></div>
-                <div class="blog-sect__btn"><a class="def-btn" href="../blogs/"><span>Читать блог</span><img src="/img/icons/btn-arrow.svg" alt=""></a></div>
+                <div class="blog-sect__btn"><a class="def-btn" href="../blog/"><span>Читать блог</span><img src="/img/icons/btn-arrow.svg" alt=""></a></div>
                 
             </div>
         </div>
@@ -279,7 +279,7 @@
                             <!-- <li><a href="../about/">О нас</a></li> -->
                             <li><a href="../projects">Проекты</a></li>
                             <li><a href="../">Услуги</a></li>
-                            <li><a href="../blogs/">Блог</a></li>
+                            <li><a href="../blog/">Блог</a></li>
                             <li><a href="http://brand-hub.tilda.ws/freelance">Сотрудничество</a></li> 
                         </ul>
                     </div>
