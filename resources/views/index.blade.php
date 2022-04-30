@@ -419,7 +419,7 @@
                 <div class="proj-sect__title">
                     <div class="proj-sect__title-desc">Уже создано:</div>114 брендов в <span>47 сферах</span>
                 </div>
-                <div class="proj-sect__items"><a class="proj-sect__item proj-sect__item_big" href="/projects/belyy-gorod/"><img class="lazy" data-src="img/p-7.jpg" alt=""></a><a class="proj-sect__item" href="#"><img class="lazy" data-src="img/p-8.jpg" alt=""></a><a class="proj-sect__item" href="#"><img class="lazy" data-src="img/p-9.jpg" alt=""></a><a class="proj-sect__item proj-sect__item_big" href="#"><img class="lazy" data-src="img/p-10.jpg" alt=""></a><a class="proj-sect__item proj-sect__item_big" href="#"><img class="lazy" data-src="img/p-11.jpg" alt=""></a><a class="proj-sect__item" href="#"><img class="lazy" data-src="img/p-12.jpg" alt=""></a></div>
+                <div class="proj-sect__items"><a class="proj-sect__item proj-sect__item_big" href="/projects/belyy-gorod/"><img class="lazy" data-src="img/p-7.jpg" alt=""></a><a class="proj-sect__item" href="/projects/masterskie-vilmera/"><img class="lazy" data-src="img/p-8.jpg" alt=""></a><a class="proj-sect__item" href="/projects/belyy-sleco/"><img class="lazy" data-src="img/p-9.jpg" alt=""></a><a class="proj-sect__item proj-sect__item_big" href="/projects/bumazhnyy-bum/"><img class="lazy" data-src="img/p-10.jpg" alt=""></a><a class="proj-sect__item proj-sect__item_big" href="/projects/lia-lab/"><img class="lazy" data-src="img/p-11.jpg" alt=""></a><a class="proj-sect__item" href="/projects/vegaburger/"><img class="lazy" data-src="img/p-12.jpg" alt=""></a></div>
                 <div class="proj-sect__more"><a class="def-btn" href="/projects/"><span>Все проекты</span></a></div>
             </div>
         </div>
@@ -430,7 +430,7 @@
                     <div class="def-title">
                         <div class="def-title__first"><img src="img/icons/stroke.svg" alt=""><span>Собственная</span></div><br><span>образовательная программа</span>
                     </div>
-                    <p>Постоянно находим и воспитываем новую кровь - <a href="#">Depot.camp</a></p>
+                    <p>Постоянно находим и воспитываем новую кровь - <a href="http://depot.camp">Depot.camp</a></p>
                 </div>
                 <div class="depot-sect__img" style="color: #1D1D1D"><img class="lazy" data-src="img/depot.png" alt=""></div>
             </div>

@@ -86,7 +86,8 @@
                         href="../projects/"> <span>все проекты</span><img src="/img/icons/more-arrow.svg" alt=""></a></div>
                 </div>
             </div>
-        </div>        <!--=======================================================================================-->
+        </div>       
+        <!--=======================================================================================-->
         <div class="why-sect">
             <div class="why-sect__container">
                 <div class="def-title why-sect__title">Почему brand hub?</div>
@@ -249,17 +250,17 @@
         <div class="blog-sect">
             <div class="blog-sect__container">
                 <div class="def-title blog-sect__title">Наш блог про создание </div>
-                <div class="blog-sect__items"><a class="blog-sect__item" href="../blogs/">
+                <div class="blog-sect__items"><a class="blog-sect__item" href="../blogs/10-servisov-dlya-samostoyatelnogo-neyminga/">
                     <div class="blog-sect__item-img"><img class="lazy" data-src="/img/blog-1.jpg" alt="" height="250"></div>
                     <div class="blog-sect__item-title">10 сервисов для самостоятельного нейминга</div>
-                </a><a class="blog-sect__item" href="../blog/10-servisov-dlya-samostoyatelnogo-neyminga/index.html">
+                </a><a class="blog-sect__item" href="../blogs/rebrending-desyat-prichin-chtoby-izmenitsya/">
                     <div class="blog-sect__item-img"><img class="lazy" data-src="/img/blog-2.jpg" alt="" height="250"></div>
                     <div class="blog-sect__item-title">Ребрендинг: десять причин чтобы измениться</div>
-                </a><a class="blog-sect__item" href="../blog/rebrending-desyat-prichin-chtoby-izmenitsya/index.html">
+                </a><a class="blog-sect__item" href="../blogs/elementy-i-nositeli-firmennogo-stilya/">
                     <div class="blog-sect__item-img"><img class="lazy" data-src="/img/blog-3.jpg" alt="" height="250"></div>
                     <div class="blog-sect__item-title">Элементы и носители фирменного стиля</div>
                 </a></div>
-                <div class="blog-sect__btn"><a class="def-btn" href="../blogs/elementy-i-nositeli-firmennogo-stilya/index.html"><span>Читать блог</span><img src="/img/icons/btn-arrow.svg" alt=""></a></div>
+                <div class="blog-sect__btn"><a class="def-btn" href="../blogs/"><span>Читать блог</span><img src="/img/icons/btn-arrow.svg" alt=""></a></div>
                 
             </div>
         </div>
@@ -267,10 +268,10 @@
         <footer class="main-footer">
             <div class="main-footer__container">
                 <div class="main-footer__content">
-                    <div class="main-footer__column1"><a class="main-footer__logo" href="../index.html"><img src="/img/footer-logo.svg" alt=""></a>
+                    <div class="main-footer__column1"><a class="main-footer__logo" href="../"><img src="/img/footer-logo.svg" alt=""></a>
                         <div class="main-footer__desc">
                             <p>© brand hub, 2021-2022</p>
-                            <p><a href="https://brand-hub.ru/policy/">Полититка конфиденциальности</a><br><a href="files/oferta.pdf/">Договор оферты</a><a href="https://brand-hub.ru/terms/">Пользовательское соглашение</a></p>
+                            <p><a href="/files/policy.pdf">Полититка конфиденциальности</a><br><a href="/files/oferta.pdf">Договор оферты</a><a href="/files/terms.pdf">Пользовательское соглашение</a></p>
                         </div>
                     </div>
                     <div class="main-footer__column2">

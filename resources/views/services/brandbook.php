@@ -79,13 +79,13 @@
         <div class="portf-sect">
             <div class="portf-sect__container">
                 <div class="def-title portf-sect__title">Наше портфолио</div>
-                <div class="portf-sect__content"><a class="portf-sect__item portf-sect__item_big" href="../projects/lia-lab/index.html"><img src=".img/port-16.jpg" alt=""></a><a class="portf-sect__item" 
-                    href="../projects/starry-tale/index.html"><img src="/img/port-15.jpg"
+                <div class="portf-sect__content"><a class="portf-sect__item portf-sect__item_big" href="../projects/lia-lab/"><img src="/img/port-16.jpg" alt=""></a><a class="portf-sect__item" 
+                    href="../projects/starry-tale/"><img src="/img/port-15.jpg"
                         alt=""></a><a class="portf-sect__item" 
-                            href="../projects/velikaya/index.html"><img src="/img/port-17.jpg" alt=""></a><a class="portf-sect__item" 
-                                href="../projects/miracool/index.html"><img src="/img/port-18.jpg" alt=""></a>
+                            href="../projects/velikaya/"><img src="/img/port-17.jpg" alt=""></a><a class="portf-sect__item" 
+                                href="../projects/miracool/"><img src="/img/port-18.jpg" alt=""></a>
                     <div class="portf-sect__more"><a class="portf-sect__more-item" 
-                        href="../projects/index.html"> <span>все проекты</span><img src="/img/icons/more-arrow.svg" alt=""></a></div>
+                        href="../projects/"> <span>все проекты</span><img src="/img/icons/more-arrow.svg" alt=""></a></div>
                 </div>
             </div>
         </div>
@@ -179,7 +179,7 @@
                 </div>
                 <div class="when-sect__footer">
                     <div class="when-sect__footer-content">
-                        <p>А что же исключения? Кто может обойтись без разработки и изготовления брендбука? В первую очередь это самозанятые и микропредприятия, в штате которых состоит 5-10 человек. При этом следует отметить, что если в будущем компания планирует расширение, то о разработке брендбука стоит задуматься заранее. Документ поможет избежать размытия образа бренда при открытии филиалов или продаже франшиз.</p><a class="def-btn" href="../index.html#services"><span>Заказать</span><img src="/img/icons/btn-arrow.svg" alt=""></a>
+                        <p>А что же исключения? Кто может обойтись без разработки и изготовления брендбука? В первую очередь это самозанятые и микропредприятия, в штате которых состоит 5-10 человек. При этом следует отметить, что если в будущем компания планирует расширение, то о разработке брендбука стоит задуматься заранее. Документ поможет избежать размытия образа бренда при открытии филиалов или продаже франшиз.</p><a class="def-btn" href="/"><span>Заказать</span><img src="/img/icons/btn-arrow.svg" alt=""></a>
                     </div>
                     <div class="when-sect__footer-img"><img class="lazy" data-src="/img/img-11.jpg" alt="" height="409"></div>
                 </div>
@@ -213,7 +213,7 @@
                             </div>
                         </div>
                         <div class="stages-sect__call stages-sect__call_footer">
-                            <p>Обратите внимание! Ежедневно на рынок выходят новые компании, потребители меняют предпочтения, появляются дополнительные товарные линейки, происходят другие изменения. Как следствие, постепенно корпоративная книга устаревает. Для того чтобы документ продолжал эффективно решать корпоративные задачи, необходимо один раз в два-три года актуализировать как бренд, так и брендбук.</p><a class="def-btn" href="../index.html#services"><span>Заказать</span><img src="/img/icons/btn-arrow.svg" alt=""></a>
+                            <p>Обратите внимание! Ежедневно на рынок выходят новые компании, потребители меняют предпочтения, появляются дополнительные товарные линейки, происходят другие изменения. Как следствие, постепенно корпоративная книга устаревает. Для того чтобы документ продолжал эффективно решать корпоративные задачи, необходимо один раз в два-три года актуализировать как бренд, так и брендбук.</p><a class="def-btn" href="/"><span>Заказать</span><img src="/img/icons/btn-arrow.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -251,18 +251,18 @@
         <!--=======================================================================================-->
         <div class="blog-sect">
             <div class="blog-sect__container">
-                <div class="def-title blog-sect__title">Наш блог про создание брендов</div>
-                <div class="blog-sect__items"><a class="blog-sect__item" href="../blog/index.html">
+                <div class="def-title blog-sect__title">Наш блог про создание </div>
+                <div class="blog-sect__items"><a class="blog-sect__item" href="../blogs/10-servisov-dlya-samostoyatelnogo-neyminga/">
                     <div class="blog-sect__item-img"><img class="lazy" data-src="/img/blog-1.jpg" alt="" height="250"></div>
                     <div class="blog-sect__item-title">10 сервисов для самостоятельного нейминга</div>
-                </a><a class="blog-sect__item" href="../blog/10-servisov-dlya-samostoyatelnogo-neyminga/index.html">
+                </a><a class="blog-sect__item" href="../blogs/rebrending-desyat-prichin-chtoby-izmenitsya/">
                     <div class="blog-sect__item-img"><img class="lazy" data-src="/img/blog-2.jpg" alt="" height="250"></div>
                     <div class="blog-sect__item-title">Ребрендинг: десять причин чтобы измениться</div>
-                </a><a class="blog-sect__item" href="../blog/rebrending-desyat-prichin-chtoby-izmenitsya/index.html">
+                </a><a class="blog-sect__item" href="../blogs/elementy-i-nositeli-firmennogo-stilya/">
                     <div class="blog-sect__item-img"><img class="lazy" data-src="/img/blog-3.jpg" alt="" height="250"></div>
                     <div class="blog-sect__item-title">Элементы и носители фирменного стиля</div>
                 </a></div>
-                <div class="blog-sect__btn"><a class="def-btn" href="../blog/elementy-i-nositeli-firmennogo-stilya/index.html"><span>Читать блог</span><img src="/img/icons/btn-arrow.svg" alt=""></a></div>
+                <div class="blog-sect__btn"><a class="def-btn" href="../blogs/"><span>Читать блог</span><img src="/img/icons/btn-arrow.svg" alt=""></a></div>
                 
             </div>
         </div>
@@ -270,10 +270,10 @@
         <footer class="main-footer">
             <div class="main-footer__container">
                 <div class="main-footer__content">
-                    <div class="main-footer__column1"><a class="main-footer__logo" href="../index.html"><img src="/img/footer-logo.svg" alt=""></a>
+                    <div class="main-footer__column1"><a class="main-footer__logo" href="../"><img src="/img/footer-logo.svg" alt=""></a>
                         <div class="main-footer__desc">
                             <p>© brand hub, 2021-2022</p>
-                            <p><a href="https://brand-hub.ru/policy/">Полититка конфиденциальности</a><br><a href="https://brand-hub.ru/oferta/">Договор оферты</a><a href="https://brand-hub.ru/terms/">Пользовательское соглашение</a></p>
+                            <p><a href="/files/policy.pdf">Полититка конфиденциальности</a><br><a href="/files/oferta.pdf">Договор оферты</a><a href="/files/terms.pdf">Пользовательское соглашение</a></p>
                         </div>
                     </div>
                     <div class="main-footer__column2">
