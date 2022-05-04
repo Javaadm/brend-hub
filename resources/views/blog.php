@@ -6,7 +6,7 @@
     <meta data-n-head="ssr" data-hid="viewport" name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Услуги. Brand hub — это новый способ создать сильный бренд. С помощью нашего сервиса вы можете реализовать полный комплекс работ по созданию бренда: получить готовую стратегию, название и дизайн."> 
     <link data-n-head="ssr" rel="icon" type="image/x-icon" href="../favicon.ico">
-    <link data-n-head="ssr" rel="canonical" href="/blog">
+    <<link data-n-head="ssr" rel="canonical" href="https://brand-hub.ru/blog/">
     <link rel="preload" href="../_nuxt/c9e0758.js" as="script">
     <link rel="preload" href="../_nuxt/f62c1a6.js" as="script">
     <link rel="preload" href="../_nuxt/72832e2.js" as="script">

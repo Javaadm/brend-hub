@@ -11,6 +11,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#000">
     <link rel="manifest" href="{{ asset('manifest.json') }}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link data-n-head="ssr" rel="canonical" href="https://brand-hub.ru/">
 </head>
 
 <body>
