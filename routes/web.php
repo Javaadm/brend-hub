@@ -314,9 +314,6 @@ Route::get('/packs/ekspress-dizayn', function () {
 
 
 
-Route::get('/services/branding', function () {
-    return view('/services/branding');
-});
 
 Route::get('/services/rebranding.html', function(){
     return redirect('/services/rebranding', 301);
@@ -325,19 +322,43 @@ Route::get('/services/rebranding.html', function(){
 Route::get('/services/rebranding', function () {
     return view('/services/rebranding');
 });
+
+
+Route::get('/services/package.html', function(){
+    return redirect('/services/package', 301);
+});
 Route::get('/services/package', function () {
     return view('/services/package');
+});
+
+
+Route::get('/services/firmstyle.html', function(){
+    return redirect('/services/firmstyle', 301);
 });
 Route::get('/services/firmstyle', function () {
     return view('/services/firmstyle');
 });
+
+
+Route::get('/services/naming.html', function(){
+    return redirect('/services/naming', 301);
+});
 Route::get('/services/naming', function () {
     return view('/services/naming');
+});
+
+
+Route::get('/services/branding.html', function(){
+    return redirect('/services/branding', 301);
 });
 Route::get('/services/branding', function () {
     return view('/services/branding');
 });
 
+
+Route::get('/services/brandbook.html', function(){
+    return redirect('/services/brandbook', 301);
+});
 Route::get('/services/brandbook', function () {
     return view('services/brandbook');
 });
