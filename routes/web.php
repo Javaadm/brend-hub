@@ -311,12 +311,12 @@ Route::get('/packs/brend-i-dizayn-upakovki', function () {
 Route::get('/packs/ekspress-dizayn', function () {
     return view('/packs/ekspress-dizayn');
 });
-
-
-
+Route::get('/packs/brending', function () {
+    return view('/packs/brending');
+});
 
 Route::get('/services/rebranding.html', function(){
-    return redirect('/services/rebranding', 301);
+    return redirect('/services/rebranding/', 301);
 });
 
 Route::get('/services/rebranding', function () {
@@ -325,7 +325,7 @@ Route::get('/services/rebranding', function () {
 
 
 Route::get('/services/package.html', function(){
-    return redirect('/services/package', 301);
+    return redirect('/services/package/', 301);
 });
 Route::get('/services/package', function () {
     return view('/services/package');
@@ -333,7 +333,7 @@ Route::get('/services/package', function () {
 
 
 Route::get('/services/firmstyle.html', function(){
-    return redirect('/services/firmstyle', 301);
+    return redirect('/services/firmstyle/', 301);
 });
 Route::get('/services/firmstyle', function () {
     return view('/services/firmstyle');
@@ -341,7 +341,7 @@ Route::get('/services/firmstyle', function () {
 
 
 Route::get('/services/naming.html', function(){
-    return redirect('/services/naming', 301);
+    return redirect('/services/naming/', 301);
 });
 Route::get('/services/naming', function () {
     return view('/services/naming');
@@ -349,7 +349,7 @@ Route::get('/services/naming', function () {
 
 
 Route::get('/services/branding.html', function(){
-    return redirect('/services/branding', 301);
+    return redirect('/services/branding/', 301);
 });
 Route::get('/services/branding', function () {
     return view('/services/branding');
@@ -357,7 +357,7 @@ Route::get('/services/branding', function () {
 
 
 Route::get('/services/brandbook.html', function(){
-    return redirect('/services/brandbook', 301);
+    return redirect('/services/brandbook/', 301);
 });
 Route::get('/services/brandbook', function () {
     return view('services/brandbook');

@@ -420,7 +420,7 @@
                 <div class="proj-sect__title">
                     <div class="proj-sect__title-desc">Уже создано:</div>114 брендов в <span>47 сферах</span>
                 </div>
-                <div class="proj-sect__items"><a class="proj-sect__item proj-sect__item_big" href="/projects/belyy-gorod/"><img class="lazy" data-src="img/p-7.jpg" alt=""></a><a class="proj-sect__item" href="/projects/masterskie-vilmera/"><img class="lazy" data-src="img/p-8.jpg" alt=""></a><a class="proj-sect__item" href="/projects/belyy-sleco/"><img class="lazy" data-src="img/p-9.jpg" alt=""></a><a class="proj-sect__item proj-sect__item_big" href="/projects/bumazhnyy-bum/"><img class="lazy" data-src="img/p-10.jpg" alt=""></a><a class="proj-sect__item proj-sect__item_big" href="/projects/lia-lab/"><img class="lazy" data-src="img/p-11.jpg" alt=""></a><a class="proj-sect__item" href="/projects/vegaburger/"><img class="lazy" data-src="img/p-12.jpg" alt=""></a></div>
+                <div class="proj-sect__items"><a class="proj-sect__item proj-sect__item_big" href="/projects/belyy-gorod/"><img class="lazy" data-src="img/p-7.jpg" alt=""></a><a class="proj-sect__item" href="/projects/masterskie-vilmera/"><img class="lazy" data-src="img/p-8.jpg" alt=""></a><a class="proj-sect__item" href="/projects/sleco/"><img class="lazy" data-src="img/p-9.jpg" alt=""></a><a class="proj-sect__item proj-sect__item_big" href="/projects/bumazhnyy-bum/"><img class="lazy" data-src="img/p-10.jpg" alt=""></a><a class="proj-sect__item proj-sect__item_big" href="/projects/lia-lab/"><img class="lazy" data-src="img/p-11.jpg" alt=""></a><a class="proj-sect__item" href="/projects/vegaburger/"><img class="lazy" data-src="img/p-12.jpg" alt=""></a></div>
                 <div class="proj-sect__more"><a class="def-btn" href="/projects/"><span>Все проекты</span></a></div>
             </div>
         </div>
@@ -507,7 +507,7 @@
         <!--=======================================================================================-->
     <div class="main-footer">
         <div class="main-footer__container">
-            <div class="main-footer__logo"><a class="main-header__logo" href="http://ac.dmitryd2.beget.tech/"><img src="img/footer-logo.svg" alt=""><span>by depot</span></a></div>
+            <div class="main-footer__logo"><a class="main-header__logo"><img src="img/footer-logo.svg" alt=""><span>by depot</span></a></div>
             <div class="main-footer__column main-footer__column_first">
                 <ul class="main-footer__soc">
                     <li><a href="https://t.me/brandhub21"><img src="img/icons/soc-1.svg" alt=""></a></li>
