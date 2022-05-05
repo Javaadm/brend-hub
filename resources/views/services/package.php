@@ -14,7 +14,7 @@
     <link rel="preload" href="/fonts/SuisseIntlMedium/SuisseIntl-Medium-WebM.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/app.min.css">
 
-    <link rel="canonical" href="https://brand-hub.ru/services/package/" />
+    <link rel="canonical" href="https://brand-hub.ru/services/package" />
 </head>
 
 <body>
