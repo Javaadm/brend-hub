@@ -21,15 +21,15 @@
     <div class="wrapper">
         <!--=======================================================================================-->
         <header class="main-header">
-            <div class="main-header__container"><a class="main-header__logo" href="../"><img src="/img/logo.svg" alt="">
+            <div class="main-header__container"><a class="main-header__logo" href="/"><img src="/img/logo.svg" alt="">
                     <div class="main-header__logo-desc">by depot</div>
                 </a>
                 <div class="main-header__content">
                     <ul class="main-header__nav">
-                        <!-- <li><a href="../about/">О нас</a></li> -->
-                        <li><a href="../projects">Проекты</a></li>
-                        <li><a href="../">Услуги</a></li>
-                        <li><a href="../blog/">Блог</a></li>
+                        <!-- <li><a href="/about/">О нас</a></li> -->
+                        <li><a href="/projects">Проекты</a></li>
+                        <li><a href="/">Услуги</a></li>
+                        <li><a href="/blog/">Блог</a></li>
                         <li><a href="http://brand-hub.tilda.ws/freelance">Сотрудничество</a></li> 
                     </ul>
                     <div class="main-header__ctrls"><a class="main-header__brand" href="/">Создать бренд</a>
@@ -77,13 +77,13 @@
         <div class="portf-sect">
             <div class="portf-sect__container">
                 <div class="def-title portf-sect__title">Наше портфолио</div>
-                <div class="portf-sect__content"><a class="portf-sect__item portf-sect__item_big" href="../projects/lia-lab/"><img src="/img/port-16.jpg" alt=""></a><a class="portf-sect__item" 
-                    href="../projects/starry-tale/"><img src="/img/port-15.jpg"
+                <div class="portf-sect__content"><a class="portf-sect__item portf-sect__item_big" href="/projects/lia-lab/"><img src="/img/port-16.jpg" alt=""></a><a class="portf-sect__item" 
+                    href="/projects/starry-tale/"><img src="/img/port-15.jpg"
                         alt=""></a><a class="portf-sect__item" 
-                            href="../projects/velikaya/"><img src="/img/port-17.jpg" alt=""></a><a class="portf-sect__item" 
-                                href="../projects/miracool/"><img src="/img/port-18.jpg" alt=""></a>
+                            href="/projects/velikaya/"><img src="/img/port-17.jpg" alt=""></a><a class="portf-sect__item" 
+                                href="/projects/miracool/"><img src="/img/port-18.jpg" alt=""></a>
                     <div class="portf-sect__more"><a class="portf-sect__more-item" 
-                        href="../projects/"> <span>все проекты</span><img src="/img/icons/more-arrow.svg" alt=""></a></div>
+                        href="/projects/"> <span>все проекты</span><img src="/img/icons/more-arrow.svg" alt=""></a></div>
                 </div>
             </div>
         </div>       
@@ -177,7 +177,7 @@
                 </div>
                 <div class="when-sect__footer">
                     <div class="when-sect__footer-content">
-                        <p>Разработка сильного функционального бренда — сложная и нетривиальная задача, которая требует разнонаправленных знаний и обширного опыта в сфере брендинга, маркетинга, анализа, дизайна и даже психологии. Сформировав сильную команду, онлайн-сервис brand hub успешно решает такие задачи и создает бренды, которые умеют продавать.</p><a class="def-btn" href="../"><span>Заказать</span><img src="/img/icons/btn-arrow.svg" alt=""></a>
+                        <p>Разработка сильного функционального бренда — сложная и нетривиальная задача, которая требует разнонаправленных знаний и обширного опыта в сфере брендинга, маркетинга, анализа, дизайна и даже психологии. Сформировав сильную команду, онлайн-сервис brand hub успешно решает такие задачи и создает бренды, которые умеют продавать.</p><a class="def-btn" href="/"><span>Заказать</span><img src="/img/icons/btn-arrow.svg" alt=""></a>
                     </div>
                     <div class="when-sect__footer-img"><img class="lazy" data-src="/img/img-5.jpg" alt="" height="409"></div>
                 </div>
@@ -211,7 +211,7 @@
                             </div>
                         </div>
                         <div class="stages-sect__call">
-                            <p>Итак, разработка бренда окончена, все детали согласованы, выполнены взаиморасчеты. На данном этапе права на фирменный стиль и другие элементы бренда передаются заказчику. И только после этого сотрудничество считается завершенным.</p><a class="def-btn" href="../"><span>Заказать</span><img src="/img/icons/btn-arrow.svg" alt=""></a>
+                            <p>Итак, разработка бренда окончена, все детали согласованы, выполнены взаиморасчеты. На данном этапе права на фирменный стиль и другие элементы бренда передаются заказчику. И только после этого сотрудничество считается завершенным.</p><a class="def-btn" href="/"><span>Заказать</span><img src="/img/icons/btn-arrow.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -250,17 +250,17 @@
         <div class="blog-sect">
             <div class="blog-sect__container">
                 <div class="def-title blog-sect__title">Наш блог про создание </div>
-                <div class="blog-sect__items"><a class="blog-sect__item" href="../blog/10-servisov-dlya-samostoyatelnogo-neyminga/">
+                <div class="blog-sect__items"><a class="blog-sect__item" href="/blog/10-servisov-dlya-samostoyatelnogo-neyminga/">
                     <div class="blog-sect__item-img"><img class="lazy" data-src="/img/blog-1.jpg" alt="" height="250"></div>
                     <div class="blog-sect__item-title">10 сервисов для самостоятельного нейминга</div>
-                </a><a class="blog-sect__item" href="../blog/rebrending-desyat-prichin-chtoby-izmenitsya/">
+                </a><a class="blog-sect__item" href="/blog/rebrending-desyat-prichin-chtoby-izmenitsya/">
                     <div class="blog-sect__item-img"><img class="lazy" data-src="/img/blog-2.jpg" alt="" height="250"></div>
                     <div class="blog-sect__item-title">Ребрендинг: десять причин чтобы измениться</div>
-                </a><a class="blog-sect__item" href="../blog/elementy-i-nositeli-firmennogo-stilya/">
+                </a><a class="blog-sect__item" href="/blog/elementy-i-nositeli-firmennogo-stilya/">
                     <div class="blog-sect__item-img"><img class="lazy" data-src="/img/blog-3.jpg" alt="" height="250"></div>
                     <div class="blog-sect__item-title">Элементы и носители фирменного стиля</div>
                 </a></div>
-                <div class="blog-sect__btn"><a class="def-btn" href="../blog/"><span>Читать блог</span><img src="/img/icons/btn-arrow.svg" alt=""></a></div>
+                <div class="blog-sect__btn"><a class="def-btn" href="/blog/"><span>Читать блог</span><img src="/img/icons/btn-arrow.svg" alt=""></a></div>
                 
             </div>
         </div>
@@ -268,7 +268,7 @@
         <footer class="main-footer">
             <div class="main-footer__container">
                 <div class="main-footer__content">
-                    <div class="main-footer__column1"><a class="main-footer__logo" href="../"><img src="/img/footer-logo.svg" alt=""></a>
+                    <div class="main-footer__column1"><a class="main-footer__logo" href="/"><img src="/img/footer-logo.svg" alt=""></a>
                         <div class="main-footer__desc">
                             <p>© brand hub, 2021-2022</p>
                             <p><a href="/files/policy.pdf">Полититка конфиденциальности</a><br><a href="/files/oferta.pdf">Договор оферты</a><a href="/files/terms.pdf">Пользовательское соглашение</a></p>
@@ -276,10 +276,10 @@
                     </div>
                     <div class="main-footer__column2">
                         <ul class="main-footer__nav">
-                            <!-- <li><a href="../about/">О нас</a></li> -->
-                            <li><a href="../projects">Проекты</a></li>
-                            <li><a href="../">Услуги</a></li>
-                            <li><a href="../blog/">Блог</a></li>
+                            <!-- <li><a href="/about/">О нас</a></li> -->
+                            <li><a href="/projects">Проекты</a></li>
+                            <li><a href="/">Услуги</a></li>
+                            <li><a href="/blog/">Блог</a></li>
                             <li><a href="http://brand-hub.tilda.ws/freelance">Сотрудничество</a></li> 
                         </ul>
                     </div>
