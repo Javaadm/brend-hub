@@ -240,7 +240,7 @@
                             <ul class="end-dialog__pack-list">
                                 <li>Определение территории позиционирования</li>
                                 <li>Логотип</li>
-                                <li>Фирменный стиль</li>
+                                <li>Дизайн упаковки<span>*от пакета молока до этикеток крафтового пива</span></li>
                             </ul>
                             <div class="end-dialog__pack-price"><strong>210 000₽</strong>/ 3 недели</div>
                         </div>
@@ -520,7 +520,7 @@
                 </div>
             </div>
             <ul class="main-footer__nav">
-                <!-- <li><a href="../../brand-hub.ru/about/index.html">О нас</a></li> -->
+                <!-- <li><a href="../../brand-hub.ru/about/">О нас</a></li> -->
                 <li><a href="/projects/">Проекты</a></li>
                 <li><a href="/blog/">Блог</a></li>
                 <li><a href="http://brand-hub.tilda.ws/freelance">Сотрудничество</a></li>
