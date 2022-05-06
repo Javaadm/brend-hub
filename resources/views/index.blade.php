@@ -236,7 +236,7 @@
                     <div class="end-dialog__packs">
                         <div class="end-dialog__pack @if(session("tariff") == 1) active @endif" number="1">
                             <input type="checkbox" checked>
-                            <div class="end-dialog__pack-title">Брендинг + фирменный стиль</div>
+                            <div class="end-dialog__pack-title">Брендинг +<span class="end-dialog__pack-title__type">@if(session("type") == 1) дизайн упаковки @else фирменный стиль @endif</span></div>
                             <ul class="end-dialog__pack-list">
                                 <li>Определение территории позиционирования</li>
                                 <li>Логотип</li>
@@ -246,13 +246,13 @@
                         </div>
                         <div class="end-dialog__pack @if(session("tariff") == 2) active @endif" number="2">
                             <input type="checkbox">
-                            <div class="end-dialog__pack-title">Брендинг + дизайн упаковки</div>
+                            <div class="end-dialog__pack-title">Стартап</div>
                             <ul class="end-dialog__pack-list">
-                                <li>Определение территории позиционирования</li>
                                 <li>Логотип</li>
-                                <li>Дизайн упаковки<span>*от пакета молока до этикеток крафтового пива</span></li>
+                                <li>Фирменный стиль</li>
                             </ul>
-                            <div class="end-dialog__pack-price"><strong>210 000₽</strong>/ 3 недели</div>
+                            <br>
+                            <div class="end-dialog__pack-price"><strong>120 000₽</strong>/ 2 недели</div>
                         </div>
                         <div class="end-dialog__packs-error">
                             <div class="start-sect__step-title">Ой, кажется вы забыли выбрать пакет</div>
