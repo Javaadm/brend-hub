@@ -586,7 +586,7 @@
                 </ul>
                 <div class="main-footer__info">
                     <p>© brand hub, 2022</p>
-                    <p>Оферта - <a href="https://brand-hub.ru/oferta/">скачивание документа</a><br><a class="main-footer__info-link" href="https://brand-hub.ru/terms/">Пользовательское соглашение</a><br><a class="main-footer__info-link" href="https://brand-hub.ru/policy/">Политика обработки персональных данных</a></p>
+                    <p>Оферта - <a href="https://brand-hub.ru/files/oferta.pdf">скачивание документа</a><br><a class="main-footer__info-link" href="https://brand-hub.ru/files/terms.pdf">Пользовательское соглашение</a><br><a class="main-footer__info-link" href="https://brand-hub.ru/files/policy.pdf">Политика обработки персональных данных</a></p>
                 </div>
             </div>
             <ul class="main-footer__nav">
