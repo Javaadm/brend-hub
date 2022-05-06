@@ -127,9 +127,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             Услуги
                         </a></div><div class="mb-6 last:mb-0 lg:mb-4 lg:last:mb-0"><a href="../" class="text-lg font-medium text-white transition-fast hover:text-opacity-70 lg:text-base nuxt-link-active">
                             Блог
-                        </a></div><div class="mb-6 last:mb-0 lg:mb-4 lg:last:mb-0"><a href="../../contacts/" class="text-lg font-medium text-white transition-fast hover:text-opacity-70 lg:text-base">
+                        </a></div><!-- <div class="mb-6 last:mb-0 lg:mb-4 lg:last:mb-0"><a href="../../contacts/" class="text-lg font-medium text-white transition-fast hover:text-opacity-70 lg:text-base">
                             Контакты
-                        </a></div><div class="mb-6 last:mb-0 lg:mb-4 lg:last:mb-0"><a href="../../services/branding.html" target="_blank" class="text-lg font-medium text-white transition-fast hover:text-opacity-70 lg:text-base">
+                        </a></div> --><div class="mb-6 last:mb-0 lg:mb-4 lg:last:mb-0"><a href="../../services/branding.html" target="_blank" class="text-lg font-medium text-white transition-fast hover:text-opacity-70 lg:text-base">
                             О брендинге
                         </a></div></div> <div class="col-span-4 pt-1.5 lg:row-start-2 lg:row-end-3 lg:col-span-full lg:pt-0"><div class="mb-6"><a href="tel:+7 (495) 106-06-14" class="text-lg font-medium text-white transition-fast hover:text-opacity-70 lg:text-base">+7 (495) 106-06-14</a></div> <div class="mb-6"><a href="mailto:we@brand-hub.ru" class="text-lg font-medium text-white transition-fast hover:text-opacity-70 lg:text-base">we@brand-hub.ru</a></div> <div class="text-white font-normal text-lg mb-15 lg:text-base lg:mb-5">
                         Москва, Пестовский пер 16 стр 2
