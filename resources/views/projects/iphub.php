@@ -36,7 +36,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             Блог
                         </a></div><div class="mx-5 xl:mx-3"><a href="http://brand-hub.tilda.ws/freelance" target="_blank" class="text-lg font-medium transition-fast hover:text-blue-700">
                             Сотрудничество
-                        </a></div></div></div> <div class="mx-1"><div class="bg-white flex items-center py-3 px-1 -mx-5 text-lg xl:-mx-3 lg:cursor-pointer lg:hidden"><a href="javascript:void(0);" class="block mx-5 text-blue-700 text-lg font-medium transition-fast hover:text-opacity-70 xl:mx-3">
+                        </a></div></div></div> <div class="mx-1"><div class="bg-white flex items-center py-3 px-1 -mx-5 text-lg xl:-mx-3 lg:cursor-pointer lg:hidden"><a href="/" class="block mx-5 text-blue-700 text-lg font-medium transition-fast hover:text-opacity-70 xl:mx-3">
                         Создать бренд
                     </a> 
                     <!-- <a href="https://brand-hub.ru/sign-in/" class="block mx-5 text-lg font-medium transition-fast hover:text-blue-700 xl:mx-3">

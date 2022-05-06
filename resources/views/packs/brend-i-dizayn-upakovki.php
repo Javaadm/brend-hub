@@ -27,7 +27,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- <div class="mx-5 xl:mx-3"><a href="/about/" class="text-lg font-medium transition-fast hover:text-blue-700">
                             О нас
                         </a></div> -->
-                        <div class="mx-5 xl:mx-3"><a href="/project/" class="text-lg font-medium transition-fast hover:text-blue-700">
+                        <div class="mx-5 xl:mx-3"><a href="/projects/" class="text-lg font-medium transition-fast hover:text-blue-700">
                             Портфолио
                         </a></div><div class="mx-5 xl:mx-3"><a href="/" class="text-lg font-medium transition-fast hover:text-blue-700">
                             Услуги

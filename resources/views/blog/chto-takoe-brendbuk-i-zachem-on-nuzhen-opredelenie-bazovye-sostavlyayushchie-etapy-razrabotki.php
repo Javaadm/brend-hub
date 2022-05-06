@@ -130,7 +130,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </a></div><div class="mb-6 last:mb-0 lg:mb-4 lg:last:mb-0"><a href="../" class="text-lg font-medium text-white transition-fast hover:text-opacity-70 lg:text-base nuxt-link-active">
                             Блог
                         </a></div><div class="mb-6 last:mb-0 lg:mb-4 lg:last:mb-0">
-                          <!-- <a href="../../contacts/index.html" class="text-lg font-medium text-white transition-fast hover:text-opacity-70 lg:text-base">
+                          <!-- <a href="../../contacts/" class="text-lg font-medium text-white transition-fast hover:text-opacity-70 lg:text-base">
                             Контакты
                         </a> -->
                       </div><div class="mb-6 last:mb-0 lg:mb-4 lg:last:mb-0"><a href="../../services/branding" target="_blank" class="text-lg font-medium text-white transition-fast hover:text-opacity-70 lg:text-base">

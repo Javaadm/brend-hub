@@ -71,7 +71,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </span></a><a href="https://brand-hub.ru/policy/" target="_blank" rel="noopener noreferrer" class="relative block mx-2 mb-2.5 text-white text-opacity-48 transition-fast hover:text-opacity-100 last:mb-0 lg:text-sm sm:mx-0"><span class="pb-px border-b border-white border-opacity-16">
                                     Политика обработки персональных данных
                                 </span></a></div></div></div> <div class="col-span-3 pt-1.5 flex flex-col lg:row-start-1 lg:row-end-2 lg:col-span-full lg:pt-0"><div class="mb-6 last:mb-0 lg:mb-4 lg:last:mb-0">
-                                 <!--  <a href="../../about/index.html" class="text-lg font-medium text-white transition-fast hover:text-opacity-70 lg:text-base">
+                                 <!--  <a href="../../about/" class="text-lg font-medium text-white transition-fast hover:text-opacity-70 lg:text-base">
                             О нас
                         </a> -->
                       </div><div class="mb-6 last:mb-0 lg:mb-4 lg:last:mb-0"><a href="/projects/" class="text-lg font-medium text-white transition-fast hover:text-opacity-70 lg:text-base">
@@ -80,7 +80,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             Услуги
                         </a></div><div class="mb-6 last:mb-0 lg:mb-4 lg:last:mb-0"><a href="../" class="text-lg font-medium text-white transition-fast hover:text-opacity-70 lg:text-base nuxt-link-active">
                             Блог
-                        </a></div><!-- <div class="mb-6 last:mb-0 lg:mb-4 lg:last:mb-0"><a href="../../contacts/index.html" class="text-lg font-medium text-white transition-fast hover:text-opacity-70 lg:text-base">
+                        </a></div><!-- <div class="mb-6 last:mb-0 lg:mb-4 lg:last:mb-0"><a href="../../contacts/" class="text-lg font-medium text-white transition-fast hover:text-opacity-70 lg:text-base">
                             Контакты
                         </a></div> --><div class="mb-6 last:mb-0 lg:mb-4 lg:last:mb-0"><a href="../../services/branding.html" target="_blank" class="text-lg font-medium text-white transition-fast hover:text-opacity-70 lg:text-base">
                             О брендинге

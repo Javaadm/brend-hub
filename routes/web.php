@@ -260,6 +260,9 @@ Route::get('/projects/masterskie-vilmera', function () {
 Route::get('/projects/medych', function () {
     return view('/projects/medych');
 });
+Route::get('/projects/merry-green', function () {
+    return view('/projects/merry-green');
+});
 Route::get('/projects/miracool', function () {
     return view('/projects/miracool');
 });
