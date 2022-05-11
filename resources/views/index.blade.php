@@ -249,7 +249,7 @@
                             <div class="end-dialog__pack-title">Стартап</div>
                             <ul class="end-dialog__pack-list">
                                 <li>Логотип</li>
-                                <li>Фирменный стиль</li>
+                                <li>Фирменный стиль/Дизайн упаковки</li>
                             </ul>
                             <br>
                             <div class="end-dialog__pack-price"><strong>120 000₽</strong>/ 2 недели</div>
