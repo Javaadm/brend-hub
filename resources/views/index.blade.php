@@ -393,7 +393,7 @@
                 <div class="com-sect__items">
                     <div class="com-sect__item com-sect__item_darck">
                         <div class="com-sect__item-title">Дизайнеры</div>
-                        <div class="com-sect__item-text">В нашей базе собрано более 700 дизайнеров с опытом разработки логотипов в разных разных </div>
+                        <div class="com-sect__item-text">В нашей базе собрано более 700 дизайнеров с опытом разработки логотипов в разных</div>
                     </div>
                     <div class="com-sect__item com-sect__item_min com-sect__item_darck">
                         <div class="com-sect__item-title">Копирайтеры</div>
