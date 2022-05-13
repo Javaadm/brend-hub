@@ -150,7 +150,7 @@
                 <div class="start-sect__step @if(session("step") >= 2) active @endif" id="step-2">
                     <div class="start-sect__step-desc">Шаг 2</div>
                     <div class="start-sect__step-title">Информация о вашей компании</div>
-                    <div class="start-sect__step-text">На этом шаге необходимо понять что у вас за бизнес. <br>Укажите чем занимается ваша компания.</div>
+                    <div class="start-sect__step-text">На этом шаге необходимо понять, что у вас за бизнес. <br>Укажите, чем занимается ваша компания.</div>
                     <div class="start-sect__labels">
                         <input class="start-sect__labels-input" id="labels-input" type="text" value="{{ session("category_label") }}" placeholder="Фабрика окон" data-sw="">
                         <div class="start-sect__labels-items">
@@ -393,23 +393,23 @@
                 <div class="com-sect__items">
                     <div class="com-sect__item com-sect__item_darck">
                         <div class="com-sect__item-title">Дизайнеры</div>
-                        <div class="com-sect__item-text">В нашей базе собрано более 700 дизайнеров с опытом разработки логотипов в разных</div>
+                        <div class="com-sect__item-text">В нашей базе собрано более 700 дизайнеров с опытом разработки логотипов в разных сферах</div>
                     </div>
                     <div class="com-sect__item com-sect__item_min com-sect__item_darck">
                         <div class="com-sect__item-title">Копирайтеры</div>
-                        <div class="com-sect__item-text">Мы отобрали квалифицированных копирайторв, специализирующихся на разработке названий для брендов</div>
+                        <div class="com-sect__item-text">Мы отобрали квалифицированных копирайторов, специализирующихся на разработке названий для брендов</div>
                     </div>
                     <div class="com-sect__item com-sect__item_min com-sect__item_darck">
                         <div class="com-sect__item-title">Арт-директора</div>
-                        <div class="com-sect__item-text">Ответственно сопровождает весь процесс. Имеет огромный опыт, знает много разных категорий, скорее всего  и вашу</div>
+                        <div class="com-sect__item-text">Ответственно сопровождает весь процесс. Имеет огромный опыт в разных категориях и разбирается в них</div>
                     </div>
                     <div class="com-sect__item">
                         <div class="com-sect__item-title">Стратеги</div>
-                        <div class="com-sect__item-text">Бренд стратег проводит анализ рынка, определяет позиционирование, ценности и преимущества вашего бренда</div>
+                        <div class="com-sect__item-text">Бренд-стратег проводит анализ рынка, определяет позиционирование, ценности и преимущества вашего бренда</div>
                     </div>
                     <div class="com-sect__item">
                         <div class="com-sect__item-title">Эксперты брендинга</div>
-                        <div class="com-sect__item-text">Собирают необходимую информацию, экономят время бизнеса и время каждого специалиста</div>
+                        <div class="com-sect__item-text">Собирают необходимую информацию, экономят время бизнеса и каждого специалиста</div>
                     </div>
                 </div>
             </div>
