@@ -176,8 +176,8 @@
                             </label>
                         @endforeach
                     </div>
-                    <div class="start-sect__step-title">Давайте познакомимся поближе</div>
-                    <input class="form__input start-sect__step-moment start-sect__step-moment-1" type="text" value="{{ session("moment_business") }}" placeholder="Впишите сюда важные моменты о вашем бизнесе">
+                    <div class="start-sect__step-title">Расскажите о вашем бизнесе</div>
+                    <input class="form__input start-sect__step-moment start-sect__step-moment-1" type="text" value="{{ session("moment_business") }}" placeholder="Описание преимуществ продукта/бизнеса(УТП)">
                     <div class="start-sect__step-title">Какие дизайны вам нравятся?</div>
                     <div class="start-sect__urls">
                         @if(session("urls"))
