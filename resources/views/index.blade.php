@@ -11,6 +11,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#000">
     <link rel="manifest" href="{{ asset('manifest.json') }}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link data-n-head="ssr" rel="canonical" href="https://brand-hub.ru/">
 </head>
 
 <body>
@@ -40,7 +41,7 @@
                         </li>
                         <li><a href="/blog/">Блог</a></li>
                         <li><a href="http://brand-hub.tilda.ws/freelance">Cотрудничество</a></li>
-                    </ul><a class="def-btn main-header__create" href="#"><span>Создать бренд</span></a>
+                    </ul><a class="def-btn main-header__create" href="#" data-ym-goal="header-click-create-brand"><span>Создать бренд</span></a>
                 </div>
             </div>
         </header>
@@ -81,71 +82,7 @@
                 <div class="start-sect__stitle">
                     <div class="start-sect__step-desc">Шаг 2</div>
                 </div>
-                <div class="start-sect__step @if(session("step") >= 1) active @endif" id="step-1">
-                    <div class="start-sect__step-desc">Шаг 1</div>
-                    <div class="start-sect__step-title">Настроение и характер</div>
-                    <div class="start-sect__step-text">Отметьте понравившиеся варианты дизайна, <br>а мы подберём соответствующую команду</div>
-                    <div class="start-sect__tabs"><a class="start-sect__tab @if(session("type") == 1) active @endif" href="#checks-container-1" data-step-id="#step-3">Для товаров</a>
-                        <a class="start-sect__tab last @if(session("type") == 2) active @endif" href="#checks-container-2" data-step-id="#step-3-dop">Для услуг</a></div>
-                    <div class="start-sect__tabs-container @if(session("type") == 1) active @endif" id="checks-container-1">
-                        <div class="start-sect__tcontent @if(session("step-1-board") == 1) active @endif" id="checks-tab-1">
-                            <div class="start-sect__checks">
-                                @for ($i = 0; $i < 9; $i++)
-                                    <label class="start-sect__check">
-                                        <input type="checkbox" @if(session("images")[$i]["isSelected"]) checked @endif name2="product" name="case{{ $i+1 }}" ><img class="start-sect__check-bg" src="img/check-{{ $i+1 }}.jpg" alt="">
-                                        <div class="start-sect__check-sw"><img src="img/icons/check.svg" alt=""></div>
-                                    </label>
-                                @endfor
-                            </div>
-                            <div class="start-sect__pag">1 / 2</div>
-                            <div class="start-sect__step-next"><a class="def-btn next-checks-tab" id="step-btn-1-1" href="#checks-tab-1-2"><span>Далее</span></a></div>
-                        </div>
-                        <div class="start-sect__tcontent @if(session("step-1-board") == 2) active @endif" id="checks-tab-1-2">
-                            <div class="start-sect__checks">
-                                @for ($i = 9; $i < 18; $i++)
-
-                                    <label class="start-sect__check">
-                                        <input type="checkbox" @if(session("images")[$i]["isSelected"]) checked @endif name2="product" name="case{{ $i+1 }}" ><img class="start-sect__check-bg" src="img/check-{{ $i+1 }}.jpg" alt="">
-                                        <div class="start-sect__check-sw"><img src="img/icons/check.svg" alt=""></div>
-                                    </label>
-                                @endfor
-
-                            </div>
-                            <div class="start-sect__pag">2 / 2</div>
-                            <div class="start-sect__step-next"><a class="def-btn" id="step-btn-1-2" href="#step-2" data-checks-container="#checks-container-1"><span>Далее</span></a></div>
-                        </div>
-                    </div>
-                    <div class="start-sect__tabs-container @if(session("type") == 2) active @endif " id="checks-container-2">
-                        <div class="start-sect__tcontent @if(session("step-1-board") == 1) active @endif" id="checks-tab-2">
-                            <div class="start-sect__checks">
-                                @for ($i = 0; $i < 9; $i++)
-
-                                    <label class="start-sect__check">
-                                        <input type="checkbox" @if(session("images")[$i]["isSelected"]) checked @endif name2="service" name="case{{ $i+1 }}" ><img class="start-sect__check-bg" src="img/check-{{ $i+19 }}.jpg" alt="">
-                                        <div class="start-sect__check-sw"><img src="img/icons/check.svg" alt=""></div>
-                                    </label>
-                                @endfor
-
-                            </div>
-                            <div class="start-sect__pag">1 / 2</div>
-                            <div class="start-sect__step-next"><a class="def-btn next-checks-tab" id="step-btn-2-1" href="#checks-tab-2-2"><span>Далее</span></a></div>
-                        </div>
-                        <div class="start-sect__tcontent @if(session("step-1-board") == 2) active @endif" id="checks-tab-2-2">
-                            <div class="start-sect__checks">
-                                @for ($i = 9; $i < 18; $i++)
-
-                                    <label class="start-sect__check">
-                                        <input type="checkbox" @if(session("images")[$i]["isSelected"]) checked @endif name2="service" name="case{{ $i+1 }}" ><img class="start-sect__check-bg" src="img/check-{{ $i+19 }}.jpg" alt="">
-                                        <div class="start-sect__check-sw"><img src="img/icons/check.svg" alt=""></div>
-                                    </label>
-                                @endfor
-
-                            </div>
-                            <div class="start-sect__pag">2 / 2</div>
-                            <div class="start-sect__step-next"><a class="def-btn" id="step-btn-2-2" href="#step-2" data-checks-container="#checks-container-2"><span>Далее</span></a></div>
-                        </div>
-                    </div>
-                </div>
+                @yield("step-1")
                 <div class="start-sect__step @if(session("step") >= 2) active @endif" id="step-2">
                     <div class="start-sect__step-desc">Шаг 2</div>
                     <div class="start-sect__step-title">Информация о вашей компании</div>
@@ -167,7 +104,7 @@
                     <div class="start-sect__dess">
                         @foreach ( $dessArray as $des)
                             <label class="start-sect__des">
-                                <input type="checkbox" @if(session("dess")[$loop->index]) checked @endif name="des{{ $loop->index+1 }}">
+                                <input type="checkbox" @if(session("dess")[$loop->index]) checked @endif name="des{{ $loop->index+1 }}" data-ym-goal="{{ $des['ymGoal'] }}">
                                 <div class="start-sect__des-bd"></div><img class="start-sect__des-icon" src="img/icons/dicon-{{ $loop->index+1 }}.png" alt="">
                                 <div class="start-sect__des-check"><img src="img/icons/check2.svg" alt=""></div>
                                 <div class="start-sect__des-title">{{ $des["title"] }}</div>
@@ -187,55 +124,18 @@
                             <input class="start-sect__url form__input" type="url" placeholder="https://brand-hub.ru/projects/sleco/ ">
                         @endif
                     </div>
-                    <a class="start-sect__add-url" href="#add-url">Добавить еще одну ссылку</a>
-                    <div class="start-sect__step-next"><a class="def-btn" id="step-btn-2" href="#step-3"><span>Далее</span></a></div>
+                    <a class="start-sect__add-url" href="#add-url" data-ym-goal="brief-company-details-click-addlink">Добавить еще одну ссылку</a>
+                    <div class="start-sect__step-next"><a class="def-btn" id="step-btn-2" href="#step-3" data-ym-goal="brief-company-details-click-to-emotions"><span>Далее</span></a></div>
                 </div>
-                <div class="start-sect__step @if(session("step") >= 3 and session("type")==1) active @endif" id="step-3">
-                    <div class="start-sect__step-desc">Шаг 3</div>
-                    <div class="start-sect__step-title">Ассоциации и эмоции</div>
-                    <div class="start-sect__step-text start-sect__step-text_big">Это заключительный шаг на вашем пути построения бренда. Поделитесь своими ассоциациями и эмоциями к выбранным картинкам из первого шага.</div>
-                    @foreach(session("images") as $key=>$image)
-
-                            <div class="start-sect__select start-sect__select__step_3 start-sect__select__step_3__{{$key+1}} @if($image["isSelected"]) active @endif" >
-                                <div class="start-sect__check"><img class="start-sect__check-bg" src="img/check-{{$loop->index+1}}.jpg" alt=""></div>
-                                <div class="start-sect__tags">
-                                    @foreach($emotionsValue as $keyEmotion =>$emotionValue)
-                                        <label class="start-sect__tag" >
-                                            <input type="checkbox"  @if(array_key_exists($keyEmotion, $image["emotions"])) checked @endif name="tag{{ $loop->index+1 }}" image="{{ $key }}">
-                                            <div class="start-sect__tag-bg"></div><span>{{$emotionValue}}</span>
-                                        </label>
-                                    @endforeach
-                                </div>
-                            </div>
-
-                    @endforeach
-                    <div class="start-sect__step-next"><a class="def-btn" id="step-btn-3" href="#step-4"><span>Далее</span></a></div>
-                </div>
-                <div class="start-sect__step @if(session("step") >= 3 and session("type")==2) active @endif" id="step-3-dop">
-                    <div class="start-sect__step-desc">Шаг 3</div>
-                    <div class="start-sect__step-title">Ассоциации и эмоции</div>
-                    <div class="start-sect__step-text start-sect__step-text_big">Это заключительный шаг на вашем пути построения бренда, поделитесь в свободной форме своими ассоциациями и эмоциями к выбранным кейсам из первого шага.</div>
-                    <div class="start-sect__checks start-sect__checks_items">
-                        @foreach(session("images") as $key=>$image)
-
-                                <div class="start-sect__check start-sect__check__step_3 start-sect__check__step_3__{{$key+1}} @if($image["isSelected"]) active @endif"><img class="start-sect__check-bg  " src="img/check-{{$key+19}}.jpg" alt=""></div>
-
-                        @endforeach
-
-                    </div>
-                    <div class="start-sect__emotions">
-                        <input class="form__input start-sect__step-moment start-sect__step-moment-2" value="{{session("emotions_service")}}" type="text" placeholder="Дорогой, лакончиный, добрый">
-                    </div>
-                    <div class="start-sect__step-next"><a class="def-btn" id="step-btn-3-2" href="#step-4"><span>Далее</span></a></div>
-                </div>
+                @yield('step-3')
                 <div class="start-sect__step @if(session("step") >= 4) active @endif" id="step-4">
                     <div class="start-sect__step-desc">Итог</div>
                     <div class="start-sect__step-title">Спасибо! Это и было ТЗ!</div>
                     <div class="start-sect__step-text">Больше не будет сложных форм и вопросов. <br>Мы выбрали для вас один из пакетов наших услуг. <br>Готовы приступить к работе.</div>
                     <div class="end-dialog__packs">
-                        <div class="end-dialog__pack @if(session("tariff") == 1) active @endif" number="1">
+                        <div class="end-dialog__pack @if(session("tariff") == 1) active @endif" number="1" data-ym-goal="brief-checkout-services-click-branding-and-style">
                             <input type="checkbox" checked>
-                            <div class="end-dialog__pack-title">Брендинг + фирменный стиль</div>
+                            <div class="end-dialog__pack-title">Брендинг +<span class="end-dialog__pack-title__type">@if(session("type") == 1) дизайн упаковки @else фирменный стиль @endif</span></div>
                             <ul class="end-dialog__pack-list">
                                 <li>Определение территории позиционирования</li>
                                 <li>Логотип</li>
@@ -243,15 +143,15 @@
                             </ul>
                             <div class="end-dialog__pack-price"><strong>210 000₽</strong>/ 3 недели</div>
                         </div>
-                        <div class="end-dialog__pack @if(session("tariff") == 2) active @endif" number="2">
+                        <div class="end-dialog__pack @if(session("tariff") == 2) active @endif" number="2" data-ym-goal="brief-checkout-services-click-branding-and-box-design">
                             <input type="checkbox">
-                            <div class="end-dialog__pack-title">Брендинг + дизайн упаковки</div>
+                            <div class="end-dialog__pack-title">Стартап</div>
                             <ul class="end-dialog__pack-list">
-                                <li>Определение территории позиционирования</li>
                                 <li>Логотип</li>
-                                <li>Дизайн упаковки<span>*от пакета молока до этикеток крафтового пива</span></li>
+                                <li>Фирменный стиль</li>
                             </ul>
-                            <div class="end-dialog__pack-price"><strong>210 000₽</strong>/ 3 недели</div>
+                            <br>
+                            <div class="end-dialog__pack-price"><strong>120 000₽</strong>/ 2 недели</div>
                         </div>
                         <div class="end-dialog__packs-error">
                             <div class="start-sect__step-title">Ой, кажется вы забыли выбрать пакет</div>
@@ -282,10 +182,10 @@
                             </label>
                         </div>
                         <div class="end-dialog__btns">
-                            <button class="def-btn end-dialog__submit" style="display:none;" type="submit"><span>Оплата картой</span></button>
-                            <a class="def-btn def-btn_second end-dialog__payment" href="#thanks-dialog2" type="submit"><span>Оплата по расчетному счету</span></a>
+                            <button class="def-btn end-dialog__submit" style="display:none;" type="submit" data-ym-goal="brief-checkout-click-online-payment"><span>Оплата картой</span></button>
+                            <a class="def-btn def-btn_second end-dialog__payment" href="#thanks-dialog2" type="submit" data-ym-goal="brief-checkout-click-payment-bill"><span>Оплата по расчетному счету</span></a>
                         </div>
-                        <div class="start-sect__call"><a class="popup-with-zoom-anim" name="order" href="#lead-dialog">Оставить заявку на консультацию</a><br>
+                        <div class="start-sect__call"><a class="popup-with-zoom-anim" name="order" href="#lead-dialog" data-ym-goal="form-callback-click-start">Оставить заявку на консультацию</a><br>
                             <p>Не бойтесь, мы сохраним все ваши данные.<br>Заново заполнять не придется</p>
                         </div>
                     </div>
@@ -324,7 +224,7 @@
                     </div>
                 </div>
                 <div class="steps-sect__footer"><img class="steps-sect__footer-bg" src="img/icons/stroke-2.svg" alt="">
-                    <div class="steps-sect__title">Ничего не понял!</div><a class="def-btn popup-with-zoom-anim" href="#lead-dialog"><span>Хочу консультацию</span></a>
+                    <div class="steps-sect__title">Ничего не понял!</div><a class="def-btn popup-with-zoom-anim" href="#lead-dialog" data-ym-goal="form-callback-click-start"><span>Хочу консультацию</span></a>
                 </div>
                 <div class="thanks-dialog zoom-anim-dialog mfp-hide" id="thanks-dialog2">
                     <div class="thanks-dialog__container">
@@ -349,7 +249,7 @@
                         <div class="lead-dialog__form">
                             <input class="form__input lead-dialog__input name-input-lead"  type="text" placeholder="Иванов Иван Иванович">
                             <input class="form__input lead-dialog__input phone-input-lead" type="text" name="phone" placeholder="+7 777 777 77 77">
-                            <button class="def-btn lead-dialog__submit" href="thanks-dialog3"><span>Отправить</span></button>
+                            <button class="def-btn lead-dialog__submit" href="thanks-dialog3" data-ym-goal="form-callback-success"><span>Отправить</span></button>
                         </div>
                     </div>
                 </div>
@@ -419,8 +319,8 @@
                 <div class="proj-sect__title">
                     <div class="proj-sect__title-desc">Уже создано:</div>114 брендов в <span>47 сферах</span>
                 </div>
-                <div class="proj-sect__items"><a class="proj-sect__item proj-sect__item_big" href="/projects/belyy-gorod/"><img class="lazy" data-src="img/p-7.jpg" alt=""></a><a class="proj-sect__item" href="/projects/masterskie-vilmera/"><img class="lazy" data-src="img/p-8.jpg" alt=""></a><a class="proj-sect__item" href="/projects/belyy-sleco/"><img class="lazy" data-src="img/p-9.jpg" alt=""></a><a class="proj-sect__item proj-sect__item_big" href="/projects/bumazhnyy-bum/"><img class="lazy" data-src="img/p-10.jpg" alt=""></a><a class="proj-sect__item proj-sect__item_big" href="/projects/lia-lab/"><img class="lazy" data-src="img/p-11.jpg" alt=""></a><a class="proj-sect__item" href="/projects/vegaburger/"><img class="lazy" data-src="img/p-12.jpg" alt=""></a></div>
-                <div class="proj-sect__more"><a class="def-btn" href="/projects/"><span>Все проекты</span></a></div>
+                <div class="proj-sect__items"><a class="proj-sect__item proj-sect__item_big" href="/projects/belyy-gorod/" data-ym-goal="portfolio-click-belyygorod"><img class="lazy" data-src="img/p-7.jpg" alt=""></a><a class="proj-sect__item" href="/projects/masterskie-vilmera/" data-ym-goal="portfolio-click-vilmers"><img class="lazy" data-src="img/p-8.jpg" alt=""></a><a class="proj-sect__item" href="/projects/sleco/" data-ym-goal="portfolio-click-sleco"><img class="lazy" data-src="img/p-9.jpg" alt=""></a><a class="proj-sect__item proj-sect__item_big" href="/projects/bumazhnyy-bum/" data-ym-goal="portfolio-click-boom"><img class="lazy" data-src="img/p-10.jpg" alt=""></a><a class="proj-sect__item proj-sect__item_big" href="/projects/lia-lab/" data-ym-goal="portfolio-click-lialab"><img class="lazy" data-src="img/p-11.jpg" alt=""></a><a class="proj-sect__item" href="/projects/vegaburger/" data-ym-goal="portfolio-click-vegaburger"><img class="lazy" data-src="img/p-12.jpg" alt=""></a></div>
+                <div class="proj-sect__more"><a class="def-btn" href="/projects/" data-ym-goal="portfolio-click-all-list"><span>Все проекты</span></a></div>
             </div>
         </div>
         <!--=======================================================================================-->
@@ -430,7 +330,7 @@
                     <div class="def-title">
                         <div class="def-title__first"><img src="img/icons/stroke.svg" alt=""><span>Собственная</span></div><br><span>образовательная программа</span>
                     </div>
-                    <p>Постоянно находим и воспитываем новую кровь - <a href="http://depot.camp">Depot.camp</a></p>
+                    <p>Постоянно находим и воспитываем новую кровь - <a href="http://depot.camp" data-ym-goal="depot-camp-click-link">Depot.camp</a></p>
                 </div>
                 <div class="depot-sect__img" style="color: #1D1D1D"><img class="lazy" data-src="img/depot.png" alt=""></div>
             </div>
@@ -444,7 +344,7 @@
             </div>
             <div class="faq-sect__items">
                 <div class="faq-sect__item">
-                    <div class="faq-sect__item-title">В чем преимущества brand hub?<span></span></div>
+                    <div class="faq-sect__item-title" data-ym-goal="faq-click-bh-advantages">В чем преимущества brand hub?<span></span></div>
                     <div class="faq-sect__item-text">
                         <p>Brand hub — это способ создать комплексный бренд для быстрого запуска.<br>
                             Мы предоставляем:
@@ -459,19 +359,19 @@
                     </div>
                 </div>
                 <div class="faq-sect__item">
-                    <div class="faq-sect__item-title">Как заказать создание бренда?<span></span></div>
+                    <div class="faq-sect__item-title" data-ym-goal="faq-click-how-to-order">Как заказать создание бренда?<span></span></div>
                     <div class="faq-sect__item-text">
                         <p>Работа с нашим сервисом начинается со смарт-брифа, который поможет поставить задачу и обозначить ваши визуальные предпочтения. Бриф состоит из трёх интерактивных шагов, после прохождения которых вы сможете выбрать подходящий пакет услуг и внести предоплату. После мы незамедлительно начинаем работу над вашим брендом!</p>
                     </div>
                 </div>
                 <div class="faq-sect__item">
-                    <div class="faq-sect__item-title">Какие условия оплаты и сколько длится проект?<span></span></div>
+                    <div class="faq-sect__item-title" data-ym-goal="faq-click-costs-and-timing">Какие условия оплаты и сколько длится проект?<span></span></div>
                     <div class="faq-sect__item-text">
                         <p>Оплатить выбранный пакет можно онлайн картой или по расчетному счету. Сроки реализации услуг составляют 3-4 недели. Срок реализации не включает время на согласование результатов работ.</p>
                     </div>
                 </div>
                 <div class="faq-sect__item">
-                    <div class="faq-sect__item-title">Какие услуги входят в работу и какой результат я получу<span></span></div>
+                    <div class="faq-sect__item-title" data-ym-goal="faq-click-what-the-results">Какие услуги входят в работу и какой результат я получу<span></span></div>
                     <div class="faq-sect__item-text">
                         <p>Вы выбираете пакет услуг исходя из потребностей вашего бизнеса. В каждый пакет первым этапом входит определение территории позиционирования.<br><br>
 
@@ -483,7 +383,7 @@
                     </div>
                 </div>
                 <div class="faq-sect__item">
-                    <div class="faq-sect__item-title">Кто будет работать над моим проектом?<span></span></div>
+                    <div class="faq-sect__item-title" data-ym-goal="faq-click-who-will-working">Кто будет работать над моим проектом?<span></span></div>
                     <div class="faq-sect__item-text">
                         <p>На каждый проект мы собираем сильную команду профессионалов:<br>
                         <ul>
@@ -494,7 +394,7 @@
                     </div>
                 </div>
                 <div class="faq-sect__item">
-                    <div class="faq-sect__item-title">Что делать, если предложенные варианты не понравятся?<span></span></div>
+                    <div class="faq-sect__item-title" data-ym-goal="faq-click-what-if-results-awful">Что делать, если предложенные варианты не понравятся?<span></span></div>
                     <div class="faq-sect__item-text">
                         <p>Перед созданием дизайна, мы определяем территорию позиционирования бренда, а перед началом работ обязательно проводим онлайн встречу с арт-директором, который курирует проект. Также, мы предоставляем выбор из двух разных дизайн-концепций. Так что шансы того, что вам «не понравится», стремятся к нулю.</p>
                         <p>Мы тщательно следим за тем, чтобы по итогам заполнения брифа и онлайн встречи ни у кого не осталось вопросов. Как правило, все наши клиенты выбирают один из предложенных вариантов, и мы дорабатываем его по итогам совместной встречи и обсуждения.</p>
@@ -506,7 +406,7 @@
         <!--=======================================================================================-->
     <div class="main-footer">
         <div class="main-footer__container">
-            <div class="main-footer__logo"><a class="main-header__logo" href="http://ac.dmitryd2.beget.tech/"><img src="img/footer-logo.svg" alt=""><span>by depot</span></a></div>
+            <div class="main-footer__logo"><a class="main-header__logo"><img src="img/footer-logo.svg" alt=""><span>by depot</span></a></div>
             <div class="main-footer__column main-footer__column_first">
                 <ul class="main-footer__soc">
                     <li><a href="https://t.me/brandhub21"><img src="img/icons/soc-1.svg" alt=""></a></li>

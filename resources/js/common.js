@@ -370,6 +370,9 @@ $(function () {
             $('.start-sect__tabs-container').removeClass('active');
             $(id).addClass('active');
             $('#step-btn-2').attr('href', stepId);
+
+
+
         }
     }); //==================================================================
 
