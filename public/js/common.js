@@ -551,13 +551,13 @@ $(function () {
 
 
     $('#step-btn-v2-1-1').click(function (e) {
-            $.post( "update-session", { "step-1-board": "2" });
+        $.post( "update-session", { "step-1-board": "2" });
     });
     $('#step-btn-v2-1-2').click(function (e) {
-            $.post( "update-session", { "step-1-board": "3" });
+        $.post( "update-session", { "step-1-board": "3" });
     });
     $('#step-btn-v2-1-3').click(function (e) {
-            $.post( "update-session", { "step-1-board": "4" });
+        $.post( "update-session", { "step-1-board": "4" });
     });
 
 
