@@ -95,7 +95,7 @@
 
                 </div>
                 <div class="start-sect__checks cases-services" id="case-steps">
-1
+
                     @foreach ( session("images") as $image)
                         <label class="start-sect__check">
 
