@@ -40,6 +40,7 @@ class LeadMail extends Mailable
         $lead = new Leads();
         $lead->phone = session("phone");
         $lead->name = session("name");
+        $lead->email = session("email");
         $lead->save();
 
         if($this->isFillOut){
@@ -57,6 +58,7 @@ class LeadMail extends Mailable
                                                                                               [
                                                                                                   'name' => session("name"),
                                                                                                   'phone'=> session("phone"),
+                                                                                                  'email'=> session("email"),
                                                                                                   'id'=> $lead->id
                                                                                               ]);
         }else{
@@ -64,6 +66,7 @@ class LeadMail extends Mailable
                                                                                               [
                                                                                                   'name' => session("name"),
                                                                                                   'phone'=> session("phone"),
+                                                                                                  'email'=> session("email"),
                                                                                                   'id'=> $lead->id
                                                                                               ]);
         }

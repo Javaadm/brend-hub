@@ -1,6 +1,19 @@
 "use strict";
 
 $(function () {
+
+    $(document).on('click', (e) => {
+        const ymGoal = e.target.getAttribute('data-ym-goal')
+            ?? e.target.parentNode.getAttribute('data-ym-goal')
+            ?? e.target.parentNode.parentNode.getAttribute('data-ym-goal');
+
+        if (ymGoal === null) {
+            return;
+        }
+
+        ym(51242554, 'reachGoal', ymGoal);
+    });
+
     //==================================================================
     var lazyLoadInstance = new LazyLoad({
         elements_selector: ".lazy"
@@ -399,6 +412,11 @@ $(function () {
         e.preventDefault();
         var id = this.hash;
         $.post( "update-session", { type: id.slice(-1) });
+        if(id.slice(-1) == 1){
+            $(".end-dialog__pack-title__type").text(" дизайн упаковки ");
+        }else{
+            $(".end-dialog__pack-title__type").text(" фирменный стиль ");
+        }
 
         if(id.slice(-1) == 1){
             if($("#step-3-dop").hasClass("active")){
@@ -422,15 +440,56 @@ $(function () {
         }
     }); //==================================================================
 
+    // $('.next-checks-tab').click(function (e) {
+    //     e.preventDefault();
+    //     var id = this.hash;
+    //     var parent = $(id).parent('.start-sect__tabs-container');
+    //     parent.find('.start-sect__tcontent').removeClass('active'); //$('.start-sect__tcontent').removeClass('active');
+    //
+    //     $(id).addClass('active');
+    //     scrollTo('.start-sect__tabs');
+    // });
+
+    $('#step-btn-1-3').click(function (e) {
+        e.preventDefault();
+        var id = this.hash;
+        var sw = false;
+        var parent = $($(this).data('checks-container'));
+        parent.find('.start-sect__checks input').each(function () {
+            if ($(this).is(':checked')) {
+                sw = true;
+                return false;
+            }
+        });
+
+        if (sw) {
+            $(id).stop().slideToggle(300);
+            $('.start-sect__stitle').each(function () {
+                $(this).css('display', 'none');
+            });
+            scrollTo(id);
+            $('#step-2 .start-sect__des-title').css('height', '').equalHeights();
+        } else {
+            $('.start-sect__tcontent').removeClass('active');
+            $('#checks-tab-1').addClass('active');
+            scrollTo('.start-sect__tabs-container');
+        }
+    });
+
     $('.next-checks-tab').click(function (e) {
         e.preventDefault();
         var id = this.hash;
         var parent = $(id).parent('.start-sect__tabs-container');
         parent.find('.start-sect__tcontent').removeClass('active'); //$('.start-sect__tcontent').removeClass('active');
 
-        $(id).addClass('active');
-        scrollTo('.start-sect__tabs');
-    }); //==================================================================
+        $(id).addClass('active'); //scrollTo('.start-sect__tabs');
+
+        scrollTo('.start-sect__tabs-container');
+    });
+
+
+
+    //==================================================================
 
     $('#step-btn-1-2').click(function (e) {
         e.preventDefault();
@@ -488,6 +547,17 @@ $(function () {
 
     $('#step-btn-1-1').click(function (e) {
         $.post( "update-session", { "step-1-board": "2" });
+    });
+
+
+    $('#step-btn-v2-1-1').click(function (e) {
+            $.post( "update-session", { "step-1-board": "2" });
+    });
+    $('#step-btn-v2-1-2').click(function (e) {
+            $.post( "update-session", { "step-1-board": "3" });
+    });
+    $('#step-btn-v2-1-3').click(function (e) {
+            $.post( "update-session", { "step-1-board": "4" });
     });
 
 
@@ -560,10 +630,21 @@ $(function () {
         }else{
             card.addClass("active");
         }
-
-
-
     });
+
+    $(".start-sect__color input").click(function (e) {
+        $.post( "update-session", { "images-v2-color": e.currentTarget.name.substring(6)-1 });
+    });
+    $(".start-sect__check.shape input").click(function (e) {
+        $.post( "update-session", { "images-v2-shape": e.currentTarget.name.substring(4)-1 });
+    });
+    $(".start-sect__check-wrapper input").click(function (e) {
+        $.post( "update-session", { "images-v2-pattern": e.currentTarget.name.substring(4)-1 });
+    });
+    $(".start-sect__check.font input").click(function (e) {
+        $.post( "update-session", { "images-v2-font": e.currentTarget.name.substring(4)-1 });
+    });
+
     function scrollTo(id) {
         $('html, body').stop().animate({
             scrollTop: "".concat($(id).offset().top, "px")
@@ -572,7 +653,7 @@ $(function () {
 
     $("input.start-sect__labels-input").focusout(function (e) {
         var text = $( this ).val();
-        $.post( "update-session", { "category_label":text});
+        $.post( "update-session" , { "category_label":text});
     });
 
     $("input.start-sect__step-moment-1").focusout(function (e) {
@@ -603,6 +684,20 @@ $(function () {
         var text = $( this ).val();
         $.post( "update-session", { "email":text});
     });
+
+    $(".lead-name-input").focusout(function (e) {
+        var text = $( this ).val();
+        // alert(window.location.origin +  "/update-session");
+        $.post( window.location.origin +  "/update-session", { "name":text});
+    });
+    $(".lead-phone-input").focusout(function (e) {
+        var text = $( this ).val();
+        $.post( window.location.origin +  "/update-session", { "phone":text});
+    });
+    $(".lead-email-input").focusout(function (e) {
+        var text = $( this ).val();
+        $.post( window.location.origin +  "/update-session", { "email":text});
+    });
     $("input.form__input.start-sect__url").focusout(function (e) {
 
         saveSessionUrl();
@@ -623,9 +718,11 @@ $(function () {
 
     $(".lead-dialog__submit").click(function (e) {
         if(e.currentTarget.name === "order"){
-            $.get( "send-order");
+            // alert(window.location.origin +  "/send-order");
+            $.get( window.location.origin +  "/send-order");
         }else {
-            $.get("send-lead");
+            // alert(window.location.origin +  "/send-lead");
+            $.get( window.location.origin + "/send-lead");
         }
         $(this).magnificPopup('close');
     });
