@@ -137,6 +137,13 @@ class DateController extends Controller
     public function render(Request $request)
     {
 
+        if(!$request->session()->has("words-v2")) {
+            $elements = [];
+            for ($i=0;$i<17;$i++){
+                $elements[] = ["isSelected" => false];
+            }
+            $request->session()->put("words-v2", $elements);
+        }
 
         $session = session();
 
@@ -256,6 +263,15 @@ class DateController extends Controller
             $number = $request->request->get("image");
 
             $images = $request->session()->get("images");
+
+            $images[$number]["isSelected"] = !$images[$number]["isSelected"];
+            $request->session()->put("images", $images);
+        }
+
+        if ($request->request->has("image-v2")) {
+            $number = $request->request->get("image-v2");
+
+            $images = $request->session()->get("images-v2");
 
             $images[$number]["isSelected"] = !$images[$number]["isSelected"];
             $request->session()->put("images", $images);
