@@ -580,7 +580,18 @@ body textarea:required:valid {
 :root {
     font-size: 100%; }
 
-.com-sect__container, .depot-sect__container, .faq-sect__container, .hard-sect__container, .main-header__container, .main-sect__container, .mart-sect__container, .proj-sect__container, .start-sect__container, .steps-sect__container, .title-sect__container {
+.com-sect__container,
+.depot-sect__container,
+.faq-sect__container,
+.hard-sect__container,
+.main-header__container,
+.main-sect__container,
+.mart-sect__container,
+.proj-sect__container,
+.start-sect__container,
+.steps-sect__container,
+.title-sect__container,
+.yellow-form__container{
     width: 100%;
     max-width: 1245px;
     padding: 0 15px;
