@@ -54,21 +54,24 @@ class LeadMail extends Mailable
             Storage::disk('local')->put("leads/lead-$id.pdf",$pdf->output()) ;
 
 
-            return $this->from("brendhubtest@gmail.com")->subject("Лид ID : $lead->id")->attachData($pdf->output(), "lead.pdf")->view('emails.lead',
-                                                                                              [
-                                                                                                  'name' => session("name"),
-                                                                                                  'phone'=> session("phone"),
-                                                                                                  'email'=> session("email"),
-                                                                                                  'id'=> $lead->id
-                                                                                              ]);
+            return $this->from("brendhubtest@gmail.com")
+                        ->subject("Лид ID : $lead->id")
+                        ->attachData($pdf->output(), "lead.pdf")
+                        ->view('emails.lead',[
+                            'name' => session("name"),
+                            'phone'=> session("phone"),
+                            'email'=> session("email"),
+                            'id'=> $lead->id
+                          ]);
         }else{
-            return $this->from("brendhubtest@gmail.com")->subject("Лид ID : $lead->id")->view('emails.lead',
-                                                                                              [
-                                                                                                  'name' => session("name"),
-                                                                                                  'phone'=> session("phone"),
-                                                                                                  'email'=> session("email"),
-                                                                                                  'id'=> $lead->id
-                                                                                              ]);
+            return $this->from("brendhubtest@gmail.com")
+                        ->subject("Лид ID : $lead->id")
+                        ->view('emails.lead',[
+                            'name' => session("name"),
+                            'phone'=> session("phone"),
+                            'email'=> session("email"),
+                            'id'=> $lead->id
+                            ]);
         }
 
 

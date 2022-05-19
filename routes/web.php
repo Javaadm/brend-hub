@@ -3,6 +3,7 @@
 use App\Http\Controllers\DateController;
 use App\Mail\LeadMail;
 use App\Mail\OrderMail;
+use App\Mail\BeatingMail;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 
@@ -28,18 +29,46 @@ Route::get('pdf/download', [DateController::class, 'genPDF']);
 Route::get("/send-lead", function (){
     $isFillOut = true;
     if(session("step")>1){
-        //Mail::to("mr.serega20@mail.ru")->send(new LeadMail($isFillOut));//we@brand-hub.ru
-        Mail::to("we@brand-hub.ru")->send(new LeadMail($isFillOut));//we@brand-hub.ru
+        try {
+            //Mail::to("mr.serega20@mail.ru")->send(new LeadMail($isFillOut));//we@brand-hub.ru
+            Mail::to("we@brand-hub.ru")->send(new LeadMail($isFillOut));//we@brand-hub.ru
+            try {
+                Mail::to( session("email") )->send(new BeatingMail());
+            }catch (\Exception $exception){
+
+            }
+        }catch (\Exception $exception){
+
+        }
+
     }else{
         $isFillOut = false;
-        //Mail::to("mr.serega20@mail.ru")->send(new LeadMail($isFillOut));//we@brand-hub.ru
-        Mail::to("we@brand-hub.ru")->send(new LeadMail($isFillOut));//we@brand-hub.ru
+        try {
+            //Mail::to("mr.serega20@mail.ru")->send(new LeadMail($isFillOut));//we@brand-hub.ru
+            Mail::to("we@brand-hub.ru")->send(new LeadMail($isFillOut));//we@brand-hub.ru
+            try {
+                Mail::to( session("email") )->send(new BeatingMail());
+            }catch (\Exception $exception){
+
+            }
+        }catch (\Exception $exception){
+
+        }
     }
 });
 
 Route::get("/send-order", function (){
-    //Mail::to("mr.serega20@mail.ru")->send(new OrderMail());//we@brand-hub.ru
-    Mail::to("we@brand-hub.ru")->send(new OrderMail());//we@brand-hub.ru
+    try {
+        //Mail::to("mr.serega20@mail.ru")->send(new LeadMail($isFillOut));//we@brand-hub.ru
+        Mail::to("we@brand-hub.ru")->send(new OrderMail());//we@brand-hub.ru
+        try {
+            Mail::to( session("email") )->send(new BeatingMail());
+        }catch (\Exception $exception){
+
+        }
+    }catch (\Exception $exception){
+
+    }
 });
 
 Route::get('/about', function () {

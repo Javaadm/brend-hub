@@ -26,7 +26,7 @@
     <div class="wrapper wrapper_fixed">
         <!--=======================================================================================-->
 
-        
+
     <div class="wrapper">
         <!--=======================================================================================-->
         <header class="main-header">
@@ -39,7 +39,7 @@
                         <li><a href="../projects">Проекты</a></li>
                         <li><a href="../">Услуги</a></li>
                         <li><a href="../blog/">Блог</a></li>
-                        <li><a href="http://brand-hub.tilda.ws/freelance">Сотрудничество</a></li> 
+                        <li><a href="http://brand-hub.tilda.ws/freelance">Сотрудничество</a></li>
                     </ul>
                     <div class="main-header__ctrls"><a class="main-header__brand" href="/">Создать бренд</a>
                         <!-- <a class="main-header__login" href="https://brand-hub.ru/sign-in/">Войти</a> -->
@@ -58,14 +58,13 @@
                     <div class="main-sect__text">
                         <p>Постоянство и стабильность бренда, безусловно, важны, но только до определенного момента. Мир вокруг нас постоянно меняется: на рынок выходят новые игроки, расширяется товарная линейка, потребители становятся более требовательными, технологии устаревают. Чтобы бренд оставался актуальным, ему необходим ребрендинг.</p>
                     </div>
-                
-                   <!--  <div class="main-sect__form">
+                    <form novalidate="novalidate" autocomplete="off" class="main-sect__form">
                         <div class="main-sect__form-input">
                             <label>Телефон</label>
-                            <input type="text" name="phone" placeholder="+7">
+                            <input class="field__input lead-phone-input" type="text" name="phone" placeholder="+7">
                         </div>
-                        <button class="def-btn main-sect__form-btn"><span>Получить консультацию</span><img src="img/icons/btn-arrow.svg" alt=""></button>
-                    </div>  -->
+                        <button type="submit" class="def-btn main-sect__form-btn lead-dialog__submit"><span>Получить консультацию</span><img src="/img/icons/btn-arrow.svg" alt=""></button>
+                    </form>
                 </div>
                 <div class="main-sect__img"><img src="/img/your-brand.svg" alt=""></div>
             </div>
@@ -95,12 +94,12 @@
         <div class="portf-sect">
             <div class="portf-sect__container">
                 <div class="def-title portf-sect__title">Наше портфолио</div>
-                <div class="portf-sect__content"><a class="portf-sect__item portf-sect__item_big" href="../projects/lia-lab/"><img src="/img/port-16.jpg" alt=""></a><a class="portf-sect__item" 
+                <div class="portf-sect__content"><a class="portf-sect__item portf-sect__item_big" href="../projects/lia-lab/"><img src="/img/port-16.jpg" alt=""></a><a class="portf-sect__item"
                     href="../projects/starry-tale/"><img src="/img/port-15.jpg"
-                        alt=""></a><a class="portf-sect__item" 
-                            href="../projects/velikaya/"><img src="/img/port-17.jpg" alt=""></a><a class="portf-sect__item" 
+                        alt=""></a><a class="portf-sect__item"
+                            href="../projects/velikaya/"><img src="/img/port-17.jpg" alt=""></a><a class="portf-sect__item"
                                 href="../projects/miracool/"><img src="/img/port-18.jpg" alt=""></a>
-                    <div class="portf-sect__more"><a class="portf-sect__more-item" 
+                    <div class="portf-sect__more"><a class="portf-sect__more-item"
                         href="../projects/"> <span>все проекты</span><img src="/img/icons/more-arrow.svg" alt=""></a></div>
                 </div>
             </div>
@@ -274,7 +273,7 @@
                     <div class="blog-sect__item-title">Элементы и носители фирменного стиля</div>
                 </a></div>
                 <div class="blog-sect__btn"><a class="def-btn" href="../blog/"><span>Читать блог</span><img src="/img/icons/btn-arrow.svg" alt=""></a></div>
-                
+
             </div>
         </div>
         <!--=======================================================================================-->
@@ -293,7 +292,7 @@
                             <li><a href="../projects">Проекты</a></li>
                             <li><a href="../">Услуги</a></li>
                             <li><a href="../blog/">Блог</a></li>
-                            <li><a href="http://brand-hub.tilda.ws/freelance">Сотрудничество</a></li> 
+                            <li><a href="http://brand-hub.tilda.ws/freelance">Сотрудничество</a></li>
                         </ul>
                     </div>
                     <div class="main-footer__column3"><a class="main-footer__phone" href="tel:84951183314">+7 (495) 106-06-14</a>
@@ -448,6 +447,9 @@
     <script src="/js/jquery.min.js"></script>
     <script src="/js/scripts_services.min.js"></script>
     <script src="/js/common_services.js"></script>
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
+    <script src="{{ asset('js/scripts.min.js') }}"></script>
+    <script src="{{ asset('js/common.js') }}"></script>
 </body>
 
 </html>
