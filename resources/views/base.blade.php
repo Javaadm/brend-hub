@@ -228,7 +228,7 @@
 
             <div class="start-sect__step " id="step-4" @if(session("step")==3) style="display: block;" @endif>
                 <div class="start-sect__step-desc">Итог</div>
-                <div class="start-sect__step-big-title">Спасибо! Это и было ТЗ!</div>
+                <div class="start-sect__step-big-title">Спасибо! Бриф завершен!</div>
                 <div class="start-sect__step-text">Больше не будет сложных форм и вопросов.<br>Мы выбрали для вас один из пакетов наших услуг.<br>Готовы приступить к работе. </div>
                 <div class="block-tariff__container">
                     <div class="block-tariff__card first-tariff active">
