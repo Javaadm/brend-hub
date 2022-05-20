@@ -30,12 +30,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             Услуги
                         </a></div><div class="mx-5 xl:mx-3"><a href="/blog" class="text-lg font-medium transition-fast hover:text-blue-700 nuxt-link-active">
                             Блог
-                        </a></div><div class="mx-5 xl:mx-3"><a href="http://brand-hub.tilda.ws/freelance" target="_blank" class="text-lg font-medium transition-fast hover:text-blue-700">
-                            Сотрудничество
-                        </a></div></div></div> <div class="mx-1">
+                        </a></div><div class="mx-5 xl:mx-3"><a href="http://brand-hub.tilda.ws/freelance" target="_blank" class="text-lg font-medium transition-fast hover:text-blue-700">Для специалистов</a></div></div></div> <div class="mx-1">
                           <div class="bg-white flex items-center py-3 px-1 -mx-5 text-lg xl:-mx-3 lg:cursor-pointer lg:hidden">
                             <a href="/" class="block mx-5 text-blue-700 text-lg font-medium transition-fast hover:text-opacity-70 xl:mx-3">
-                        Создать бренд</a> 
+                        Создать бренд</a>
                   <!--   <a href="https://brand-hub.ru/sign-in/" class="block mx-5 text-lg font-medium transition-fast hover:text-blue-700 xl:mx-3">
                         Войти</a> -->
                           </div>  <div class="a-lg:hidden"><button type="button" class="base-button base-button_theme_blue base-button_view_link"><div class="base-button__effect"></div> <div class="base-button__content transition-fast"><!----> <div class="base-button__content-wrapper"><div class="base-button__side transition-fast"><svg width="36" height="10" xmlns="http://www.w3.org/2000/svg" class="fill-current text-blue-700 icon sprite-icons svg-icon svg-icon_burger"><use href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-burger" xlink:href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-burger"></use></svg></div> <!----> <!----></div></div></button></div></div></div></div></div> <div class="flex-1"><div class="relative"><div class="absolute top-0 right-full max-w-[337px] max-h-[210px] w-full h-full translate-x-24 -translate-y-16 pointer-events-none lg:translate-x-12"><div class="absolute inset-0 clip-path-red bg-red-500 rotate-[38deg]"><div class="absolute inset-0 bg-noise opacity-60"></div></div></div> <div class="absolute top-0 left-full max-w-[295px] max-h-[316px] w-full h-full -translate-x-34 pointer-events-none lg:-translate-x-16 md:-top-6 md:translate-x-0 md:max-w-[300px] md:max-h-[320px]"><div class="absolute inset-0 clip-path-purple bg-purple-500 rotate-[49deg]"><div class="absolute inset-0 bg-noise opacity-60"></div></div></div> <div class="container pt-14 pb-20 lg:pb-10"><div><a href="../" class="inline-block fill-current transition-fast cursor-pointer mb-14 hover:text-blue-700 nuxt-link-active"><svg width="20" height="12" xmlns="http://www.w3.org/2000/svg" class="transform scale-reverse icon sprite-icons svg-icon svg-icon_arrow-right"><use href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-arrow-right" xlink:href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-arrow-right"></use></svg></a> <main><div class="grid grid-cols-12"><div class="col-span-8 lg:col-span-12 mb-14 lg:mb-10"><h1 class="title-h2">Разработка фирменного стиля — этапы, сроки, стоимость</h1></div> <div class="col-span-12 mb-14 lg:mb-10"><img src="../../_image/i/rs%EF%B9%95fit%EF%B9%951320%EF%B9%95700/format%EF%B9%95jpg/preset%EF%B9%95placeholder/0d71bce38e4308de1d7f0943effe3ba0.jpg" data-src="../../_image/i/rs%EF%B9%95fit%EF%B9%951320%EF%B9%95700/format%EF%B9%95jpg/0d71bce38e4308de1d7f0943effe3ba0.jpg" class="object-cover -lazyload -lazyload-preloader"></div></div> <div class="grid grid-cols-12"><div class="col-span-8 lg:col-span-12  typography typography-old text-lg lg:text-base"><p>
@@ -56,9 +54,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </ul><br><p style="text-align: center;">
  <img src="../../upload/medialibrary/etapy-sroki-stoimost-1.png"></p>
  <br><blockquote>
-	 
+
 		 Важно! Иногда фирменный стиль воспринимается как набор красивых картинок, нарисованных дизайн-студией — вот приятная цветовая гамма, вот симпатичный логотип, вот оригинальный шрифт. Но это в корне неверное мнение. Не имея под собой объединяющего начала, разрозненные элементы, непривязанные к конкретному бренду или продукту, не принесут никакой пользы. И наоборот! Индивидуальный подход, глубокий анализ бренда и детальное знание законов рынка обеспечивают эффективность айдентики.
- 
+
 </blockquote>
  <br><h2>
 Состав фирменного стиля и этапы разработки </h2>
@@ -87,9 +85,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<li><b>Развитие фирменного стиля на различные виды носителей</b>. На этом этапе прорабатывается корпоративный дизайн деловой документации, презентационной продукции, наружной рекламы и т.д. Также в рамках создания айдентики или в качестве дополнительной услуги может создаваться дизайн коммерческого помещения, фирменный стиль сайта, оформление товарной упаковки и т.д. </li>
 	<li><b>Создание брендбука, гайдлайна или ритейлбука</b>. Гайдлайн — документ, в котором даны рекомендации по применению фирменного стиля. В нем подробно описаны все элементы айдентики и правила их использования. Ритейлбук регламентирует порядок оформления пространств (торговых, офисных и пр.). И наконец, брендбук включает в себя не только описание элементов фирменного стиля, но и информацию о миссии, целях, идеологии бренда.</li>
 </ol><blockquote>
-	 
+
 		 Важный момент! При разработке дизайна фирменного стиля агентства с хорошей репутацией проверяют все визуальные элементы на оригинальность и отсеивают варианты, похожие на айдентику конкурентов. Если этого не сделать, в будущем велика вероятность судебных разбирательств по делу о недобросовестной конкуренции.
- 
+
 </blockquote>
  <br><p>
 	 Примером такого разбирательства может служить дело ПАО «Мегафон» и ПАО «МТС». Фирменная палитра первой компании строится на сочетании зеленого и фиолетового цвета, второй — красного и белого. Но в 2015 году компания «МТС» отошла от традиционной цветовой гаммы и выпустила стартовый пакет для тарифа «Свободный», оформленный в зеленом и темно-зеленом цвете. ПАО «Мегафон» обратилась в Федеральную антимонопольную службу с требованием о признании действий конкурента незаконными. Комиссия ФАС РФ согласилась с требованием заявителя и признала недобросовестную конкуренцию со стороны ПАО «МТС».
@@ -113,9 +111,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	 Итак, сколько стоит разработка? В зависимости от перечисленных выше факторов, а также выбора исполнителя итоговая сумма варьируется от 10000 рублей до бесконечности.
 </p>
 <blockquote>
- 
+
 		 Обратите внимание! В сети представлено немало онлайн-конструкторов и программ для дизайнеров. Неудивительно, что время от времени у заказчиков возникает вопрос о том, как самостоятельно сделать фирменный стиль компании и возможно ли это? В 99% случаев ответ отрицательный. Во-первых, онлайн-конструкторы предлагают типовые решения. Во-вторых, в основе эффективного фирменного стиля лежат масштабные исследования, требующие опыта и специальных знаний. Как следствие, самостоятельно созданные шрифты, корпоративные цвета и логотип будут малополезны
-	 
+
 </blockquote>
  <br><h2>
 Где заказать фирменный стиль? </h2>

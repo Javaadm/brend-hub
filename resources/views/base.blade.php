@@ -36,7 +36,7 @@
                         </ul>
                     </li>
                     <li><a href="blogs/">Блог</a></li>
-                    <li><a href="http://brand-hub.tilda.ws/freelance">Cотрудничество</a></li>
+                    <li><a href="http://brand-hub.tilda.ws/freelance">Для специалистов</a></li>
                 </ul>
                 <a class="def-btn main-header__create" href=""><span>Создать бренд</span></a> <!--//TODO:scroll-->
             </div>
@@ -593,7 +593,7 @@
                 <li><a href="../../brand-hub.ru/about/index.html">О нас</a></li>
                 <li><a href="../../brand-hub.ru/projects/index.html">Проекты</a></li>
                 <li><a href="../../brand-hub.ru/blog/index.html">Блог</a></li>
-                <li><a href="http://brand-hub.tilda.ws/freelance">Сотрудничество</a></li>
+                <li><a href="http://brand-hub.tilda.ws/freelance">Для специалистов</a></li>
             </ul>
             <ul class="main-footer__nav">
                 <li><a href="../../brand-hub.ru/services/branding.html">Брендинг</a></li>

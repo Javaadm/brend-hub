@@ -817,7 +817,7 @@ a:hover, a:focus, a:active, button:hover, button:focus, button:active {
 
 .form__input {
     display: block;
-    width: 100%;
+    /*width: 100%;*/
     background-color: #f8f9fa;
     border: 1px solid rgba(0, 16, 61, 0.12);
     border-radius: 10px;
@@ -827,7 +827,7 @@ a:hover, a:focus, a:active, button:hover, button:focus, button:active {
     padding: 0 12px;
     font-size: 16px;
     color: #263238;
-    height: 48px;
+    /*height: 48px;*/
     margin-bottom: 16px;
     min-width: 0; }
 .form__input:focus {
@@ -1586,12 +1586,13 @@ a:hover, a:focus, a:active, button:hover, button:focus, button:active {
     .end-dialog__message {
         margin-bottom: 35px; } }
 .end-dialog__message .form__input {
-    height: 72px;
+    /*height: 72px;*/
     padding: 0 20px; }
 @media only screen and (max-width: 768px) {
     .end-dialog__message .form__input {
         padding: 0 15px;
-        height: 48px; } }
+    }
+}
 .end-dialog__subtitle {
     margin-bottom: 24px;
     font-size: 28px;

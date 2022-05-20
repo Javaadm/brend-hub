@@ -2,7 +2,7 @@
     // var maxWidth = 200;
     // var maxHeight = 500;
 
-    $('.demo').on('input', function(e){
+    $('.textarea__input').on('input', function(e){
     // Если появляется скролл и его ширина больше клиентской → увеличиваем ширину клиента
     // if (this.scrollWidth > this.clientWidth)
     //     this.style.width = this.scrollWidth + 'px';

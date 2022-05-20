@@ -25,7 +25,7 @@
     <div class="wrapper wrapper_fixed">
         <!--=======================================================================================-->
 
-        
+
     <div class="wrapper">
         <!--=======================================================================================-->
         <header class="main-header">
@@ -38,7 +38,7 @@
                         <li><a href="../projects">Проекты</a></li>
                         <li><a href="../">Услуги</a></li>
                         <li><a href="../blog/">Блог</a></li>
-                        <li><a href="http://brand-hub.tilda.ws/freelance">Сотрудничество</a></li>
+                        <li><a href="http://brand-hub.tilda.ws/freelance">Для специалистов</a></li>
                     </ul>
                     <div class="main-header__ctrls"><a class="main-header__brand" href="/">Создать бренд</a>
                         <!-- <a class="main-header__login" href="https://brand-hub.ru/sign-in/">Войти</a> -->
@@ -314,7 +314,7 @@
                             <li><a href="../projects">Проекты</a></li>
                             <li><a href="../">Услуги</a></li>
                             <li><a href="../blog/">Блог</a></li>
-                            <li><a href="http://brand-hub.tilda.ws/freelance">Сотрудничество</a></li>
+                            <li><a href="http://brand-hub.tilda.ws/freelance">Для специалистов</a></li>
                         </ul>
                     </div>
                     <div class="main-footer__column3"><a class="main-footer__phone" href="tel:84951183314">+7 (495) 106-06-14</a>

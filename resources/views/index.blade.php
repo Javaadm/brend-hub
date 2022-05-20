@@ -40,7 +40,7 @@
                             </ul>
                         </li>
                         <li><a href="/blog/">Блог</a></li>
-                        <li><a href="http://brand-hub.tilda.ws/freelance">Cотрудничество</a></li>
+                        <li><a href="http://brand-hub.tilda.ws/freelance">Для специалистов</a></li>
                     </ul><a class="def-btn main-header__create" href="#" data-ym-goal="header-click-create-brand"><span>Создать бренд</span></a>
                 </div>
             </div>
@@ -51,18 +51,22 @@
             <div class="title-sect__container">
                 <div class="title-sect__hidden">Брендинг теперь делают так</div>
                 <div class="title-sect__title">
-                    <div class="title-sect__title-block title-rect">Брендинг<span></span>
-                        <div class="title-sect__cursor cursor-1"><img class="title-sect__cursor-icon" src="img/icons/cursor-1.svg" alt="">
-                            <div class="title-sect__cursor-img"><img src="img/cursor-1.jpg" alt=""></div>
+                    <a href="#on-step-1" style="text-decoration: none; color: black;">
+                        <div class="title-sect__title-block title-rect">Брендинг<span></span>
+                            <div class="title-sect__cursor cursor-1"><img class="title-sect__cursor-icon" src="img/icons/cursor-1.svg" alt="">
+                                <div class="title-sect__cursor-img"><img src="img/cursor-1.jpg" alt=""></div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                     <div class="title-sect__title-block">теперь</div>
                     <div class="title-sect__title-block">делают</div>
-                    <div class="title-sect__title-block title-select title-rect">так<span></span>
-                        <div class="title-sect__cursor cursor-2"><img class="title-sect__cursor-icon" src="img/icons/cursor-2.svg" alt="">
-                            <div class="title-sect__cursor-img"><img src="img/cursor-2.jpg" alt=""></div>
+                    <a href="#on-step-1" style="text-decoration: none; color: #1E73D7;">
+                        <div class="title-sect__title-block title-select title-rect">так<span></span>
+                            <div class="title-sect__cursor cursor-2"><img class="title-sect__cursor-icon" src="img/icons/cursor-2.svg" alt="">
+                                <div class="title-sect__cursor-img"><img src="img/cursor-2.jpg" alt=""></div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="title-sect__text">
                     <p>У вас есть бизнес. У нас - 3 вопроса.<br>Создадим бренд вместе!</p>
@@ -79,6 +83,7 @@
                 <div class="start-sect__stitle">
                     <div class="start-sect__step-desc">Шаг 3</div>
                 </div>
+                <a name="on-step-1"></a>
                 <div class="start-sect__stitle">
                     <div class="start-sect__step-desc">Шаг 2</div>
                 </div>
@@ -113,7 +118,8 @@
                         @endforeach
                     </div>
                     <div class="start-sect__step-title">Расскажите о вашем бизнесе</div>
-                    <input class="form__input start-sect__step-moment start-sect__step-moment-1" type="text" value="{{ session("moment_business") }}" placeholder="Описание преимуществ продукта/бизнеса(УТП)">
+                    <textarea class="textarea__input" type="text" value="{{ session("moment_business") }}" placeholder="Описание преимуществ продукта/бизнеса(УТП)"></textarea>
+
                     <div class="start-sect__step-title">Какие дизайны вам нравятся?</div>
                     <div class="start-sect__urls">
                         @if(session("urls"))
@@ -422,7 +428,7 @@
                 <!-- <li><a href="../../brand-hub.ru/about/">О нас</a></li> -->
                 <li><a href="/projects/">Проекты</a></li>
                 <li><a href="/blog/">Блог</a></li>
-                <li><a href="http://brand-hub.tilda.ws/freelance">Сотрудничество</a></li>
+                <li><a href="http://brand-hub.tilda.ws/freelance">Для специалистов</a></li>
             </ul>
             <ul class="main-footer__nav">
                 <li><a href="/services/branding">Брендинг</a></li>
@@ -451,6 +457,7 @@
     <script src="{{ asset('js/jquery.min.js') }}"></script>
     <script src="{{ asset('js/scripts.min.js') }}"></script>
     <script src="{{ asset('js/common.js') }}"></script>
+    <script src="{{ asset('js/magic_textarea.js') }}"></script>
 </body>
 
 </html>

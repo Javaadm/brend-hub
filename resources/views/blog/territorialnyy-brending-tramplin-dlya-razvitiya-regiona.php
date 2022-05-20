@@ -30,12 +30,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             Услуги
                         </a></div><div class="mx-5 xl:mx-3"><a href="/blog" class="text-lg font-medium transition-fast hover:text-blue-700 nuxt-link-active">
                             Блог
-                        </a></div><div class="mx-5 xl:mx-3"><a href="http://brand-hub.tilda.ws/freelance" target="_blank" class="text-lg font-medium transition-fast hover:text-blue-700">
-                            Сотрудничество
-                        </a></div></div></div> <div class="mx-1">
+                        </a></div><div class="mx-5 xl:mx-3"><a href="http://brand-hub.tilda.ws/freelance" target="_blank" class="text-lg font-medium transition-fast hover:text-blue-700">Для специалистов</a></div></div></div> <div class="mx-1">
                           <div class="bg-white flex items-center py-3 px-1 -mx-5 text-lg xl:-mx-3 lg:cursor-pointer lg:hidden">
                             <a href="/" class="block mx-5 text-blue-700 text-lg font-medium transition-fast hover:text-opacity-70 xl:mx-3">
-                        Создать бренд</a> 
+                        Создать бренд</a>
                   <!--   <a href="https://brand-hub.ru/sign-in/" class="block mx-5 text-lg font-medium transition-fast hover:text-blue-700 xl:mx-3">
                         Войти</a> -->
                           </div>  <div class="a-lg:hidden"><button type="button" class="base-button base-button_theme_blue base-button_view_link"><div class="base-button__effect"></div> <div class="base-button__content transition-fast"><!----> <div class="base-button__content-wrapper"><div class="base-button__side transition-fast"><svg width="36" height="10" xmlns="http://www.w3.org/2000/svg" class="fill-current text-blue-700 icon sprite-icons svg-icon svg-icon_burger"><use href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-burger" xlink:href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-burger"></use></svg></div> <!----> <!----></div></div></button></div></div></div></div></div> <div class="flex-1"><div class="relative"><div class="absolute top-0 right-full max-w-[337px] max-h-[210px] w-full h-full translate-x-24 -translate-y-16 pointer-events-none lg:translate-x-12"><div class="absolute inset-0 clip-path-red bg-red-500 rotate-[38deg]"><div class="absolute inset-0 bg-noise opacity-60"></div></div></div> <div class="absolute top-0 left-full max-w-[295px] max-h-[316px] w-full h-full -translate-x-34 pointer-events-none lg:-translate-x-16 md:-top-6 md:translate-x-0 md:max-w-[300px] md:max-h-[320px]"><div class="absolute inset-0 clip-path-purple bg-purple-500 rotate-[49deg]"><div class="absolute inset-0 bg-noise opacity-60"></div></div></div> <div class="container pt-14 pb-20 lg:pb-10"><div><a href="../" class="inline-block fill-current transition-fast cursor-pointer mb-14 hover:text-blue-700 nuxt-link-active"><svg width="20" height="12" xmlns="http://www.w3.org/2000/svg" class="transform scale-reverse icon sprite-icons svg-icon svg-icon_arrow-right"><use href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-arrow-right" xlink:href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-arrow-right"></use></svg></a> <main><div class="grid grid-cols-12"><div class="col-span-8 lg:col-span-12 mb-14 lg:mb-10"><h1 class="title-h2">Территориальный брендинг — трамплин для развития региона</h1></div> <div class="col-span-12 mb-14 lg:mb-10"><img src="../../_image/i/rs%EF%B9%95fit%EF%B9%951320%EF%B9%95700/format%EF%B9%95jpg/preset%EF%B9%95placeholder/fb434b5785bc56d6d73a1c6caa4dace0.jpg" data-src="../../_image/i/rs%EF%B9%95fit%EF%B9%951320%EF%B9%95700/format%EF%B9%95jpg/fb434b5785bc56d6d73a1c6caa4dace0.jpg" class="object-cover -lazyload -lazyload-preloader"></div></div> <div class="grid grid-cols-12"><div class="col-span-8 lg:col-span-12  typography typography-old text-lg lg:text-base"><p>
@@ -109,28 +107,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	 Чтобы исправить репутацию и привлечь инвесторов, бизнесменов и специалистов, в 2001 году была запущена масштабная кампания под лозунгом «Африканский город мирового класса». Разработкой занималось одно из ведущих мировых агентств в сфере брендинга — Interbrand (Великобритания). <br>
 	 Благодаря грамотному брендингу и планомерной реализации проекта уже в 2005 году Йоханнесбург вошел в список городов, принимающих чемпионат мира по футболу 2010 года. Кроме того, за десять лет доля города в ВВП страны выросла с 2,5 до 16%, а ежегодный прирост населения превысил 3%.
 		  <br><br><br><p style="text-align: center;">
-		 <img src="../../img/blog/territorialnyy-brending-6.png"></p> 
+		 <img src="../../img/blog/territorialnyy-brending-6.png"></p>
 </li>
- 
+
  <li> <b>Мельбурн</b><br>
   Второй город Австралии, уступающий по количеству населения только Сиднею. С 1942 по 1944 год был штаб-квартирой войск союзников. Благодаря этому предприятия Мельбурна получили множество военных заказов и город превратился в промышленный центр страны. Рост продолжался более сорока лет и прекратился только во время экономического спада 1989 года. Спустя три года власти начали кампанию по обновлению экономики города, вследствие которой Мельбурн стал творческой и инновационной столицей Австралии.<br>
   В 2009 году было решено дополнить сложившуюся репутацию и превратить Мельбурн в центр международного туризма. Разработка нового территориального бренда была доверена агентству Landor, которое более полувека работает в индустрии брендинга. Компания комплексно подошла к решению задачи и разработала различные варианты визуализации бренда. К примеру, логотип города, напоминающий кристалл, подчеркивает и непрерывную трансформацию, и многогранность общества.<br>
   Всего за два года доходы мегаполиса от внешнего туризма выросли на 5% и составили 3,4 млрд. долларов. За это же время валовый продукт Мельбурна увеличился на 10% и достиг 56,8 млрд. долларов.
  <br><br><br><p style="text-align: center;">
- <img src="../../img/blog/territorialnyy-brending-7.png"></p> 
- 
+ <img src="../../img/blog/territorialnyy-brending-7.png"></p>
+
 </li>
 
- 
+
  <li> <b>Копенгаген</b><br>
   Столица Дании — крупный политический, культурный, экономический, финансовый центр не только страны, но и всей Северной Европы. Однако тридцать лет назад городу угрожало банкротство. В 1989 году была разработана стратегия по выходу из кризиса, получившая название «20 шагов». А спустя два десятилетия стартовала программа ребрендинга, целью которой было превращение столицы в туристический центр. В основу концепции легла идея открытости и дружественности туристам, инвестициям, бизнесу, событиям, альтернативам и т.д.<br>
   Всего через год после старта программы ребрендинга Копенгаген занимает первое место в рейтинге лучших городов для бизнеса, одновременно он становится вторым в мире по уровню безопасности. И вишенка на торте — столица Дании признана лучшим городом для велосипедистов. Спустя еще год Копенгаген получает звание города с самым точным аэропортом Европы. И наконец, в 2012 году он выходит на 12 позицию в рейтинге успешных территориальных брендов. При этом город обгоняет Нью-Йорк, Стокгольм и Прагу.
- 
+
  <br><br><br><p style="text-align: center;">
- <img src="../../img/blog/territorialnyy-brending-8.png"></p> 
- 
+ <img src="../../img/blog/territorialnyy-brending-8.png"></p>
+
  </li>
- 
+
  </ul><br><h2>
 А что у нас? Примеры брендинга регионов России </h2>
  <br><p style="text-align: center;">
@@ -143,16 +141,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
  <br><br><br><p style="text-align: center;">
  <img src="../../img/blog/territorialnyy-brending-10.png"></p>
  </li>
- 
+
  <li><b>Добрянка</b><br>
 	 Собственный бренд нужен не только мегаполисам, но и небольшим населенным пунктам. Ярким примером тому служит Добрянка. В городе, который находится в Пермском крае, живет чуть больше 32 тысяч человек. Несмотря на это, он носит гордое звание столицы доброты.<br>
 	 Бренд «Добрянка — столица доброты» был разработан компанией CityBranding (Москва). Его презентация состоялась в июле 2012 года. Проект создавался в четыре этапа: исследование места и опрос жителей, разработка концепции на основе идентичности города (всего было создано 8 концепций), визуализация и создание основных элементов фирменного стиля, поддержка бренда, в рамках которой был объявлен конкурс идей и выделены основные направления развития. По сути, разработчик продемонстрировал классический подход к территориальному брендингу. К примеру, логотип был создан после четырехмесячного изучения места, его характеристик и особенностей. Он объединил в себе основные элементы городской идентичности: бережное отношение к традициям, культуру, лес и др.<br>
 	 Такой бренд не мог не повлиять на Добрянку. В последующие пять лет город успешно реализовал больше 20 проектов различного масштаба.
- 
+
  <br><br><br><p style="text-align: center;">
  <img src="../../img/blog/territorialnyy-brending-11.png"></p>
  </li>
- 
+
  <li><b>Астрахань</b><br>
 	 Основанная в середине XIII века, сегодня Астрахань превратилась в культурный, спортивный, экономический, промышленный центр Нижнего Поволжья. В силу выгодного географического положения в городе сформировался уникальный национальный состав. По итогам переписи 2010 года, здесь постоянно живут представители 173 национальностей, которые относятся к 14 религиозным конфессиям. Это серьезно затрудняло процесс создания бренда региона, поскольку требовалось учесть интересы всех жителей. Впрочем, специалисты «Центра стратегического анализа и управления проектами» успешно справились с поставленной задачей.<br>
 	 Концепция бренда учитывает, как экономическое развитие и местоположение, так и другие особенности города. Логотип Астрахани выполнен в трех оттенках — синем, лазурном и белом. Он представляет собой контурное изображение башен кремля, которые омываются водами Волги. Лого несет глубокую смысловую нагрузку. Оно символизирует богатые водные ресурсы во всем их многообразии (торговля, рыболовство, судостроение), а также дает географическую привязку. Простой, понятный и вместе с тем наполненный смыслом логотип понравился не только простым горожанам, но и бизнесу. Предприниматели используют символику на продукции местного производства и тем самым способствуют продвижению территориального бренда.<br><b>Обратите внимание! </b>Власти города последовательно и планомерно решают задачи продвижения, повышения узнаваемости, увеличения лояльности к территориальному бренду. К примеру, в мае 2017 года был открыт сервис по продаже билетов на внутриобластной транспорт. Сайт оформлен в фирменной цветовой гамме. Кроме того, в области регулярно проводят PR-кампании, направленные на популяризацию бренда.<br>

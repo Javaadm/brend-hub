@@ -13220,10 +13220,7 @@
                                                              class="text-lg font-medium transition-fast hover:text-blue-700 nuxt-link-active">
                                         Блог
                                     </a></div>
-                                <div class="mx-5 xl:mx-3"><a href="http://brand-hub.tilda.ws/freelance" target="_blank"
-                                                             class="text-lg font-medium transition-fast hover:text-blue-700">
-                                        Сотрудничество
-                                    </a></div>
+                                <div class="mx-5 xl:mx-3"><a href="http://brand-hub.tilda.ws/freelance" target="_blank" class="text-lg font-medium transition-fast hover:text-blue-700">Для специалистов</a></div>
                             </div>
                         </div>
                         <div class="mx-1">
