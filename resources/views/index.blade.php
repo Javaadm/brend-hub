@@ -136,7 +136,7 @@
                 @yield('step-3')
                 <div class="start-sect__step @if(session("step") >= 4) active @endif" id="step-4">
                     <div class="start-sect__step-desc">Итог</div>
-                    <div class="start-sect__step-title">Спасибо! Это и было ТЗ!</div>
+                    <div class="start-sect__step-title">Спасибо!  Бриф завершен!</div>
                     <div class="start-sect__step-text">Больше не будет сложных форм и вопросов. <br>Мы выбрали для вас один из пакетов наших услуг. <br>Готовы приступить к работе.</div>
                     <div class="end-dialog__packs">
                         <div class="end-dialog__pack @if(session("tariff") == 1) active @endif" number="1" data-ym-goal="brief-checkout-services-click-branding-and-style">
