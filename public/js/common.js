@@ -1,19 +1,6 @@
 "use strict";
 
 $(function () {
-
-    $(document).on('click', (e) => {
-        const ymGoal = e.target.getAttribute('data-ym-goal')
-            ?? e.target.parentNode.getAttribute('data-ym-goal')
-            ?? e.target.parentNode.parentNode.getAttribute('data-ym-goal');
-
-        if (ymGoal === null) {
-            return;
-        }
-
-        ym(51242554, 'reachGoal', ymGoal);
-    });
-
     //==================================================================
     var lazyLoadInstance = new LazyLoad({
         elements_selector: ".lazy"
@@ -551,13 +538,13 @@ $(function () {
 
 
     $('#step-btn-v2-1-1').click(function (e) {
-        $.post( "update-session", { "step-1-board": "2" });
+            $.post( "update-session", { "step-1-board": "2" });
     });
     $('#step-btn-v2-1-2').click(function (e) {
-        $.post( "update-session", { "step-1-board": "3" });
+            $.post( "update-session", { "step-1-board": "3" });
     });
     $('#step-btn-v2-1-3').click(function (e) {
-        $.post( "update-session", { "step-1-board": "4" });
+            $.post( "update-session", { "step-1-board": "4" });
     });
 
 
@@ -596,7 +583,7 @@ $(function () {
             scrollTo(id);
             $.post( "update-session", { step: 3 });
         } else {
-            scrollTo('.start-sect__dess');
+            scrollTo('#start-sect__dess');
         }
     }); //==================================================================
 
@@ -634,15 +621,48 @@ $(function () {
 
     $(".start-sect__color input").click(function (e) {
         $.post( "update-session", { "images-v2-color": e.currentTarget.name.substring(6)-1 });
+
+        let card = $(".start-sect__color_"+(e.currentTarget.name.substring(6)).toString());
+
+        if( card.hasClass("active")){
+            card.removeClass("active");
+        }else{
+            card.addClass("active");
+        }
+
     });
     $(".start-sect__check.shape input").click(function (e) {
         $.post( "update-session", { "images-v2-shape": e.currentTarget.name.substring(4)-1 });
+
+        let card = $(".start-sect__check_shape_"+(e.currentTarget.name.substring(4)).toString());
+
+        if( card.hasClass("active")){
+            card.removeClass("active");
+        }else{
+            card.addClass("active");
+        }
     });
     $(".start-sect__check-wrapper input").click(function (e) {
         $.post( "update-session", { "images-v2-pattern": e.currentTarget.name.substring(4)-1 });
+
+        let card = $(".start-sect__check_pattern_"+(e.currentTarget.name.substring(4)).toString());
+
+        if( card.hasClass("active")){
+            card.removeClass("active");
+        }else{
+            card.addClass("active");
+        }
     });
     $(".start-sect__check.font input").click(function (e) {
         $.post( "update-session", { "images-v2-font": e.currentTarget.name.substring(4)-1 });
+
+        let card = $(".start-sect__check_font_"+(e.currentTarget.name.substring(4)).toString());
+
+        if( card.hasClass("active")){
+            card.removeClass("active");
+        }else{
+            card.addClass("active");
+        }
     });
 
     function scrollTo(id) {
@@ -653,7 +673,7 @@ $(function () {
 
     $("input.start-sect__labels-input").focusout(function (e) {
         var text = $( this ).val();
-        $.post( "update-session" , { "category_label":text});
+        $.post( "update-session", { "category_label":text});
     });
 
     $("input.start-sect__step-moment-1").focusout(function (e) {
@@ -684,20 +704,6 @@ $(function () {
         var text = $( this ).val();
         $.post( "update-session", { "email":text});
     });
-
-    $(".lead-name-input").focusout(function (e) {
-        var text = $( this ).val();
-        // alert(window.location.origin +  "/update-session");
-        $.post( window.location.origin +  "/update-session", { "name":text});
-    });
-    $(".lead-phone-input").focusout(function (e) {
-        var text = $( this ).val();
-        $.post( window.location.origin +  "/update-session", { "phone":text});
-    });
-    $(".lead-email-input").focusout(function (e) {
-        var text = $( this ).val();
-        $.post( window.location.origin +  "/update-session", { "email":text});
-    });
     $("input.form__input.start-sect__url").focusout(function (e) {
 
         saveSessionUrl();
@@ -718,11 +724,9 @@ $(function () {
 
     $(".lead-dialog__submit").click(function (e) {
         if(e.currentTarget.name === "order"){
-            // alert(window.location.origin +  "/send-order");
-            $.get( window.location.origin +  "/send-order");
+            $.get( "send-order");
         }else {
-            // alert(window.location.origin +  "/send-lead");
-            $.get( window.location.origin + "/send-lead");
+            $.get("send-lead");
         }
         $(this).magnificPopup('close');
     });

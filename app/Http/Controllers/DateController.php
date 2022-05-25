@@ -10,18 +10,18 @@ use Illuminate\Support\Facades\Log;
 class DateController extends Controller
 {
     public const CONST_DESS_ARRAY = [
-        ["title"=>"Сфера деятельности","ymGoal"=>"brief-company-details-click-industry","body"=>"Это то, что помогает нам оставаться в индустрии, соответствовать ей. Оно не уникальное, а скорее это общая канва для двух."],
-        ["title"=>"Социальная активность","ymGoal"=>"brief-company-details-click-socialproject","body"=>"Продукты, связанные  с поддержанием социально незащищенных групп: биоразлагающаяся упаковка, помогающий пожилым продукт."],
-        ["title"=>"Материальные активы","ymGoal"=>"brief-company-details-click-assets","body"=>"Физическое имущество: земля, здания, машины/станки и прочее. Помогает отличаться от конкурентов."],
-        ["title"=>"Марткетинг и PR","ymGoal"=>"brief-company-details-click-marketing","body"=>"Сильный маркетинг, коллаборации, амбасадоры бренда, лицо бренда - медийная личность и т.д."],
-        ["title"=>"Награды и заслуги","ymGoal"=>"brief-company-details-click-achievements","body"=>"Обладатель наград, премий, лауреат конкурсов в своей сфере, общественное признание и т.д."],
-        ["title"=>"Дизайн и интерьер","ymGoal"=>"brief-company-details-click-design","body"=>"Аутентичный интерьер. Обычно подходит для ресторанов и кафе, а так же сфере развлечений."],
-        ["title"=>"Продукт","ymGoal"=>"brief-company-details-click-product","body"=>"Продуктовое предложение, которое выделяется на рынке. Это может быть шоколад, который не тает  в ладони."],
-        ["title"=>"Ассортимент","ymGoal"=>"brief-company-details-click-productrange","body"=>"Выбор на все случаи жизни, или, наоборот, редкие позиции под небольшой сегмент аудитории."],
-        ["title"=>"Сырье и состав","ymGoal"=>"brief-company-details-click-ingredients","body"=>"Особые компоненты в составе. Возможно, товар на 100% органичный или с добавлением масла гуараны."],
-        ["title"=>"Страна происхождения","ymGoal"=>"brief-company-details-click-country","body"=>"Ваш знак качества: произведено в Германии, пошито в Италии или designed in California."],
-        ["title"=>"Технологии и инновации","ymGoal"=>"brief-company-details-click-innovations","body"=>"Уникальные технологии.  Например итальянская производственная линия для пекарен, высокоточное оборудование в медицине."],
-        ["title"=>"Персонал","ymGoal"=>"brief-company-details-click-people","body"=>"В вашей команде крутые эксперты. Они известны на рынке и за его пределами."],
+        ["title"=>"Сфера деятельности","body"=>"Это то, что помогает нам оставаться в индустрии, соответствовать ей. Оно не уникальное, а скорее это общая канва для двух."],
+        ["title"=>"Социальная активность","body"=>"Продукты, связанные  с поддержанием социально незащищенных групп: биоразлагающаяся упаковка, помогающий пожилым продукт."],
+        ["title"=>"Материальные активы","body"=>"Физическое имущество: земля, здания, машины/станки и прочее. Помогает отличаться от конкурентов."],
+        ["title"=>"Марткетинг и PR","body"=>"Сильный маркетинг, коллаборации, амбасадоры бренда, лицо бренда - медийная личность и т.д."],
+        ["title"=>"Награды и заслуги","body"=>"Обладатель наград, премий, лауреат конкурсов в своей сфере, общественное признание и т.д."],
+        ["title"=>"Дизайн и интерьер","body"=>"Аутентичный интерьер. Обычно подходит для ресторанов и кафе, а так же сфере развлечений."],
+        ["title"=>"Продукт","body"=>"Продуктовое предложение, которое выделяется на рынке. Это может быть шоколад, который не тает  в ладони."],
+        ["title"=>"Ассортимент","body"=>"Выбор на все случаи жизни, или, наоборот, редкие позиции под небольшой сегмент аудитории."],
+        ["title"=>"Сырье и состав","body"=>"Особые компоненты в составе. Возможно, товар на 100% органичный или с добавлением масла гуараны."],
+        ["title"=>"Страна происхождения","body"=>"Ваш знак качества: произведено в Германии, пошито в Италии или designed in California."],
+        ["title"=>"Технологии и инновации","body"=>"Уникальные технологии.  Например итальянская производственная линия для пекарен, высокоточное оборудование в медицине."],
+        ["title"=>"Персонал","body"=>"В вашей команде крутые эксперты. Они известны на рынке и за его пределами."],
     ];
 
     public const CONST_EMOTIONS_VALUE = [
@@ -88,63 +88,10 @@ class DateController extends Controller
         "Новаторский"
     ];
 
-    private const YM_GOALS_FOR_PRODUCT_REFERENCES = [
-        // first page (keys: 0-9)
-        'brief-mood-package-click-bahroma',
-        'brief-mood-package-click-lemonade',
-        'brief-mood-package-click-sushi',
-        'brief-mood-package-click-orangemix',
-        'brief-mood-package-click-spicemode',
-        'brief-mood-package-click-veggieburger',
-        'brief-mood-package-click-peas',
-        'brief-mood-package-click-siggis',
-        'brief-mood-package-click-apetina',
-        // second page (keys: 9-18)
-        'brief-mood-package-click-gotham',
-        'brief-mood-package-click-tetapizza',
-        'brief-mood-package-click-sausages',
-        'brief-mood-package-click-dovesfarm',
-        'brief-mood-package-click-americanpicnic',
-        'brief-mood-package-click-cereals',
-        'brief-mood-package-click-smalls',
-        'brief-mood-package-click-joecoffee',
-        'brief-mood-package-click-tanzania',
-    ];
 
-    private const YM_GOALS_FOR_SERVICE_REFERENCES = [
-        // first page (keys: 0-9)
-        'brief-mood-service-click-turbo',
-        'brief-mood-service-click-heringfoundation',
-        'brief-mood-service-click-vivahjewels',
-        'brief-mood-service-click-oloo',
-        'brief-mood-service-click-mauracora',
-        'brief-mood-service-click-skatra',
-        'brief-mood-service-click-harone',
-        'brief-mood-service-click-moon',
-        'brief-mood-service-click-angelsandco',
-        // second page (keys: 9-18)
-        'brief-mood-service-click-olivequeen',
-        'brief-mood-service-click-doglove',
-        'brief-mood-service-click-devine',
-        'brief-mood-service-click-lesliesmith',
-        'brief-mood-service-click-childrenspublishing',
-        'brief-mood-service-click-broomtail',
-        'brief-mood-service-click-lildingus',
-        'brief-mood-service-click-dreamer',
-        'brief-mood-service-click-rachelmovits',
-    ];
 
     public function render(Request $request)
     {
-
-        if(!$request->session()->has("words-v2")) {
-            $elements = [];
-            for ($i=0;$i<17;$i++){
-                $elements[] = ["isSelected" => false];
-            }
-            $request->session()->put("words-v2", $elements);
-        }
-
         $session = session();
 
         if(!$request->session()->has("type")) {
@@ -236,21 +183,17 @@ class DateController extends Controller
 
 
         return view(
-            "main-board.board-v1",
+            "main-board.board-$board",
             [
                 "dessArray" => self::CONST_DESS_ARRAY,
                 "emotionsValue" => self::CONST_EMOTIONS_VALUE,
                 "colorsValue" => self::CONST_BOARD_V2_CARD_COLOR_VALUE,
                 "patternsValue" => self::CONST_BOARD_V2_CARD_PATTERN_VALUE,
-                "wordsValue" => self::CONST_BOARD_V2_CARD_WORDS_VALUE,
-                'ymGoalsForProductReferences' => self::YM_GOALS_FOR_PRODUCT_REFERENCES,
-                'ymGoalsForServiceReferences' => self::YM_GOALS_FOR_SERVICE_REFERENCES,
+                "wordsValue" => self::CONST_BOARD_V2_CARD_WORDS_VALUE
             ]
         );
 
     }
-
-
 
     public function updateSession(Request $request)
     {
@@ -263,15 +206,6 @@ class DateController extends Controller
             $number = $request->request->get("image");
 
             $images = $request->session()->get("images");
-
-            $images[$number]["isSelected"] = !$images[$number]["isSelected"];
-            $request->session()->put("images", $images);
-        }
-
-        if ($request->request->has("image-v2")) {
-            $number = $request->request->get("image-v2");
-
-            $images = $request->session()->get("images-v2");
 
             $images[$number]["isSelected"] = !$images[$number]["isSelected"];
             $request->session()->put("images", $images);

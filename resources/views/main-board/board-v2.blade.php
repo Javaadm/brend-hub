@@ -100,7 +100,7 @@
 @endsection
 
 @section('step-3')
-    <div class="start-sect__step" id="step-3">
+    <div class="start-sect__step @if(session("step") >= 3) active @endif" id="step-3">
         <div class="start-sect__step-desc">Шаг 3</div>
         <div class="start-sect__step-title">Ассоциации и эмоции</div>
         <div class="start-sect__step-text start-sect__step-text_big">Это заключительный шаг на твоем пути построения бренда, поделись своими ассоциациями и эмоциями к выбранным кейсам из первого шага.</div>
@@ -108,8 +108,8 @@
             <div class="start-sect__ct">
                 <div class="start-sect__ct-items">
                     @foreach ($colorsValue as $key=>$color)
-                        @if(session('images-v2-color')[$loop->index]['isSelected'])
-                            <div class="start-sect__color">
+                            <div class="start-sect__color start-sect__color_disp_none start-sect__color_{{$loop->index+1}}
+                            @if(session('images-v2-color')[$loop->index]['isSelected']) active @endif">
                                 <div class="start-sect__color-header">
                                     <div class="start-sect__color-img"><img src="img/v2/color-{{$loop->index+1}}.jpg" alt=""></div>
                                     <div class="start-sect__color-points">
@@ -119,34 +119,27 @@
                                     </div>
                                 </div>
                             </div>
-                        @endif
                     @endforeach
                 </div>
             </div>
             <div class="start-sect__ct">
                 <div class="start-sect__ct-items">
                     @foreach(session('images-v2-shape') as $shape)
-                        @if($shape['isSelected'])
-                    <div class="start-sect__check"><img class="start-sect__check-bg" src="img/v2/shape-{{$loop->index+1}}.jpg" alt=""></div>
-                        @endif
+                    <div class="start-sect__check start-sect__check_disp_none start-sect__check_shape_{{$loop->index+1}} @if($shape['isSelected']) active @endif"><img class="start-sect__check-bg" src="img/v2/shape-{{$loop->index+1}}.jpg" alt=""></div>
                     @endforeach
                 </div>
             </div>
             <div class="start-sect__ct">
                 <div class="start-sect__ct-items">
                     @foreach(session('images-v2-pattern') as $pattern)
-                        @if($pattern['isSelected'])
-                    <div class="start-sect__check"><img class="start-sect__check-bg" src="img/v2/pattern-{{$loop->index+1}}.jpg" alt=""></div>
-                        @endif
+                    <div class="start-sect__check start-sect__check_disp_none start-sect__check_pattern_{{$loop->index+1}}  @if($pattern['isSelected']) active @endif"><img class="start-sect__check-bg" src="img/v2/pattern-{{$loop->index+1}}.jpg" alt=""></div>
                     @endforeach
                 </div>
             </div>
             <div class="start-sect__ct">
                 <div class="start-sect__ct-items">
                     @foreach(session('images-v2-font') as $font)
-                        @if($font['isSelected'])
-                            <div class="start-sect__check"><img class="start-sect__check-bg" src="img/v2/font-{{$loop->index+1}}.jpg" alt=""></div>
-                        @endif
+                            <div class="start-sect__check start-sect__check_disp_none start-sect__check_font_{{$loop->index+1}} @if($font['isSelected']) active @endif"><img class="start-sect__check-bg" src="img/v2/font-{{$loop->index+1}}.jpg" alt=""></div>
                     @endforeach
                 </div>
             </div>
