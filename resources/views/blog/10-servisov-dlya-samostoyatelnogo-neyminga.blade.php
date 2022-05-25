@@ -16,7 +16,7 @@
     <meta data-n-head="ssr" data-hid="description" name="description"
           content="⭐⭐⭐⭐⭐ 10 сервисов для самостоятельного нейминга. BrandHub - первый онлайн сервис брендинга. Наконец-то создание бренда автоматизировано, и превращено в удобный, современный и приятный сервис, без потери качества и эффективности!">
     <link data-n-head="ssr" rel="icon" type="image/x-icon" href="../../favicon.ico">
-    <link data-n-head="ssr" rel="canonical" href="index.html">
+    <link data-n-head="ssr" rel="canonical" href={{ url()->current() }}>
     <link rel="preload" href="../../_nuxt/c9e0758.js" as="script">
     <link rel="preload" href="../../_nuxt/f62c1a6.js" as="script">
     <link rel="preload" href="../../_nuxt/72832e2.js" as="script">
