@@ -236,7 +236,7 @@ class DateController extends Controller
 
 
         return view(
-            "main-board.board-v1",
+            "main-board.board-v2",
             [
                 "dessArray" => self::CONST_DESS_ARRAY,
                 "emotionsValue" => self::CONST_EMOTIONS_VALUE,

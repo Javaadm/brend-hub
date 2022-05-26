@@ -484,4 +484,75 @@ $(function () {
         }, 'slow', 'swing');
     } //==================================================================
 
+
+    $(".start-sect__check input").click(function (e) {
+        $.post( "update-session", { image: e.currentTarget.name.substring(4)-1 });
+        let card;
+
+        if ($(this).attr("name2")!="product"){
+            card = $(".start-sect__check__step_3__"+(e.currentTarget.name.substring(4)).toString());
+        }else{
+            card = $(".start-sect__select__step_3__"+(e.currentTarget.name.substring(4)).toString());
+        }
+
+        if( card.hasClass("active")){
+            card.removeClass("active");
+        }else{
+            card.addClass("active");
+        }
+    });
+
+    $(".start-sect__color input").click(function (e) {
+        $.post( "update-session", { "images-v2-color": e.currentTarget.name.substring(6)-1 });
+
+        let card = $(".start-sect__color_"+(e.currentTarget.name.substring(6)).toString());
+
+        if( card.hasClass("active")){
+            card.removeClass("active");
+        }else{
+            card.addClass("active");
+        }
+
+    });
+    $(".start-sect__check.shape input").click(function (e) {
+        $.post( "update-session", { "images-v2-shape": e.currentTarget.name.substring(4)-1 });
+
+        let card = $(".start-sect__check_shape_"+(e.currentTarget.name.substring(4)).toString());
+
+        if( card.hasClass("active")){
+            card.removeClass("active");
+        }else{
+            card.addClass("active");
+        }
+    });
+    $(".start-sect__check-wrapper input").click(function (e) {
+        $.post( "update-session", { "images-v2-pattern": e.currentTarget.name.substring(4)-1 });
+
+        let card = $(".start-sect__check_pattern_"+(e.currentTarget.name.substring(4)).toString());
+
+        if( card.hasClass("active")){
+            card.removeClass("active");
+        }else{
+            card.addClass("active");
+        }
+    });
+    $(".start-sect__check.font input").click(function (e) {
+        $.post( "update-session", { "images-v2-font": e.currentTarget.name.substring(4)-1 });
+
+        let card = $(".start-sect__check_font_"+(e.currentTarget.name.substring(4)).toString());
+
+        if( card.hasClass("active")){
+            card.removeClass("active");
+        }else{
+            card.addClass("active");
+        }
+    });
+
+    let emotionsId = e.currentTarget.name.substring(3)-1;
+    let emotionsText = e.currentTarget.parentNode.children[2].textContent
+    console.log(emotionsId)
+    console.log($(this).attr("image"))
+    console.log(emotionsText)
+    $.post( "update-session", { emotionsId: emotionsId, imageId: $(this).attr("image"), emotionsText:emotionsText });
+
 });
