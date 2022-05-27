@@ -125,21 +125,21 @@
                     <div><strong>Тариф который выбрал клиент</strong></div>
                     <div>
                         <div>
-                            @if($offer->id === '179b3355-a00b-4e1e-b66f-8a307b593756')
+                            @if($offer->id->toString() === '179b3355-a00b-4e1e-b66f-8a307b593756')
                             <div>Брендинг + фирменный стиль</div>
                             <ul>
                                 <li>Определение территории позиционирования</li>
                                 <li>Логотип</li>
                                 <li>Дизайн упаковки<span>*от пакета молока до этикеток крафтового пива</span></li>
                             </ul>
-                            @elseif($offer->id === 'adcfc1db-c578-4d4a-9d0d-8f1ff4217699')
+                            @elseif($offer->id->toString() === 'adcfc1db-c578-4d4a-9d0d-8f1ff4217699')
                                 <div>Брендинг + дизайн упаковки</div>
                                 <ul>
                                     <li>Определение территории позиционирования</li>
                                     <li>Логотип</li>
                                     <li>Дизайн упаковки<span>*от пакета молока до этикеток крафтового пива</span></li>
                                 </ul>
-                            @elseif($offer->id === 'e748f9a5-7683-4d5d-ae6a-344df08958e4' || $offer->id === '4a69a458-c846-403c-9133-2c594cfeea0e')
+                            @elseif($offer->id->toString() === 'e748f9a5-7683-4d5d-ae6a-344df08958e4' || $offer->id->toString() === '4a69a458-c846-403c-9133-2c594cfeea0e')
                                 <div>Стартап</div>
                                 <ul>
                                     <li>Логотип</li>

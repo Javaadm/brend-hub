@@ -111,6 +111,14 @@
         step2Start();
     };
 
+    const step1Reset = () => {
+        $('.start-sect__stitle').css('display', 'block');
+
+        step1HideError();
+        step1UnselectReferences(step1GetBusinessType());
+        step1SetBusinessType('product');
+    };
+
     const step1NextPage = async (businessType) => {
         const currentPage = 1;
         const $container = $(`.start-sect__tabs-container[data-business-type="${businessType}"]`);
@@ -217,6 +225,22 @@
         $container.find(`.start-sect__tcontent`)
             .find('.start-sect__check > input')
             .each(async (key, element) => $(element).is(':checked') && selectedReferencesIds.push($(element).val()));
+
+        return selectedReferencesIds;
+    };
+
+    const step1GetSelectedReferences = () => {
+        const selectedReferencesIds = [];
+        const $container = $(`.start-sect__tabs-container[data-business-type="${step1GetBusinessType()}"]`);
+
+        $container.find(`.start-sect__tcontent`)
+            .find('.start-sect__check > input')
+            .each(
+                async (key, element) => $(element).is(':checked') && selectedReferencesIds.push({
+                    id: $(element).val(),
+                    imagePath: $(element).next().attr('src')
+                })
+            );
 
         return selectedReferencesIds;
     };

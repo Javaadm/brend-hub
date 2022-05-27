@@ -210,10 +210,20 @@
                     preloader: false,
                     midClick: true,
                     removalDelay: 300,
-                    mainClass: 'my-mfp-zoom-in'
+                    mainClass: 'my-mfp-zoom-in',
+                    callbacks: {
+                        close: () => {
+                            step4Reset();
+                            step3Reset();
+                            step2Reset();
+                            step1Reset();
+
+                            scrollTo('#end-of-step-1');
+
+                            return true;
+                        }
+                    }
                 }).magnificPopup('open');
-                $('.end-dialog__payment').hide();
-                $('.start-sect__call').hide();
             },
             error: (xhr, str) => {
                 console.error(xhr.responseJSON);

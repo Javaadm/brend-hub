@@ -4,6 +4,32 @@ declare(strict_types=1);
 
 return [
     [
+        'id' => 'e748f9a5-7683-4d5d-ae6a-344df08958e4',
+        'title' => 'Стартап',
+        'business_type' => 'service',
+        'price' => '120 000',
+        'time' => '2 недели',
+        'includes' => <<<HTML
+            <ul class="end-dialog__pack-list">
+                <li>Логотип</li>
+                <li>Фирменный стиль</li>
+            </ul>
+        HTML,
+    ],
+    [
+        'id' => '4a69a458-c846-403c-9133-2c594cfeea0e',
+        'title' => 'Стартап',
+        'business_type' => 'product',
+        'price' => '120 000',
+        'time' => '2 недели',
+        'includes' => <<<HTML
+            <ul class="end-dialog__pack-list">
+                <li>Логотип</li>
+                <li>Фирменный стиль</li>
+            </ul>
+        HTML,
+    ],
+    [
         'id' => '179b3355-a00b-4e1e-b66f-8a307b593756',
         'title' => 'Брендинг + <span class="end-dialog__pack-title__type">фирменный стиль</span>',
         'business_type' => 'service',
@@ -28,32 +54,6 @@ return [
                 <li>Определение территории позиционирования</li>
                 <li>Логотип</li>
                 <li>Дизайн упаковки<span>*от пакета молока до этикеток крафтового пива</span></li>
-            </ul>
-        HTML,
-    ],
-    [
-        'id' => 'e748f9a5-7683-4d5d-ae6a-344df08958e4',
-        'title' => 'Стартап',
-        'business_type' => 'service',
-        'price' => '120 000',
-        'time' => '2 недели',
-        'includes' => <<<HTML
-            <ul class="end-dialog__pack-list">
-                <li>Логотип</li>
-                <li>Фирменный стиль</li>
-            </ul>
-        HTML,
-    ],
-    [
-        'id' => '4a69a458-c846-403c-9133-2c594cfeea0e',
-        'title' => 'Стартап',
-        'business_type' => 'product',
-        'price' => '120 000',
-        'time' => '2 недели',
-        'includes' => <<<HTML
-            <ul class="end-dialog__pack-list">
-                <li>Логотип</li>
-                <li>Фирменный стиль</li>
             </ul>
         HTML,
     ],

@@ -56,6 +56,15 @@
         const businessType = step1GetBusinessType();
         $(`.start-sect__step-3[data-business-type="${businessType}"]`).stop().slideDown(300);
 
+        const $container = $('.start-sect__step-3[data-business-type="product"]').find('.start-sect__pref-emotions');
+        step1GetSelectedReferences().forEach((reference) => {
+            if ($container.find(`.start-sect__select__step_3[data-id="${reference.id}"]`).length !== 0) {
+                return;
+            }
+
+            step3AppendProductReference(reference.id, reference.imagePath);
+        });
+
         scrollTo('#end-of-step-2');
     };
 

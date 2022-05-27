@@ -63,6 +63,19 @@
         scrollTo('#end-of-step-1');
     };
 
+    const step2Reset = () => {
+        step2HideInputError();
+        step2HideCardsError();
+
+        $('input[name="business_activity"]').val('');
+        $('.start-sect__dess')
+            .find('input[name="advantage"]')
+            .each(async (key, element) => $(element).prop('checked', false));
+        $('.start-sect__labels-item').removeClass('active');
+
+        $('#step-2').removeClass('active');
+    };
+
     const step2SelectBusinessActivity = (businessActivityName) => {
         step2HideInputError();
 
