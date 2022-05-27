@@ -94,7 +94,11 @@ return [
 
     'from' => [
         'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'name' => env('MAIL_FROM_NAME', 'BrandHub'),
+    ],
+
+    'business' => [
+        'address' => env('MAIL_BUSINESS_ADDRESS', 'hello@example.com'),
     ],
 
     /*

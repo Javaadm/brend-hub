@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [DateController::class, 'render']);
+//Route::get('/', [DateController::class, 'render']);
 
 Route::post("update-session", [DateController::class, 'updateSession'])->name("updateSession");
 
