@@ -331,6 +331,15 @@ Route::get('/projects/vegaburger', function () {
 Route::get('/projects/velikaya', function () {
     return view('/projects/velikaya');
 });
+Route::get('/projects/connective-plm', function () {
+    return view('/projects/connective-plm');
+});
+Route::get('/projects/clio-soft', function () {
+    return view('/projects/clio-soft');
+});
+Route::get('/projects/barnaley', function () {
+    return view('/projects/barnaley');
+});
 Route::get('/projects/wellroom', function () {
     return view('/projects/wellroom');
 });

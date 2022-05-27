@@ -13278,8 +13278,8 @@
                                     <div class="col-span-8 lg:col-span-12 mb-14 lg:mb-10"><h1 class="title-h2">
                                             Классификация брендов: виды и особенности</h1></div>
                                     <div class="col-span-12 mb-14 lg:mb-10"><img
-                                            src="../../_image/i/rs%EF%B9%95fit%EF%B9%951320%EF%B9%95700/format%EF%B9%95jpg/preset%EF%B9%95placeholder/98e6e1552c4659c519fd515e6801d3b7.jpg"
-                                            data-src="../../_image/i/rs%EF%B9%95fit%EF%B9%951320%EF%B9%95700/format%EF%B9%95jpg/98e6e1552c4659c519fd515e6801d3b7.jpg"
+                                            src="../../_image/i/rs_fit_1320_700/format_jpg/preset%EF%B9%95placeholder/98e6e1552c4659c519fd515e6801d3b7.jpg"
+                                            data-src="../../_image/i/rs_fit_1320_700/format_jpg/98e6e1552c4659c519fd515e6801d3b7.jpg"
                                             class="object-cover -lazyload -lazyload-preloader"></div>
                                 </div>
                                 <div class="grid grid-cols-12">

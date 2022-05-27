@@ -13177,7 +13177,8 @@
                     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PTMSMT8"
                             height="0" width="0" style="display:none;visibility:hidden"></iframe>
                 </noscript>
-                <!-- End Google Tag Manager (noscript) --></div>
+                <!-- End Google Tag Manager (noscript) -->
+            </div>
             <div class="relative z-1 h-[74px] z-1000">
                 <div class="flex justify-center fixed left-0 right-0 bg-white">
                     <div class="flex items-center pt-4.5 pb-3 justify-between -mx-1 lg:pt-6 lg:pb-5 container">
@@ -13209,7 +13210,8 @@
                                         Блог
                                     </a></div>
                                 <div class="mx-5 xl:mx-3">
-                                    <a href="http://brand-hub.tilda.ws/freelance" target="_blank" class="text-lg font-medium transition-fast hover:text-blue-700">
+                                    <a href="http://brand-hub.tilda.ws/freelance" target="_blank"
+                                       class="text-lg font-medium transition-fast hover:text-blue-700">
                                         Для специалистов
                                     </a>
                                 </div>
@@ -13264,13 +13266,13 @@
                                             <div
                                                 class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/774987082ec7af6fbf1679a3d07ab3f1.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format%EF%B9%95jpg/774987082ec7af6fbf1679a3d07ab3f1.jpg"
+                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format_jpg/preset%EF%B9%95placeholder/774987082ec7af6fbf1679a3d07ab3f1.jpg"
+                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format_jpg/774987082ec7af6fbf1679a3d07ab3f1.jpg"
                                                     alt="Мастерские Вилмера"
                                                     class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/774987082ec7af6fbf1679a3d07ab3f1.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format%EF%B9%95jpg/774987082ec7af6fbf1679a3d07ab3f1.jpg"
+                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format_jpg/preset%EF%B9%95placeholder/774987082ec7af6fbf1679a3d07ab3f1.jpg"
+                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format_jpg/774987082ec7af6fbf1679a3d07ab3f1.jpg"
                                                     alt="Мастерские Вилмера"
                                                     class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader">
                                             </div>
@@ -13281,7 +13283,7 @@
                                                     <div class="flex items-center -mx-1">
                                                         <div
                                                             class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
-                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/a70ea40964e7e3da1bb10c945d93dfcf.jpg);"></div>
+                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/a70ea40964e7e3da1bb10c945d93dfcf.jpg);"></div>
                                                         <div class="mx-1">
                                                             <div class="mb-px font-medium">
                                                                 Vilmer's
@@ -13309,13 +13311,13 @@
                                             <div
                                                 class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/6b6cd0b2a7ea6f82f6f83901fa1a3b63.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/6b6cd0b2a7ea6f82f6f83901fa1a3b63.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/6b6cd0b2a7ea6f82f6f83901fa1a3b63.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/6b6cd0b2a7ea6f82f6f83901fa1a3b63.jpg"
                                                     alt="Белый город"
                                                     class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/6b6cd0b2a7ea6f82f6f83901fa1a3b63.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/6b6cd0b2a7ea6f82f6f83901fa1a3b63.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/6b6cd0b2a7ea6f82f6f83901fa1a3b63.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/6b6cd0b2a7ea6f82f6f83901fa1a3b63.jpg"
                                                     alt="Белый город"
                                                     class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader">
                                             </div>
@@ -13325,7 +13327,7 @@
                                                     <div class="flex items-center -mx-1">
                                                         <div
                                                             class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
-                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/9b41efc5ee4e70f8ad7502785dad0d00.jpg);"></div>
+                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/9b41efc5ee4e70f8ad7502785dad0d00.jpg);"></div>
                                                         <div class="mx-1">
                                                             <div class="mb-px font-medium">
                                                                 Белый город
@@ -13352,13 +13354,13 @@
                                             <div
                                                 class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/089647ea72839137125734d8dc23e10f.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/089647ea72839137125734d8dc23e10f.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/089647ea72839137125734d8dc23e10f.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/089647ea72839137125734d8dc23e10f.jpg"
                                                     alt="E.L.ite "
                                                     class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/089647ea72839137125734d8dc23e10f.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/089647ea72839137125734d8dc23e10f.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/089647ea72839137125734d8dc23e10f.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/089647ea72839137125734d8dc23e10f.jpg"
                                                     alt="E.L.ite "
                                                     class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader">
                                             </div>
@@ -13368,7 +13370,7 @@
                                                     <div class="flex items-center -mx-1">
                                                         <div
                                                             class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
-                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/c9feaf9d7e57664ec52247f2b0ac2609.jpg);"></div>
+                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/c9feaf9d7e57664ec52247f2b0ac2609.jpg);"></div>
                                                         <div class="mx-1">
                                                             <div class="mb-px font-medium">
                                                                 E.L.ite
@@ -13396,13 +13398,13 @@
                                             <div
                                                 class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95820/format%EF%B9%95jpg/preset%EF%B9%95placeholder/bc65700998ec63ec1e91caaf1ed3c7bc.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95820/format%EF%B9%95jpg/bc65700998ec63ec1e91caaf1ed3c7bc.jpg"
+                                                    src="../_image/i/rs_fit_420_820/format_jpg/preset%EF%B9%95placeholder/bc65700998ec63ec1e91caaf1ed3c7bc.jpg"
+                                                    data-src="../_image/i/rs_fit_420_820/format_jpg/bc65700998ec63ec1e91caaf1ed3c7bc.jpg"
                                                     alt="Endorphin Lounge  "
                                                     class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95820/format%EF%B9%95jpg/preset%EF%B9%95placeholder/bc65700998ec63ec1e91caaf1ed3c7bc.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95820/format%EF%B9%95jpg/bc65700998ec63ec1e91caaf1ed3c7bc.jpg"
+                                                    src="../_image/i/rs_fit_420_820/format_jpg/preset%EF%B9%95placeholder/bc65700998ec63ec1e91caaf1ed3c7bc.jpg"
+                                                    data-src="../_image/i/rs_fit_420_820/format_jpg/bc65700998ec63ec1e91caaf1ed3c7bc.jpg"
                                                     alt="Endorphin Lounge  "
                                                     class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader">
                                             </div>
@@ -13412,7 +13414,7 @@
                                                     <div class="flex items-center -mx-1">
                                                         <div
                                                             class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
-                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/e1d949e6ea91bcfb6874bce44c1b9329.jpg);"></div>
+                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/e1d949e6ea91bcfb6874bce44c1b9329.jpg);"></div>
                                                         <div class="mx-1">
                                                             <div class="mb-px font-medium">
                                                                 Endorphin Lounge
@@ -13438,13 +13440,13 @@
                                             <div
                                                 class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/37456ee76858e661a854564380046c58.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/37456ee76858e661a854564380046c58.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/37456ee76858e661a854564380046c58.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/37456ee76858e661a854564380046c58.jpg"
                                                     alt="Kanape Sofa"
                                                     class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/37456ee76858e661a854564380046c58.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/37456ee76858e661a854564380046c58.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/37456ee76858e661a854564380046c58.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/37456ee76858e661a854564380046c58.jpg"
                                                     alt="Kanape Sofa"
                                                     class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader">
                                             </div>
@@ -13454,7 +13456,7 @@
                                                     <div class="flex items-center -mx-1">
                                                         <div
                                                             class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
-                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/c62e48d959e73401b004fe88ada1e323.jpg);"></div>
+                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/c62e48d959e73401b004fe88ada1e323.jpg);"></div>
                                                         <div class="mx-1">
                                                             <div class="mb-px font-medium">
                                                                 Kanape Sofa
@@ -13481,13 +13483,13 @@
                                             <div
                                                 class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/49a844556ae81ee0ce17d94e47822e9d.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/49a844556ae81ee0ce17d94e47822e9d.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/49a844556ae81ee0ce17d94e47822e9d.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/49a844556ae81ee0ce17d94e47822e9d.jpg"
                                                     alt="Мёдыч"
                                                     class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/49a844556ae81ee0ce17d94e47822e9d.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/49a844556ae81ee0ce17d94e47822e9d.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/49a844556ae81ee0ce17d94e47822e9d.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/49a844556ae81ee0ce17d94e47822e9d.jpg"
                                                     alt="Мёдыч"
                                                     class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader">
                                             </div>
@@ -13497,7 +13499,7 @@
                                                     <div class="flex items-center -mx-1">
                                                         <div
                                                             class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
-                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/d43176309a81c25cb0b20a60ea328ffa.jpg);"></div>
+                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/d43176309a81c25cb0b20a60ea328ffa.jpg);"></div>
                                                         <div class="mx-1">
                                                             <div class="mb-px font-medium">
                                                                 Иван
@@ -13524,13 +13526,13 @@
                                             <div
                                                 class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/fd8fb6657f63e325acd6309f801d1dc8.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/fd8fb6657f63e325acd6309f801d1dc8.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/fd8fb6657f63e325acd6309f801d1dc8.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/fd8fb6657f63e325acd6309f801d1dc8.jpg"
                                                     alt="Latema"
                                                     class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/fd8fb6657f63e325acd6309f801d1dc8.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/fd8fb6657f63e325acd6309f801d1dc8.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/fd8fb6657f63e325acd6309f801d1dc8.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/fd8fb6657f63e325acd6309f801d1dc8.jpg"
                                                     alt="Latema"
                                                     class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader">
                                             </div>
@@ -13540,7 +13542,7 @@
                                                     <div class="flex items-center -mx-1">
                                                         <div
                                                             class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
-                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/c330cfbaf5bfe02a76f54463789e7c47.jpg);"></div>
+                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/c330cfbaf5bfe02a76f54463789e7c47.jpg);"></div>
                                                         <div class="mx-1">
                                                             <div class="mb-px font-medium">
                                                                 Latema
@@ -13566,13 +13568,13 @@
                                             <div
                                                 class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/28eca703a74fb717b6d5ba0c0f2f9a6e.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/28eca703a74fb717b6d5ba0c0f2f9a6e.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/28eca703a74fb717b6d5ba0c0f2f9a6e.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/28eca703a74fb717b6d5ba0c0f2f9a6e.jpg"
                                                     alt="Onellect "
                                                     class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/28eca703a74fb717b6d5ba0c0f2f9a6e.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/28eca703a74fb717b6d5ba0c0f2f9a6e.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/28eca703a74fb717b6d5ba0c0f2f9a6e.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/28eca703a74fb717b6d5ba0c0f2f9a6e.jpg"
                                                     alt="Onellect "
                                                     class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader">
                                             </div>
@@ -13582,7 +13584,7 @@
                                                     <div class="flex items-center -mx-1">
                                                         <div
                                                             class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
-                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/5aad2a25c3af99f146436a641503b15d.jpg);"></div>
+                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/5aad2a25c3af99f146436a641503b15d.jpg);"></div>
                                                         <div class="mx-1">
                                                             <div class="mb-px font-medium">
                                                                 Onellect
@@ -13609,13 +13611,13 @@
                                             <div
                                                 class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/63855306347ccfbe7ec1e6adf56b9123.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/63855306347ccfbe7ec1e6adf56b9123.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/63855306347ccfbe7ec1e6adf56b9123.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/63855306347ccfbe7ec1e6adf56b9123.jpg"
                                                     alt="Завод лестниц на металлическом каркасе "
                                                     class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/63855306347ccfbe7ec1e6adf56b9123.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/63855306347ccfbe7ec1e6adf56b9123.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/63855306347ccfbe7ec1e6adf56b9123.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/63855306347ccfbe7ec1e6adf56b9123.jpg"
                                                     alt="Завод лестниц на металлическом каркасе "
                                                     class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader">
                                             </div>
@@ -13625,7 +13627,7 @@
                                                     <div class="flex items-center -mx-1">
                                                         <div
                                                             class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
-                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/801e7f82b52ca97e661dad58a8e71cad.jpg);"></div>
+                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/801e7f82b52ca97e661dad58a8e71cad.jpg);"></div>
                                                         <div class="mx-1">
                                                             <div class="mb-px font-medium">
                                                                 ЗЛМК
@@ -13653,13 +13655,13 @@
                                             <div
                                                 class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/8d06e6299091d7b83972d162c7f2c3fb.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/8d06e6299091d7b83972d162c7f2c3fb.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/8d06e6299091d7b83972d162c7f2c3fb.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/8d06e6299091d7b83972d162c7f2c3fb.jpg"
                                                     alt="Fiarolla"
                                                     class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/8d06e6299091d7b83972d162c7f2c3fb.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/8d06e6299091d7b83972d162c7f2c3fb.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/8d06e6299091d7b83972d162c7f2c3fb.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/8d06e6299091d7b83972d162c7f2c3fb.jpg"
                                                     alt="Fiarolla"
                                                     class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader">
                                             </div>
@@ -13669,7 +13671,7 @@
                                                     <div class="flex items-center -mx-1">
                                                         <div
                                                             class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
-                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/746d453bd1ed87b3a05803e7484b123b.jpg);"></div>
+                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/746d453bd1ed87b3a05803e7484b123b.jpg);"></div>
                                                         <div class="mx-1">
                                                             <div class="mb-px font-medium">
                                                                 Fiarolla
@@ -13696,13 +13698,13 @@
                                             <div
                                                 class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/0bbe77b691c15c7d828bc7022c0571c4.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format%EF%B9%95jpg/0bbe77b691c15c7d828bc7022c0571c4.jpg"
+                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format_jpg/preset%EF%B9%95placeholder/0bbe77b691c15c7d828bc7022c0571c4.jpg"
+                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format_jpg/0bbe77b691c15c7d828bc7022c0571c4.jpg"
                                                     alt="Bergen"
                                                     class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/0bbe77b691c15c7d828bc7022c0571c4.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format%EF%B9%95jpg/0bbe77b691c15c7d828bc7022c0571c4.jpg"
+                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format_jpg/preset%EF%B9%95placeholder/0bbe77b691c15c7d828bc7022c0571c4.jpg"
+                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format_jpg/0bbe77b691c15c7d828bc7022c0571c4.jpg"
                                                     alt="Bergen"
                                                     class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader">
                                             </div>
@@ -13712,7 +13714,7 @@
                                                     <div class="flex items-center -mx-1">
                                                         <div
                                                             class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
-                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/ad22c6b38a9c12df48518cec0b389db2.jpg);"></div>
+                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/ad22c6b38a9c12df48518cec0b389db2.jpg);"></div>
                                                         <div class="mx-1">
                                                             <div class="mb-px font-medium">
                                                                 Bergen
@@ -13739,13 +13741,13 @@
                                             <div
                                                 class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/697158b8e7c92c533ff71f2b0ff89410.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/697158b8e7c92c533ff71f2b0ff89410.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/697158b8e7c92c533ff71f2b0ff89410.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/697158b8e7c92c533ff71f2b0ff89410.jpg"
                                                     alt="Бумажный бум"
                                                     class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/697158b8e7c92c533ff71f2b0ff89410.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/697158b8e7c92c533ff71f2b0ff89410.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/697158b8e7c92c533ff71f2b0ff89410.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/697158b8e7c92c533ff71f2b0ff89410.jpg"
                                                     alt="Бумажный бум"
                                                     class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader">
                                             </div>
@@ -13755,7 +13757,7 @@
                                                     <div class="flex items-center -mx-1">
                                                         <div
                                                             class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
-                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/6affa1393ad6209b2b9d949216ddef9d.jpg);"></div>
+                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/6affa1393ad6209b2b9d949216ddef9d.jpg);"></div>
                                                         <div class="mx-1">
                                                             <div class="mb-px font-medium">
                                                                 Бумажный Бум
@@ -13783,13 +13785,13 @@
                                             <div
                                                 class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/bf77020fdf540d398106cd89450ab915.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/bf77020fdf540d398106cd89450ab915.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/bf77020fdf540d398106cd89450ab915.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/bf77020fdf540d398106cd89450ab915.jpg"
                                                     alt="Sleco"
                                                     class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/bf77020fdf540d398106cd89450ab915.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/bf77020fdf540d398106cd89450ab915.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/bf77020fdf540d398106cd89450ab915.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/bf77020fdf540d398106cd89450ab915.jpg"
                                                     alt="Sleco"
                                                     class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader">
                                             </div>
@@ -13799,7 +13801,7 @@
                                                     <div class="flex items-center -mx-1">
                                                         <div
                                                             class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
-                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/dbe111053c9a4c92109e13d48c5136cc.jpg);"></div>
+                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/dbe111053c9a4c92109e13d48c5136cc.jpg);"></div>
                                                         <div class="mx-1">
                                                             <div class="mb-px font-medium">
                                                                 Sleco
@@ -13821,20 +13823,19 @@
                                                     class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Sleco</span></a>
                                         </div>
                                     </div>
-                                    <div
-                                        class="relative group  flex flex-col flex-auto col-span-4 lg:col-span-6 md:col-span-12 row-span-2 md:row-span-1">
+                                    <div class="relative group  flex flex-col flex-auto col-span-4 lg:col-span-6 md:col-span-12 row-span-2 md:row-span-1">
                                         <div
                                             class="relative overflow-hidden mb-4 md:mb-2 flex flex-col items-start  h-full w-full min-h-[22.5rem] lg:min-h-[15rem] md:min-h-0 md:h-60 tiny:h-52">
                                             <div
                                                 class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95820/format%EF%B9%95jpg/preset%EF%B9%95placeholder/1419d66744929e634203fb4ca48b5595.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95820/format%EF%B9%95jpg/1419d66744929e634203fb4ca48b5595.jpg"
+                                                    src="../_image/i/rs_fit_420_820/format_jpg/1419d66744929e634203fb4ca48b5595.jpg"
+                                                    data-src="../_image/i/rs_fit_420_820/format_jpg/1419d66744929e634203fb4ca48b5595.jpg"
                                                     alt="Vegaburger"
                                                     class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95820/format%EF%B9%95jpg/preset%EF%B9%95placeholder/1419d66744929e634203fb4ca48b5595.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95820/format%EF%B9%95jpg/1419d66744929e634203fb4ca48b5595.jpg"
+                                                    src="../_image/i/rs_fit_420_820/format_jpg/1419d66744929e634203fb4ca48b5595.jpg"
+                                                    data-src="../_image/i/rs_fit_420_820/format_jpg/1419d66744929e634203fb4ca48b5595.jpg"
                                                     alt="Vegaburger"
                                                     class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader">
                                             </div>
@@ -13844,7 +13845,7 @@
                                                     <div class="flex items-center -mx-1">
                                                         <div
                                                             class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
-                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/8abf86ea762f8df3ac3cc59f89119e1d.jpg);"></div>
+                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/8abf86ea762f8df3ac3cc59f89119e1d.jpg);"></div>
                                                         <div class="mx-1">
                                                             <div class="mb-px font-medium">
                                                                 Vegaburger
@@ -13871,13 +13872,13 @@
                                             <div
                                                 class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/394638e9a6c365e6a76755995792ef0b.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/394638e9a6c365e6a76755995792ef0b.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/394638e9a6c365e6a76755995792ef0b.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/394638e9a6c365e6a76755995792ef0b.jpg"
                                                     alt="HobNob"
                                                     class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/394638e9a6c365e6a76755995792ef0b.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/394638e9a6c365e6a76755995792ef0b.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/394638e9a6c365e6a76755995792ef0b.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/394638e9a6c365e6a76755995792ef0b.jpg"
                                                     alt="HobNob"
                                                     class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader">
                                             </div>
@@ -13887,7 +13888,7 @@
                                                     <div class="flex items-center -mx-1">
                                                         <div
                                                             class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
-                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/6c08e0c31827df71e077a6deccbc89a8.jpg);"></div>
+                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/6c08e0c31827df71e077a6deccbc89a8.jpg);"></div>
                                                         <div class="mx-1">
                                                             <div class="mb-px font-medium">
                                                                 Hob Nop
@@ -13913,13 +13914,13 @@
                                             <div
                                                 class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/45b576f36a607c61275390c76491a7e5.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/45b576f36a607c61275390c76491a7e5.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/45b576f36a607c61275390c76491a7e5.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/45b576f36a607c61275390c76491a7e5.jpg"
                                                     alt="Rum baba"
                                                     class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/45b576f36a607c61275390c76491a7e5.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/45b576f36a607c61275390c76491a7e5.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/45b576f36a607c61275390c76491a7e5.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/45b576f36a607c61275390c76491a7e5.jpg"
                                                     alt="Rum baba"
                                                     class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader">
                                             </div>
@@ -13929,7 +13930,7 @@
                                                     <div class="flex items-center -mx-1">
                                                         <div
                                                             class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
-                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/0f5f28c63a46f09fc9d57a94eb80fdd4.jpg);"></div>
+                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/0f5f28c63a46f09fc9d57a94eb80fdd4.jpg);"></div>
                                                         <div class="mx-1">
                                                             <div class="mb-px font-medium">
                                                                 Rum baba
@@ -13956,13 +13957,13 @@
                                             <div
                                                 class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/d5a6ce9ccd9f0e2d177ad2bf6a5e3734.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/d5a6ce9ccd9f0e2d177ad2bf6a5e3734.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/d5a6ce9ccd9f0e2d177ad2bf6a5e3734.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/d5a6ce9ccd9f0e2d177ad2bf6a5e3734.jpg"
                                                     alt="LIA LAB"
                                                     class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/d5a6ce9ccd9f0e2d177ad2bf6a5e3734.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/d5a6ce9ccd9f0e2d177ad2bf6a5e3734.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/d5a6ce9ccd9f0e2d177ad2bf6a5e3734.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/d5a6ce9ccd9f0e2d177ad2bf6a5e3734.jpg"
                                                     alt="LIA LAB"
                                                     class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader">
                                             </div>
@@ -13972,7 +13973,7 @@
                                                     <div class="flex items-center -mx-1">
                                                         <div
                                                             class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
-                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/22f3ff9487ae8af519f7870fa083e23d.jpg);"></div>
+                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/22f3ff9487ae8af519f7870fa083e23d.jpg);"></div>
                                                         <div class="mx-1">
                                                             <div class="mb-px font-medium">
                                                                 Диана и Анатолий Мазановы
@@ -13999,13 +14000,13 @@
                                             <div
                                                 class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/8d8b5bdae742033e54d2458eeaba6a4b.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/8d8b5bdae742033e54d2458eeaba6a4b.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/8d8b5bdae742033e54d2458eeaba6a4b.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/8d8b5bdae742033e54d2458eeaba6a4b.jpg"
                                                     alt="Inlot"
                                                     class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/8d8b5bdae742033e54d2458eeaba6a4b.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/8d8b5bdae742033e54d2458eeaba6a4b.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/8d8b5bdae742033e54d2458eeaba6a4b.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/8d8b5bdae742033e54d2458eeaba6a4b.jpg"
                                                     alt="Inlot"
                                                     class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader">
                                             </div>
@@ -14015,7 +14016,7 @@
                                                     <div class="flex items-center -mx-1">
                                                         <div
                                                             class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
-                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/87bfdd4d30782e7ce7811b7f712d1701.jpg);"></div>
+                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/87bfdd4d30782e7ce7811b7f712d1701.jpg);"></div>
                                                         <div class="mx-1">
                                                             <div class="mb-px font-medium">
                                                                 Inlot
@@ -14042,13 +14043,13 @@
                                             <div
                                                 class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/4b7bf0a429f919643e131f446b054159.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/4b7bf0a429f919643e131f446b054159.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/4b7bf0a429f919643e131f446b054159.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/4b7bf0a429f919643e131f446b054159.jpg"
                                                     alt="Wellroom"
                                                     class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/4b7bf0a429f919643e131f446b054159.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/4b7bf0a429f919643e131f446b054159.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/4b7bf0a429f919643e131f446b054159.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/4b7bf0a429f919643e131f446b054159.jpg"
                                                     alt="Wellroom"
                                                     class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader">
                                             </div>
@@ -14058,7 +14059,7 @@
                                                     <div class="flex items-center -mx-1">
                                                         <div
                                                             class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
-                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/772b9c5282ab75aa7bcac183ec72c7f0.jpg);"></div>
+                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/772b9c5282ab75aa7bcac183ec72c7f0.jpg);"></div>
                                                         <div class="mx-1">
                                                             <div class="mb-px font-medium">
                                                                 Александр
@@ -14085,13 +14086,13 @@
                                             <div
                                                 class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/609cbfe87687871291f4f24e0b88d547.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/609cbfe87687871291f4f24e0b88d547.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/609cbfe87687871291f4f24e0b88d547.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/609cbfe87687871291f4f24e0b88d547.jpg"
                                                     alt="Балист"
                                                     class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader">
                                                 <img
-                                                    src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/609cbfe87687871291f4f24e0b88d547.jpg"
-                                                    data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/609cbfe87687871291f4f24e0b88d547.jpg"
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/609cbfe87687871291f4f24e0b88d547.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/609cbfe87687871291f4f24e0b88d547.jpg"
                                                     alt="Балист"
                                                     class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader">
                                             </div>
@@ -14101,7 +14102,7 @@
                                                     <div class="flex items-center -mx-1">
                                                         <div
                                                             class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
-                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/c59ec2b2266ba023abbdfb8fb4dfca66.jpg);"></div>
+                                                            style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/c59ec2b2266ba023abbdfb8fb4dfca66.jpg);"></div>
                                                         <div class="mx-1">
                                                             <div class="mb-px font-medium">
                                                                 Балист
@@ -14123,55 +14124,411 @@
                                                     class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Балист</span></a>
                                         </div>
                                     </div>
+                                    <div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12">
+                                        <div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52">
+                                            <div
+                                                class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
+                                                <img
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzgvYS8yLzhhMjg1M2NlNTRmY2RiNmVhMmI5ZmQ0ZmMyZmIyYjlmLnBuZw.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzgvYS8yLzhhMjg1M2NlNTRmY2RiNmVhMmI5ZmQ0ZmMyZmIyYjlmLnBuZw.jpg"
+                                                    class="flex-auto xs:hidden object-cover -lazyload-preloader -lazyload-success"
+                                                    alt="Velikaya"> <img
+                                                    src="/_image/i/rs_fit_420_360/format_jpg/preset_placeholder/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzgvYS8yLzhhMjg1M2NlNTRmY2RiNmVhMmI5ZmQ0ZmMyZmIyYjlmLnBuZw"
+                                                    data-src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzgvYS8yLzhhMjg1M2NlNTRmY2RiNmVhMmI5ZmQ0ZmMyZmIyYjlmLnBuZw"
+                                                    class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"
+                                                    alt="Velikaya"></div>
+                                            <div
+                                                class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">
+                                                <!----> <!---->
+                                                <div class="mt-auto font-normal text-white-640">
+                                                    Косметика
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a
+                                                href="/projects/velikaya/" class="after:absolute after:inset-0"><span
+                                                    class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Velikaya</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="relative group  flex flex-col flex-auto col-span-4 lg:col-span-6 md:col-span-12 row-span-2 md:row-span-1">
+                                        <div
+                                            class="relative overflow-hidden mb-4 md:mb-2 flex flex-col items-start  h-full w-full min-h-[22.5rem] lg:min-h-[15rem] md:min-h-0 md:h-60 tiny:h-52">
+                                            <div
+                                                class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
+                                                <img
+                                                    src="/_image/i/rs_fit_420_820/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2IvMy9mL2IzZjUwODA4MTY3NjI5N2Q3MTgxMTdkMjY4NTMwYThmLnBuZw"
+                                                    data-src="/_image/i/rs:fit:420:820/format:jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2IvMy9mL2IzZjUwODA4MTY3NjI5N2Q3MTgxMTdkMjY4NTMwYThmLnBuZw"
+                                                    class="flex-auto xs:hidden object-cover -lazyload-preloader -lazyload-success"
+                                                    alt="Супер Мука"> <img
+                                                    src="/_image/i/rs_fit_420_820/format_jpg/preset_placeholder/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2IvMy9mL2IzZjUwODA4MTY3NjI5N2Q3MTgxMTdkMjY4NTMwYThmLnBuZw"
+                                                    data-src="/_image/i/rs_fit_420_820/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2IvMy9mL2IzZjUwODA4MTY3NjI5N2Q3MTgxMTdkMjY4NTMwYThmLnBuZw"
+                                                    class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"
+                                                    alt="Супер Мука"></div>
+                                            <div
+                                                class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">
+                                                <!----> <!---->
+                                                <div class="mt-auto font-normal text-white-640">
+                                                    Мука
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a
+                                                href="/projects/super-muka/" class="after:absolute after:inset-0"><span
+                                                    class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Супер Мука</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12">
+                                        <div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52">
+                                            <div
+                                                class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
+                                                <img
+                                                    src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2QvNi9hL2Q2YWEyOTc4NDlkOWY2N2ZiMzMxYmM1MmFhMThhZGVkLnBuZw.jpg"
+                                                    data-src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2QvNi9hL2Q2YWEyOTc4NDlkOWY2N2ZiMzMxYmM1MmFhMThhZGVkLnBuZw.jpg"
+                                                    class="flex-auto xs:hidden object-cover -lazyload-preloader -lazyload-success"
+                                                    alt="Miracool"> <img
+                                                    src="/_image/i/rs_fit_420_360/format_jpg/preset_placeholder/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2QvNi9hL2Q2YWEyOTc4NDlkOWY2N2ZiMzMxYmM1MmFhMThhZGVkLnBuZw.jpg"
+                                                    data-src="/_image/i/rs_fit_420_360/format_jpg/preset_placeholder/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2QvNi9hL2Q2YWEyOTc4NDlkOWY2N2ZiMzMxYmM1MmFhMThhZGVkLnBuZw.jpg"
+                                                    class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"
+                                                    alt="Miracool"></div>
+                                            <div
+                                                class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">
+                                                <div class="mb-4">
+                                                    <div class="flex items-center -mx-1">
+                                                        <div
+                                                            class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
+                                                            style="background-image: url(&quot;https://old.brand-hub.ru/_image/i/rs:fit:100:100/format:jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzAvNC9hLzA0YTlhNjdmMWFiYmY3NWVmZjczM2YxYTc2MjNiNzBlLmpwZw&quot;);"></div>
+                                                        <div class="mx-1">
+                                                            <div class="mb-px font-medium">
+                                                                MIRACOOL
+                                                            </div> <!----></div>
+                                                    </div> <!----></div>
+                                                <div class="font-normal text-sm line-clamp-3">Дизайны упаковок строятся
+                                                    на&nbsp;ярких, необычных авторских иллюстрациях, каждая из&nbsp;которых
+                                                    рассказывает свою историю.
+                                                </div>
+                                                <div class="mt-auto font-normal text-white-640">
+                                                    Кондитерские изделия
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a
+                                                href="/projects/miracool/" class="after:absolute after:inset-0"><span
+                                                    class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Miracool</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12">
+                                        <div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52">
+                                            <div
+                                                class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
+                                                <img
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzMvYy9mLzNjZmYwNmE4ODI2YTVkNjJjNDJjMzE0ZTcwM2IzZGM0LnBuZw.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzMvYy9mLzNjZmYwNmE4ODI2YTVkNjJjNDJjMzE0ZTcwM2IzZGM0LnBuZw.jpg"
+                                                    class="flex-auto xs:hidden object-cover -lazyload-preloader -lazyload-success"
+                                                    alt="В4"> <img
+                                                    src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzMvYy9mLzNjZmYwNmE4ODI2YTVkNjJjNDJjMzE0ZTcwM2IzZGM0LnBuZw.jpg"
+                                                    data-src="../_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzMvYy9mLzNjZmYwNmE4ODI2YTVkNjJjNDJjMzE0ZTcwM2IzZGM0LnBuZw.jpg"
+                                                    class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"
+                                                    alt="В4"></div>
+                                            <div
+                                                class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">
+                                                <!----> <!---->
+                                                <div class="mt-auto font-normal text-white-640">
+                                                    Онлайн-платформа для бьюти-товаров
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a
+                                                href="/projects/v4/" class="after:absolute after:inset-0"><span
+                                                    class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">В4</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12">
+                                        <div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52">
+                                            <div
+                                                class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
+                                                <img
+                                                    src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzAvNy82LzA3Njc2NjQ0MjkwZTFlODlmNjM2YjgzYTk3Y2FmODQyLnBuZw.jpg"
+                                                    data-src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzAvNy82LzA3Njc2NjQ0MjkwZTFlODlmNjM2YjgzYTk3Y2FmODQyLnBuZw.jpg"
+                                                    class="flex-auto xs:hidden object-cover -lazyload-preloader -lazyload-success"
+                                                    alt="Aqua Solution"> <img
+                                                    src="/_image/i/rs_fit_420_360/format_jpg/preset_placeholder//bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzAvNy82LzA3Njc2NjQ0MjkwZTFlODlmNjM2YjgzYTk3Y2FmODQyLnBuZw.jpg"
+                                                    data-src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzAvNy82LzA3Njc2NjQ0MjkwZTFlODlmNjM2YjgzYTk3Y2FmODQyLnBuZw.jpg"
+                                                    class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"
+                                                    alt="Aqua Solution"></div>
+                                            <div
+                                                class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">
+                                                <!----> <!---->
+                                                <div class="mt-auto font-normal text-white-640">
+                                                    Компания по водоподготовке и водоочистке
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a
+                                                href="/projects/aqua-solution/"
+                                                class="after:absolute after:inset-0"><span
+                                                    class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Aqua Solution</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12">
+                                        <div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52">
+                                            <div
+                                                class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
+                                                <img
+                                                    src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzgvMC80LzgwNGNjZDA0Y2M3YTYzOTViZWUzNGVmNDc5YzE1NmIwLnBuZw.jpg"
+                                                    data-src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzgvMC80LzgwNGNjZDA0Y2M3YTYzOTViZWUzNGVmNDc5YzE1NmIwLnBuZw.jpg"
+                                                    class="flex-auto xs:hidden object-cover -lazyload-preloader -lazyload-success"
+                                                    alt="Connective PLM"> <img
+                                                    src="/_image/i/rs_fit_420_360/format_jpg/preset_placeholder/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzgvMC80LzgwNGNjZDA0Y2M3YTYzOTViZWUzNGVmNDc5YzE1NmIwLnBuZw.jpg"
+                                                    data-src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzgvMC80LzgwNGNjZDA0Y2M3YTYzOTViZWUzNGVmNDc5YzE1NmIwLnBuZw.jpg"
+                                                    class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"
+                                                    alt="Connective PLM"></div>
+                                            <div
+                                                class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">
+                                                <div class="mb-4">
+                                                    <div class="flex items-center -mx-1">
+                                                        <div
+                                                            class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
+                                                            style="background-image: url(&quot;https://old.brand-hub.ru/_image/i/rs:fit:100:100/format:jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzIvZS9hLzJlYTM5YzAyODhlZDc3ODM0MGZlMDdhMTQ0M2YwZDZiLmpwZw&quot;);"></div>
+                                                        <div class="mx-1">
+                                                            <div class="mb-px font-medium">
+                                                                Илья Скрябин
+                                                            </div> <!----></div>
+                                                    </div> <!----></div>
+                                                <div class="font-normal text-sm line-clamp-3">Brand hub старается делать
+                                                    построение бренда обязательной частью развития бизнеса.
+                                                </div>
+                                                <div class="mt-auto font-normal text-white-640">
+                                                    IT-интегратор
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a
+                                                href="/projects/connective-plm/"
+                                                class="after:absolute after:inset-0"><span
+                                                    class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Connective PLM</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12">
+                                        <div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52">
+                                            <div
+                                                class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
+                                                <img
+                                                    src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzkvMS9jLzkxYzZkZmYwYzliNGViZGU3ZTYwMDU5ZWVmYWM0N2QzLnBuZw.jpg"
+                                                    data-src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzkvMS9jLzkxYzZkZmYwYzliNGViZGU3ZTYwMDU5ZWVmYWM0N2QzLnBuZw.jpg"
+                                                    alt="STARRY TALE"
+                                                    class="flex-auto xs:hidden object-cover -lazyload-preloader ls-is-cached -lazyload-success">
+                                                <img
+                                                    src="/_image/i/rs_fit_420_360/format_jpg/preset_placeholder/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzkvMS9jLzkxYzZkZmYwYzliNGViZGU3ZTYwMDU5ZWVmYWM0N2QzLnBuZw.jpg"
+                                                    data-src="/_image/i/rs_fit_420_360/format_jpg/preset_placeholder/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzkvMS9jLzkxYzZkZmYwYzliNGViZGU3ZTYwMDU5ZWVmYWM0N2QzLnBuZw.jpg"
+                                                    alt="STARRY TALE"
+                                                    class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader">
+                                            </div>
+                                            <div
+                                                class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">
+                                                <div class="mb-4">
+                                                    <div class="flex items-center -mx-1">
+                                                        <div
+                                                            class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
+                                                            style="background-image:url(/_image/i/rs:fit:100:100/format:jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2MvNi9iL2M2YjM5NDJlYTViMzU4OGI3N2RhNmE2MzkxNzI0NDI3LmpwZw);"></div>
+                                                        <div class="mx-1">
+                                                            <div class="mb-px font-medium">
+                                                                STARRY TALE
+                                                            </div> <!----></div>
+                                                    </div> <!----></div>
+                                                <div class="font-normal text-sm line-clamp-3">В&nbsp;основу концепции
+                                                    легла тема сказки и&nbsp;волшебства, и&nbsp;каждый атрибут является
+                                                    ее&nbsp;воплощением.
+                                                </div>
+                                                <div class="mt-auto font-normal text-white-640">
+                                                    Гирлянды и светодиодная продукция
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a
+                                                href="/projects/starry-tale/" class="after:absolute after:inset-0"><span
+                                                    class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">STARRY TALE</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12">
+                                        <div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52">
+                                            <div
+                                                class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
+                                                <img
+                                                    src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2UvOC9jL2U4Y2NkMGQ2ZjA0Y2Y5NjVhMDU0MDEwNTk2Y2QxNGRmLnBuZw"
+                                                    data-src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2UvOC9jL2U4Y2NkMGQ2ZjA0Y2Y5NjVhMDU0MDEwNTk2Y2QxNGRmLnBuZw"
+                                                    class="flex-auto xs:hidden object-cover -lazyload-preloader -lazyload-success"
+                                                    alt="Barnaley"> <img
+                                                    src="/_image/i/rs_fit_420_360/format_jpg/preset:placeholder/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2UvOC9jL2U4Y2NkMGQ2ZjA0Y2Y5NjVhMDU0MDEwNTk2Y2QxNGRmLnBuZw"
+                                                    data-src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2UvOC9jL2U4Y2NkMGQ2ZjA0Y2Y5NjVhMDU0MDEwNTk2Y2QxNGRmLnBuZw"
+                                                    class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"
+                                                    alt="Barnaley"></div>
+                                            <div
+                                                class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">
+                                                <div class="mb-4">
+                                                    <div class="flex items-center -mx-1">
+                                                        <div
+                                                            class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
+                                                            style="background-image: url(&quot;https://old.brand-hub.ru/_image/i/rs:fit:100:100/format:jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzEvOS9jLzE5Y2Q1NzhlNzVhZjA0N2Y1MGYxMjA0NjM3MWYzYzc2LnBuZw&quot;);"></div>
+                                                        <div class="mx-1">
+                                                            <div class="mb-px font-medium">
+                                                                Barnaley
+                                                            </div> <!----></div>
+                                                    </div> <!----></div>
+                                                <div class="font-normal text-sm line-clamp-3">Стилистика упаковки
+                                                    переносит в&nbsp;атмосферу вечеринки, а&nbsp;фудзона с&nbsp;изображением
+                                                    мороженого в&nbsp;коктейле демонстрирует использование продукта
+                                                </div>
+                                                <div class="mt-auto font-normal text-white-640">
+                                                    Мороженое
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a
+                                                href="/projects/barnaley/" class="after:absolute after:inset-0"><span
+                                                    class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Barnaley</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="relative group  flex flex-col col-span-8 lg:col-span-6 md:col-span-12">
+                                        <div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52">
+                                            <div
+                                                class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
+                                                <img
+                                                    src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzgvOS83Lzg5Nzg2YTUyYmQ4NTJlODlmYWM1MDM1MTA2YzY1YmYwLnBuZw.jpg"
+                                                    data-src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzgvOS83Lzg5Nzg2YTUyYmQ4NTJlODlmYWM1MDM1MTA2YzY1YmYwLnBuZw.jpg"
+                                                    class="flex-auto xs:hidden object-cover -lazyload-preloader -lazyload-success"
+                                                    alt="Ration"> <img
+                                                    src="/_image/i/rs_fit_420_360/format_jpg/preset_placeholder/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzgvOS83Lzg5Nzg2YTUyYmQ4NTJlODlmYWM1MDM1MTA2YzY1YmYwLnBuZw.jpg"
+                                                    data-src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzgvOS83Lzg5Nzg2YTUyYmQ4NTJlODlmYWM1MDM1MTA2YzY1YmYwLnBuZw.jpg"
+                                                    class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"
+                                                    alt="Ration"></div>
+                                            <div
+                                                class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">
+                                                <div class="mb-4">
+                                                    <div class="flex items-center -mx-1">
+                                                        <div
+                                                            class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600"
+                                                            style="background-image: url(&quot;https://old.brand-hub.ru/_image/i/rs:fit:100:100/format:jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzAvZS9mLzBlZjIxZjY3ODMyMzc3MDcxM2Y0ZmJmZDZmNzg5MzhjLmpwZw&quot;);"></div>
+                                                        <div class="mx-1">
+                                                            <div class="mb-px font-medium">
+                                                                Оксана
+                                                            </div> <!----></div>
+                                                    </div> <!----></div>
+                                                <div class="font-normal text-sm line-clamp-3">Очень рады проделанной
+                                                    работе! Визуализация отлично передает идею нашего бренда.
+                                                </div>
+                                                <div class="mt-auto font-normal text-white-640">
+                                                    Сервис по доставке еды
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a
+                                                href="/projects/ration/" class="after:absolute after:inset-0"><span
+                                                    class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Ration</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12">
+                                        <div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52">
+                                            <div
+                                                class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
+                                                <img
+                                                    src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2YvMC81L2YwNTNmOTNkODAzODQyY2UxYzFlYjI3ZWE3NzBjMThjLnBuZw.jpg"
+                                                    data-src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2YvMC81L2YwNTNmOTNkODAzODQyY2UxYzFlYjI3ZWE3NzBjMThjLnBuZw.jpg"
+                                                    class="flex-auto xs:hidden object-cover -lazyload-preloader -lazyload-success"
+                                                    alt="Clio soft"> <img
+                                                    src="/_image/i/rs_fit_420_360/format_jpg/preset_placeholder/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2YvMC81L2YwNTNmOTNkODAzODQyY2UxYzFlYjI3ZWE3NzBjMThjLnBuZw.jpg"
+                                                    data-src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2YvMC81L2YwNTNmOTNkODAzODQyY2UxYzFlYjI3ZWE3NzBjMThjLnBuZw.jpg"
+                                                    class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"
+                                                    alt="Clio soft"></div>
+                                            <div
+                                                class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">
+                                                <!----> <!---->
+                                                <div class="mt-auto font-normal text-white-640">
+                                                    IT-интегратор
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a
+                                                href="/projects/clio-soft/" class="after:absolute after:inset-0"><span
+                                                    class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Clio soft</span></a>
+                                        </div>
+                                    </div>
+                                    <div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12">
+                                        <div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52">
+                                            <div
+                                                class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110">
+                                                <img
+                                                    src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2IvMC9mL2IwZjE0Yjg3MWJkYjllYWZiMzQ2OWNjMGQ1YWYwNDQwLnBuZw"
+                                                    data-src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2IvMC9mL2IwZjE0Yjg3MWJkYjllYWZiMzQ2OWNjMGQ1YWYwNDQwLnBuZw"
+                                                    alt="Little Art"
+                                                    class="flex-auto xs:hidden object-cover -lazyload-preloader ls-is-cached -lazyload-success">
+                                                <img
+                                                    src="/_image/i/rs_fit_420_360/format_jpg/preset:placeholder/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2IvMC9mL2IwZjE0Yjg3MWJkYjllYWZiMzQ2OWNjMGQ1YWYwNDQwLnBuZw"
+                                                    data-src="/_image/i/rs_fit_420_360/format_jpg/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2IvMC9mL2IwZjE0Yjg3MWJkYjllYWZiMzQ2OWNjMGQ1YWYwNDQwLnBuZw"
+                                                    alt="Little Art"
+                                                    class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader">
+                                            </div>
+                                            <div
+                                                class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">
+                                                <!----> <!---->
+                                                <div class="mt-auto font-normal text-white-640">
+                                                    Детские подгузники и трусики
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a
+                                                href="/projects/little-art/" class="after:absolute after:inset-0"><span
+                                                    class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Little Art</span></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
                             <!----------------------страница 2-------->
-                            <!-- <div><div class="grid grid-cols-12 gap-x-8 gap-y-11 xl:gap-4 lg:gap-y-8 md:gap-y-6"><div class="relative group  flex flex-col col-span-8 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/ef91118ba613ee970bd61f4d7fc80a25.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format%EF%B9%95jpg/ef91118ba613ee970bd61f4d7fc80a25.jpg" alt="Лидия Раймм" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/ef91118ba613ee970bd61f4d7fc80a25.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format%EF%B9%95jpg/ef91118ba613ee970bd61f4d7fc80a25.jpg" alt="Лидия Раймм" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
+                            <!-- <div><div class="grid grid-cols-12 gap-x-8 gap-y-11 xl:gap-4 lg:gap-y-8 md:gap-y-6"><div class="relative group  flex flex-col col-span-8 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format_jpg/preset%EF%B9%95placeholder/ef91118ba613ee970bd61f4d7fc80a25.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format_jpg/ef91118ba613ee970bd61f4d7fc80a25.jpg" alt="Лидия Раймм" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format_jpg/preset%EF%B9%95placeholder/ef91118ba613ee970bd61f4d7fc80a25.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format_jpg/ef91118ba613ee970bd61f4d7fc80a25.jpg" alt="Лидия Раймм" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
                 Юридические услуги
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/lidiya-raymm/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Лидия Раймм</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/0938c072ccec795f9d0095d64c8d82cf.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/0938c072ccec795f9d0095d64c8d82cf.jpg" alt="Pure Hearts" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/0938c072ccec795f9d0095d64c8d82cf.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/0938c072ccec795f9d0095d64c8d82cf.jpg" alt="Pure Hearts" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/lidiya-raymm/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Лидия Раймм</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/0938c072ccec795f9d0095d64c8d82cf.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/0938c072ccec795f9d0095d64c8d82cf.jpg" alt="Pure Hearts" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/0938c072ccec795f9d0095d64c8d82cf.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/0938c072ccec795f9d0095d64c8d82cf.jpg" alt="Pure Hearts" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
                 Благотворительный фонд помощи больным раком в Грузии
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/pure-hearts/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Pure Hearts</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/8a2853ce54fcdb6ea2b9fd4fc2fb2b9f.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/8a2853ce54fcdb6ea2b9fd4fc2fb2b9f.jpg" alt="Velikaya" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/8a2853ce54fcdb6ea2b9fd4fc2fb2b9f.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/8a2853ce54fcdb6ea2b9fd4fc2fb2b9f.jpg" alt="Velikaya" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/pure-hearts/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Pure Hearts</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/8a2853ce54fcdb6ea2b9fd4fc2fb2b9f.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/8a2853ce54fcdb6ea2b9fd4fc2fb2b9f.jpg" alt="Velikaya" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/8a2853ce54fcdb6ea2b9fd4fc2fb2b9f.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/8a2853ce54fcdb6ea2b9fd4fc2fb2b9f.jpg" alt="Velikaya" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
                 Косметика
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/velikaya/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Velikaya</span></a></div></div><div class="relative group  flex flex-col flex-auto col-span-4 lg:col-span-6 md:col-span-12 row-span-2 md:row-span-1"><div class="relative overflow-hidden mb-4 md:mb-2 flex flex-col items-start  h-full w-full min-h-[22.5rem] lg:min-h-[15rem] md:min-h-0 md:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95820/format%EF%B9%95jpg/preset%EF%B9%95placeholder/a604e5168ce5ecfae8dc9f3109a2b35e.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95820/format%EF%B9%95jpg/a604e5168ce5ecfae8dc9f3109a2b35e.jpg" alt="Лесная Фантазия" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95820/format%EF%B9%95jpg/preset%EF%B9%95placeholder/a604e5168ce5ecfae8dc9f3109a2b35e.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95820/format%EF%B9%95jpg/a604e5168ce5ecfae8dc9f3109a2b35e.jpg" alt="Лесная Фантазия" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/velikaya/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Velikaya</span></a></div></div><div class="relative group  flex flex-col flex-auto col-span-4 lg:col-span-6 md:col-span-12 row-span-2 md:row-span-1"><div class="relative overflow-hidden mb-4 md:mb-2 flex flex-col items-start  h-full w-full min-h-[22.5rem] lg:min-h-[15rem] md:min-h-0 md:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_820/format_jpg/preset%EF%B9%95placeholder/a604e5168ce5ecfae8dc9f3109a2b35e.jpg" data-src="../_image/i/rs_fit_420_820/format_jpg/a604e5168ce5ecfae8dc9f3109a2b35e.jpg" alt="Лесная Фантазия" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_820/format_jpg/preset%EF%B9%95placeholder/a604e5168ce5ecfae8dc9f3109a2b35e.jpg" data-src="../_image/i/rs_fit_420_820/format_jpg/a604e5168ce5ecfae8dc9f3109a2b35e.jpg" alt="Лесная Фантазия" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
                 Арт-мастерская
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/lesnaya-fantaziya/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Лесная Фантазия</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/d6aa297849d9f67fb331bc52aa18aded.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/d6aa297849d9f67fb331bc52aa18aded.jpg" alt="Miracool" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/d6aa297849d9f67fb331bc52aa18aded.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/d6aa297849d9f67fb331bc52aa18aded.jpg" alt="Miracool" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100"><div class="mb-4"><div class="flex items-center -mx-1"><div class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600" style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/04a9a67f1abbf75eff733f1a7623b70e.jpg);"></div> <div class="mx-1"><div class="mb-px font-medium">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/lesnaya-fantaziya/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Лесная Фантазия</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/d6aa297849d9f67fb331bc52aa18aded.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/d6aa297849d9f67fb331bc52aa18aded.jpg" alt="Miracool" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/d6aa297849d9f67fb331bc52aa18aded.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/d6aa297849d9f67fb331bc52aa18aded.jpg" alt="Miracool" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100"><div class="mb-4"><div class="flex items-center -mx-1"><div class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600" style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/04a9a67f1abbf75eff733f1a7623b70e.jpg);"></div> <div class="mx-1"><div class="mb-px font-medium">
                 MIRACOOL
             </div> </div></div> </div> <div class="font-normal text-sm line-clamp-3">Дизайны упаковок строятся на ярких, необычных авторских иллюстрациях, каждая из которых рассказывает свою историю.</div> <div class="mt-auto font-normal text-white-640">
                 Кондитерские изделия
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/miracool/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Miracool</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/807ea296f42ac3648f48d6f2cbcae0de.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/807ea296f42ac3648f48d6f2cbcae0de.jpg" alt="Фитнес Пирамида" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/807ea296f42ac3648f48d6f2cbcae0de.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/807ea296f42ac3648f48d6f2cbcae0de.jpg" alt="Фитнес Пирамида" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/miracool/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Miracool</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/807ea296f42ac3648f48d6f2cbcae0de.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/807ea296f42ac3648f48d6f2cbcae0de.jpg" alt="Фитнес Пирамида" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/807ea296f42ac3648f48d6f2cbcae0de.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/807ea296f42ac3648f48d6f2cbcae0de.jpg" alt="Фитнес Пирамида" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
                 Фитнес клуб
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/piramida/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Фитнес Пирамида</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/3cff06a8826a5d62c42c314e703b3dc4.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/3cff06a8826a5d62c42c314e703b3dc4.jpg" alt="В4" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/3cff06a8826a5d62c42c314e703b3dc4.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/3cff06a8826a5d62c42c314e703b3dc4.jpg" alt="В4" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/piramida/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Фитнес Пирамида</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/3cff06a8826a5d62c42c314e703b3dc4.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/3cff06a8826a5d62c42c314e703b3dc4.jpg" alt="В4" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/3cff06a8826a5d62c42c314e703b3dc4.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/3cff06a8826a5d62c42c314e703b3dc4.jpg" alt="В4" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
                 Онлайн-платформа для бьюти-товаров
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/v4/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">В4</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/460fe333fef7d8a6eb6ef707f6b47898.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/460fe333fef7d8a6eb6ef707f6b47898.jpg" alt="Merry Green" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/460fe333fef7d8a6eb6ef707f6b47898.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/460fe333fef7d8a6eb6ef707f6b47898.jpg" alt="Merry Green" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/v4/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">В4</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/460fe333fef7d8a6eb6ef707f6b47898.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/460fe333fef7d8a6eb6ef707f6b47898.jpg" alt="Merry Green" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/460fe333fef7d8a6eb6ef707f6b47898.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/460fe333fef7d8a6eb6ef707f6b47898.jpg" alt="Merry Green" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
                 Искусственные ёлки
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/merry-green/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Merry Green</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/07676644290e1e89f636b83a97caf842.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/07676644290e1e89f636b83a97caf842.jpg" alt="Aqua Solution" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/07676644290e1e89f636b83a97caf842.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/07676644290e1e89f636b83a97caf842.jpg" alt="Aqua Solution" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/merry-green/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Merry Green</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/07676644290e1e89f636b83a97caf842.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/07676644290e1e89f636b83a97caf842.jpg" alt="Aqua Solution" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/07676644290e1e89f636b83a97caf842.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/07676644290e1e89f636b83a97caf842.jpg" alt="Aqua Solution" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
                 Компания по водоподготовке и водоочистке
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/aqua-solution/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Aqua Solution</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../uploads/file/8/9/e/89e5e6caa65b7be1244ff287ad9bfccd.gif" data-src="../uploads/file/8/9/e/89e5e6caa65b7be1244ff287ad9bfccd.gif" alt="IPHUB" class="flex-auto xs:hidden object-cover -lazyload"> <img src="../uploads/file/8/9/e/89e5e6caa65b7be1244ff287ad9bfccd.gif" data-src="../uploads/file/8/9/e/89e5e6caa65b7be1244ff287ad9bfccd.gif" alt="IPHUB" class="flex-auto a-xs:hidden object-cover -lazyload"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100"><div class="mb-4"><div class="flex items-center -mx-1"><div class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600" style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/9c5f3b485806fb815cad8bfd47c909f3.jpg);"></div> <div class="mx-1"><div class="mb-px font-medium">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/aqua-solution/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Aqua Solution</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../uploads/file/8/9/e/89e5e6caa65b7be1244ff287ad9bfccd.gif" data-src="../uploads/file/8/9/e/89e5e6caa65b7be1244ff287ad9bfccd.gif" alt="IPHUB" class="flex-auto xs:hidden object-cover -lazyload"> <img src="../uploads/file/8/9/e/89e5e6caa65b7be1244ff287ad9bfccd.gif" data-src="../uploads/file/8/9/e/89e5e6caa65b7be1244ff287ad9bfccd.gif" alt="IPHUB" class="flex-auto a-xs:hidden object-cover -lazyload"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100"><div class="mb-4"><div class="flex items-center -mx-1"><div class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600" style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/9c5f3b485806fb815cad8bfd47c909f3.jpg);"></div> <div class="mx-1"><div class="mb-px font-medium">
                 Лидия Раймм
             </div> </div></div> </div> <div class="font-normal text-sm line-clamp-3">Brand hub помогли найти и оформить идентификацию личного бренда, чему я очень рада, использую его с удовольствием.</div> <div class="mt-auto font-normal text-white-640">
                 Центр интеллектуальной собственности
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/iphub/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">IPHUB</span></a></div></div><div class="relative group  flex flex-col col-span-8 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/162ba731e0f7d4502157d6cc4d0e3957.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format%EF%B9%95jpg/162ba731e0f7d4502157d6cc4d0e3957.jpg" alt="e legion" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/162ba731e0f7d4502157d6cc4d0e3957.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format%EF%B9%95jpg/162ba731e0f7d4502157d6cc4d0e3957.jpg" alt="e legion" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/iphub/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">IPHUB</span></a></div></div><div class="relative group  flex flex-col col-span-8 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format_jpg/preset%EF%B9%95placeholder/162ba731e0f7d4502157d6cc4d0e3957.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format_jpg/162ba731e0f7d4502157d6cc4d0e3957.jpg" alt="e legion" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format_jpg/preset%EF%B9%95placeholder/162ba731e0f7d4502157d6cc4d0e3957.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format_jpg/162ba731e0f7d4502157d6cc4d0e3957.jpg" alt="e legion" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
                 Партнёрская программа разработчика мобильных приложений
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/e-legion/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">e legion</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/b0f14b871bdb9eafb3469cc0d5af0440.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/b0f14b871bdb9eafb3469cc0d5af0440.jpg" alt="Little Art" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/b0f14b871bdb9eafb3469cc0d5af0440.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/b0f14b871bdb9eafb3469cc0d5af0440.jpg" alt="Little Art" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/e-legion/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">e legion</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/b0f14b871bdb9eafb3469cc0d5af0440.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/b0f14b871bdb9eafb3469cc0d5af0440.jpg" alt="Little Art" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/b0f14b871bdb9eafb3469cc0d5af0440.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/b0f14b871bdb9eafb3469cc0d5af0440.jpg" alt="Little Art" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
                 Детские подгузники и трусики
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/little-art/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Little Art</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/fd4f0d4cbf268cde6ea18a4b887be050.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/fd4f0d4cbf268cde6ea18a4b887be050.jpg" alt="Softbuilding" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/fd4f0d4cbf268cde6ea18a4b887be050.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/fd4f0d4cbf268cde6ea18a4b887be050.jpg" alt="Softbuilding" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/little-art/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Little Art</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/fd4f0d4cbf268cde6ea18a4b887be050.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/fd4f0d4cbf268cde6ea18a4b887be050.jpg" alt="Softbuilding" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/fd4f0d4cbf268cde6ea18a4b887be050.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/fd4f0d4cbf268cde6ea18a4b887be050.jpg" alt="Softbuilding" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
                 Системный интегратор
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/softbuilding/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Softbuilding</span></a></div></div><div class="relative group  flex flex-col flex-auto col-span-4 lg:col-span-6 md:col-span-12 row-span-2 md:row-span-1"><div class="relative overflow-hidden mb-4 md:mb-2 flex flex-col items-start  h-full w-full min-h-[22.5rem] lg:min-h-[15rem] md:min-h-0 md:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95820/format%EF%B9%95jpg/preset%EF%B9%95placeholder/d37df572798eec806cbce3cc71a6173a.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95820/format%EF%B9%95jpg/d37df572798eec806cbce3cc71a6173a.jpg" alt="Baddy" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95820/format%EF%B9%95jpg/preset%EF%B9%95placeholder/d37df572798eec806cbce3cc71a6173a.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95820/format%EF%B9%95jpg/d37df572798eec806cbce3cc71a6173a.jpg" alt="Baddy" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/softbuilding/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Softbuilding</span></a></div></div><div class="relative group  flex flex-col flex-auto col-span-4 lg:col-span-6 md:col-span-12 row-span-2 md:row-span-1"><div class="relative overflow-hidden mb-4 md:mb-2 flex flex-col items-start  h-full w-full min-h-[22.5rem] lg:min-h-[15rem] md:min-h-0 md:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_820/format_jpg/preset%EF%B9%95placeholder/d37df572798eec806cbce3cc71a6173a.jpg" data-src="../_image/i/rs_fit_420_820/format_jpg/d37df572798eec806cbce3cc71a6173a.jpg" alt="Baddy" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_820/format_jpg/preset%EF%B9%95placeholder/d37df572798eec806cbce3cc71a6173a.jpg" data-src="../_image/i/rs_fit_420_820/format_jpg/d37df572798eec806cbce3cc71a6173a.jpg" alt="Baddy" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
                 Букмекерский сервис
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/baddy/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Baddy</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/804ccd04cc7a6395bee34ef479c156b0.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/804ccd04cc7a6395bee34ef479c156b0.jpg" alt="Connective PLM" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/804ccd04cc7a6395bee34ef479c156b0.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/804ccd04cc7a6395bee34ef479c156b0.jpg" alt="Connective PLM" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100"><div class="mb-4"><div class="flex items-center -mx-1"><div class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600" style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/2ea39c0288ed778340fe07a1443f0d6b.jpg);"></div> <div class="mx-1"><div class="mb-px font-medium">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/baddy/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Baddy</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/804ccd04cc7a6395bee34ef479c156b0.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/804ccd04cc7a6395bee34ef479c156b0.jpg" alt="Connective PLM" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/804ccd04cc7a6395bee34ef479c156b0.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/804ccd04cc7a6395bee34ef479c156b0.jpg" alt="Connective PLM" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100"><div class="mb-4"><div class="flex items-center -mx-1"><div class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600" style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/2ea39c0288ed778340fe07a1443f0d6b.jpg);"></div> <div class="mx-1"><div class="mb-px font-medium">
                 Илья Скрябин
             </div> </div></div> </div> <div class="font-normal text-sm line-clamp-3">Brand hub старается делать построение бренда обязательной частью развития бизнеса.</div> <div class="mt-auto font-normal text-white-640">
                 IT-интегратор
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/connective-plm/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Connective PLM</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/5978d2a239d218cb73db2b7b87714c58.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/5978d2a239d218cb73db2b7b87714c58.jpg" alt="Sundaze" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/5978d2a239d218cb73db2b7b87714c58.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/5978d2a239d218cb73db2b7b87714c58.jpg" alt="Sundaze" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/connective-plm/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Connective PLM</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/5978d2a239d218cb73db2b7b87714c58.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/5978d2a239d218cb73db2b7b87714c58.jpg" alt="Sundaze" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/5978d2a239d218cb73db2b7b87714c58.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/5978d2a239d218cb73db2b7b87714c58.jpg" alt="Sundaze" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
                 Товары для пляжа и отдыха
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/sundaze/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Sundaze</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/283c418d30ded5a843f72234f8b98512.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/283c418d30ded5a843f72234f8b98512.jpg" alt="Fresh Connect" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/283c418d30ded5a843f72234f8b98512.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/283c418d30ded5a843f72234f8b98512.jpg" alt="Fresh Connect" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/sundaze/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Sundaze</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/283c418d30ded5a843f72234f8b98512.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/283c418d30ded5a843f72234f8b98512.jpg" alt="Fresh Connect" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/283c418d30ded5a843f72234f8b98512.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/283c418d30ded5a843f72234f8b98512.jpg" alt="Fresh Connect" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
                 Мобильное приложение для умных офисов
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/fresh-connect/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Fresh Connect</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/0611530d0f9483d276647bedfb2074bf.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/0611530d0f9483d276647bedfb2074bf.jpg" alt="Fofa" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/0611530d0f9483d276647bedfb2074bf.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/0611530d0f9483d276647bedfb2074bf.jpg" alt="Fofa" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/fresh-connect/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Fresh Connect</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/0611530d0f9483d276647bedfb2074bf.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/0611530d0f9483d276647bedfb2074bf.jpg" alt="Fofa" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/0611530d0f9483d276647bedfb2074bf.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/0611530d0f9483d276647bedfb2074bf.jpg" alt="Fofa" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
                 Детские товары
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/fofa/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Fofa</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/739f11e24bcb03ddb3e22b29a71b760d.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/739f11e24bcb03ddb3e22b29a71b760d.jpg" alt="iPLasma" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/739f11e24bcb03ddb3e22b29a71b760d.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/739f11e24bcb03ddb3e22b29a71b760d.jpg" alt="iPLasma" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/fofa/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Fofa</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/739f11e24bcb03ddb3e22b29a71b760d.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/739f11e24bcb03ddb3e22b29a71b760d.jpg" alt="iPLasma" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/739f11e24bcb03ddb3e22b29a71b760d.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/739f11e24bcb03ddb3e22b29a71b760d.jpg" alt="iPLasma" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
                 Приборы для дезинфекции
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/iplasma/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">iPLasma</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/91c6dff0c9b4ebde7e60059eefac47d3.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/91c6dff0c9b4ebde7e60059eefac47d3.jpg" alt="STARRY TALE" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/91c6dff0c9b4ebde7e60059eefac47d3.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/91c6dff0c9b4ebde7e60059eefac47d3.jpg" alt="STARRY TALE" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100"><div class="mb-4"><div class="flex items-center -mx-1"><div class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600" style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/c6b3942ea5b3588b77da6a6391724427.jpg);"></div> <div class="mx-1"><div class="mb-px font-medium">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/iplasma/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">iPLasma</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/91c6dff0c9b4ebde7e60059eefac47d3.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/91c6dff0c9b4ebde7e60059eefac47d3.jpg" alt="STARRY TALE" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/91c6dff0c9b4ebde7e60059eefac47d3.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/91c6dff0c9b4ebde7e60059eefac47d3.jpg" alt="STARRY TALE" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100"><div class="mb-4"><div class="flex items-center -mx-1"><div class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600" style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/c6b3942ea5b3588b77da6a6391724427.jpg);"></div> <div class="mx-1"><div class="mb-px font-medium">
                 STARRY TALE
             </div> </div></div> </div> <div class="font-normal text-sm line-clamp-3">В основу концепции легла тема сказки и волшебства, и каждый атрибут является ее воплощением.</div> <div class="mt-auto font-normal text-white-640">
                 Гирлянды и светодиодная продукция
@@ -14179,31 +14536,31 @@
 
                             <!----------------------страница 3--------->
 
-                            <!-- <div><div class="grid grid-cols-12 gap-x-8 gap-y-11 xl:gap-4 lg:gap-y-8 md:gap-y-6"><div class="relative group  flex flex-col col-span-8 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/89786a52bd852e89fac5035106c65bf0.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format%EF%B9%95jpg/89786a52bd852e89fac5035106c65bf0.jpg" alt="Ration" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/89786a52bd852e89fac5035106c65bf0.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format%EF%B9%95jpg/89786a52bd852e89fac5035106c65bf0.jpg" alt="Ration" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100"><div class="mb-4"><div class="flex items-center -mx-1"><div class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600" style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/0ef21f678323770713f4fbfd6f78938c.jpg);"></div> <div class="mx-1"><div class="mb-px font-medium">
+                            <!-- <div><div class="grid grid-cols-12 gap-x-8 gap-y-11 xl:gap-4 lg:gap-y-8 md:gap-y-6"><div class="relative group  flex flex-col col-span-8 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format_jpg/preset%EF%B9%95placeholder/89786a52bd852e89fac5035106c65bf0.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format_jpg/89786a52bd852e89fac5035106c65bf0.jpg" alt="Ration" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format_jpg/preset%EF%B9%95placeholder/89786a52bd852e89fac5035106c65bf0.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95870%EF%B9%95360/format_jpg/89786a52bd852e89fac5035106c65bf0.jpg" alt="Ration" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100"><div class="mb-4"><div class="flex items-center -mx-1"><div class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600" style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/0ef21f678323770713f4fbfd6f78938c.jpg);"></div> <div class="mx-1"><div class="mb-px font-medium">
                 Оксана
             </div> </div></div> </div> <div class="font-normal text-sm line-clamp-3">Очень рады проделанной работе! Визуализация отлично передает идею нашего бренда.</div> <div class="mt-auto font-normal text-white-640">
                 Сервис по доставке еды
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/ration/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Ration</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/abb2ae6de4e5680b1f50a671c4a8c91b.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/abb2ae6de4e5680b1f50a671c4a8c91b.jpg" alt="MOVIE" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/abb2ae6de4e5680b1f50a671c4a8c91b.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/abb2ae6de4e5680b1f50a671c4a8c91b.jpg" alt="MOVIE" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/ration/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Ration</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/abb2ae6de4e5680b1f50a671c4a8c91b.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/abb2ae6de4e5680b1f50a671c4a8c91b.jpg" alt="MOVIE" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/abb2ae6de4e5680b1f50a671c4a8c91b.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/abb2ae6de4e5680b1f50a671c4a8c91b.jpg" alt="MOVIE" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
                 Коммуникационная группа
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/movie/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">MOVIE</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/dd7da8b8e5187e19dfde16eea8579f17.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/dd7da8b8e5187e19dfde16eea8579f17.jpg" alt="Грилан" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/dd7da8b8e5187e19dfde16eea8579f17.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/dd7da8b8e5187e19dfde16eea8579f17.jpg" alt="Грилан" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/movie/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">MOVIE</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/dd7da8b8e5187e19dfde16eea8579f17.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/dd7da8b8e5187e19dfde16eea8579f17.jpg" alt="Грилан" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/dd7da8b8e5187e19dfde16eea8579f17.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/dd7da8b8e5187e19dfde16eea8579f17.jpg" alt="Грилан" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
                 IT, digital компании, сервисы
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/grilan/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Грилан</span></a></div></div><div class="relative group  flex flex-col flex-auto col-span-4 lg:col-span-6 md:col-span-12 row-span-2 md:row-span-1"><div class="relative overflow-hidden mb-4 md:mb-2 flex flex-col items-start  h-full w-full min-h-[22.5rem] lg:min-h-[15rem] md:min-h-0 md:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95820/format%EF%B9%95jpg/preset%EF%B9%95placeholder/b3f508081676297d718117d268530a8f.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95820/format%EF%B9%95jpg/b3f508081676297d718117d268530a8f.jpg" alt="Супер Мука" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95820/format%EF%B9%95jpg/preset%EF%B9%95placeholder/b3f508081676297d718117d268530a8f.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95820/format%EF%B9%95jpg/b3f508081676297d718117d268530a8f.jpg" alt="Супер Мука" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/grilan/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Грилан</span></a></div></div><div class="relative group  flex flex-col flex-auto col-span-4 lg:col-span-6 md:col-span-12 row-span-2 md:row-span-1"><div class="relative overflow-hidden mb-4 md:mb-2 flex flex-col items-start  h-full w-full min-h-[22.5rem] lg:min-h-[15rem] md:min-h-0 md:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_820/format_jpg/preset%EF%B9%95placeholder/b3f508081676297d718117d268530a8f.jpg" data-src="../_image/i/rs_fit_420_820/format_jpg/b3f508081676297d718117d268530a8f.jpg" alt="Супер Мука" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_820/format_jpg/preset%EF%B9%95placeholder/b3f508081676297d718117d268530a8f.jpg" data-src="../_image/i/rs_fit_420_820/format_jpg/b3f508081676297d718117d268530a8f.jpg" alt="Супер Мука" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
                 Мука
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/super-muka/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Супер Мука</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/f053f93d803842ce1c1eb27ea770c18c.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/f053f93d803842ce1c1eb27ea770c18c.jpg" alt="Clio soft" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/f053f93d803842ce1c1eb27ea770c18c.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/f053f93d803842ce1c1eb27ea770c18c.jpg" alt="Clio soft" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/super-muka/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Супер Мука</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/f053f93d803842ce1c1eb27ea770c18c.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/f053f93d803842ce1c1eb27ea770c18c.jpg" alt="Clio soft" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/f053f93d803842ce1c1eb27ea770c18c.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/f053f93d803842ce1c1eb27ea770c18c.jpg" alt="Clio soft" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
                 IT-интегратор
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/clio-soft/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Clio soft</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/b32998dd4b17ad667ce88408dae4c165.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/b32998dd4b17ad667ce88408dae4c165.jpg" alt="Rusoleochem" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/b32998dd4b17ad667ce88408dae4c165.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/b32998dd4b17ad667ce88408dae4c165.jpg" alt="Rusoleochem" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100"> <div class="font-normal text-sm line-clamp-3"></div> <div class="mt-auto font-normal text-white-640">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/clio-soft/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Clio soft</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/b32998dd4b17ad667ce88408dae4c165.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/b32998dd4b17ad667ce88408dae4c165.jpg" alt="Rusoleochem" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/b32998dd4b17ad667ce88408dae4c165.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/b32998dd4b17ad667ce88408dae4c165.jpg" alt="Rusoleochem" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100"> <div class="font-normal text-sm line-clamp-3"></div> <div class="mt-auto font-normal text-white-640">
                 Олеохимическая продукция
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/rusoleochem/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Rusoleochem</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/298acf8835f14208f031f3da92ed8b16.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/298acf8835f14208f031f3da92ed8b16.jpg" alt="Tuta24" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/298acf8835f14208f031f3da92ed8b16.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/298acf8835f14208f031f3da92ed8b16.jpg" alt="Tuta24" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/rusoleochem/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Rusoleochem</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/298acf8835f14208f031f3da92ed8b16.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/298acf8835f14208f031f3da92ed8b16.jpg" alt="Tuta24" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/298acf8835f14208f031f3da92ed8b16.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/298acf8835f14208f031f3da92ed8b16.jpg" alt="Tuta24" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
                 Маркетплейс товаров для здоровья и красоты
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/tuta24/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Tuta24</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/6449f6d130bb24b5115eb4b1e2f1b48b.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/6449f6d130bb24b5115eb4b1e2f1b48b.jpg" alt="to na eto" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/6449f6d130bb24b5115eb4b1e2f1b48b.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/6449f6d130bb24b5115eb4b1e2f1b48b.jpg" alt="to na eto" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100"><div class="mb-4"><div class="flex items-center -mx-1"><div class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600" style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/9a8398e76a57d6d31d6b6573f37faf34.jpg);"></div> <div class="mx-1"><div class="mb-px font-medium">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/tuta24/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Tuta24</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/6449f6d130bb24b5115eb4b1e2f1b48b.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/6449f6d130bb24b5115eb4b1e2f1b48b.jpg" alt="to na eto" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/6449f6d130bb24b5115eb4b1e2f1b48b.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/6449f6d130bb24b5115eb4b1e2f1b48b.jpg" alt="to na eto" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100"><div class="mb-4"><div class="flex items-center -mx-1"><div class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600" style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/9a8398e76a57d6d31d6b6573f37faf34.jpg);"></div> <div class="mx-1"><div class="mb-px font-medium">
                 Tonaeto
             </div> </div></div> </div> <div class="font-normal text-sm line-clamp-3">Визуальный стиль, построенный на ярких, но ненавязчивых цветах и нестандартных начертаниях, транслирует дружелюбие бренда</div> <div class="mt-auto font-normal text-white-640">
                 Бартерная площадка
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/to-na-eto/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">to na eto</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/e8ccd0d6f04cf965a054010596cd14df.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/e8ccd0d6f04cf965a054010596cd14df.jpg" alt="Barnaley" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/e8ccd0d6f04cf965a054010596cd14df.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/e8ccd0d6f04cf965a054010596cd14df.jpg" alt="Barnaley" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100"><div class="mb-4"><div class="flex items-center -mx-1"><div class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600" style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format%EF%B9%95jpg/19cd578e75af047f50f12046371f3c76.jpg);"></div> <div class="mx-1"><div class="mb-px font-medium">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/to-na-eto/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">to na eto</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/e8ccd0d6f04cf965a054010596cd14df.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/e8ccd0d6f04cf965a054010596cd14df.jpg" alt="Barnaley" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/e8ccd0d6f04cf965a054010596cd14df.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/e8ccd0d6f04cf965a054010596cd14df.jpg" alt="Barnaley" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100"><div class="mb-4"><div class="flex items-center -mx-1"><div class="mx-1 flex-shrink-0 bg-cover bg-no-repeat rounded-full h-12 w-12 bg-gray-600" style="background-image:url(../_image/i/rs%EF%B9%95fit%EF%B9%95100%EF%B9%95100/format_jpg/19cd578e75af047f50f12046371f3c76.jpg);"></div> <div class="mx-1"><div class="mb-px font-medium">
                 Barnaley
             </div> </div></div> </div> <div class="font-normal text-sm line-clamp-3">Стилистика упаковки переносит в атмосферу вечеринки, а фудзона с изображением мороженого в коктейле демонстрирует использование продукта</div> <div class="mt-auto font-normal text-white-640">
                 Мороженое
-            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/barnaley/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Barnaley</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/c3d4585a54e2a7ca0aeda804e16c8661.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/c3d4585a54e2a7ca0aeda804e16c8661.jpg" alt="Мастерская Ивана Овчаренко" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/preset%EF%B9%95placeholder/c3d4585a54e2a7ca0aeda804e16c8661.jpg" data-src="../_image/i/rs%EF%B9%95fit%EF%B9%95420%EF%B9%95360/format%EF%B9%95jpg/c3d4585a54e2a7ca0aeda804e16c8661.jpg" alt="Мастерская Ивана Овчаренко" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
+            </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/barnaley/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Barnaley</span></a></div></div><div class="relative group  flex flex-col col-span-4 lg:col-span-6 md:col-span-12"><div class="relative overflow-hidden mb-4 md:mb-2 h-90 lg:h-60 tiny:h-52"><div class="absolute inset-0 flex bg-gray-300 transform transition-main group-hover:scale-110"><img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/c3d4585a54e2a7ca0aeda804e16c8661.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/c3d4585a54e2a7ca0aeda804e16c8661.jpg" alt="Мастерская Ивана Овчаренко" class="flex-auto xs:hidden object-cover -lazyload -lazyload-preloader"> <img src="../_image/i/rs_fit_420_360/format_jpg/preset_placeholder/c3d4585a54e2a7ca0aeda804e16c8661.jpg" data-src="../_image/i/rs_fit_420_360/format_jpg/c3d4585a54e2a7ca0aeda804e16c8661.jpg" alt="Мастерская Ивана Овчаренко" class="flex-auto a-xs:hidden object-cover -lazyload -lazyload-preloader"></div> <div class="absolute inset-0 flex flex-col justify-between p-4 bg-black bg-opacity-40 opacity-0 text-white text-sm transition-fast group-hover:opacity-100">  <div class="mt-auto font-normal text-white-640">
                 Ландшафтная мастерская
             </div></div></div> <div class="text-2xl inline-block font-medium lg:text-xl md:text-lg"><a href="projects/landshaftnaya-masterskaya-ivana-ovcharenko/" class="after:absolute after:inset-0"><span class="border-b border-black-160 pb-1 transition-fast group-hover:border-black lg:pb-px">Мастерская Ивана Овчаренко</span></a></div></div></div><br></div>
  -->
@@ -14225,20 +14582,23 @@
                                             <div theme="light" size="md" name="field_6"
                                                  class="field field_outlined is-required field_theme_light col-span-2">
                                                 <input type="text" id="form-field-1" required="required"
-                                                       class="field__input lead-name-input" placeholder="Имя"> <label for="form-field-1"
-                                                                                    class="field__title"></label>
+                                                       class="field__input lead-name-input" placeholder="Имя"> <label
+                                                    for="form-field-1"
+                                                    class="field__title"></label>
                                             </div>
                                             <div theme="light" size="md" name="field_7"
                                                  class="field field_outlined is-required field_theme_light col-span-1 md:col-span-2">
                                                 <input type="text" id="form-field-2" required="required"
-                                                       class="field__input lead-phone-input" placeholder="Телефон"> <label for="form-field-2"
-                                                                                    class="field__title"></label>
+                                                       class="field__input lead-phone-input" placeholder="Телефон">
+                                                <label for="form-field-2"
+                                                       class="field__title"></label>
                                             </div>
                                             <div theme="light" size="md" name="field_8"
                                                  class="field field_outlined is-required field_theme_light col-span-1 md:col-span-2">
                                                 <input type="email" id="form-field-3" required="required"
-                                                       class="field__input lead-email-input" placeholder="Почта"> <label for="form-field-3"
-                                                                                    class="field__title"></label>
+                                                       class="field__input lead-email-input" placeholder="Почта"> <label
+                                                    for="form-field-3"
+                                                    class="field__title"></label>
                                             </div>
                                             <div class="col-span-2 flex items-center -mx-2 sm:flex-wrap sm:mx-0">
                                                 <div

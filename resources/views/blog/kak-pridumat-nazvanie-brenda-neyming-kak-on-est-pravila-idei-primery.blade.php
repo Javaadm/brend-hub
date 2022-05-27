@@ -13280,8 +13280,8 @@
                                             Как придумать название бренда? Нейминг как он есть: правила, идеи,
                                             примеры</h1></div>
                                     <div class="col-span-12 mb-14 lg:mb-10"><img
-                                            src="../../_image/i/rs%EF%B9%95fit%EF%B9%951320%EF%B9%95700/format%EF%B9%95jpg/preset%EF%B9%95placeholder/f1beee8a9f0a49223f12c0584a0941c1.jpg"
-                                            data-src="../../_image/i/rs%EF%B9%95fit%EF%B9%951320%EF%B9%95700/format%EF%B9%95jpg/f1beee8a9f0a49223f12c0584a0941c1.jpg"
+                                            src="../../_image/i/rs_fit_1320_700/format_jpg/preset%EF%B9%95placeholder/f1beee8a9f0a49223f12c0584a0941c1.jpg"
+                                            data-src="../../_image/i/rs_fit_1320_700/format_jpg/f1beee8a9f0a49223f12c0584a0941c1.jpg"
                                             class="object-cover -lazyload -lazyload-preloader"></div>
                                 </div>
                                 <div class="grid grid-cols-12">

@@ -13280,8 +13280,8 @@
                                             Как запатентовать название бренда и логотип? Подробная инструкция
                                             по регистрации в Роспатенте</h1></div>
                                     <div class="col-span-12 mb-14 lg:mb-10"><img
-                                            src="../../_image/i/rs%EF%B9%95fit%EF%B9%951320%EF%B9%95700/format%EF%B9%95jpg/preset%EF%B9%95placeholder/56e643d4bb303cab7580fb16c81a7bd1.jpg"
-                                            data-src="../../_image/i/rs%EF%B9%95fit%EF%B9%951320%EF%B9%95700/format%EF%B9%95jpg/56e643d4bb303cab7580fb16c81a7bd1.jpg"
+                                            src="../../_image/i/rs_fit_1320_700/format_jpg/preset%EF%B9%95placeholder/56e643d4bb303cab7580fb16c81a7bd1.jpg"
+                                            data-src="../../_image/i/rs_fit_1320_700/format_jpg/56e643d4bb303cab7580fb16c81a7bd1.jpg"
                                             class="object-cover -lazyload -lazyload-preloader"></div>
                                 </div>
                                 <div class="grid grid-cols-12">

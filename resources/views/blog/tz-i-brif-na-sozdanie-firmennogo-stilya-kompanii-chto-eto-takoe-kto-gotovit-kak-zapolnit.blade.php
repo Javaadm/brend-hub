@@ -13281,8 +13281,8 @@
                                             на создание фирменного стиля компании. Что это такое, кто готовит,
                                             как заполнить?</h1></div>
                                     <div class="col-span-12 mb-14 lg:mb-10"><img
-                                            src="../../_image/i/rs%EF%B9%95fit%EF%B9%951320%EF%B9%95700/format%EF%B9%95jpg/preset%EF%B9%95placeholder/d19fa9b8fd37941e17ef0d3755decb71.jpg"
-                                            data-src="../../_image/i/rs%EF%B9%95fit%EF%B9%951320%EF%B9%95700/format%EF%B9%95jpg/d19fa9b8fd37941e17ef0d3755decb71.jpg"
+                                            src="../../_image/i/rs_fit_1320_700/format_jpg/preset%EF%B9%95placeholder/d19fa9b8fd37941e17ef0d3755decb71.jpg"
+                                            data-src="../../_image/i/rs_fit_1320_700/format_jpg/d19fa9b8fd37941e17ef0d3755decb71.jpg"
                                             class="object-cover -lazyload -lazyload-preloader"></div>
                                 </div>
                                 <div class="grid grid-cols-12">
