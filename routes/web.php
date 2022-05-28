@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [DateController::class, 'render']);
+//Route::get('/', [DateController::class, 'render']);
 
 Route::post("update-session", [DateController::class, 'updateSession'])->name("updateSession");
 
@@ -31,7 +31,7 @@ Route::get("/send-lead", function (){
     if(session("step")>1){
         try {
             //Mail::to("mr.serega20@mail.ru")->send(new LeadMail($isFillOut));//we@brand-hub.ru
-            Mail::to("we@brand-hub.ru")->send(new LeadMail($isFillOut));//we@brand-hub.ru
+            Mail::to(env('MAIL_BUSINESS_ADDRESS'))->send(new LeadMail($isFillOut));//we@brand-hub.ru
             try {
                 Mail::to( session("email") )->send(new BeatingMail());
             }catch (\Exception $exception){
@@ -45,7 +45,7 @@ Route::get("/send-lead", function (){
         $isFillOut = false;
         try {
             //Mail::to("mr.serega20@mail.ru")->send(new LeadMail($isFillOut));//we@brand-hub.ru
-            Mail::to("we@brand-hub.ru")->send(new LeadMail($isFillOut));//we@brand-hub.ru
+            Mail::to(env('MAIL_BUSINESS_ADDRESS'))->send(new LeadMail($isFillOut));//we@brand-hub.ru
             try {
                 Mail::to( session("email") )->send(new BeatingMail());
             }catch (\Exception $exception){
@@ -60,7 +60,7 @@ Route::get("/send-lead", function (){
 Route::get("/send-order", function (){
     try {
         //Mail::to("mr.serega20@mail.ru")->send(new LeadMail($isFillOut));//we@brand-hub.ru
-        Mail::to("we@brand-hub.ru")->send(new OrderMail());//we@brand-hub.ru
+        Mail::to(env('MAIL_BUSINESS_ADDRESS'))->send(new OrderMail());//we@brand-hub.ru
         try {
             Mail::to( session("email") )->send(new BeatingMail());
         }catch (\Exception $exception){

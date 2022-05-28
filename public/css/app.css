@@ -3411,11 +3411,30 @@ a:hover, a:focus, a:active, button:hover, button:focus, button:active {
     display: none; }
 .start-sect__tcontent.active {
     display: block; }
+.start-sect__error {
+    display: none;
+    color: red;
+    font-size: 18px;
+    line-height: 1.33333em;
+    margin-bottom: 24px;
+    text-align:center; }
 .start-sect__pag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin-bottom: 32px;
     font-size: 16px;
     line-height: 1.5em; }
+.start-sect__pag-numbers {
+    padding: 0 26px; }
+.start-sect__pag > .icon {
+    font-size: 32px;
+    color: gray; }
+.start-sect__pag > .icon.disabled {
+    color: #dddddd; }
+.cursor-pointer {
+    cursor: pointer; }
 @media only screen and (max-width: 768px) {
     .start-sect__pag {
         margin-bottom: 20px; } }

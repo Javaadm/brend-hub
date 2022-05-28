@@ -176,6 +176,9 @@ return [
         App\Providers\RouteServiceProvider::class,
         Barryvdh\DomPDF\ServiceProvider::class,
 
+        BrandHub\Brief\ServiceProvider::class,
+        BrandHub\Analytic\ServiceProvider::class,
+        BrandHub\Portfolio\ServiceProvider::class,
     ],
 
     /*

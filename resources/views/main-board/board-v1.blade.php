@@ -92,8 +92,9 @@
     </div>
     <div class="start-sect__step @if(session("step") >= 3 and session("type")==2) active @endif" id="step-3-dop">
         <div class="start-sect__step-desc">Шаг 3</div>
-        <div class="start-sect__step-title">Ассоциации и эмоции</div>
-        <div class="start-sect__step-text start-sect__step-text_big">Это заключительный шаг на вашем пути построения бренда, поделитесь в свободной форме своими ассоциациями и эмоциями к выбранным кейсам из первого шага.</div>
+        <div class="start-sect__step-title">Описание выбранного вами дизайна</div>
+        <div class="start-sect__step-text start-sect__step-text_big">
+            Это заключительный шаг на пути к вашему бренду. Поделитесь, почему вы выбрали именно эти варианты дизайна: какие эмоции и ассоциации они у вас вызывают?</div>
         <div class="start-sect__checks start-sect__checks_items">
             @foreach(session("images") as $key=>$image)
 
