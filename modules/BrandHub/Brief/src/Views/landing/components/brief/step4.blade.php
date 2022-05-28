@@ -1,6 +1,6 @@
 <div class="start-sect__step" id="step-4">
     <div class="start-sect__step-desc">Итог</div>
-    <div class="start-sect__step-title">Спасибо! Это и было ТЗ!</div>
+    <div class="start-sect__step-title">Ура! Бриф завершен!</div>
     <div class="start-sect__step-text">Больше не будет сложных форм и вопросов. <br>Мы выбрали для вас один из пакетов наших услуг. <br>Готовы приступить к работе.</div>
     <div class="end-dialog__packs">
         <div class="end-dialog__packs-error">
