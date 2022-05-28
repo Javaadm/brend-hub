@@ -5,7 +5,7 @@
         <div class="start-sect__step-desc">Шаг 1</div>
         <div class="start-sect__tabs-container active" id="checks-container-1">
             <div class="start-sect__tcontent @if(session("step-1-board") == 1) active @endif" id="checks-tab-1">
-                <div class="start-sect__step-title">На что может быть похож ваш бренд?</div>
+                <div class="start-sect__step-title">Варианты дизайна, которые вам нравятся</div>
                 <div class="start-sect__step-text">Выбери понравившиеся кейсы - это поможет подобрать лучшую команду
                     специалистов
                 </div>

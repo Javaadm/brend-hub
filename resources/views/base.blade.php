@@ -74,8 +74,8 @@
             </div>
             <div class="start-sect__step  active " id="step-1">
                 <div class="start-sect__step-desc">Шаг 1</div>
-                <div class="start-sect__step-big-title">Настроение и характер</div>
-                <div class="start-sect__step-text">Отметьте понравившиеся варианты дизайна,<br>а мы подберём соответствующую команду </div>
+                <div class="start-sect__step-big-title">Варианты дизайна, которые вам нравятся</div>
+                <div class="start-sect__step-text">Из предложенных примеров выберите те, что близки по настроению к вашему бренду. <br> Это поможет нам подобрать команду под проект.</div>
                 <div class="case-checks-menu">
                     <div class="case-checks-menu-button case-checks-menu-button-active" id="product">Для товаров</div>
                     <div class="case-checks-menu-button" id="services">Для услуг</div>

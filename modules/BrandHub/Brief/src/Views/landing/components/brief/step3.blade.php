@@ -1,7 +1,7 @@
 <div class="start-sect__step start-sect__step-3" data-business-type="product">
     <div class="start-sect__step-desc">Шаг 3</div>
-    <div class="start-sect__step-title">Ассоциации и эмоции</div>
-    <div class="start-sect__step-text start-sect__step-text_big">Это заключительный шаг на вашем пути построения бренда. Поделитесь своими ассоциациями и эмоциями к выбранным картинкам из первого шага.</div>
+    <div class="start-sect__step-title">Описание выбранного вами дизайна</div>
+    <div class="start-sect__step-text start-sect__step-text_big">Это заключительный шаг на пути к вашему бренду. Поделитесь, почему вы выбрали именно эти варианты дизайна: какие эмоции и ассоциации они у вас вызывают?</div>
     <div class="start-sect__error start-sect__step-3-error" style="text-align: left;"></div>
     <div class="start-sect__pref-emotions">
 

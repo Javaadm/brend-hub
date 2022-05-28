@@ -3,8 +3,8 @@
 @section("step-1")
     <div class="start-sect__step @if(session("step") >= 1) active @endif" id="step-1">
         <div class="start-sect__step-desc">Шаг 1</div>
-        <div class="start-sect__step-title">Настроение и характер</div>
-        <div class="start-sect__step-text">Отметьте понравившиеся варианты дизайна, <br>а мы подберём соответствующую команду</div>
+        <div class="start-sect__step-title">Варианты дизайна, которые вам нравятся</div>
+        <div class="start-sect__step-text">Из предложенных примеров выберите те, что близки по настроению к вашему бренду. Это поможет нам подобрать команду под проект.</div>
         <div class="start-sect__tabs"><a class="start-sect__tab @if(session("type") == 1) active @endif" href="#checks-container-1" data-step-id="#step-3" data-ym-goal="brief-mood-click-tab-for-packages">Для товаров</a>
             <a class="start-sect__tab last @if(session("type") == 2) active @endif" href="#checks-container-2" data-step-id="#step-3-dop" data-ym-goal="brief-mood-click-tab-for-services">Для услуг</a></div>
         <div class="start-sect__tabs-container @if(session("type") == 1) active @endif" id="checks-container-1">
@@ -92,8 +92,9 @@
     </div>
     <div class="start-sect__step @if(session("step") >= 3 and session("type")==2) active @endif" id="step-3-dop">
         <div class="start-sect__step-desc">Шаг 3</div>
-        <div class="start-sect__step-title">Ассоциации и эмоции</div>
-        <div class="start-sect__step-text start-sect__step-text_big">Это заключительный шаг на вашем пути построения бренда, поделитесь в свободной форме своими ассоциациями и эмоциями к выбранным кейсам из первого шага.</div>
+        <div class="start-sect__step-title">Описание выбранного вами дизайна</div>
+        <div class="start-sect__step-text start-sect__step-text_big">
+            Это заключительный шаг на пути к вашему бренду. Поделитесь, почему вы выбрали именно эти варианты дизайна: какие эмоции и ассоциации они у вас вызывают?</div>
         <div class="start-sect__checks start-sect__checks_items">
             @foreach(session("images") as $key=>$image)
 
