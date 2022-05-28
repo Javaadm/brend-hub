@@ -1,7 +1,7 @@
 <div class="start-sect__step active" id="step-1">
     <div class="start-sect__step-desc">Шаг 1</div>
     <div class="start-sect__step-title">Варианты дизайна, которые вам нравятся</div>
-    <div class="start-sect__step-text">Из предложенных примеров выберите те, ячто близки по настроению к вашему бренду. Это поможет нам подобрать команду под проект.</div>
+    <div class="start-sect__step-text">Из предложенных примеров выберите те, что близки по настроению к вашему бренду. Это поможет нам подобрать команду под проект.</div>
     <div class="start-sect__tabs">
         <div class="start-sect__tab active cursor-pointer" data-business-type="product" onclick="step1SetBusinessType('product')" data-ym-goal="brief-mood-click-tab-for-packages">Для товаров</div>
         <div class="start-sect__tab last cursor-pointer" data-business-type="service" onclick="step1SetBusinessType('service')" data-ym-goal="brief-mood-click-tab-for-services">Для услуг</div>
