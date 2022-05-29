@@ -11,7 +11,12 @@ use Ramsey\Uuid\Uuid;
 
 final class ProjectStubRepository implements ProjectReadStorage
 {
-    public function __construct(private readonly YmGoalReadStorage $ymGoalReadStorage) {}
+    private YmGoalReadStorage $ymGoalReadStorage;
+
+    public function __construct(YmGoalReadStorage $ymGoalReadStorage)
+    {
+        $this->ymGoalReadStorage = ymGoalReadStorage;
+    }
 
     public function find(): array
     {
