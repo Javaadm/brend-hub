@@ -2908,6 +2908,17 @@ a:hover, a:focus, a:active, button:hover, button:focus, button:active {
     align-items: flex-start;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
+@media (max-width: 800px) {
+    .mart-sect__items {
+        display: grid;
+    }
+    .mart-sect__item_second{
+        grid-row: 2;
+    }
+    .mart-sect__item_third{
+        grid-row: 3;
+    }
+}
 .mart-sect__item {
     position: relative;
     margin-top: 25px;

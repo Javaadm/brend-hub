@@ -7,13 +7,13 @@
                 <div class="mart-sect__item-title">Лого-генераторы <span>~ 1000 ₽</span></div>
                 <div class="mart-sect__item-text">Конструктор из наборов иконок, шрифтов и стилей. Придется выбирать и делать все самому</div>
             </div>
-            <div class="mart-sect__item mart-sect__item_select"><img class="mart-sect__item-icon" src="img/m-2.png" alt="">
+            <div class="mart-sect__item mart-sect__item_select mart-sect__item_third"><img class="mart-sect__item-icon" src="img/m-2.png" alt="">
                 <div class="mart-sect__item-title">Brand hub <span>~ 210 000 ₽</span></div>
                 <div class="mart-sect__item-text">Выделиться среди большой конкуренции микро,<br>
                     малого и среднего бизнесов за счет <br>
                     опыта и эффективного использования методологий</div>
             </div>
-            <div class="mart-sect__item"><img class="mart-sect__item-icon" src="img/m-3.png" alt="">
+            <div class="mart-sect__item mart-sect__item_second"><img class="mart-sect__item-icon" src="img/m-3.png" alt="">
                 <div class="mart-sect__item-title">Недорогие специалисты <span>~ 10000 ₽</span></div>
                 <div class="mart-sect__item-text">Свободные специалисты на свободном рынке с очень разным опытом и подходом к работе</div>
             </div>
