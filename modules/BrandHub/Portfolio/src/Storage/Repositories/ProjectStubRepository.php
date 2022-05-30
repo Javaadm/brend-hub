@@ -15,7 +15,7 @@ final class ProjectStubRepository implements ProjectReadStorage
 
     public function __construct(YmGoalReadStorage $ymGoalReadStorage)
     {
-        $this->ymGoalReadStorage = ymGoalReadStorage;
+        $this->ymGoalReadStorage = $ymGoalReadStorage;
     }
 
     public function find(): array
