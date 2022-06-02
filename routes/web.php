@@ -331,6 +331,9 @@ Route::get('/projects/vegaburger', function () {
 Route::get('/projects/velikaya', function () {
     return view('/projects/velikaya');
 });
+Route::get('/projects/super-muka', function () {
+    return view('/projects/super-muka');
+});
 Route::get('/projects/connective-plm', function () {
     return view('/projects/connective-plm');
 });
