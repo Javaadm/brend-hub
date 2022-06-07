@@ -1,7 +1,6 @@
 <div class="steps-sect">
     <div class="steps-sect__container">
-        <!-- <div class="def-title com-sect__title">Как мы работаем?</div> //слишком низко
-        <br> -->
+        <div class="def-title">Как мы работаем?</div>
         <div class="steps-sect__items">
             <div class="steps-sect__item">
                 <div class="steps-sect__item-icons"><img src="img/icons/sicon-1.png" alt=""></div>
@@ -58,9 +57,9 @@
                         placeholder="+7 777 777 77 77"
                         onkeyup="step4IsPhoneValidAndShowResult(event.target.value, 'workflow-phone-lead')"
                     />
-                    <button class="def-btn lead-dialog__submit" href="thanks-dialog3" onclick="submitContactMeForm()" data-ym-goal="form-callback-success">
+                    <a class="def-btn lead-dialog__submit" href="#thanks-dialog" onclick="event.preventDefault(); submitContactMeForm();" data-ym-goal="form-callback-success">
                         <span>Отправить</span>
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -86,11 +85,35 @@
             },
             cache: false,
             dataType: 'json',
-            success: (response) => $('.lead-dialog__submit').magnificPopup('close'),
+            success: (response) => {
+                $('.lead-dialog__submit').magnificPopup({
+                    type: 'inline',
+                    fixedContentPos: false,
+                    fixedBgPos: true,
+                    overflowY: 'auto',
+                    closeBtnInside: true,
+                    preloader: false,
+                    midClick: true,
+                    removalDelay: 300,
+                    mainClass: 'my-mfp-zoom-in'
+                }).magnificPopup('open');
+            },
             error: (xhr, str) => {
                 console.error(xhr.responseJSON);
             }
         });
     };
+
+    $('.popup-with-zoom-anim').magnificPopup({
+        type: 'inline',
+        fixedContentPos: false,
+        fixedBgPos: true,
+        overflowY: 'auto',
+        closeBtnInside: true,
+        preloader: false,
+        midClick: true,
+        removalDelay: 300,
+        mainClass: 'my-mfp-zoom-in'
+    });
 </script>
 @endpush

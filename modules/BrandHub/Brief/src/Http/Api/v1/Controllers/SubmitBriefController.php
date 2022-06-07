@@ -65,8 +65,7 @@ final class SubmitBriefController extends Controller
                     $request->getTextEmotionsForServiceReferences(),
                     $this->getPreferredDesigns($request->getPreferredDesignsLinks())
                 )
-                : null,
-            $this->offerReadStorage->get($request->getSelectedOfferId())
+                : null
         );
 
         $briefResult->saveAsPDF();

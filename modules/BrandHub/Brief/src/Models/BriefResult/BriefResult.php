@@ -23,9 +23,8 @@ final class BriefResult
     private Business $business;
     private ?ProductFlavor $productFlavor;
     private ?ServiceFlavor $serviceFlavor;
-    private ?Offer $offer;
 
-    public function __construct(Customer $customer, Business $business, ?ProductFlavor $productFlavor, ?ServiceFlavor $serviceFlavor, ?Offer $offer)
+    public function __construct(Customer $customer, Business $business, ?ProductFlavor $productFlavor, ?ServiceFlavor $serviceFlavor)
     {
         $order = new Orders();
         $order->phone = $customer->phone;
@@ -39,7 +38,6 @@ final class BriefResult
         $this->business = $business;
         $this->productFlavor = $productFlavor;
         $this->serviceFlavor = $serviceFlavor;
-        $this->offer = $offer;
     }
 
     private function toPDF(): PDF
@@ -51,7 +49,6 @@ final class BriefResult
                 'business' => $this->business,
                 'productFlavor' => $this->productFlavor,
                 'serviceFlavor' => $this->serviceFlavor,
-                'offer' => $this->offer,
             ]
         )->render();
 

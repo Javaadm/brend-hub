@@ -8,22 +8,18 @@
         <div class="title-sect__container">
             <div class="title-sect__hidden">Брендинг теперь делают так</div>
             <div class="title-sect__title">
-                <a href="#on-step-1" style="text-decoration: none; color: black;">
-                    <div class="title-sect__title-block title-rect">Брендинг<span></span>
-                        <div class="title-sect__cursor cursor-1"><img class="title-sect__cursor-icon" src="img/icons/cursor-1.svg" alt="">
-                            <div class="title-sect__cursor-img"><img src="img/cursor-1.jpg" alt=""></div>
-                        </div>
+                <div class="title-sect__title-block title-rect">Брендинг<span></span>
+                    <div class="title-sect__cursor cursor-1"><img class="title-sect__cursor-icon" src="img/icons/cursor-1.svg" alt="">
+                        <div class="title-sect__cursor-img"><img src="img/cursor-1.jpg" alt=""></div>
                     </div>
-                </a>
+                </div>
                 <div class="title-sect__title-block">теперь</div>
                 <div class="title-sect__title-block">делают</div>
-                <a href="#on-step-1" style="text-decoration: none; color: #1E73D7;">
-                    <div class="title-sect__title-block title-select title-rect">так<span></span>
-                        <div class="title-sect__cursor cursor-2"><img class="title-sect__cursor-icon" src="img/icons/cursor-2.svg" alt="">
-                            <div class="title-sect__cursor-img"><img src="img/cursor-2.jpg" alt=""></div>
-                        </div>
+                <div class="title-sect__title-block title-select title-rect">так<span></span>
+                    <div class="title-sect__cursor cursor-2"><img class="title-sect__cursor-icon" src="img/icons/cursor-2.svg" alt="">
+                        <div class="title-sect__cursor-img"><img src="img/cursor-2.jpg" alt=""></div>
                     </div>
-                </a>
+                </div>
             </div>
             <div class="title-sect__text">
                 <p>У вас есть бизнес. У нас - 3 вопроса.<br>Создадим бренд вместе!</p>
@@ -37,21 +33,15 @@
                 <div class="start-sect__title-text">Всего 3 шага</div>
                 <div class="start-sect__title-desc">Заполните наш короткий смарт бриф</div>
             </div>
-            <div class="start-sect__stitle">
-                <div class="start-sect__step-desc">Шаг 3</div>
-            </div>
-            <a name="on-step-1"></a>
-            <div class="start-sect__stitle">
-                <div class="start-sect__step-desc">Шаг 2</div>
-            </div>
 
             @include('brief::landing.components.brief.step1')
             @include('brief::landing.components.brief.step2')
             @include('brief::landing.components.brief.step3')
-            @include('brief::landing.components.brief.step4')
+            @include('brief::landing.components.brief.step4v2')
         </div>
     </div>
 
+    @include('brief::landing.components.packs')
     @include('brief::landing.components.workflow')
     @include('brief::landing.components.market-position')
     @include('brief::landing.components.our-team')

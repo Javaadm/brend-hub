@@ -21,7 +21,6 @@ final class SubmitBrandFormRequest extends FormRequest
             'preferred_design_links' => 'array',
             'emotions_ids_for_product_references' => 'required_if:business_type,product|array',
             'text_emotions_for_service_references' => 'required_if:business_type,service|string|nullable',
-            'selected_offer_id' => 'required|string',
             'name' => 'required|string',
             'phone' => 'required|numeric',
             'email' => 'required|email',
@@ -72,11 +71,6 @@ final class SubmitBrandFormRequest extends FormRequest
     public function getSelectedAdvantagesIds(): array
     {
         return $this->request->get('selected_advantages_ids', []);
-    }
-
-    public function getSelectedOfferId(): UuidInterface
-    {
-        return Uuid::fromString($this->request->get('selected_offer_id'));
     }
 
     public function getPreferredDesignsLinks(): array
