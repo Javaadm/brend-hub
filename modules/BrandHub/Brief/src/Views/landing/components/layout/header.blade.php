@@ -36,7 +36,7 @@
                     <a href="http://brand-hub.tilda.ws/freelance">Для специалистов</a>
                 </li>
             </ul>
-            <a class="def-btn main-header__create" href="#on-step-1" data-ym-goal="header-click-create-brand">
+            <a class="def-btn main-header__create cursor-pointer" onclick="$('html, body').stop().animate({scrollTop: ($('#step-1').offset().top - 20) + 'px'}, 'slow', 'swing');$('.main-header__menu').removeClass('active');" data-ym-goal="header-click-create-brand">
                 <span>Создать бренд</span>
             </a>
         </div>
