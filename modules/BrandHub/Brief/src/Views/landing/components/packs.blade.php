@@ -11,8 +11,8 @@
                     <li>Фирменный стиль*<br>*фирменный шрифт, цвет, паттерн</li>
                 </ul>
                 <div class="uslugi-sect__item-footer">
-                    <a class="uslugi-sect__item-more" target="_blank" href="/services/firmstyle">Подробнее &gt;</a>
-                    <a class="def-btn uslugi-sect__item-order popup-with-zoom-anim" href="#lead-dialog2">
+                    <a class="uslugi-sect__item-more" target="_blank" href="/services/firmstyle" data-ym-goal="form-express-callback-more-details">Подробнее &gt;</a>
+                    <a class="def-btn uslugi-sect__item-order popup-with-zoom-anim" href="#lead-dialog2" data-ym-goal="form-express-click-order">
                         <span>Заказать</span>
                     </a>
                 </div>
@@ -29,8 +29,8 @@
                     <li data-ncheck=""><strong>Дополнительные материалы:</strong> <br>гайд по фирменному стилю</li>
                 </ul>
                 <div class="uslugi-sect__item-footer">
-                    <a class="uslugi-sect__item-more" target="_blank" href="/services/branding">Подробнее &gt;</a>
-                    <a class="def-btn uslugi-sect__item-order popup-with-zoom-anim" href="#lead-dialog2">
+                    <a class="uslugi-sect__item-more" target="_blank" href="/services/branding" data-ym-goal="form-branding-callback-more-details">Подробнее &gt;</a>
+                    <a class="def-btn uslugi-sect__item-order popup-with-zoom-anim" href="#lead-dialog2" data-ym-goal="form-branding-click-order">
                         <span>Заказать</span>
                     </a>
                 </div>
@@ -45,8 +45,8 @@
                     <li data-ncheck=""><strong>Дополнительные материалы:</strong> <br>макеты упаковки с версткой текстов всех сторон</li>
                 </ul>
                 <div class="uslugi-sect__item-footer">
-                    <a class="uslugi-sect__item-more" target="_blank" href="/services/package">Подробнее &gt;</a>
-                    <a class="def-btn uslugi-sect__item-order popup-with-zoom-anim" href="#lead-dialog2">
+                    <a class="uslugi-sect__item-more" target="_blank" href="/services/package" data-ym-goal="form-branding-and-design-more-details">Подробнее &gt;</a>
+                    <a class="def-btn uslugi-sect__item-order popup-with-zoom-anim" href="#lead-dialog2" data-ym-goal="form-branding-and-design-click-order">
                         <span>Заказать</span>
                     </a>
                 </div>

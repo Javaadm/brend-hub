@@ -11,11 +11,11 @@
     <div class="start-sect__footer">
         <div class="start-sect__persons">
             <label class="start-sect__person">
-                <div class="start-sect__person-text">Нажимая на кнопку, я соглашаюсь <br>с <a href="/files/policy.pdf" target="_blank">обработкой персональных данных</a></div>
+                <div class="start-sect__person-text">Нажимая на кнопку, я соглашаюсь <br>с <a href="/files/policy.pdf" target="_blank" data-ym-goal="form-personal-policy-click">обработкой персональных данных</a></div>
             </label>
         </div>
         <div class="end-dialog__btns">
-            <a href="#thanks-dialog" class="def-btn end-dialog__submit" type="submit" onclick="event.preventDefault(); step4SubmitBrandWizardForm();" data-ym-goal="brief-checkout-click-submit">
+            <a href="#thanks-dialog" class="def-btn end-dialog__submit" type="submit" onclick="event.preventDefault(); step4SubmitBrandWizardForm();" data-ym-goal="form-callback-success">
                 <span>Отправить заявку</span>
             </a>
         </div>
