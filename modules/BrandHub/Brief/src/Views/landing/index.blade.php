@@ -8,14 +8,14 @@
         <div class="title-sect__container">
             <div class="title-sect__hidden">Брендинг теперь делают так</div>
             <div class="title-sect__title">
-                <div class="title-sect__title-block title-rect">Брендинг<span></span>
+                <div class="title-sect__title-block title-rect cursor-pointer" onclick="$('html, body').stop().animate({scrollTop: ($('#step-1').offset().top - 20) + 'px'}, 'slow', 'swing')">Брендинг<span></span>
                     <div class="title-sect__cursor cursor-1"><img class="title-sect__cursor-icon" src="img/icons/cursor-1.svg" alt="">
                         <div class="title-sect__cursor-img"><img src="img/cursor-1.jpg" alt=""></div>
                     </div>
                 </div>
                 <div class="title-sect__title-block">теперь</div>
                 <div class="title-sect__title-block">делают</div>
-                <div class="title-sect__title-block title-select title-rect">так<span></span>
+                <div class="title-sect__title-block title-select title-rect cursor-pointer" onclick="$('html, body').stop().animate({scrollTop: ($('#step-1').offset().top - 20) + 'px'}, 'slow', 'swing')">так<span></span>
                     <div class="title-sect__cursor cursor-2"><img class="title-sect__cursor-icon" src="img/icons/cursor-2.svg" alt="">
                         <div class="title-sect__cursor-img"><img src="img/cursor-2.jpg" alt=""></div>
                     </div>
