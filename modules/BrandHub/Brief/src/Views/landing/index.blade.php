@@ -49,6 +49,7 @@
     @include('brief::landing.components.education-program')
     @include('brief::landing.components.qna')
 
+    @include('shared-components.chat-buttons')
     @include('brief::landing.components.layout.footer')
 </div>
 

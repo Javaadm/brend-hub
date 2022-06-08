@@ -103,6 +103,8 @@
             width: 100px; /*calculated*/
         }
     </style>
+
+    @stack('styles')
 </head>
 <body>
     @yield('content')
