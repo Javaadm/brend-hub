@@ -13,6 +13,7 @@
     <link rel="preload" href="/fonts/SuisseIntlRegular/SuisseIntl-Regular-WebM.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" href="/fonts/SuisseIntlMedium/SuisseIntl-Medium-WebM.woff2" as="font" type="font/woff2" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/app.min.css">
+    <link rel="stylesheet" href="{{ asset('css/material-icons.css') }}">
 
     <link rel="canonical" href="https://brand-hub.ru/services/naming" />
 </head>
@@ -466,12 +467,15 @@
     </div>
     <div class="hidden">
     </div>
+    @include('shared-components.chat-buttons')
     <script src="/js/jquery.min.js"></script>
     <script src="/js/scripts_services.min.js"></script>
     <script src="/js/common_services.js"></script>
     <script src="{{ asset('js/jquery.min.js') }}"></script>
     <script src="{{ asset('js/scripts.min.js') }}"></script>
     <script src="{{ asset('js/common.js') }}"></script>
+    @stack('scripts')
+    @stack('styles')
 </body>
 
 </html>

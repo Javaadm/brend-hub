@@ -3,7 +3,7 @@
         <a class="chat-buttons__button chat-buttons__button-green" style="display: none" href="https://api.whatsapp.com/send/?phone=79163254224&text&app_absent=0" target="_blank">
             <div class="chat-buttons__button-content">
                 <div class="icon material-icons-outlined chat-buttons__img">
-                    <img src="img/icons/soc-2.svg" alt="">
+                    <img src="/img/icons/soc-2.svg" alt="">
                 </div>
             </div>
         </a>
@@ -11,7 +11,7 @@
         <a class="chat-buttons__button chat-buttons__button-blue" style="display: none" href="https://t.me/brandhub21" target="_blank">
             <div class="chat-buttons__button-content">
                 <div class="icon material-icons-outlined chat-buttons__img">
-                    <img src="img/icons/soc-1.svg">
+                    <img src="/img/icons/soc-1.svg">
                 </div>
             </div>
         </a>
