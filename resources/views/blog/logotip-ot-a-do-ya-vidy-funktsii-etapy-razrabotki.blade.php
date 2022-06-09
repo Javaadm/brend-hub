@@ -17,15 +17,15 @@
           content="⭐⭐⭐⭐⭐ Логотип от а до я. Виды, функции, этапы разработки. BrandHub - первый онлайн сервис брендинга. Наконец-то создание бренда автоматизировано, и превращено в удобный, современный и приятный сервис, без потери качества и эффективности!">
     <link data-n-head="ssr" rel="icon" type="image/x-icon" href="../../favicon.ico">
     <link data-n-head="ssr" rel="canonical" href={{ url()->current() }}>
-    <link rel="preload" href="../../_nuxt/c9e0758.js" as="script">
-    <link rel="preload" href="../../_nuxt/f62c1a6.js" as="script">
-    <link rel="preload" href="../../_nuxt/72832e2.js" as="script">
-    <link rel="preload" href="../../_nuxt/2a78287.js" as="script">
-    <link rel="preload" href="../../_nuxt/66b743e.js" as="script">
-    <link rel="preload" href="../../_nuxt/4d9a542.js" as="script">
-    <link rel="preload" href="../../_nuxt/00c5398.js" as="script">
-    <link rel="preload" href="../../_nuxt/554af2d.js" as="script">
-    <link rel="preload" href="../../_nuxt/a2b70c3.js" as="script">
+    <link rel="preload" href="../../upload/_nuxt/c9e0758.js" as="script">
+    <link rel="preload" href="../../upload/_nuxt/f62c1a6.js" as="script">
+    <link rel="preload" href="../../upload/_nuxt/72832e2.js" as="script">
+    <link rel="preload" href="../../upload/_nuxt/2a78287.js" as="script">
+    <link rel="preload" href="../../upload/_nuxt/66b743e.js" as="script">
+    <link rel="preload" href="../../upload/_nuxt/4d9a542.js" as="script">
+    <link rel="preload" href="../../upload/_nuxt/00c5398.js" as="script">
+    <link rel="preload" href="../../upload/_nuxt/554af2d.js" as="script">
+    <link rel="preload" href="../../upload/_nuxt/a2b70c3.js" as="script">
     <style
         data-vue-ssr-id="79daf3ba:0 11402a14:0 0094207f:0 37824962:0">/*! tailwindcss v2.2.7 | MIT License | https://tailwindcss.com*/
 
@@ -5915,11 +5915,11 @@
         }
 
         .bg-noise {
-            background-image: url(../../_nuxt/img/noise-pattern.4b4188b.png)
+            background-image: url(../../upload/_nuxt/img/noise-pattern.4b4188b.png)
         }
 
         .bg-noise_soft {
-            background-image: url(../../_nuxt/img/noise-pattern-soft.8cacd19.png)
+            background-image: url(../../upload/_nuxt/img/noise-pattern-soft.8cacd19.png)
         }
 
         .triangle-tippy-red {
@@ -6028,7 +6028,7 @@
             font-family: SuisseIntl;
             font-style: normal;
             font-weight: 500;
-            src: url(../../_nuxt/fonts/SuisseIntl-Medium.a2ec212.woff) format("woff"), url(../../_nuxt/fonts/SuisseIntl-Medium.6a3a35b.woff2) format("woff2")
+            src: url(../../upload/_nuxt/fonts/SuisseIntl-Medium.a2ec212.woff) format("woff"), url(../../upload/_nuxt/fonts/SuisseIntl-Medium.6a3a35b.woff2) format("woff2")
         }
 
         @font-face {
@@ -6036,7 +6036,7 @@
             font-family: SuisseIntl;
             font-style: normal;
             font-weight: 400;
-            src: url(../../_nuxt/fonts/SuisseIntl-Regular.e8326c5.woff) format("woff"), url(../../_nuxt/fonts/SuisseIntl-Regular.128e425.woff2) format("woff2")
+            src: url(../../upload/_nuxt/fonts/SuisseIntl-Regular.e8326c5.woff) format("woff"), url(../../upload/_nuxt/fonts/SuisseIntl-Regular.128e425.woff2) format("woff2")
         }
 
         body, html {
@@ -13239,8 +13239,8 @@
                                             <div class="base-button__side transition-fast">
                                                 <svg width="36" height="10" xmlns="http://www.w3.org/2000/svg"
                                                      class="fill-current text-blue-700 icon sprite-icons svg-icon svg-icon_burger">
-                                                    <use href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-burger"
-                                                         xlink:href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-burger"></use>
+                                                    <use href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-burger"
+                                                         xlink:href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-burger"></use>
                                                 </svg>
                                             </div> <!----> <!----></div>
                                     </div>
@@ -13269,8 +13269,8 @@
                                 class="inline-block fill-current transition-fast cursor-pointer mb-14 hover:text-blue-700 nuxt-link-active">
                                 <svg width="20" height="12" xmlns="http://www.w3.org/2000/svg"
                                      class="transform scale-reverse icon sprite-icons svg-icon svg-icon_arrow-right">
-                                    <use href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-arrow-right"
-                                         xlink:href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-arrow-right"></use>
+                                    <use href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-arrow-right"
+                                         xlink:href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-arrow-right"></use>
                                 </svg>
                             </a>
                             <main>
@@ -13278,8 +13278,8 @@
                                     <div class="col-span-8 lg:col-span-12 mb-14 lg:mb-10"><h1 class="title-h2">Логотип
                                             от, а до я. Виды, функции, этапы разработки</h1></div>
                                     <div class="col-span-12 mb-14 lg:mb-10"><img
-                                            src="../../_image/i/rs_fit_1320_700/format_jpg/preset%EF%B9%95placeholder/64f12c4565d8d956b86ed6a4d9198aeb.jpg"
-                                            data-src="../../_image/i/rs_fit_1320_700/format_jpg/64f12c4565d8d956b86ed6a4d9198aeb.jpg"
+                                            src="../../upload/_image/i/rs_fit_1320_700/format_jpg/preset%EF%B9%95placeholder/64f12c4565d8d956b86ed6a4d9198aeb.jpg"
+                                            data-src="../../upload/_image/i/rs_fit_1320_700/format_jpg/64f12c4565d8d956b86ed6a4d9198aeb.jpg"
                                             class="object-cover -lazyload -lazyload-preloader"></div>
                                 </div>
                                 <div class="grid grid-cols-12">
@@ -13761,8 +13761,8 @@
                                                                      xmlns="http://www.w3.org/2000/svg"
                                                                      class="opacity-40 icon sprite-icons svg-icon svg-icon_arrow-right">
                                                                     <use
-                                                                        href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-arrow-right"
-                                                                        xlink:href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-arrow-right"></use>
+                                                                        href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-arrow-right"
+                                                                        xlink:href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-arrow-right"></use>
                                                                 </svg>
                                                             </div>
                                                         </div>
@@ -13799,7 +13799,7 @@
                     <div class="grid grid-cols-12 gap-x-8 typography lg:gap-y-12 sm:gap-x-0">
                         <div
                             class="relative z-10 col-span-4 flex flex-col xl:col-span-5 lg:row-start-3 lg:row-end-4 lg:col-span-full lg:-mt-2">
-                            <img src="../../_nuxt/img/logo-white.69a98e3.png" alt="лого Бренд Хаба"
+                            <img src="../../upload/_nuxt/img/logo-white.69a98e3.png" alt="лого Бренд Хаба"
                                  class="w-44 mb-16 lg:hidden">
                             <div class="relative text-sm font-normal z-10">
                                 <div class="text-white opacity-50 mb-3"><span>© brand hub,</span> 2021 - 2022
@@ -13866,8 +13866,8 @@
                                         class="flex-shrink-0 fill-current text-white transition-fast hover:opacity-70 flex-auto flex items-center justify-center rounded-full border border-white h-11">
                                         <svg width="21" height="21" xmlns="http://www.w3.org/2000/svg"
                                              class="icon sprite-icons svg-icon svg-icon_telegram">
-                                            <use href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-telegram"
-                                                 xlink:href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-telegram"></use>
+                                            <use href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-telegram"
+                                                 xlink:href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-telegram"></use>
                                         </svg>
                                     </a></div>
                                 <div class="w-11 mx-2 mb-2 flex items-center justify-center"><a
@@ -13876,8 +13876,8 @@
                                         class="flex-shrink-0 fill-current text-white transition-fast hover:opacity-70 flex-auto flex items-center justify-center rounded-full border border-white h-11">
                                         <svg width="21" height="21" xmlns="http://www.w3.org/2000/svg"
                                              class="icon sprite-icons svg-icon svg-icon_whatsapp">
-                                            <use href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-whatsapp"
-                                                 xlink:href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-whatsapp"></use>
+                                            <use href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-whatsapp"
+                                                 xlink:href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-whatsapp"></use>
                                         </svg>
                                     </a></div>
                                 <div class="w-11 mx-2 mb-2 flex items-center justify-center"><a
@@ -13886,8 +13886,8 @@
                                         class="flex-shrink-0 fill-current text-white transition-fast hover:opacity-70">
                                         <svg width="21" height="21" xmlns="http://www.w3.org/2000/svg"
                                              class="icon sprite-icons svg-icon svg-icon_youtube">
-                                            <use href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-youtube"
-                                                 xlink:href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-youtube"></use>
+                                            <use href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-youtube"
+                                                 xlink:href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-youtube"></use>
                                         </svg>
                                     </a></div>
                             </div>
@@ -14098,8 +14098,8 @@
                                     <div class="base-button__side transition-fast">
                                         <svg width="24" height="22" xmlns="http://www.w3.org/2000/svg"
                                              class="icon sprite-icons svg-icon svg-icon_message">
-                                            <use href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-message"
-                                                 xlink:href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-message"></use>
+                                            <use href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-message"
+                                                 xlink:href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-message"></use>
                                         </svg>
                                     </div> <!----> <!----></div>
                             </div>
@@ -14113,8 +14113,8 @@
                                         <div class="base-button__side transition-fast">
                                             <svg width="28" height="28" xmlns="http://www.w3.org/2000/svg"
                                                  class="icon sprite-icons svg-icon svg-icon_telegram">
-                                                <use href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-telegram"
-                                                     xlink:href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-telegram"></use>
+                                                <use href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-telegram"
+                                                     xlink:href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-telegram"></use>
                                             </svg>
                                         </div> <!----> <!----></div>
                                 </div>
@@ -14129,8 +14129,8 @@
                                         <div class="base-button__side transition-fast">
                                             <svg width="28" height="28" xmlns="http://www.w3.org/2000/svg"
                                                  class="icon sprite-icons svg-icon svg-icon_whatsapp">
-                                                <use href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-whatsapp"
-                                                     xlink:href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-whatsapp"></use>
+                                                <use href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-whatsapp"
+                                                     xlink:href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-whatsapp"></use>
                                             </svg>
                                         </div> <!----> <!----></div>
                                 </div>
@@ -14398,15 +14398,15 @@
             config: {_app: {basePath: "\u002F", assetsPath: "\u002F_nuxt\u002F", cdnURL: b}}
         }
     }("", null, "https", 2, "Ссылка", false, "Блог", true, 0, "О нас", "\u002Fabout\u002F", "\u002Fprojects\u002F", "Услуги", "#", "2021-09-14T07:21:06+03:00", "\u002Fblog\u002F", "2021-09-22T13:23:29+03:00", "2022-03-17T11:59:18+03:00", {}));</script>
-<script src="../../_nuxt/c9e0758.js" defer></script>
-<script src="../../_nuxt/66b743e.js" defer></script>
-<script src="../../_nuxt/4d9a542.js" defer></script>
-<script src="../../_nuxt/00c5398.js" defer></script>
-<script src="../../_nuxt/554af2d.js" defer></script>
-<script src="../../_nuxt/a2b70c3.js" defer></script>
-<script src="../../_nuxt/f62c1a6.js" defer></script>
-<script src="../../_nuxt/72832e2.js" defer></script>
-<script src="../../_nuxt/2a78287.js" defer></script>
+<script src="../../upload/_nuxt/c9e0758.js" defer></script>
+<script src="../../upload/_nuxt/66b743e.js" defer></script>
+<script src="../../upload/_nuxt/4d9a542.js" defer></script>
+<script src="../../upload/_nuxt/00c5398.js" defer></script>
+<script src="../../upload/_nuxt/554af2d.js" defer></script>
+<script src="../../upload/_nuxt/a2b70c3.js" defer></script>
+<script src="../../upload/_nuxt/f62c1a6.js" defer></script>
+<script src="../../upload/_nuxt/72832e2.js" defer></script>
+<script src="../../upload/_nuxt/2a78287.js" defer></script>
 <script src="{{ asset('js/jquery.min.js') }}"></script>
 <script src="{{ asset('js/scripts.min.js') }}"></script>
 <script src="{{ asset('js/common.js') }}"></script>

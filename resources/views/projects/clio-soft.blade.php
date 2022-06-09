@@ -529,15 +529,15 @@
             opacity: 0
         }</style>
     <link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="preload" href="/_nuxt/c9e0758.js" as="script">
-    <link rel="preload" href="/_nuxt/f62c1a6.js" as="script">
-    <link rel="preload" href="/_nuxt/72832e2.js" as="script">
-    <link rel="preload" href="/_nuxt/51ebc8d.js" as="script">
-    <link rel="preload" href="/_nuxt/2c3f56e.js" as="script">
-    <link rel="preload" href="/_nuxt/4d9a542.js" as="script">
-    <link rel="preload" href="/_nuxt/972ac3c.js" as="script">
-    <link rel="preload" href="/_nuxt/a2b70c3.js" as="script">
-    <link rel="preload" href="/_nuxt/235950c.js" as="script">
+    <link rel="preload" href="/upload/_nuxt/c9e0758.js" as="script">
+    <link rel="preload" href="/upload/_nuxt/f62c1a6.js" as="script">
+    <link rel="preload" href="/upload/_nuxt/72832e2.js" as="script">
+    <link rel="preload" href="/upload/_nuxt/51ebc8d.js" as="script">
+    <link rel="preload" href="/upload/_nuxt/2c3f56e.js" as="script">
+    <link rel="preload" href="/upload/_nuxt/4d9a542.js" as="script">
+    <link rel="preload" href="/upload/_nuxt/972ac3c.js" as="script">
+    <link rel="preload" href="/upload/_nuxt/a2b70c3.js" as="script">
+    <link rel="preload" href="/upload/_nuxt/235950c.js" as="script">
     <style
         data-vue-ssr-id="79daf3ba:0 11402a14:0 0094207f:0 37824962:0">/*! tailwindcss v2.2.7 | MIT License | https://tailwindcss.com*/
 
@@ -6436,11 +6436,11 @@
         }
 
         .bg-noise {
-            background-image: url(/_nuxt/img/noise-pattern.4b4188b.png)
+            background-image: url(/upload/_nuxt/img/noise-pattern.4b4188b.png)
         }
 
         .bg-noise_soft {
-            background-image: url(/_nuxt/img/noise-pattern-soft.8cacd19.png)
+            background-image: url(/upload/_nuxt/img/noise-pattern-soft.8cacd19.png)
         }
 
         .triangle-tippy-red {
@@ -6549,7 +6549,7 @@
             font-family: SuisseIntl;
             font-style: normal;
             font-weight: 500;
-            src: url(/_nuxt/fonts/SuisseIntl-Medium.a2ec212.woff) format("woff"), url(/_nuxt/fonts/SuisseIntl-Medium.6a3a35b.woff2) format("woff2")
+            src: url(/upload/_nuxt/fonts/SuisseIntl-Medium.a2ec212.woff) format("woff"), url(/upload/_nuxt/fonts/SuisseIntl-Medium.6a3a35b.woff2) format("woff2")
         }
 
         @font-face {
@@ -6557,7 +6557,7 @@
             font-family: SuisseIntl;
             font-style: normal;
             font-weight: 400;
-            src: url(/_nuxt/fonts/SuisseIntl-Regular.e8326c5.woff) format("woff"), url(/_nuxt/fonts/SuisseIntl-Regular.128e425.woff2) format("woff2")
+            src: url(/upload/_nuxt/fonts/SuisseIntl-Regular.e8326c5.woff) format("woff"), url(/upload/_nuxt/fonts/SuisseIntl-Regular.128e425.woff2) format("woff2")
         }
 
         body, html {
@@ -15171,13 +15171,13 @@
     <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
     <script type="text/javascript" async=""
             src="https://www.googletagmanager.com/gtag/js?id=G-TKPD2F03RE&amp;l=dataLayer&amp;cx=c"></script>
-    <script charset="utf-8" src="/_nuxt/aa660f3.js"></script>
+    <script charset="utf-8" src="/upload/_nuxt/aa660f3.js"></script>
     <script src="https://261520.selcdn.ru/subscribe/popup/generator.js" data-version="0.1" async="async" charset="utf-8"
             data-email-generator-site-id="80463"></script>
     <link rel="stylesheet" href="https://180209.selcdn.ru/dasha_static/dm-0.2.css">
-    <script charset="utf-8" src="/_nuxt/00c5398.js"></script>
-    <script charset="utf-8" src="/_nuxt/554af2d.js"></script>
-    <script charset="utf-8" src="/_nuxt/7827215.js"></script>
+    <script charset="utf-8" src="/upload/_nuxt/00c5398.js"></script>
+    <script charset="utf-8" src="/upload/_nuxt/554af2d.js"></script>
+    <script charset="utf-8" src="/upload/_nuxt/7827215.js"></script>
     <style type="text/css"> @keyframes fadeIn {
                                 from {
                                     opacity: 0;
@@ -16161,8 +16161,8 @@
                                             <div class="base-button__side transition-fast">
                                                 <svg width="36" height="10" xmlns="http://www.w3.org/2000/svg"
                                                      class="fill-current text-blue-700 icon sprite-icons svg-icon svg-icon_burger">
-                                                    <use href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-burger"
-                                                         xlink:href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-burger"></use>
+                                                    <use href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-burger"
+                                                         xlink:href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-burger"></use>
                                                 </svg>
                                             </div> <!----> <!----></div>
                                     </div>
@@ -16213,15 +16213,15 @@
                                             <span class="fill-current text-green-350"><svg width="167" height="168"
                                                                                            xmlns="http://www.w3.org/2000/svg"
                                                                                            class="lg:w-24 lg:h-24 sm:w-20 sm:h-20 icon sprite-icons svg-icon svg-icon_fancy-doc-bg-white"><use
-                                                        href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-fancy-doc-bg-white"
-                                                        xlink:href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-fancy-doc-bg-white"></use></svg></span>
+                                                        href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-fancy-doc-bg-white"
+                                                        xlink:href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-fancy-doc-bg-white"></use></svg></span>
                                             <div
                                                 class="absolute inset-0 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center fill-current text-green-350">
                                                 <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg"
                                                      class="lg:w-3 lg:h-3 icon sprite-icons svg-icon svg-icon_doc-simple-white">
                                                     <use
-                                                        href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-doc-simple-white"
-                                                        xlink:href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-doc-simple-white"></use>
+                                                        href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-doc-simple-white"
+                                                        xlink:href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-doc-simple-white"></use>
                                                 </svg>
                                             </div>
                                         </div>
@@ -16255,28 +16255,28 @@
                                             системный подход, технологичность и&nbsp;современность бренда.</p></div>
                                 </div>
                                 <div class="col-span-12"><img
-                                        src="/_image/i/rs_fit_1320_700/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2EvNi84L2E2ODU1N2VjYzY1OGE0MTA4MTE1OTdhZWM1NGU1MTY4LnBuZw"
-                                        data-src="/_image/i/rs_fit_1320_700/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2EvNi84L2E2ODU1N2VjYzY1OGE0MTA4MTE1OTdhZWM1NGU1MTY4LnBuZw"
+                                        src="/upload/_image/i/rs_fit_1320_700/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2EvNi84L2E2ODU1N2VjYzY1OGE0MTA4MTE1OTdhZWM1NGU1MTY4LnBuZw"
+                                        data-src="/upload/_image/i/rs_fit_1320_700/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2EvNi84L2E2ODU1N2VjYzY1OGE0MTA4MTE1OTdhZWM1NGU1MTY4LnBuZw"
                                         class="object-cover -lazyload-preloader -lazyload-success"></div>
                                 <div class="col-span-12"><img
-                                        src="/_image/i/rs_fit_1320_700/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2MvMy9iL2MzYmZjZjJiOTcxZTQzOTliYWU0Y2M3MTE4NzFmNTNlLnBuZw"
-                                        data-src="/_image/i/rs_fit_1320_700/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2MvMy9iL2MzYmZjZjJiOTcxZTQzOTliYWU0Y2M3MTE4NzFmNTNlLnBuZw"
+                                        src="/upload/_image/i/rs_fit_1320_700/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2MvMy9iL2MzYmZjZjJiOTcxZTQzOTliYWU0Y2M3MTE4NzFmNTNlLnBuZw"
+                                        data-src="/upload/_image/i/rs_fit_1320_700/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlL2MvMy9iL2MzYmZjZjJiOTcxZTQzOTliYWU0Y2M3MTE4NzFmNTNlLnBuZw"
                                         class="object-cover -lazyload -lazyload-preloader"></div>
                                 <div class="col-span-12"><img
-                                        src="/_image/i/rs_fit_1320_700/preset:placeholder/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzkvOS84Lzk5ODAwN2I2OTFhOWYzYWJlZDQ5NjNkYjU2MGEzZjBjLnBuZw"
-                                        data-src="/_image/i/rs_fit_1320_700/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzkvOS84Lzk5ODAwN2I2OTFhOWYzYWJlZDQ5NjNkYjU2MGEzZjBjLnBuZw"
+                                        src="/upload/_image/i/rs_fit_1320_700/preset:placeholder/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzkvOS84Lzk5ODAwN2I2OTFhOWYzYWJlZDQ5NjNkYjU2MGEzZjBjLnBuZw"
+                                        data-src="/upload/_image/i/rs_fit_1320_700/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzkvOS84Lzk5ODAwN2I2OTFhOWYzYWJlZDQ5NjNkYjU2MGEzZjBjLnBuZw"
                                         class="object-cover -lazyload -lazyload-preloader"></div>
                                 <div class="col-span-6 sm:col-span-12"><img
-                                        src="/_image/i/rs_fit_1320_700/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzQvZC9kLzRkZGMxODhlYWUzOTI2OGY3OGExY2RmMTk0YjJkM2YzLnBuZw"
-                                        data-src="/_image/i/rs_fit_1320_700/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzQvZC9kLzRkZGMxODhlYWUzOTI2OGY3OGExY2RmMTk0YjJkM2YzLnBuZw"
+                                        src="/upload/_image/i/rs_fit_1320_700/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzQvZC9kLzRkZGMxODhlYWUzOTI2OGY3OGExY2RmMTk0YjJkM2YzLnBuZw"
+                                        data-src="/upload/_image/i/rs_fit_1320_700/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzQvZC9kLzRkZGMxODhlYWUzOTI2OGY3OGExY2RmMTk0YjJkM2YzLnBuZw"
                                         class="object-cover -lazyload -lazyload-preloader"></div>
                                 <div class="col-span-6 sm:col-span-12"><img
-                                        src="/_image/i/rs_fit_1320_700/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzUvNC9jLzU0Y2NjYWM5NWRiMWNhMjQ2MTYwYjJjOGI5YTY4MGZhLnBuZw"
-                                        data-src="/_image/i/rs_fit_1320_700/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzUvNC9jLzU0Y2NjYWM5NWRiMWNhMjQ2MTYwYjJjOGI5YTY4MGZhLnBuZw"
+                                        src="/upload/_image/i/rs_fit_1320_700/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzUvNC9jLzU0Y2NjYWM5NWRiMWNhMjQ2MTYwYjJjOGI5YTY4MGZhLnBuZw"
+                                        data-src="/upload/_image/i/rs_fit_1320_700/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzUvNC9jLzU0Y2NjYWM5NWRiMWNhMjQ2MTYwYjJjOGI5YTY4MGZhLnBuZw"
                                         class="object-cover -lazyload -lazyload-preloader"></div>
                                 <div class="col-span-12"><img
-                                        src="/_image/i/rs_fit_1320_700/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzkvNy8zLzk3MzZmOWIwYjk5NGMzNjVhMjRiOWEwZWNhY2M3NWI0LnBuZw"
-                                        data-src="/_image/i/rs_fit_1320_700/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzkvNy8zLzk3MzZmOWIwYjk5NGMzNjVhMjRiOWEwZWNhY2M3NWI0LnBuZw"
+                                        src="/upload/_image/i/rs_fit_1320_700/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzkvNy8zLzk3MzZmOWIwYjk5NGMzNjVhMjRiOWEwZWNhY2M3NWI0LnBuZw"
+                                        data-src="/upload/_image/i/rs_fit_1320_700/bG9jYWw6Ly8vdXBsb2Fkcy9maWxlLzkvNy8zLzk3MzZmOWIwYjk5NGMzNjVhMjRiOWEwZWNhY2M3NWI0LnBuZw"
                                         class="object-cover -lazyload -lazyload-preloader"></div>
                             </div>
                         </div>
@@ -16311,7 +16311,7 @@
                     <div class="grid grid-cols-12 gap-x-8 typography lg:gap-y-12 sm:gap-x-0">
                         <div
                             class="relative z-10 col-span-4 flex flex-col xl:col-span-5 lg:row-start-3 lg:row-end-4 lg:col-span-full lg:-mt-2">
-                            <img src="/_nuxt/img/logo-white.69a98e3.png" alt="лого Бренд Хаба"
+                            <img src="/upload/_nuxt/img/logo-white.69a98e3.png" alt="лого Бренд Хаба"
                                  class="w-44 mb-16 lg:hidden">
                             <div class="relative text-sm font-normal z-10">
                                 <div class="text-white opacity-50 mb-3"><span>© brand hub,</span> 2021 - 2022
@@ -16376,8 +16376,8 @@
                                         class="flex-shrink-0 fill-current text-white transition-fast hover:opacity-70 flex-auto flex items-center justify-center rounded-full border border-white h-11">
                                         <svg width="21" height="21" xmlns="http://www.w3.org/2000/svg"
                                              class="icon sprite-icons svg-icon svg-icon_telegram">
-                                            <use href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-telegram"
-                                                 xlink:href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-telegram"></use>
+                                            <use href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-telegram"
+                                                 xlink:href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-telegram"></use>
                                         </svg>
                                     </a></div>
                                 <div class="w-11 mx-2 mb-2 flex items-center justify-center"><a
@@ -16386,8 +16386,8 @@
                                         class="flex-shrink-0 fill-current text-white transition-fast hover:opacity-70 flex-auto flex items-center justify-center rounded-full border border-white h-11">
                                         <svg width="21" height="21" xmlns="http://www.w3.org/2000/svg"
                                              class="icon sprite-icons svg-icon svg-icon_whatsapp">
-                                            <use href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-whatsapp"
-                                                 xlink:href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-whatsapp"></use>
+                                            <use href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-whatsapp"
+                                                 xlink:href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-whatsapp"></use>
                                         </svg>
                                     </a></div>
                                 <div class="w-11 mx-2 mb-2 flex items-center justify-center"><a
@@ -16396,8 +16396,8 @@
                                         class="flex-shrink-0 fill-current text-white transition-fast hover:opacity-70">
                                         <svg width="21" height="21" xmlns="http://www.w3.org/2000/svg"
                                              class="icon sprite-icons svg-icon svg-icon_youtube">
-                                            <use href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-youtube"
-                                                 xlink:href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-youtube"></use>
+                                            <use href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-youtube"
+                                                 xlink:href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-youtube"></use>
                                         </svg>
                                     </a></div>
                             </div>
@@ -16609,8 +16609,8 @@
                                     <div class="base-button__side transition-fast">
                                         <svg width="24" height="22" xmlns="http://www.w3.org/2000/svg"
                                              class="icon sprite-icons svg-icon svg-icon_message">
-                                            <use href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-message"
-                                                 xlink:href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-message"></use>
+                                            <use href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-message"
+                                                 xlink:href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-message"></use>
                                         </svg>
                                     </div> <!----> <!----></div>
                             </div>
@@ -16624,8 +16624,8 @@
                                         <div class="base-button__side transition-fast">
                                             <svg width="28" height="28" xmlns="http://www.w3.org/2000/svg"
                                                  class="icon sprite-icons svg-icon svg-icon_telegram">
-                                                <use href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-telegram"
-                                                     xlink:href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-telegram"></use>
+                                                <use href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-telegram"
+                                                     xlink:href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-telegram"></use>
                                             </svg>
                                         </div> <!----> <!----></div>
                                 </div>
@@ -16640,8 +16640,8 @@
                                         <div class="base-button__side transition-fast">
                                             <svg width="28" height="28" xmlns="http://www.w3.org/2000/svg"
                                                  class="icon sprite-icons svg-icon svg-icon_whatsapp">
-                                                <use href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-whatsapp"
-                                                     xlink:href="/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-whatsapp"></use>
+                                                <use href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-whatsapp"
+                                                     xlink:href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-whatsapp"></use>
                                             </svg>
                                         </div> <!----> <!----></div>
                                 </div>
@@ -18260,15 +18260,15 @@
             config: {_app: {basePath: "\u002F", assetsPath: "\u002F_nuxt\u002F", cdnURL: b}}
         }
     }("", null, false, "png", 2, "https", "Ссылка", 1, "case avatar.png", "normal", "Обычный", "\"Проект\"\u002FBH-N-174", "Незавершенный бриф", "unfinished_brief", "\u003Cp\u003EЗаполните бриф и отправьте его на проверку\u003C\u002Fp\u003E", "\"Проект\"\u002FВН-53", "\"Проект\"\u002FВН-56", "#", 174, "varlamov_andrey@Mail.ru", "7af04227ac8f5e053da090eb8790ec69", 53, "Бриф отправлен клиентом на проверку", "verification", "\u003Cp\u003EИзучаем ваш бриф&nbsp;\u003C\u002Fp\u003E", "Есть вопросы — напишите нам в чат", "d.lukyanova@creonit.ru", "f3418ec5f9d7919cb89bb2f7d1fb37ec", 56, "d.lukyanova2@creonit.ru", "e571cbb6d03bdc070eee0b6a39848357", "2.png", "jpg", 0, true, 28, "1.png", 29, 31, 3, 19, 23, 33, 34, "3.png", 43, 44, 46, "text", "Однострочный текст", "\u002Fprojects\u002F", "Лидия Раймм", "horizontally", "Горизонтальный", 16, "Юридические услуги", 17, "Благотворительный фонд помощи больным раком в Грузии", 37, 4, "Косметика", "9.png", "vertically", "Вертикальный", "Арт-мастерская", "4.png", 11, "Кондитерские изделия", "223.2 Кб", 22, "Фитнес клуб", "6.png", "Онлайн-платформа для бьюти-товаров", "7.png", 35, 24, "Искусственные ёлки", "8.png", 36, 25, "Компания по водоподготовке и водоочистке", 18, 13, "Центр интеллектуальной собственности", 38, 26, "Партнёрская программа разработчика мобильных приложений ", 39, 27, "Детские подгузники и трусики", 40, "Системный интегратор", 41, "Букмекерский сервис", 14, "IT-интегратор", "93.7 Кб", "Товары для пляжа и отдыха", 32, "Мобильное приложение для умных офисов", 45, "Детские товары", "Приборы для дезинфекции", 21, "STARRY TALE", 5, "Гирлянды и светодиодная продукция", 7, 8, "Телефон", "phone", "email", "О нас", "\u002Fabout\u002F", "Услуги", "2021-09-14T07:21:06+03:00", "https:\u002F\u002Fbrand-hub.ru\u002Fservices\u002Frebranding.html", "2022-04-13T11:31:44+03:00", "https:\u002F\u002Fbrand-hub.ru\u002Fservices\u002Fbranding.html", "2022-04-13T11:33:09+03:00", "2022-04-13T11:34:46+03:00", "2022-04-13T11:35:20+03:00", "Блог", "\u002Fblog\u002F", "Проекты", "2021-09-22T13:23:29+03:00", "2022-03-17T11:59:18+03:00", {}));</script>
-<script src="/_nuxt/c9e0758.js" defer=""></script>
-<script src="/_nuxt/2c3f56e.js" defer=""></script>
-<script src="/_nuxt/4d9a542.js" defer=""></script>
-<script src="/_nuxt/972ac3c.js" defer=""></script>
-<script src="/_nuxt/a2b70c3.js" defer=""></script>
-<script src="/_nuxt/235950c.js" defer=""></script>
-<script src="/_nuxt/f62c1a6.js" defer=""></script>
-<script src="/_nuxt/72832e2.js" defer=""></script>
-<script src="/_nuxt/51ebc8d.js" defer=""></script>
+<script src="/upload/_nuxt/c9e0758.js" defer=""></script>
+<script src="/upload/_nuxt/2c3f56e.js" defer=""></script>
+<script src="/upload/_nuxt/4d9a542.js" defer=""></script>
+<script src="/upload/_nuxt/972ac3c.js" defer=""></script>
+<script src="/upload/_nuxt/a2b70c3.js" defer=""></script>
+<script src="/upload/_nuxt/235950c.js" defer=""></script>
+<script src="/upload/_nuxt/f62c1a6.js" defer=""></script>
+<script src="/upload/_nuxt/72832e2.js" defer=""></script>
+<script src="/upload/_nuxt/51ebc8d.js" defer=""></script>
 
 
 <div class="layers-container">
