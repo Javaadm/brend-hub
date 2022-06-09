@@ -2,13 +2,11 @@
 
 declare(strict_types=1);
 
-use BrandHub\Brief\Models\BusinessType;
-
 return [
     [
         'id' => '383c802a-f8d7-4635-8a1a-34df6e50253a',
         'business_type' => 'product',
-        'image_path' => '/img/check-1.jpg',
+        'image_path' => '/img/check-4.jpg',
     ],
     [
         'id' => 'aef89db7-5be0-4193-aec4-f89197a3c184',
@@ -23,7 +21,7 @@ return [
     [
         'id' => '462a00a3-4785-47d9-8feb-94c27c8a0698',
         'business_type' => 'product',
-        'image_path' => '/img/check-4.jpg',
+        'image_path' => '/img/check-honey.jpg',
     ],
     [
         'id' => '26a60cfa-f1a1-47bf-b26d-a10228aa8c6c',
