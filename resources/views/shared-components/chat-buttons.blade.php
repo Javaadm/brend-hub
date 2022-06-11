@@ -54,6 +54,9 @@
         width: 28px;
         height: 28px;
     }
+    .chat-buttons__img > img {
+        display: block;
+    }
     .chat-buttons__icon {
         color: white;
         width: 26px;

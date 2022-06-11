@@ -13930,61 +13930,15 @@
                     </svg>
                 </div>
             </div>
-            <div class="container fixed left-1/2 transform -translate-x-1/2 flex justify-end bottom-0 z-40">
-                <div class="absolute -right-9 bottom-8 3xl:-right-4 3xl:bottom-4 lg:right-0">
-                    <div class="relative">
-                        <button type="button"
-                                class="base-button base-button_theme_red base-button_view_rounded relative shadow-inner-white z-50">
-                            <div class="base-button__effect"></div>
-                            <div class="base-button__content transition-fast"><!---->
-                                <div class="base-button__content-wrapper">
-                                    <div class="base-button__side transition-fast">
-                                        <svg width="24" height="22" xmlns="http://www.w3.org/2000/svg"
-                                             class="icon sprite-icons svg-icon svg-icon_message">
-                                            <use href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-message"
-                                                 xlink:href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-message"></use>
-                                        </svg>
-                                    </div> <!----> <!----></div>
-                            </div>
-                        </button>
-                        <div class="absolute bottom-0 left-0 z-40">
-                            <button type="button"
-                                    class="shadow-inner-white base-button base-button_theme_blue base-button_view_rounded">
-                                <div class="base-button__effect"></div>
-                                <div class="base-button__content transition-fast"><!---->
-                                    <div class="base-button__content-wrapper">
-                                        <div class="base-button__side transition-fast">
-                                            <svg width="28" height="28" xmlns="http://www.w3.org/2000/svg"
-                                                 class="icon sprite-icons svg-icon svg-icon_telegram">
-                                                <use href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-telegram"
-                                                     xlink:href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-telegram"></use>
-                                            </svg>
-                                        </div> <!----> <!----></div>
-                                </div>
-                            </button>
-                        </div>
-                        <div class="absolute bottom-0 left-0 z-30">
-                            <button type="button"
-                                    class="shadow-inner-white base-button base-button_theme_green base-button_view_rounded">
-                                <div class="base-button__effect"></div>
-                                <div class="base-button__content transition-fast"><!---->
-                                    <div class="base-button__content-wrapper">
-                                        <div class="base-button__side transition-fast">
-                                            <svg width="28" height="28" xmlns="http://www.w3.org/2000/svg"
-                                                 class="icon sprite-icons svg-icon svg-icon_whatsapp">
-                                                <use href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-whatsapp"
-                                                     xlink:href="/upload/_nuxt/2d0d2da8d9b310fc62ebc0eb312599b6.svg#i-whatsapp"></use>
-                                            </svg>
-                                        </div> <!----> <!----></div>
-                                </div>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>
+
+@include('shared-components.chat-buttons')
+<script src="/js/jquery.min.js"></script>
+@stack('scripts')
+<link rel="stylesheet" href="{{ asset('css/material-icons.css') }}">
+@stack('styles')
 <script>window.__NUXT__ = (function (a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s) {
         s.id = 77;
         s.slug = a;
